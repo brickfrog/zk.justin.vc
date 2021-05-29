@@ -1,0 +1,209 @@
+{
+    "tiddlers": {
+        "$:/plugins/sobjornstad/TiddlyStretch/TiddlyStretch Macros": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/TiddlyStretch Macros",
+            "created": "20210304022132594",
+            "description": "TiddlyStretch provides four macros for creating stretchtext: `stretch`, `stretch-template`, `stretch-links`, and `stretch-template-links`.",
+            "modified": "20210304032037222",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "The following four macros are used to create expandos:\n\n<<stretch-template-links \"[all[tiddlers+shadows]tag[$:/plugins/sobjornstad/TiddlyStretch/doc/Macro]]\" \"$:/plugins/sobjornstad/TiddlyStretch/doc/st/MacroSummary\" \"$:/plugins/sobjornstad/TiddlyStretch/doc/st/Identity\">>\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/EmptyMessage": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/EmptyMessage",
+            "created": "20210304024358659",
+            "description": "Optional wikitext to display if the filter yields no result.",
+            "modified": "20210306022349423",
+            "name": "emptyMessage",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/Filter": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/Filter",
+            "created": "20210304024354323",
+            "description": "A filter expression describing the tiddlers to list.",
+            "modified": "20210306022349455",
+            "name": "filter",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeField": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeField",
+            "created": "20210304024150673",
+            "description": "The field to display (in block mode) when the expando is expanded. Defaults to `text`.",
+            "modified": "20210306022349461",
+            "name": "largeField",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeMode": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeMode",
+            "created": "20210304024317434",
+            "description": "Whether to render the expanded template in `block` or `inline` mode (default: block).",
+            "modified": "20210306022349464",
+            "name": "largeMode",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeTemplate": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/LargeTemplate",
+            "created": "20210304024308673",
+            "description": "The template tiddler to use when the expando is expanded.",
+            "modified": "20210306022349466",
+            "name": "largeTemplate",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro",
+            "created": "20210304032156159",
+            "list": "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch $:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template $:/plugins/sobjornstad/TiddlyStretch/doc/stretch-links $:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template-links",
+            "modified": "20210306022058465",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate",
+            "created": "20210304025753399",
+            "modified": "20210306022549030",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "<$macrocall $name=\"stretch-template\" tiddler=<<currentTiddler>> smallTemplate=\"$:/plugins/sobjornstad/TiddlyStretch/doc/ParameterListingTemplate\" largeTemplate=\"$:/plugins/sobjornstad/TiddlyStretch/doc/ParametersTemplate\"/>"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/ParameterListingTemplate": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/ParameterListingTemplate",
+            "created": "20210304025229965",
+            "modified": "20210306022014774",
+            "type": "text/vnd.tiddlywiki",
+            "text": "Parameters:\n\n<$wikify name=\"w\" mode=\"inline\" output=\"html\"  text={{{ [enlist{!!parameters}join[</code>, <code>]addprefix[<code>]addsuffix[</code>]] }}}>\n  <<w>>\n</$wikify>"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/ParametersTemplate": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/ParametersTemplate",
+            "created": "20210304024810329",
+            "modified": "20210306022349469",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "Parameters:\n\n<dl>\n<$list filter={{!!parameters}}>\n  <$tiddler tiddler={{{ [all[tiddlers+shadows]tag[$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter]name<currentTiddler>] }}}>\n    <dt><code>{{!!name}}</code></dt>\n    <dd>{{!!description}}</dd>\n  </$tiddler>\n</$list>\n</dl>\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallField": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallField",
+            "created": "20210304024141880",
+            "description": "The field to display (in inline mode) when the expando is contracted. Defaults to `description`.",
+            "modified": "20210306022830648",
+            "name": "smallField",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallMode": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallMode",
+            "created": "20210304024312605",
+            "description": "Whether to render the contracted template in `block` or `inline` mode (default: inline).",
+            "modified": "20210306022349474",
+            "name": "smallMode",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallTemplate": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/SmallTemplate",
+            "created": "20210304024303208",
+            "description": "The template tiddler to use when the expando is contracted.",
+            "modified": "20210306022807061",
+            "name": "smallTemplate",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/Tiddler": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/Tiddler",
+            "created": "20210304024157079",
+            "description": "Name of the tiddler to stretch. This tiddler will become the current tiddler when transcluded in either the small or large form.",
+            "modified": "20210306022349481",
+            "name": "tiddler",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Parameter",
+            "type": "text/vnd.tiddlywiki"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/st/Identity": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/st/Identity",
+            "created": "20210304023945301",
+            "modified": "20210306022158599",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "{{!!text}}\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/st/MacroSummary": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/st/MacroSummary",
+            "created": "20210304023959526",
+            "modified": "20210306022211394",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "<code>{{!!name}}</code>: {{!!description}}\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-links": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-links",
+            "created": "20210304023056728",
+            "description": "Create a bulleted list of expandos from the tiddlers that match a filter, displaying one of two fields on each tiddler.",
+            "modified": "20210306022047185",
+            "name": "stretch-links",
+            "parameters": "filter smallField largeField emptyMessage",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro",
+            "type": "text/vnd.tiddlywiki",
+            "text": "The `stretch-links` macro creates a bulleted list where each item is an expando. It is a cross between TiddlyStretch's `stretch` macro and the built-in `list-links` macro.\n\n{{||$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate}}"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template-links": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template-links",
+            "created": "20210304023737915",
+            "description": "Create a bulleted list of expandos from the tiddlers that match a filter, rendering each tiddler through one of two templates.",
+            "modified": "20210306023011647",
+            "name": "stretch-template-links",
+            "parameters": "filter smallTemplate largeTemplate smallMode largeMode emptyMessage",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro",
+            "type": "text/vnd.tiddlywiki",
+            "text": "The `stretch-template-links` macro works just like the [[stretch-links|$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-links]] macro, but instead of directly rendering one of two fields of each tiddler to be stretched, it renders the tiddler through one of two templates.\n\n{{||$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate}}\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch-template",
+            "created": "20210304022640887",
+            "description": "Create an expando from a tiddler, rendering the tiddler through one of two templates.",
+            "modified": "20210306022706090",
+            "name": "stretch-template",
+            "parameters": "tiddler smallTemplate largeTemplate smallMode largeMode",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro",
+            "type": "text/vnd.tiddlywiki",
+            "text": "The `stretch-template` macro works just like the [[stretch|$:/plugins/sobjornstad/TiddlyStretch/doc/stretch]] macro, but instead of directly rendering one of two fields of the tiddler to be stretched, it renders the tiddler through one of two templates.\n\n{{||$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate}}"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/doc/stretch",
+            "created": "20210304022329779",
+            "description": "Create an expando from a tiddler, displaying one of two fields on the tiddler.",
+            "modified": "20210306022740596",
+            "name": "stretch",
+            "parameters": "tiddler smallField largeField",
+            "tags": "$:/plugins/sobjornstad/TiddlyStretch/doc/Macro",
+            "type": "text/vnd.tiddlywiki",
+            "text": "The `stretch` macro creates an expando out of a single tiddler. The `smallField` is shown when contracted, and the `largeField` is shown when expanded.\n\n{{||$:/plugins/sobjornstad/TiddlyStretch/doc/MacroInfoTemplate}}"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/license": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/license",
+            "text": "The MIT License (MIT)\n\nCopyright (c) 2021 Soren Bjornstad.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "type": "text/plain"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/macros/stretch": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/macros/stretch",
+            "created": "20210304002537855",
+            "modified": "20210304014023505",
+            "tags": "$:/tags/Macro",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define stretchtext-tools(tiddler)\n    <$button class=\"tc-btn-invisible tc-tiddlylink\" to=<<__tiddler__>>>\n        <i class=\"fa fa-expand\"/>\n    </$button>\n    <$button class=\"tc-btn-invisible tc-tiddlylink\" message=\"tm-edit-tiddler\" param=<<__tiddler__>>>\n        <i class=\"fa fa-pen\"/>\n    </$button>\n\\end\n\n\\define stretchtext-missing-tiddler(tiddler, descr: \"tiddler\")\n    <$list filter=\"[<__tiddler__>!is[tiddler]!is[shadow]]\" variable=_>\n      //Missing $descr$ <$link to=<<__tiddler__>>/>//\n    </$list>\n\\end\n\n\\define stretchtext-missing(tiddler, field)\n    <$macrocall $name=\"stretchtext-missing-tiddler\" tiddler=<<__tiddler__>>/>\n    <$list filter=\"[<__tiddler__>is[tiddler]!is[shadow]!has<__field__>]\" variable=_>\n      //Missing field '$field$' on existing tiddler <$link to=<<__tiddler__>>/>//\n    </$list>\n\\end\n\n\\define stretch(tiddler, smallField: \"description\", largeField: \"text\")\n  <$set name=\"stateTiddler\" value=<<qualify \"\"\"$:/state/stretchtext/$tiddler$\"\"\">>>\n    <$reveal stateTitle=<<stateTiddler>> stateIndex=<<__tiddler__>> type=\"match\" text=\"hide\" default=\"hide\">\n        <div class=\"st-closed\">\n        <$button setTitle=<<stateTiddler>> setIndex=<<__tiddler__>> setTo=\"show\" class=\"tc-btn-invisible tc-tiddlylink\">\n            <i class=\"fa fa-search-plus\"/>\n        </$button>\n    <$macrocall $name=\"stretchtext-tools\" tiddler=<<__tiddler__>>/>\n        <$macrocall $name=\"stretchtext-missing\" tiddler=<<__tiddler__>> field=<<__smallField__>>/>\n        <$tiddler tiddler=<<__tiddler__>>>\n            <$transclude tiddler=<<__tiddler__>> field=<<__smallField__>> />\n        </$tiddler>\n        </div>\n    </$reveal>\n    <$reveal stateTitle=<<stateTiddler>> stateIndex=<<__tiddler__>> type=\"match\" text=\"show\" default=\"hide\">\n        <div class=\"st-open\">\n      <$button setTitle=<<stateTiddler>> setIndex=<<__tiddler__>> setTo=\"hide\" class=\"tc-btn-invisible tc-tiddlylink\">\n          <i class=\"fa fa-search-minus st-expanded-colorize\"/>\n      </$button>\n    <$macrocall $name=\"stretchtext-tools\" tiddler=<<__tiddler__>>/>\n      [<$link to=<<__tiddler__>>/>]\n\n        <$macrocall $name=\"stretchtext-missing\" tiddler=<<__tiddler__>> field=<<__largeField__>>/>\n        <$tiddler tiddler=<<__tiddler__>>>\n          <$transclude mode=\"block\" field=<<__largeField__>> tiddler=<<__tiddler__>>/>\n        </$tiddler>\n        </div>\n    </$reveal>\n    </$set>\n\\end\n\n\\define stretch-template(tiddler, smallTemplate, largeTemplate, smallMode: \"inline\", largeMode: \"block\")\n  <$set name=\"stateTiddler\" value=<<qualify \"\"\"$:/state/stretchtext/$tiddler$\"\"\">>>\n    <$reveal stateTitle=<<stateTiddler>> stateIndex=<<__tiddler__>> type=\"match\" text=\"hide\" default=\"hide\">\n        <div class=\"st-closed\">\n        <$button setTitle=<<stateTiddler>> setIndex=<<__tiddler__>> setTo=\"show\" class=\"tc-btn-invisible tc-tiddlylink\">\n            <i class=\"fa fa-search-plus\"/>\n        </$button>\n    <$macrocall $name=\"stretchtext-tools\" tiddler=<<__tiddler__>>/>\n        <$macrocall $name=\"stretchtext-missing-tiddler\" tiddler=<<__smallTemplate__>> descr=\"template\"/>\n        <$tiddler tiddler=<<__tiddler__>>>\n            <$transclude mode=<<__smallMode__>> tiddler=<<__smallTemplate__>>/>\n        </$tiddler>\n        </div>\n    </$reveal>\n    <$reveal stateTitle=<<stateTiddler>> stateIndex=<<__tiddler__>> type=\"match\" text=\"show\" default=\"hide\">\n        <div class=\"st-open\">\n      <$button setTitle=<<stateTiddler>> setIndex=<<__tiddler__>> setTo=\"hide\" class=\"tc-btn-invisible tc-tiddlylink\">\n          <i class=\"fa fa-search-minus st-expanded-colorize\"/>\n      </$button>\n    <$macrocall $name=\"stretchtext-tools\" tiddler=<<__tiddler__>>/>\n      [<$link to=<<__tiddler__>>/>]\n\n        <$macrocall $name=\"stretchtext-missing-tiddler\" tiddler=<<__tiddler__>>/>\n        <$macrocall $name=\"stretchtext-missing-tiddler\" tiddler=<<__largeTemplate__>> descr=\"template\"/>\n        <$tiddler tiddler=<<__tiddler__>>>\n          <$transclude mode=<<__largeMode__>> tiddler=<<__largeTemplate__>>/>\n        </$tiddler>\n        </div>\n    </$reveal>\n    </$set>\n\\end\n\n\\define stretch-links(filter, smallField: \"description\", largeField: \"text\", emptyMessage: \"\")\n    <ul>\n        <$list filter=<<__filter__>> emptyMessage=<<__emptyMessage__>>>\n            <li><$macrocall $name=\"stretch\" tiddler=<<currentTiddler>> smallField=<<__smallField__>> largeField=<<__largeField__>>/></li>\n        </$list>\n    </ul>\n\\end\n\n\\define stretch-template-links(filter, smallTemplate, largeTemplate, smallMode: \"inline\", largeMode: \"block\", emptyMessage: \"\")\n    <ul>\n        <$list filter=<<__filter__>> emptyMessage=<<__emptyMessage__>>>\n            <li><$macrocall $name=\"stretch-template\" tiddler=<<currentTiddler>> smallTemplate=<<__smallTemplate__>> largeTemplate=<<__largeTemplate__>> smallMode=<<__smallMode__>> largeMode=<<__largeMode__>>/></li>\n        </$list>\n    </ul>\n\\end\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/readme": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/readme",
+            "type": "text/vnd.tiddlywiki",
+            "text": "TiddlyStretch allows you to conveniently write\n    [[stretchtext|https://en.wikipedia.org/wiki/StretchText]] in TiddlyWiki.\n\n* [[Documentation|https://sobjornstad.github.io/TiddlyStretch/]]\n* [[GitHub|https://github.com/sobjornstad/TiddlyStretch]]\n"
+        },
+        "$:/plugins/sobjornstad/TiddlyStretch/styles/stretch": {
+            "title": "$:/plugins/sobjornstad/TiddlyStretch/styles/stretch",
+            "created": "20210304003038202",
+            "modified": "20210304003233865",
+            "tags": "$:/tags/Stylesheet",
+            "text": ".st-open {\n    border-left: 3px solid <<colour muted-foreground>>;\n    padding-left: 0.5em;\n}\n\n.st-open p {\n    margin-block-start: 0em;\n}\n\n.st-closed { }\n\ni.st-expanded-colorize {\n    color: <<colour tag-background>>;\n}\n"
+        }
+    }
+}

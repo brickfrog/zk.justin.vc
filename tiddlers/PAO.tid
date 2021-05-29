@@ -1,0 +1,19 @@
+caption: A Person, Animal, or Organization exhibiting agency.
+color: #ff0000
+created: 20200115231447676
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528200926102
+modifier: soren
+refexplorer-hide: true
+tags: Meta
+title: PAO
+type: text/vnd.tiddlywiki
+
+\define invalidFilter()
+[tag[PAO]!prefix[Mr]!prefix[Ms]!prefix[The]]
+\end
+
+Tiddler type, the name of which stands for ''P''erson, ''A''nimal, or ''O''rganization.
+
+Any PAO which is defined should be written ~CamelCase and given a tiddler. The tiddler need not contain any meaningful content (a one-sentence summary would be nice but isn't strictly necessary). This is strictly a matter of creating connections between tiddlers of other types that reference the same person. Always rendering these as tiddlers ensures we don't think the PAO is unimportant, then not realize a cluster is beginning to build.

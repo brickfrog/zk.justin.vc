@@ -1,0 +1,9 @@
+created: 20210528235121505
+modified: 20210529014348203
+tags: Examples
+title: Footnote Example
+
+This is a test <<fnote "This is a small footnote">>. Hover the mouse and see what it shows. This is another note <<fnote "I am another footnote">>.
+
+
+<<showfnotes class:"fnote-pretty" title:"''Footnotes''">>

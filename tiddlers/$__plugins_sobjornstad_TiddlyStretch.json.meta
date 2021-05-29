@@ -1,0 +1,10 @@
+author: Soren Bjornstad
+core-version: >=5.1.21
+dependents: $:/plugins/TheDiveO/FontAwesome
+description: Stretchtext in TiddlyWiki
+list: readme license [[TiddlyStretch Macros]]
+plugin-type: plugin
+source: https://github.com/sobjornstad/TiddlyStretch
+title: $:/plugins/sobjornstad/TiddlyStretch
+type: application/json
+version: 0.1.0

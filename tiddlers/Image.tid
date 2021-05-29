@@ -1,0 +1,12 @@
+caption: Like an [[Attachment]], but pictorial data.
+color: #ff0000
+created: 20200118044638935
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528212612563
+modifier: justin
+tags: Meta
+title: Image
+type: text/vnd.tiddlywiki
+
+{{!!caption}} 

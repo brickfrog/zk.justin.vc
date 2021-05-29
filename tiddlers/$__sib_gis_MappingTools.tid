@@ -1,0 +1,27 @@
+created: 20201129175820541
+description: Show the mapping tools available for place tiddlers with location information, or prompt the user to add such information.
+list: $:/sib/gis/SatelliteMap $:/sib/gis/DrivingDirections $:/sib/gis/Info
+modified: 20210523142716592
+tags: $:/tags/ViewTemplate
+title: $:/sib/gis/MappingTools
+transcludedin: All tiddlers tagged <<tag Place>>.
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[Place]]" variable=_>
+
+<$list filter="[all[current]has[gis-lat]]">
+<<tabs 
+	tabsList:"[list[$:/sib/gis/MappingTools]]"
+	default:"$:/sib/gis/SatelliteMap"
+	retain:yes
+>>
+</$list>
+
+<$list filter="[all[current]!has[gis-lat]]">
+//There is no GIS information available for this place, but you can add it (try from [[Google Maps|https://www.google.com/maps]])://
+
+{{||$:/sib/gis/AddInfo}}
+
+</$list>
+
+</$list>

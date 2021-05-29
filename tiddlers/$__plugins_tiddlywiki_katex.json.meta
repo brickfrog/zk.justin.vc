@@ -1,0 +1,9 @@
+dependents: 
+description: KaTeX library for mathematical typography
+library-version: v0.10.2
+list: readme usage
+name: KaTeX
+plugin-type: plugin
+title: $:/plugins/tiddlywiki/katex
+type: application/json
+version: 5.1.23

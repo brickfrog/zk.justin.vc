@@ -1,0 +1,16 @@
+created: 20210528195734954
+creator: justin
+modified: 20210529032954205
+modifier: justin
+tags: Meta
+title: CardTypes
+
+Tiddlers of a number of defined //types//. These are identified by the red tags with tag icons next to them, as follows: 
+
+<ul>
+	<$list filter="[color[#ff0000]!has[draft.of]icon[$:/core/images/tag-button]sort[title]]">
+		<li><$link>{{!!title}}</$link> -- {{!!caption}}</li>
+	</$list>
+</ul>
+
+Anything that is //not// one of these types is considered an ''Idea''

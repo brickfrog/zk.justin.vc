@@ -1,0 +1,12 @@
+caption: Tiddler suitable for including as a template on other tiddlers.
+color: #ff0000
+created: 20200118044625106
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528212407944
+modifier: justin
+tags: Meta
+title: Template
+type: text/vnd.tiddlywiki
+
+{{!!caption}}

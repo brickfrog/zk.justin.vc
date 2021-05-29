@@ -1,0 +1,40 @@
+caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of [[Publication]]s (e.g., a blog, a magazine).
+color: #ff0000
+created: 20200115231452835
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528212557871
+modifier: justin
+tags: Meta
+title: Source
+type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+A list of all sources may be found in the SourceList.
+
+Sources, needing a limited amount of automated processing due to their nature as references, should use the following standard fields:
+
+; bibliography
+: Optional. A list of <<tag Bibliography>>/ies to include this source in.
+; caption
+: The formal title of the source.
+; description
+: Optional. A one- or two-sentence explanation of what the source is, to be used in any bibliographies it's included in.
+; medium
+: Description of what kind of source this is -- `article`, `book`, `website`, `film`, etc.
+; url
+: Optional. If the source is available online and not behind a paywall, a URL leading to the source. Otherwise, don't bother -- anyone who doesn't have a copy will have to do their own research anyway.
+; year
+: If the source is not published on an ongoing basis (e.g., a website), the year of its publication. Updated editions should use the new copyright date if updated by the author, but not if the edition is merely a re-release by the publisher without substantive changes, or the addition of commentary or introductions.
+
+Books may have the following fields in addition:
+
+; format
+: `paperback`, `hardcover`, or `ebook`. Only relevant if //owned//.
+; isbn
+: The ISBN of the edition at issue, without dashes. (This can be scanned in with my barcode reader if a barcode is available.)
+; owned
+: `yes` or `no`
+; readstatus
+: `read` (fully read), `partial` (partly read), `unread` (never read), or `reread` (have read fully, but would be interested in reading again).

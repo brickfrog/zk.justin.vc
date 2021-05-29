@@ -1,0 +1,7 @@
+created: 20210123155216014
+modified: 20210522013521036
+tags: 
+title: $:/sib/Templates/Topical/ReadingList/SmallTemplate
+type: text/vnd.tiddlywiki
+
+[<$link to={{!!title}}/>] //{{!!caption}}// ({{!!year}}), {{!!author}}.

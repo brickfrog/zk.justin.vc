@@ -1,0 +1,12 @@
+caption: A metasource, an organization or location that gathers together Sources.
+color: #ff0000
+created: 20200201045921067
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528212602139
+modifier: justin
+tags: Meta
+title: Publication
+type: text/vnd.tiddlywiki
+
+{{!!caption}}

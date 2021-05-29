@@ -1,0 +1,12 @@
+caption: Any embedded file that is not an [[Image]].
+color: #ff0000
+created: 20200122024451228
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210528212411035
+modifier: justin
+tags: Meta
+title: Attachment
+type: text/vnd.tiddlywiki
+
+{{!!caption}}

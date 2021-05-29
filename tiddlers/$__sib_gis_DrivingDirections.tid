@@ -1,0 +1,34 @@
+caption: Directions
+created: 20201129175445792
+modified: 20201129182024255
+tags: $:/sib/gis/MappingTools
+title: $:/sib/gis/DrivingDirections
+type: text/vnd.tiddlywiki
+
+\define dirUrl(lat, long) https://www.google.com/maps/embed/v1/directions?key=$(gmapsApiKey)$&origin=$(sourceLoc)$&destination=$(lat)$%2C$(long)$
+
+<$list filter="[all[current]has[gis-lat]]" variable=_>
+<div style="margin-bottom:1ex;">
+	Directions from <$link to="PrivateMetadata">home</$link> or: <$edit-text tiddler="$:/temp/CurrentDirectionsSource" tag=input default="" size=56 />
+</div>
+
+<$vars
+  gmapsApiKey={{$:/config/sib/GMapsApiKey}}
+	lat={{!!gis-lat}}
+	long={{!!gis-long}}
+	sourceLoc={{{ [{$:/temp/CurrentDirectionsSource}!is[blank]encodeuri[]] ~[{PrivateMetadata##Address}encodeuri[]] }}}>
+    <iframe
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0"
+      src=<<dirUrl>>
+      allowfullscreen></iframe>
+</$vars>
+</$list>
+
+<!--
+<$list filter="[all[current]!has[gis-lat]]" variable=_>
+  Please add `gis-lat`, `gis-long`, and `gis-zoom` fields to this tiddler to display a map.
+</$list>
+-->

@@ -1,0 +1,13 @@
+tags: $:/tags/ViewTemplate $:/tags/EditTemplate
+title: $:/core/ui/ViewTemplate/classic
+
+\define lingo-base() $:/language/ClassicWarning/
+<$list filter="[all[current]type[text/x-tiddlywiki]]">
+<div class="tc-message-box">
+
+<<lingo Hint>>
+
+<$button set="!!type" setTo="text/vnd.tiddlywiki"><<lingo Upgrade/Caption>></$button>
+
+</div>
+</$list>

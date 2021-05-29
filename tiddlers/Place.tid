@@ -1,0 +1,12 @@
+caption: A physical location in or in a fictional world.
+color: #ff0000
+created: 20200121032316713
+creator: soren
+icon: $:/core/images/tag-button
+modified: 20210529020807795
+modifier: soren
+tags: Meta
+title: Place
+type: text/vnd.tiddlywiki
+
+{{!!caption}}

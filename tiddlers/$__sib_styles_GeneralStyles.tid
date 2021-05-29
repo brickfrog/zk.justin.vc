@@ -1,0 +1,43 @@
+created: 20201121015759457
+modified: 20210522025245011
+tags: $:/tags/Stylesheet
+title: $:/sib/styles/GeneralStyles
+type: text/vnd.tiddlywiki
+
+.left-float {
+	float: left;
+	margin-right: 30px;
+}
+
+.right-float {
+	float: right;
+	margin-left: 30px;
+}
+
+.clarify {
+  clear: both;
+}
+
+.sib-private-chunk {
+	border-left: 3px solid <<colour muted-foreground>>;
+	padding-left: 0.5em;
+}
+
+.color-splotch {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	margin-left: 0px;
+	border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.dialogue {
+	border: 1px solid <<colour foreground>>;
+	padding: 1rem;
+}
+
+.dialogue p {
+	margin: 0;
+	padding: 0;
+}

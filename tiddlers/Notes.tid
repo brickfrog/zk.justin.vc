@@ -1,0 +1,10 @@
+caption: Raw notes from an ephemeral or non-print source such as a lecture.
+color: #ff0000
+created: 20200512003031926
+icon: $:/core/images/tag-button
+modified: 20210528201629326
+tags: Meta
+title: Notes
+type: text/vnd.tiddlywiki
+
+{{!!caption}}

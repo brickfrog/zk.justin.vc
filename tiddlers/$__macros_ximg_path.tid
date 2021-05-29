@@ -1,0 +1,11 @@
+created: 20141116144128124
+creator: Tobias Beer
+modified: 20210529042403899
+modifier: Tobias Beer
+revision: 0
+summary: configures the external path used by ximg
+tags: Config
+title: $:/macros/ximg/path
+type: text/vnd.tiddlywiki
+
+file:\\\c:\Users
