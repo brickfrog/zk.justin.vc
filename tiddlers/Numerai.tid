@@ -1,0 +1,9 @@
+created: 20210531055814848
+modified: 20210531060111023
+tags: Publication
+title: Numerai
+url: https://numer.ai
+
+"The hardest data science competition" - primarily a competition using clean data to feed models into their "hedge fund" using an [[Ethereum]]-based token on which you stake so there's an incentive to do well.
+
+Additionally has a component now for uploading your own data that might be useful. I've been using it for a couple weeks (as of writing this) and have been doing a bit mediocre, might need to spend more time honing things.

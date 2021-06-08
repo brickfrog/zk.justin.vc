@@ -1,0 +1,34 @@
+created: 20210603173148814
+modified: 20210608041653446
+tags: Notes
+title: PyCon2021Notes
+
+* ''Lightning Talks''
+** Friendly, a library for helpful descriptions of Traceback errors
+** Tox 4 - Apparently is being completely rewritten, colors, wheels support, swap out envs with docker/conda
+** py, launcher for windows/unix, multiple versions handling
+** Flask 2.0 - (Quart - ASGI)
+** sonarcloud - security scanning?
+** useful jupyter commands
+*** ? after function/module calls help
+*** *? wildcard search
+*** ipython directory for calling code at startup
+*** ! for shell commands
+*** %store for storing to global db
+*** % who / whos - variables
+*** %debug - post mortem debugging
+*** %pdb - automatic debugger
+*** %pastebin -> pastebin
+** flask vs. fastapi 
+*** (APIFlask? = Flask + Marshmallow)
+** direnv - different env variables per folder (https://direnv.net)
+* ''Testing stochastic AI models with hypothesis''
+** types of testing
+*** example-based - "normal testing" - edge case coverage and time consuming
+*** property-based, define possible inputs, random examples
+*** metamorphic testing - metamorphic relations, looking for relations
+** Hypothesis is the leading library for property-based tests
+*** key object is a strategy, a recipe for generating data
+*** quite a bit of strategies baked in, read documentation before making your own
+* ''Creating extensible workflows with off-label use of Python''
+** 

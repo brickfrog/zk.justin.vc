@@ -1,0 +1,18 @@
+created: 20210603032638937
+modified: 20210605154438774
+tags: Useful Code
+title: UsefulCLI
+
+* [[PyBites Command Line Tricks video|https://vimeo.com/557087152/a54fa7ee8b]]
+** Common discussion of aliasing things that you tend to do often, one useful tip was utilizing Dropbox for storage, of the bin file?
+** ag, the silver searcher
+
+e.g, find all python files in subidrectory with "import"
+
+```bash
+ag --python import
+```
+
+** fzf, fuzzy searcher - vim plugin
+** set -o noclobber, preventing accidental overwrites
+** fg, foreground background + vim

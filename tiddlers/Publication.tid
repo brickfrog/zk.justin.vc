@@ -1,9 +1,9 @@
 caption: A metasource, an organization or location that gathers together Sources.
-color: #ff0000
+color: #008080
 created: 20200201045921067
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210528212602139
+modified: 20210531191044289
 modifier: justin
 tags: Meta
 title: Publication
