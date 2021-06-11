@@ -1,0 +1,26 @@
+author: Brandon Rhodes
+caption: When Python Practices Go Wrong
+completed: 20210608000000000
+created: 20210609014622005
+medium: video
+modified: 20210611072920657
+readstatus: read
+tags: Source YouTube
+title: WhenPythonGoWrong20191120
+url: https://www.youtube.com/watch?v=ZdVgwhHXMpE
+year: 2021
+
+High level summary: certain practices accepted by community are not great, should think (technically a lot of these are now code smells in 2021, but still useful)
+
+* internal use of eval/exec, interesting that Named Tuple
+* avoid mock/patch - test logic- testing objects with only mocks, functions with everything patched, falls short of
+* * Hexagon Architecture - IO at top level, business logic deeper down (clean architecture)
+* Why write tests?
+** Alert when your code breaks
+** pressure to decouple code
+*** If you can't test without mocking and patching, it could be a signal your architecture is bad / could be improved
+* &#95;&#95;init&#95;&#95;.py - don't
+* Composition vs. Specialization
+** Bridge Pattern
+*** Pipeline pattern superiority?
+*** Mixins - probably not best option, too routine, lets you work around poor architecture

@@ -1,0 +1,18 @@
+caption: Narrative-focused video games development with Ren'Py an open source engine
+completed: 20210611000000000
+created: 20210611055721394
+medium: video
+modified: 20210611072635430
+presenter: Susan Shu Chang
+readstatus: read
+tags: PyCon2021 Source
+title: NarrativeFocusedGames20210604
+url: https://www.youtube.com/watch?v=RmJpnAvcjrA
+year: 2021
+
+Higher level discussion on game industry for first part of the talk, known, not as relevant. Discussion using RenPy for interactive fiction.
+
+* Object Oriented, has a "Lexer" which allows you to parse English into classes
+** Doki Doki Literature Club
+** Long Live the Queen
+** Twine, popular tool for Bandersnatch script

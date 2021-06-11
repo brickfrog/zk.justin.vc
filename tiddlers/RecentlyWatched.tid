@@ -1,0 +1,10 @@
+created: 20210611072547102
+modified: 20210611072555854
+title: RecentlyWatched
+
+<dl>
+<$list filter="[tag[Source]medium[video]readstatus[read]has[completed]!sort[completed]]">
+<dt><$view field="completed" format="date" template="DDth MMM YYYY"/></dt>
+<dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
+</$list>
+</dl>

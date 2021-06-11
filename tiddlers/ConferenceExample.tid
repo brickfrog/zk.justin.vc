@@ -1,0 +1,45 @@
+created: 20210611034348403
+modified: 20210611034442882
+tags: Examples
+title: ConferenceExample
+
+Example to preload for Conference sessions, TODO: turn into a Template?
+
+!! Sessions
+
+<style>
+table.pycon21-sessions tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.pycon21-sessions tr td:nth-child(3) {
+	max-width: 20em;
+}
+</style>
+
+<table class="pycon21-sessions">
+	<tr>
+		<th>Name</th>
+		<th>Presenter(s)</th>
+		<th>Web Link</th>
+	</tr>
+	<$list filter="[tag[PyCon2021]tag[Source]!has[draft.of]sort[at]]">
+		<tr>
+			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+			<td><$view field="at" format="date" template="ddd 0MM/0DD 0hh:0mm" /></td>
+			<td>{{!!presenter}}</td>
+			<td><a class="tc-tiddlylink-external" href={{!!url}}>Go</a></td>
+		</tr>
+	</$list>
+</table>
+
+<$button>
+	<$action-sendmessage
+		$message="tm-new-tiddler"
+		title="Foo 2021"
+		tags="PyCon2021 Source YouTube"
+		presenter="Presenter"
+		caption="SessionTitle"
+		text="{{||DoRenderBuild2020SessionDetails}}"/>
+	New Session
+</$button>

@@ -1,12 +1,12 @@
 created: 20210528153225122
-modified: 20210604021755591
+modified: 20210611074306922
 tags: Meta
 title: Home 🏠
 type: text/vnd.tiddlywiki
 
 !! {{Text Art: Doge||ASCII: 50%}}
 
-Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]]. Generally follows a wiki-esque format of notes that are pretty self explanatory, see the links below for more details. Used the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading his book on TiddlyWiki. <<fnote "Which is really good, recommend if new to TW (https://groktiddlywiki.com/)">> The idea would be to keep limited notes here, with [[sources|Source]], then utilize [[fastpages|https://fp.justin.vc]] as the [[sink|Sink]].
+Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]]. Generally follows a wiki-esque format of notes that are pretty self explanatory, see the links below for more details. Used the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading his book on TiddlyWiki. <<fnote "Which is really good, recommend if new to TW (https://groktiddlywiki.com/)">> The idea would be to keep limited notes here, with [[sources|Source]], then utilize [[fastpages|https://fp.justin.vc]] as the [[sink|Sink]]. I play fast-and-loose with the "cards must be small" ideology, for sake of simplicity, books and notes will be congealed, and if deemed important enough, will be broken into smaller topics.
 
 Structure
 
@@ -18,7 +18,9 @@ Structure
 
 Of Interest
 
+* SourceList
 * RecentlyRead
+* RecentlyWatched
 * [[Dashboard]]
 
 <hr class="solid">

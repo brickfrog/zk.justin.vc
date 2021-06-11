@@ -1,5 +1,5 @@
 created: 20201228014905847
-modified: 20210529061642457
+modified: 20210611074411039
 tags: [[Projectify documentation]]
 title: $:/plugins/nico/projectify/doc/Dashboard
 type: text/vnd.tiddlywiki
@@ -8,6 +8,5 @@ type: text/vnd.tiddlywiki
   <hr/>
   {{$:/plugins/nico/projectify/ui/dashboard/Dashboard}}
   <hr/>
-</$reveal>
 
 <$reveal type="nomatch" state="$:/state/projectify/usage-show-dashboard" text="show">

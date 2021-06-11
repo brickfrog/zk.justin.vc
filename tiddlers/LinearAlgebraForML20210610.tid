@@ -1,0 +1,37 @@
+author: Tai-Danae Bradley, PhD
+caption: Linear Algebra for Machine Learning
+completed: 20210611000000000
+created: 20210611034608321
+medium: video
+modified: 20210611072948609
+readstatus: read
+tags: Source YouTube
+title: LinearAlgebraForML20210610
+url: https://www.youtube.com/watch?v=LlKAna21fLE
+year: 2021
+
+!!! A friendly introduction to linear algebras for ML (ML Tech Talks)
+
+High level idea of video: a bird's-eye view of basic LinearAlgebra for machine learning, not a technical deep-dive. A bit basic, but always nice to review, especially when there's visualizations
+
+* Data Representations
+** feature spaces, entities representing the features of an object
+** Representing images as vectors, 0/1s for grey/black
+** Words and documents
+** One-Hot Encodings (Standard Basis Vectors in Mathematics)
+** Sparse Vector, one with lots of zeros
+** Dot Product
+*** multiplication of vectors
+*** The dot product represents the length of the "shadow of one vector along another (trigonometry) [if length of W is 1]"
+* Vector Embeddings
+** An embedding of a vector is another vector in a smaller dimensional space (2D "embeds" into 3D)
+** Matrix Factorizations
+*** Every matrix can be factored
+**** Singular Value Decomposition
+***** Every nxm matrix can be written as a product of three smaller matrices
+***** "The Extraordinary SVD (2012) - Paper to read"
+**** Neural Networks
+* Dimensionality Reduction
+** eigenvectors ("principal components")
+*** eigenvalue, scaling of eigenvector
+*** reducing dimensions, finding lines or subspaces

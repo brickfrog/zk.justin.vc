@@ -1,0 +1,15 @@
+created: 20210611025011179
+modified: 20210611032825057
+tags: Ideas
+title: PostIdeas
+
+Ideas for posts that can be done with fastpages, since they require examples, coding, etc.
+
+TODO:
+
+* PyCaret - AutoML + Custom Scorer (for Numerai?)
+** See: https://github.com/pycaret/pycaret/issues/176
+* [[Julia]] Dashboard with [[Dash]]
+* Comparing the different AutoML frameworks in one post
+
+Done:
