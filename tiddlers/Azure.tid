@@ -1,0 +1,8 @@
+color: #6c6cff
+created: 20210615095843492
+icon: $:/core/images/list-bullet
+modified: 20210615100306779
+tags: Software
+title: Azure
+
+[[Microsoft]]'s Cloud Prodduct. Have used in my career. I like it, simple to use, better documentation than AWS. Not as supported for ML/DS packages though, which makes me sad (at least as of 2020/21)

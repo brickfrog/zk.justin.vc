@@ -1,0 +1,29 @@
+caption: Event-driven applications: Apache Kafka and Python
+completed: 20210617000000000
+created: 20210617031947606
+medium: video
+modified: 20210622081235785
+presenter: Francesco Tisiot
+readstatus: read
+tags: PyCon2021 Source
+title: KafkaAndPython2021
+url: https://www.youtube.com/watch?v=Ltgt0ekso4c
+year: 2021
+
+* ''Summary'':
+**  In this session we will explore ApacheKafka, a data streaming platform, to enable reliable real-time data integration for your applications. We will look at the types of problems that Kafka is best at solving, and show how to use it in your own applications<<fnote "speaker works for https://aiven.io, a data hosting provider">>
+* ''Thoughts'':
+** Honestly this works simpler than I thought it did, I've messed with Kafka a bit for work (always connect) but writing code seems simpler, attached the github sample as a link to maybe try out later - no expansive thoughts, talk was mostly a demo
+* ''Notes'':
+**  Event-Driven Applications
+** A log store, immutable, multiple logs, called topics
+** distributed, nodes, called brokers 
+** replication so you don't lose out on data
+** key value of a log
+** schema register -> allows parquet/avro, avoid overhead of json
+** producer, write, consumer, read
+** partitions, usually the k in the k:v, important for sorting
+** partitioning loses the global sorting, so tradeoff for disk space
+** consumer groups
+** kafka connect - prebuilt framework for going to multiple sinks
+** https://github.com/aiven/kafka-python-notebooks

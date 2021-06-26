@@ -1,0 +1,56 @@
+caption: Patterns of ML Models in Production
+completed: 20210620000000000
+created: 20210620034526843
+medium: video
+modified: 20210622081235786
+presenter: Simon Mo
+readstatus: read
+tags: PyCon2021 Source
+title: PatternMLProd2021
+url: https://www.youtube.com/watch?v=nrQPqy3YY5A
+year: 2021
+
+* ''Summary'':
+** You trained a ML model, now what? The model needs to be deployed for online serving and offline processing. Walks through deploying ML models in production, using Ray and Ray Serve <<fnote "speaker works for anyscale">>
+* ''Thoughts'':
+** This is interesting, I need to investigate how widely used RayServe is, handling things in [[Kubeflow]], et. al is pretty difficult and the tutorial single deployments you do with web servers don't seem to scale well.
+* ''Notes'':
+**  Patterns
+*** Batch, Stream and Serve
+*** Pipeline
+**** Typical Image Pipeline Example
+***** Decoding -> Detection -> Keypoints -> NLP Synthesis
+**** Breaking tasks into steps
+**** encourage seperation  of concerns, where you can update them seperately
+**** upstreeam model retrain requires retraining downstream but not upstream
+**** difficult to scale
+**** Implementation?
+***** Wrap models in web server (simple - not performant)
+***** many microservices (complex - hard to operate)
+*** Ensemble
+**** Many upstream models for one downstream
+**** dynamic selection of models (model for cats vs. dogs?)
+**** Implementation?
+***** same issues as pipeline, wrap them or microservices
+*** Business Logic
+**** Database lookiups
+**** Feature store lookups
+**** Web API calls / feature transformations
+**** Validation and feature store retrieval are network bound / I/O heavy
+**** inference is compute/memory hungry
+**** Where to run the business logic? Split out? Pure ML model servers?
+*** Online Learning
+**** Cutting edge, dynamically learn the model weights, personalized models - contextual bandit
+**** reinforcement learning
+** Ray Serve
+*** Ray Serve offers the best of both worlds, simplicity of a web server wrap + microservices
+*** built on [[Ray]] for deploy and scale
+*** @ray.remote, remote tasks
+*** 3 concepts in Serve
+**** Deployment
+***** @serve.deployment (buitl on uvicorn)
+**** Ingress
+***** integrates with FastAPI @serve.ingress(app)
+***** Handle allows deployments to call other deployments
+**** Handle
+***** Arbitrary composition, offload computation

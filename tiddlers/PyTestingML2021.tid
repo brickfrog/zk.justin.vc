@@ -1,0 +1,28 @@
+caption: PyTesting the Limits of Machine Learning
+completed: 20210625000000000
+created: 20210624045352042
+medium: video
+modified: 20210624051248772
+presenter: Rebecca Bilbro, Daniel Sollis, Mark, Patrick Deziel
+readstatus: read
+tags: PyCon2021 Source
+title: PyTestingML2021
+url: https://www.youtube.com/watch?v=GycRK_K0x2s
+year: 2021
+
+* ''Summary'':
+** As ML becomes more of an expectation than an exception in our industry, testing has never been more important!
+* ''Thoughts'':
+** Bit basic, but still nice to drill into the importance of testing out ones models
+* ''Notes'':
+**  Why test ML? | Can we test ML?
+*** Creating wrappers, inheriting from the Estimator/Transformer methods in sklearn
+*** Pipelines and Feature Unions (nested pipelines?)
+*** Pre-commit & CI/CD?
+** Dealing with Non-Determinism
+*** Fix your randomseed where able, random_state in sklearn, usually in most packages
+*** pytest.parameterize
+*** handling results that are "close enough?"
+*** pytest.approx, looking at relative approximations within some range
+** Diagnostics?
+*** YellowBricks API, use diagnostic tools, graphs, etc.

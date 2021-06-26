@@ -1,0 +1,27 @@
+caption: TUTORIAL: Functional Python
+completed: 20210626000000000
+created: 20210625094730758
+medium: video
+modified: 20210625112810422
+presenter: Mike Müller
+readstatus: read
+tags: PyCon2021 Source
+title: FunctionalPythonTutorial2021
+url: https://www.youtube.com/watch?v=8w1mqprAPaI
+year: 2021
+
+This is a talk on FunctionalProgramming in Python. It first covers functional programming, nice overview, but I skipped abit of it, then a discussion on functional features in python
+
+* Pure functions (sort of)
+* Closures
+* Functions are objects
+* Decorators / higher-order functions
+* Immuatable data types (sets, etc.)
+* Lazy evaluation - generators
+* List comprehensions
+* Modules: functools, lambda, map, filter
+* Recursion (avoid - recursion limit there for a reason)
+
+more-itertools, toolz, cytoolz Pyrsistent? (never heard of this one)
+
+The rest of the talk is more a demo of various things, such as closures, lambda, statement vs. expression, list comprehensions and map/reduce, etc. etc.

@@ -1,0 +1,37 @@
+caption: When is an exception not an exception? Using warnings in Python
+completed: 20210625000000000
+created: 20210625031112652
+medium: video
+modified: 20210625032825041
+presenter: Reuven M. Lerner
+rating: good
+readstatus: read
+tags: PyCon2021 Source
+title: UsingWarningsExceptions2021
+url: https://www.youtube.com/watch?v=X0AjcpicNOM
+year: 2021
+
+* ''Summary'':
+** Discussion of Python's Warning System, when to use versus Exceptions and some advanced tricks in using them
+* ''Thoughts'':
+** This was a good talk, recommend it since it's more general develoepr knowledge, I think the comparison to the fuel gauge is apt (especially as someone who has gotten close before)
+* ''Notes'':
+**  A low-fuel light for software, should be annoying and persistent enough to get a user to change their behavior, but not enough to crash the program
+** Are they needed?
+*** Exceptions?
+**** Exceptions can be trapped, and be distinguished, and you can decide whether you want to ignore them. But if you don't catch them, the progran ends. Not a "Crash" but might as well be. Using exceptions would force more error trapping by developers.
+*** Print?
+**** Not serious or scary enough, cannot be filtered or trapped
+*** How do you use warnings?
+**** import warnings, warnings not built-in, warnings.warn()
+**** warning sent to strerr, not stdout
+*** warnings require you to plan ahead, you should give your users some time to transition, should come several versions before
+*** categories, deprecation warnings filtered by default, but it's good idea like exceptions to come up with your own custom classes
+*** warnings filters
+**** categories, regex match on message, line number, module
+**** warning actions -> turn it into an exception, ignore, etc.
+**** PYTHONWARNINGS env variable (cannot be done for custom classses)
+*** Where should warnings be used?
+**** Is a moduile going away, maybe warning at top of module, but remember deprecation is ignored by default
+**** constantly calling wrong arguments, nudges for bad behavior
+**** ''Be nice to your users, give warnings!''

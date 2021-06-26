@@ -1,0 +1,27 @@
+caption: Protocol: the keystone of type hints
+completed: 20210626000000000
+created: 20210625055424119
+medium: video
+modified: 20210625075529982
+presenter: Luciano Ramalho
+readstatus: read
+tags: PyCon2021 Source
+title: ProtocolTypehints2021
+url: https://www.youtube.com/watch?v=kDDCKwP7QgQ
+year: 2021
+
+* ''Summary'':
+** The typing.Protocol special class lets you define types in terms of the interface implemented by objects, regardless of type hierarchies, in the spirit of duck typing--but in a way that can be verified by static type checkers and IDEs.
+* ''Thoughts'':
+** Went a bit over my head, might need to revisit this to understand more, definitely a more "advanced" typing issue
+* ''Notes'':
+**  typeshed?
+** static vs. dynamic typing
+** structural types vs. nominal types (whats relevant is the methods provided)
+** focus of talk is static duck typing PEP544 (Protocols)
+** Discussion of fixing an error in typedshed
+*** the Numbers abstract base class has no methods
+*** Restricted Type Var?, listing the types that are appropriate of the type
+**** Type Var('NumberT', float, Decimal, Fraction)
+*** less than is the core method for comparison in the stdlib
+*** Protocol + Bounded Type Var

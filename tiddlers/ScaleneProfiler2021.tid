@@ -1,0 +1,30 @@
+caption: Scalene: A high-performance, high-precision CPU+GPU+memory profiler for Python
+completed: 20210620000000000
+created: 20210620025918209
+medium: video
+modified: 20210622081235787
+presenter: Emery Berger
+readstatus: read
+tags: PyCon2021 Source
+title: ScaleneProfiler2021
+url: https://www.youtube.com/watch?v=nrQPqy3YY5A
+year: 2021
+
+* ''Summary'':
+** Scalene is a high-performance CPU and memory profiler for Python that does a number of things that other Python profilers do not and cannot do. It runs orders of magnitude faster than other profilers while delivering far more detailed information.
+* ''Thoughts'':
+** This actually seems extremely useful, can actually use it to profile ML/DL code. No Windows isn't fun, but, alas.
+* ''Notes'':
+* 1.2x slower, pretty well compared to pprofile and py-spy
+**  profilers typically fall into one of two categories, lines or functions
+** Scalene does line -and- function profiling
+** works on unmodified code, can use @profile decorator to specifically target
+** only option for multiprocessing
+** additionally: python vs c, system time, profiles memory, gpu, memory trends, copy volume, and dataset leaks
+** straightforward to use, scalene -yourprogram.py-, many -- options for running in different ways, lower profile, to html, etc.
+** has inline graphs for memory usage
+** %load_ext for jupyter notebooks, doesn't profile memory as of time of video, being worked on
+** How does it work?
+*** scalene uses an algorithm to infer how much time was spent in native code, because native code time isn't tracked, only when it pulls back to python
+*** malloc() vs free(), pairing, expensive for every allocation, uses sampling and determines if they're unbalanced
+** no windowz ):

@@ -1,0 +1,37 @@
+caption: Large Scale Data Validation (with Spark and Dask)
+completed: 20210626000000000
+created: 20210625042404162
+medium: video
+modified: 20210625055350719
+presenter: Kevin Kho
+readstatus: read
+tags: PyCon2021 Source
+title: LargeScaleDataValidation2021
+url: https://www.youtube.com/watch?v=2AdvBgjO_3Q
+year: 2021
+
+* ''Summary'':
+** Data validation is checking if data follows certain requirements needed for data pipelines to run reliably. It is used by data scientists and data engineers to preserve the integrity of existing workflows, especially as they get modified
+* ''Thoughts'':
+** Gives me some ideas for my own work, didn't really think about how heavy a framework is for this task and this was the first I learned of Fugue. So that's fun.
+* ''Notes'':
+**  Data Validation
+*** Before model training, Before updates
+*** Null Values, Correct Schema? Shape of DataFrame, values within reasonable ranges
+** GreatExpectations
+*** Pandas + Spark
+*** use "expectations", e.g expect_column_values_to_be_between
+*** detailed results in a dictionary
+*** under the hood, creates a config that can be used for documentation, data profiler
+*** expensive -
+** [[Pandera]]
+*** Pandas only, built-in validations (statistical options) and easily extensible
+*** Check.in_range(min, max)
+*** decorators
+*** lightweight!
+** [[Fugue]]
+** Open source abstraction layer allowing code to run on spark or dask
+** decoupling logic and execution (Python + SQL) has BlazingSQL execution engine also
+** This can be used to use Pandera then apply on Spark via a Fugue Workflow as a DAG
+** Validation by Partition
+*** using partition by in spark/dask, dictionary of multiple checks by partition, looking up the location, then matching the price check per partition

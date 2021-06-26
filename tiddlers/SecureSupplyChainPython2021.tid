@@ -1,0 +1,53 @@
+caption: Secure Software Supply Chains for Python
+completed: 20210625000000000
+created: 20210625032938939
+medium: video
+modified: 20210625035824997
+presenter: Dustin Ingram
+rating: good
+readstatus: read
+tags: PyCon2021 Source
+title: SecureSupplyChainPython2021
+url: https://www.youtube.com/watch?v=VWWgkF-0cDQ
+year: 2021
+
+* ''Summary'':
+** Explore the common Python software supply chain, various ways in which such a supply chain can be attacked, as well as protected. We'll examine some tools and methodologies that help improve supply-chain security, and discuss the challenges and benefits these tools provide
+* ''Thoughts'':
+** Good talk, I remember hearing about some of these attacks in the news and was curious on how some of them might be solved, it introduced new things to me such as pip-compile
+* ''Notes'':
+**  Software Supply Chain
+*** everything tha it takes to produce your software, all the dependencies, their dependencies, etc. etc. etc.
+** Attacks
+*** man-in-the-middle - compromising in-route download
+*** typo-squatting - jeIlyfish vs. jellyfish, requestes vs. requests
+*** dependency confusion - register on pypi the same names that are used in internal companies, and if pip is told to prefer pypi over the internal network, could download malicious program
+*** solarwinded -> infrastructure compromising
+*** leaked passwords, tokens, etc.
+** What can you do?
+*** HTTPS everywhere (man in the middle - pypi is https only)
+*** lockfiles
+**** version pins
+**** hashes
+**** full dependency tree
+*** Requirements.txt, is this a lockfile?
+**** no -> no hashes, pins, tree
+*** pip freeze is an anti-pattern, no hashes
+*** pipenv lock -> this is a lockfile
+*** An underused workflow
+**** pip-tools (pip-compile)
+**** hashing mode, all or nothing
+*** lockfiles prevent man-in-the-middle, typosquatting, dependency confusion
+** vulnerability notifications
+*** pyup
+*** dependabot
+** What else can you do?
+*** Package signing? Shifting the trust, "Why Package Signing is not the Holy Grail"
+*** Audited/curated PyPi? Tradeoff, lowers the barrier for people to publish software, PyPi is manned by volunteers, not enough resources to fully audit chain
+*** death of setup.py? potentially malicious code at install time
+*** better documentation
+*** update framework?
+**** PEP458 - signed repository metadata
+*** Namespaces - enforce groups, e.g. amazon-XXX might be required to know these are owend by amazon
+*** More funding
+**** Google funding static analysis

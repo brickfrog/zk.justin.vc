@@ -1,0 +1,32 @@
+caption: Dask-SQL: Empowering Pythonistas for Scalable End-to-End Data Engineering
+completed: 20210624000000000
+created: 20210624054055200
+medium: video
+modified: 20210624072624587
+presenter: Adam Breindel
+readstatus: read
+tags: PyCon2021 Source
+title: DaskSQL2021
+url: https://www.youtube.com/watch?v=z7xKikaScxg
+year: 2021
+
+* ''Summary'':
+** Dask-sql empowers Pythonistas with little or no knowledge of the JVM/Hadoop world to create end-to-end data projects.
+* ''Thoughts'':
+** So it seems like dask is basically making inroads to compete with databricks, I'm familiar with the SQL they offer, looks pretty similar - could be worth looking at, I generally don't use SQL much but still pretty neat
+* ''Notes'':
+**  Dask-SQL -> [[Dask]] + [[SQL]]
+** SQL parsing, optimization, planning, translation, etc. for Dask
+** Take data from the cloud/python/mdoern data catalog, databricks, EDWs, Hive metastore ->
+*** Note: mentions intake as a data catalog, look into this: https://github.com/intake/intake
+** bonus features for user defined functions, ml, command line
+** What's different?
+*** Dask has read_sql, pandas has read_sql, etc.
+*** This is similar to SQL in databricks, allows formulation of SQL to arbitrary list of files, etc.
+*** jupyter integration with %%sql magic
+*** hive catalog integration
+*** How does it work?
+**** Locates the source data
+**** prepares the query using ApacheCalcite
+**** creates a execution plan
+**** returns handle to Dask dataframe or computes into pandas dataframe

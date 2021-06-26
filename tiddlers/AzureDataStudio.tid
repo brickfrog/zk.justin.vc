@@ -1,0 +1,8 @@
+created: 20210615095836172
+modified: 20210615100125101
+tags: Software Azure
+title: AzureDataStudio
+
+A JupyterNotebook section of [[Azure]]. Seems to be useful, but I haven't had (much) experience with it yet. Seems to be about the same as the vanilla experience with soeme additional additions for parameterization and such. 
+
+I've seen some workflow demos regarding it, but I'm not sure if it's something that would be better off in Airflow or Luigi

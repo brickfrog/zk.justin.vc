@@ -1,0 +1,33 @@
+caption: Getting an Edge with Network Analysis with Python
+completed: 20210626000000000
+created: 20210625084526320
+medium: video
+modified: 20210625091628020
+presenter: Alon Nir
+readstatus: read
+tags: PyCon2021 Source
+title: NetworkAnalysisPython2021
+url: https://www.youtube.com/watch?v=DPqhV21tSAc
+year: 2021
+
+* ''Summary'':
+** The purpose of this talk is to introduce members of the audience to network analysis and its importance, and give them the basic building blocks for applied network analysis with Python.
+* ''Thoughts'':
+** Neat stuff, gigantic topic, but good coverage for intro, need to look into his github for further resources
+* ''Notes'':
+** networks
+*** points/lines (verteces/edges) - examples useful for social media, people, company, etc. analysis
+*** Undirected networks (Facebook) / directed (Twitter - e.g I follow you but you don't follow me)
+*** Paths
+** building blocks
+*** NetworkX (good for learning - scalability issues?)
+*** Good Examples for use
+**** Who should we spend our influencer budget on?
+**** who should we recruit as testers, who's our power user?
+**** Who should we intercview for usability studies?
+**** who uses the app for a business? (business development)
+*** connected components & communities
+**** Louvain algorithm for detecting communities
+**** centrality measures
+**** https://github.com/alonnir/snacks
+***** resources for diving into social network analysis

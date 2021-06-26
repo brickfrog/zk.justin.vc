@@ -1,14 +1,14 @@
-caption: An aggregation of sources that might be useful to someone studying a particular topic the ZK touches on.
+caption: An aggregation of sources that might be useful to someone studying a particular topic.
 color: #ff0000
 created: 20200808024704618
 icon: $:/core/images/tag-button
-modified: 20210528201629326
+modified: 20210611132150104
 tags: Meta
 title: Bibliography
 type: text/vnd.tiddlywiki
 
-This is an experiment in a potential new first-class citizen of the ZK called a ''bibliography''. Sources can be placed in bibliographies by adding the name of a bibliography into the `bibliography` field (logically enough). Bibliography tiddler titles end with //Bibliography//, and they also have a `bibliography` field used to match the appropriate sources. Sources can briefly describe themselves with a one- or two-sentence summary that will get placed on the bibliography in the `description` field (sometimes this can be transcluded as the opening sentences of the tiddler, but be careful that this doesn't remove hard links, or the tiddler might end up not showing up places it's supposed to!). A source can be placed in multiple bibliographies.
+Sources can be placed in bibliographies by adding the name of a bibliography into the `bibliography` field (logically enough). Bibliography tiddler titles end with //Bibliography//, and they also have a `bibliography` field used to match the appropriate sources. Sources can briefly describe themselves with a one- or two-sentence summary that will get placed on the bibliography in the `description` field (sometimes this can be transcluded as the opening sentences of the tiddler, but be careful that this doesn't remove hard links, or the tiddler might end up not showing up places it's supposed to!). A source can be placed in multiple bibliographies.
 
-The goal of the bibliography is to provide a list of useful sources for someone who's unfamiliar with a topic that's treated at length in the ZK, without requiring the reader (or me, hoping to find them some references!) to aimlessly wander through the ConceptWeb hoping to find more sources.
+The goal of the bibliography is to provide a list of useful sources for someone who's unfamiliar with a topic that's treated at length
 
-Bibliographies can point to <<tag Publication>>s as well as <<tag Source>>s.
+Bibliographies can point to <<tag Publication>>s as well as <<tag Source>>

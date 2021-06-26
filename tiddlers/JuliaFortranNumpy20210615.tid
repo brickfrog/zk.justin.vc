@@ -1,0 +1,38 @@
+author: Martin D. Maas
+caption: Julia: faster than Fortran, cleaner than Numpy
+completed: 20210622000000000
+created: 20210622034127063
+medium: blog
+modified: 20210622053707236
+readstatus: read
+tags: Source Code Julia
+title: JuliaFortranNumpy20210615
+url: https://www.matecdev.com/posts/numpy-julia-fortran.html
+year: 2021
+
+This article discusses [[NumPy]] & [[FORTRAN]] & [[Julia]]. The author seems to show (at least with his code) that Julia can handily beat both numpy and gfortran code with his own optimizations.
+
+Additionally, it is more readable than numpy, with vectorizations needing to manually be wrtitten for numpy vs. the compiler handling it for you.
+
+You're stuck doing something like this in numpy:
+
+```python
+n = len(a)
+M = np.exp(1j*k*(np.tile(a,(n,1))**2 + np.tile(a.reshape(n,1),(1,n))**2))
+```
+
+vs.
+
+```fortran
+do j=1,n
+do i=1,n
+
+    M(i,j) = exp( (0,1)*k * sqrt(a(i)**2 + a(j)**2) )
+
+end do
+end do
+```
+
+Multithreading efficiency appears to be better in Julia vs. gfortran + OpenMP
+
+-and- there's multiple tools to increase efficiency such as [[LoopVectorization.jl]]

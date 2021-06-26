@@ -1,0 +1,36 @@
+caption: From NumPy to PyTorch, A Story of API Compatibility
+completed: 20210615000000000
+created: 20210615100411759
+medium: video
+modified: 20210622081235786
+presenter: Randall Hunt, Mike Ruberry
+readstatus: read
+tags: PyCon2021 Source
+title: NumpyPyTorchCompat2021
+url: https://www.youtube.com/watch?v=5wk13yle5GA
+year: 2021
+
+* Summary
+** Discussion of PyTorch becoming "NumPy compatible" and the problems/opportunities associated with that
+* Thoughts
+** - Consistency seems to be the focus of the PyTorch team and their automatic testing has saved years of developer time. Focus is on more operators, possibly from SciPy
+* Notes
+** NumPy and working with tensors
+*** Composites vs. Primitives
+**** Composites , Python, Primitive, C++
+*** PyTorch, autograd, computational graphs
+**** array -> tensor
+**** PyTorch has a -lot- of operations, many unused, PyTorch duplicates a lot of the most used
+**** built in autograd support, accelerator, computation graphs (torchscript or XLA)
+**** Pythonic YAML
+*** Porting NumPy to PyTorch
+**** How?
+***** Write C++ implementation (CPU/CUDA)
+***** autograp fromula if op is differentiable
+***** comprehensive tests
+****** opinfo classes with subclasses for automatic test generation
+*** How is it different?
+**** reciprocals to float
+**** eig returns complex
+**** can't max/sort complex
+**** changes are made to be principled in their consistency

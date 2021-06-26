@@ -1,6 +1,6 @@
 created: 20200808023836194
 description: Display a table of fields and other information about the source described by this tiddler.
-modified: 20210528234317590
+modified: 20210622082743100
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
 transcludedin: All tiddlers tagged <<tag Source>> or <<tag Sink>>.
@@ -23,6 +23,14 @@ type: text/vnd.tiddlywiki
 		<th>Medium</th>
 		<td>{{!!medium}}</td>
 	</tr>
+	<$list filter={{{ [all[current]has[universe]!universe[nonfiction]] }}}>
+	<tr>
+		<th>Universe</th>
+		<td>
+			<$link to={{!!universe}}/>
+		</td>
+	</tr>
+	</$list>
 	<tr>
 		<th>URL</th>
 		<td>{{!!url}}</td>
@@ -52,7 +60,7 @@ type: text/vnd.tiddlywiki
 		<td>
 			<<read-status-selector>>
 			<$list filter="[all[current]readstatus[read]]">
-				on <$edit-date field="completed">
+				on <$edit-date field="completed"/>
 			</$list>
 		</td>
 	</tr>

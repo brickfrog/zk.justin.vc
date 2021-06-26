@@ -1,7 +1,8 @@
 created: 20210123155216014
-modified: 20210522013521036
+modified: 20210622070121935
 tags: 
 title: $:/sib/Templates/Topical/ReadingList/SmallTemplate
 type: text/vnd.tiddlywiki
 
 [<$link to={{!!title}}/>] //{{!!caption}}// ({{!!year}}), {{!!author}}.
+<span style={{{ [all[current]get[rating]addprefix[$:/sib/MediaRating/]get[color]addprefix[color: ]addsuffix[;]] }}}>[{{!!rating}}]</span>

@@ -1,0 +1,36 @@
+caption: Restarting Pyjion, a general purpose JIT for Python- is it worth it?
+completed: 20210622000000000
+created: 20210621234630613
+medium: video
+modified: 20210622081235787
+presenter: Anthony Shaw
+readstatus: read
+tags: PyCon2021 Source
+title: PyjionJIT2021
+url: https://www.youtube.com/watch?v=YFeUUdKBrJ8
+year: 2021
+
+* ''Summary'':
+** This talk will cover the design ideas of a JIT for CPython, optimisations, and future potential.
+* ''Thoughts'':
+** More of an academic talk, but interesting since it's drop-in, and thus no need to sacrifice compatibility like you do with pypy - also of note is apparently the speaker is the author of a book on cpython internals: https://realpython.com/products/cpython-internals-book/
+* ''Notes'':
+**  Pyjion -> pronounced Pigeon. Ha!
+** CPython Performance
+*** N-Body algorithm, slow compared to Node.js, why?
+**** Temporary objects are costly
+**** overhead with the evaluation loop
+**** very dynamic, tough optimizations
+**** gc is blocking
+** JIT Compiler for Pyton
+*** JIT options
+**** Numba, decorator, requires code to change
+**** pyston, closed source - LLVM
+**** pypy, a lot of less compatibility with C extensions
+** Pyjion
+*** JIT compiler, -not- another interpreter (Python 3.9), works in Cpython
+*** Focus on Compatibility
+*** startup overhead must be minimal, and shouldn't rerquire changes to code where you can deploy anywhere
+*** Pyjion inserts itself between the compiler and evaluation
+**** ECMA 335 -> ryuJIT -> X86/x86(?)/ARM
+**** ~15 optimizations currently, aiming for 100

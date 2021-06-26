@@ -1,13 +1,11 @@
 created: 20210122015959504
-modified: 20210611072514295
-tags: Meta Public
+modified: 20210622080752757
+tags: Meta
 title: RecentlyRead
 type: text/vnd.tiddlywiki
 
-Use the zoom button to expand a book in the list for a summary. While I don't necessarily add related ideas to my Zettelkasten for every book I read, or right away
-
 <dl>
-<$list filter="[tag[Source]medium[book]readstatus[read]has[completed]!sort[completed]]">
+<$list filter="[tag[Source]medium[blog]readstatus[read]has[completed]!sort[completed]] [tag[Source]medium[book]readstatus[read]has[completed]!sort[completed]]">
 <dt><$view field="completed" format="date" template="DDth MMM YYYY"/></dt>
 <dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
 </$list>

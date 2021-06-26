@@ -1,0 +1,32 @@
+caption: The magic of "self": How Python inserts "self" into methods.
+completed: 20210625000000000
+created: 20210624040107742
+medium: video
+modified: 20210624045542196
+presenter: Sebastiaan Zeeff
+readstatus: read
+tags: PyCon2021 Source
+title: PythonSelfMagic2021
+url: https://www.youtube.com/watch?v=ANLjBsWHshc
+year: 2021
+
+\rules except underscore
+
+* ''Summary'':
+** explaining one of Python's most "magical" features: The automatic insertion of self into methods
+* ''Thoughts'':
+** Not much thoughts here, I liked the speaker, a lot of this is more basic OOP Python (which I don't do as much of) - still nice reminder how much abstraction there is and to keep aware of it
+* ''Notes'':
+**  Descriptor protocol
+** function vs. bound method
+*** whenever using a bound method of a class, the self is inserted for you
+** Descriptors
+*** descriptor objects can customize attribute look-up, assignment, and delection
+*** dunder methods used
+**** __get__ -> look-up
+**** __set__ -> assignment
+**** __delete__ -> del
+** @properties use descriptor method under the hood, more pythonic way to do this, but descriptor hand written for tutorial parts
+** @classmethod - binds the class, not the instance to the function
+** @staticmethod returns the fucntion as-is, not binding anything
+** @property - easily getter/setter/deleters

@@ -1,0 +1,28 @@
+caption: 0 to production-ready: a best-practices process for Docker packaging
+completed: 20210617000000000
+created: 20210617022207963
+medium: video
+modified: 20210622081235785
+presenter: Itamar Turner-Trauring
+readstatus: read
+tags: PyCon2021 Source
+title: DockerPackaging2021
+url: https://www.youtube.com/watch?v=EC0CSevbt9k
+year: 2021
+
+* ''Summary'':
+** Bad packaging can result in security and production problems, not to mention wasted time try to debug unreproducible errors.
+* ''Thoughts'':
+** Follow the steps, requires processes and how they interact with your organizational goals.<<fnote "https://pythonspeed.com/products/dockerprocess/ - speakers website, more indepth notes on process">>
+* ''Notes'':
+* iteration
+** something working -> security -> CI -> correctness and debuggability -> reproducible builds -> faster and smaller builds
+** add user, don't run as root
+** processes around security updates
+** environment variable PYTHONFAULTHANDLER, tracebacks on crashes in C code
+** can pre-compile source code for faster startup `RUN python -c "import compileall; \ compileall.compile_path(maxlevels=10)"`
+** choose a good base image
+** organizational process for updating dependencies
+** Alpine can't use precompiled wheels (currently)
+
+<<showfnotes class:"fnote-pretty" title:"''Footnotes''">>

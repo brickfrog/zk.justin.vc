@@ -1,0 +1,23 @@
+created: 20210622074103916
+modified: 20210626124702143
+title: MediaRatings
+
+Here are the categories:
+
+<dl>
+<$list filter="[prefix[$:/sib/MediaRating]section[main]nsort[stackorder]]">
+<dt style={{{ [{!!color}addprefix[color: ]addsuffix[;]] }}}>{{!!caption}}</dt>
+<dd>{{!!text}}</dd>
+</$list>
+</dl>
+
+A few works fall through the cracks of the main series of ratings, so there are several special ratings which aren't part of the ordered scale:
+
+<dl>
+<$list filter="[prefix[$:/sib/MediaRating]section[auxiliary]nsort[stackorder]]">
+	<dt style={{{ [{!!color}addprefix[color: ]addsuffix[;]] }}}>{{!!caption}}</dt>
+	<dd>{{!!text}}</dd>
+</$list>
+</dl>
+
+The rating of a source tiddler, if assigned, is kept in its `rating` field.

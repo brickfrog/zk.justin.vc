@@ -1,0 +1,14 @@
+created: 20200516031757915
+modified: 20210522014829310
+tags: 
+title: $:/sib/Tools/Statistics
+type: text/vnd.tiddlywiki
+
+* <$list filter="[!is[system]count[]]"><<currentTiddler>></$list> (non-system) tiddlers
+** <$list filter="[!is[system]] -[color[#ff0000]tagging[]] +[count[]]"><<currentTiddler>></$list> ideas
+** <$list filter="[tag[PAO]count[]]"><<currentTiddler>></$list> people
+** <$list filter="[tag[Source]count[]]"><<currentTiddler>></$list> sources
+** <$list filter="[tag[Sink]count[]]"><<currentTiddler>></$list> sinks
+** <$list filter="[all[tags]!is[system]count[]]"><<currentTiddler>></$list> tags
+** <$list filter="[!is[system]tag[Journal]count[]]"><<currentTiddler>></$list> journal entries
+* <$list filter="[tag[Public]count[]]"><<currentTiddler>></$list> public tiddlers <<publicAmount>>

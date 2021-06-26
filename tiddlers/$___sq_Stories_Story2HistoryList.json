@@ -637,86 +637,9 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "Home 🏠",
-        "fromPageRect": {
-            "top": 111,
-            "left": 1080.953125,
-            "width": 35.109375,
-            "right": 1116.0625,
-            "bottom": 143.796875,
-            "height": 32.796875
-        }
+        "title": "Draft of 'PapermillNotebooks20210604'"
     },
     {
-        "title": "CardTypes",
-        "fromPageRect": {
-            "top": 131,
-            "left": 656.78125,
-            "width": 11.78125,
-            "right": 668.5625,
-            "bottom": 135.796875,
-            "height": 4.796875
-        }
-    },
-    {
-        "title": "Class",
-        "fromPageRect": {
-            "top": 131,
-            "left": 656.78125,
-            "width": 11.78125,
-            "right": 668.5625,
-            "bottom": 135.796875,
-            "height": 4.796875
-        }
-    },
-    {
-        "title": "Home 🏠",
-        "fromPageRect": {
-            "top": 111,
-            "left": 1065.453125,
-            "width": 35.109375,
-            "right": 1100.5625,
-            "bottom": 143.796875,
-            "height": 32.796875
-        }
-    },
-    {
-        "title": "TagColors",
-        "fromPageRect": {
-            "top": 656.671875,
-            "left": 901,
-            "width": 70.5625,
-            "right": 971.5625,
-            "bottom": 677.671875,
-            "height": 21
-        }
-    },
-    {
-        "title": "Draft of 'TagColors'"
-    },
-    {
-        "title": "TagColors"
-    },
-    {
-        "title": "Home 🏠",
-        "fromPageRect": {
-            "top": 111,
-            "left": 1231.953125,
-            "width": 35.109375,
-            "right": 1267.0625,
-            "bottom": 143.796875,
-            "height": 32.796875
-        }
-    },
-    {
-        "title": "Bibliography",
-        "fromPageRect": {
-            "top": 111,
-            "left": 1240.453125,
-            "width": 35.109375,
-            "right": 1275.5625,
-            "bottom": 143.796875,
-            "height": 32.796875
-        }
+        "title": "PapermillNotebooks20210604"
     }
 ]

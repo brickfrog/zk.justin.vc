@@ -1,0 +1,36 @@
+caption: Using Declarative Configs for Maintainable Reproducible Code
+completed: 20210626000000000
+created: 20210625035645726
+medium: video
+modified: 20210625042348860
+presenter: Jonathan Striebel
+readstatus: read
+tags: PyCon2021 Source
+title: DeclarativeConfig2021
+url: https://www.youtube.com/watch?v=omhJrT90lXU
+year: 2021
+
+* ''Summary'':
+** Declarative configs can be leveraged to make your code maintainable and reproducible at the same time
+* ''Thoughts'':
+** Interesting talk, might find some applicaiton in my personal projects since they tend to change things around, could keep all code in at once and switch on the fly for different modeling?
+* ''Notes'':
+** Concerns
+*** Separation of Config & Code
+*** Config Verification
+*** Code Verification (Config Usage)
+*** Automated Migrations
+** Declarative configs -> deserialization -> program
+*** Could be done in CLI? e.g. python experiment.py --path path --threshold 5.0
+*** Environment variables? (extract into file, yaml, etc.)
+**** Problem, wrong key
+*** @attr library, class, static-type-checks e.g. mypy (cattrs library?)
+**** Input - cli, env, json, env
+**** Representation - Dict, Tuple, datclasses, pydantic, attrs
+**** Converters - typedload, daciote, pydantic, cattres
+**** Type Checkers - mypy
+*** Walks through using the yml to seperate out the config
+*** Unions and Optional types to allow for branching paths wrt to end result of code
+*** configurations
+** Tracking
+*** sacred, MLflow, Guild 

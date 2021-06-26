@@ -1,0 +1,23 @@
+caption: What we learned from Papermill to operationalize notebooks
+completed: 20210615000000000
+created: 20210611071343211
+due: 202106121200
+medium: video
+modified: 20210622081235786
+presenter: Alan Yu, Vasu Bhog
+readstatus: read
+tags: PyCon2021 Source
+title: PapermillNotebooks2021
+url: https://www.youtube.com/watch?v=pvaIi0l1GME
+year: 2021
+
+''Summary / thoughts'': evolution of notebook parameterization. A lot of this seems unique to AzureDataStudio. Maybe useful, but a -huge- fan of using notebooks for this type of thning.
+
+* Key idea seems to be parameterization of the notebook, Azure Data Studio is mentioned
+* Papermill & ADS
+** Parameters
+*** Tagging a cell to mark parameters allows changing them
+*** Parameterization of Notebook URI (Azure Data Studio only?)
+*** Filter directly in notebook, allowing to rerun with specific parameters
+** Global Parameters?
+*** Can right click and initialize a parameter, but for a high level

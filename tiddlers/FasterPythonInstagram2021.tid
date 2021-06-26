@@ -1,0 +1,38 @@
+caption: Python Performance at Scale - Making Python Faster at Instagram
+completed: 20210625000000000
+created: 20210624051336374
+medium: video
+modified: 20210624053900248
+presenter: Dino Viehland
+readstatus: read
+tags: PyCon2021 Source
+title: FasterPythonInstagram2021
+url: https://www.youtube.com/watch?v=xGY45EmhwrE
+year: 2021
+
+* ''Summary'':
+** Changes made to compiler to speed up Python at instagram scale, JIT, type annotations and the cpython runtime
+* ''Thoughts'':
+** Definitely above my skill level for most of this, interesting that they have their own JIT and all their work on the opcode replacements
+* ''Notes'':
+**  Successful Improvements
+*** Profiling!
+**** Linux perf sampling, looking at RPS (Requests per Second under Load)
+*** Using high bit in ref count to market objects as immortal, since large sourc oe fwrites is from referernce counts to objects. Py_INCREF/DECREF, large amounts of overhead, but memory savings make it worth it for instagram's usecase.
+*** Async I/O - Send/Receive values without Stop Iteration - > upstreamed to 3.10, Eager Evaluation, singleton wait handle if call completes without blocking, new vectorcall flag to indicate the call is awaited
+*** inline caching of byte code -> opcode optimization
+**** LOAD_ATTR / STORE_ATTR, etc. etc.
+**** dictionary watchers 
+**** builtins CPython implementation details
+**** Py.Type_Lookup, faster on nbody, 1.19 -> pushed to 3.10
+**** Thread State lookup avoidance
+**** BOLT
+** Experimental
+*** Custom method at a time JIT
+*** nearly fuill coverage for all opcodes
+*** front end -> HIR, SSA, ref count insertion
+*** backend lowers to LIR
+**** register allocation, targeted optimizations while lower, with direct dispatch to known functions, asmjit used for x64
+**** Static Python -> similar performance to My\PYC or Cython, no extra compile steps?
+**** Pyro, experimental from-scratch runtime reusing stdlib, PEP-384, compacting the GC
+**** Cinder!

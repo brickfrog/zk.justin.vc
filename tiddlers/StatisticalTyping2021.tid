@@ -1,0 +1,34 @@
+caption: Statistical Typing: A Runtime TypingSystem for Data Science&Machine Learning
+completed: 20210626000000000
+created: 20210625091714934
+medium: video
+modified: 20210625094241565
+presenter: Niels Bantilan
+readstatus: read
+tags: PyCon2021 Source
+title: StatisticalTyping2021
+url: https://www.youtube.com/watch?v=PI5UmKi14cM
+year: 2021
+
+* ''Summary'':
+**  in this talk I define statistical typing as a general concept describing a runtime typing system, which extends primitive data types like bool, str, and float into the class of statistical data types
+* ''Thoughts'':
+** Interesting talk, more of a framework and discussion of the possible - interesting idea regarding arbitrarily complex distributions, i.e. validating for GANS
+* ''Notes'':
+**  a type system geared towards data science?
+*** bugs are bad in ML, especially if your program took a long time to train
+*** static type-checking, what if the underlying implementation is wrong? -> unit tests
+*** property based tests
+**** using hypothesis
+*** testing statistical code is hard
+**** what if you want to test on a "plausible" dataset?
+**** ideally not hand-constructing
+**** Enum -> Categorical
+**** Boolean -> Bernoulli
+**** Float -> Gaussian (mean + stdev)
+**** Runtime assertions -> you've been doing statistical typing all along
+**** Infer schemas can be done
+*** Use cases?
+**** CI tests for ETL/training
+**** Shift alerting
+**** utilizing the discriminator in a GAN to determine if the produced image is drawn from a similar distribution of the generator?

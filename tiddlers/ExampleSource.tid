@@ -1,0 +1,16 @@
+author: Bob
+caption: This is a Test
+completed: 20210623000000000
+created: 20210622071318000
+medium: book
+modified: 20210622082932763
+rating: skimmable
+readstatus: read
+tags: Source Examples
+title: ExampleSource
+url: 
+year: 2021
+
+[[]]Beep beep.
+
+<$edit-date field="completed"/>

@@ -1,0 +1,46 @@
+caption: Gradual Typing in Practice
+completed: 20210626000000000
+created: 20210625075357513
+medium: video
+modified: 20210625082325142
+presenter: Maggie Moss
+readstatus: read
+tags: PyCon2021 Source
+title: GradualTypingPractice2021
+url: https://www.youtube.com/watch?v=Lj_9TyT3V98
+year: 2021
+
+* ''Summary'':
+** This presentation will focus on how you can get meaningful results from Pyre as you move from just a few annotations to a fully typed codebase, and the guarantees we can make along the way
+* ''Thoughts'':
+** Have heard of Pyre, but first I've seen of its use, the discussion on how to encourage typing on teams is pretty neat, my teams have always been small but might be useful if I ever join a larg(er) org
+* ''Notes'':
+**  Why? Unit tests can't catch all errors
+** Gradual Typing
+*** Portions of code typed, gradually adding types, type annotations
+*** add annotations as you code
+**** Mypy
+**** pycharm
+**** Pyre
+**** Pyright
+**** Pytype
+** Why types in Python?
+*** Confidence in code flow, automatic documentation, catch bugs before shipping, avoiding certain bugs (help use tools such as ~LibCST + Pysa)
+** How to type your poject?
+*** # type-ignore, temporary fix, incremental
+*** pyre-upgrade
+*** pyre has two modes, strict and default
+*** no return type, errors, Any results in error, prevents regressions for new additions of code
+*** set clear goals, dashboards, dedicated time to add types
+**** return annotation
+**** strictifying
+**** removing error suppression
+**** removing anys
+*** Metrics
+**** pyre statistics
+**** Pyre Infer (automatic inference of types)
+**** ~MonkeyType
+**** ~PyAnnotate
+** Challenges
+*** Empty containers
+*** Attribute refinement - walrus operator makes this easier

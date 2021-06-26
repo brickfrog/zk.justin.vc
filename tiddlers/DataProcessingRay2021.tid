@@ -1,0 +1,34 @@
+caption: Data Processing on Ray
+completed: 20210616000000000
+created: 20210617010308347
+medium: video
+modified: 20210622081235784
+presenter: Sang Bin Cho
+readstatus: read
+tags: PyCon2021 Source
+title: DataProcessingRay2021
+url: https://www.youtube.com/watch?v=DNLqvdov_J4
+year: 2021
+
+* ''Summary'':
+** [[Ray]] is a distributed execution engine that enables programmers to scale up their Python applications. This talk covers some of the challenges and key architectural changes made to Ray in the prior year.
+* ''Thoughts'':
+** Interesting framework, as noted, seems to be a general compute framework that can handle your ML and data processing and they made inroads to make it more useful for the latter recently. Not much personal experience with it as of writing.
+* ''Notes'':
+** why a general system? Issues with multiple e.g Spark -> Horovod -> Ray Tune due to intermediate layers and need for many clusters
+** What is Ray?
+*** simple library for distributed computing
+**** Function -> Task, Class -> Actor via @ray.remote decorator, .remote method call, ray.get to retrieve
+**** stateless (task) stateful (actor)
+*** general purpose with an ecosystem of libraries
+**** supports third party options like hyperopt, weights and biases, horovod, [[MARS]]
+*** What was different previously?
+**** Previously Ray was very focused on ML/DS
+**** Data processing support wasn't robust
+*** Data Processing
+**** distributed memory wasn't supported well, worked on that this year
+**** distributed shuffle focused on, easy to test and scale
+**** memory aware scheduling, locality aware scheduling (focus on machines that actually have the object first)
+**** object spilling, out of memory, spill to S3 ,etc.
+*** high performance
+**** Cython and C++ for scheduler, built in distributed object store

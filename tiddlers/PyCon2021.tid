@@ -2,11 +2,16 @@ caption: Python's 2021 Conference
 color: #6c6cff
 created: 20210603172138585
 icon: $:/core/images/list-bullet
-modified: 20210611071751685
+modified: 20210625113901461
 tags: Class Event
 title: PyCon2021
 
+
 Python Conference for 2021, started to keep my notes for the lightning talks at [[PyCon2021Notes]] but I think better served by seperating them out for the main vids in table format
+
+Overall, I thought this was pretty good. There was a -lot- of videos, and I took notes on the ones I watched. I skipped a couple that were of things I definitively already knew or were of less interest to me. Nothing too terribly in-depth, except maybe some of the Dask internals discussions.
+
+There were a lot of talks regarding packages I didn't know existed, so it givea  good jumping off point for other searches / things to use in projects.
 
 !! Sessions
 
@@ -38,13 +43,18 @@ table.pycon21-sessions tr td:nth-child(3) {
 <$button>
 	<$action-sendmessage
 		$message="tm-new-tiddler"
-		title="Foo 2021"
+		title="2021"
 		tags="PyCon2021 Source"
 		presenter="Presenter"
 		caption="SessionTitle"
     url=""
     year=2021
     medium="video"
-		text="{{||DoRenderBuild2020SessionDetails}}"/>
+		text="* ''Summary'':
+** 
+* ''Thoughts'':
+** 
+* ''Notes'':
+**  "/>
 	New Session
 </$button>

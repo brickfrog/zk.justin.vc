@@ -1,0 +1,29 @@
+caption: Packaging Python in 2021
+completed: 20210622000000000
+created: 20210622081437042
+medium: video
+modified: 20210624025341357
+presenter: Jeremy Paige
+readstatus: read
+tags: PyCon2021 Source
+title: PackagingPython2021
+url: https://www.youtube.com/watch?v=j8iXO5VErjw
+year: 2021
+
+* ''Summary'':
+** Five years after the inception of pyproject.toml the Python packaging landscape is now richer than ever. Despite all the new choices when setting up a project, setup.py's roll is diminishing. Discover why it may soon be absent and what to use in its place.
+* ''Thoughts'':
+** There was a youtube comment that kind of mirrors my own thoughts, a lot of the talk was historical and most of the interesting bits were constrained to the last 5 minutes of the talk wrt moving to toml
+* ''Notes'':
+**  PEP-518
+** build backend -> into wheel file, etc.
+** build frontend -> provides requirements / clean work environment
+** integration front-end (package manager?) - resolves dependencies
+** evolution
+*** disutils 2000 (deprecated 3.10 - not used anywhere in a decade, more or less)
+*** setuptools (2004) - easy_install, reused setup.pu convention
+*** pip (2008) - replaces easy_install, direct installs from github, abstraction of setuptools, etc.
+*** pyproject.toml (2016)
+** moving to pyproject.toml
+*** stop invoking setup.py
+*** implicit behavior from pip includes setuptools and wheel with setuptools.build_meta as the build-backend, setup.cfg for metadata
