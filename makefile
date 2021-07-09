@@ -11,4 +11,4 @@ build:
 push:
 		git add .
 		git commit . -m "$(DDATE) changes"
-		git push
+		git push --set-upstream origin master
