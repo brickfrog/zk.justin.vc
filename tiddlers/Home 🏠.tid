@@ -1,11 +1,11 @@
 created: 20210528153225122
 description: I mean, it's a home page
-modified: 20210625020927625
+modified: 20210709154546347
 tags: Meta
 title: Home 🏠
 type: text/vnd.tiddlywiki
 
-!! {{Text Art: Snufkin||ASCII: 15%}} 
+!! {{Text Art: ColorSnufkin}}
 
 @@.center
 vroom vroom <<fnote "ASCII art is fun">>
@@ -28,7 +28,6 @@ Of Interest
 * SourceList
 * RecentlyRead
 * RecentlyWatched
-* [[Dashboard]]
 
 <hr class="solid">
 <br>

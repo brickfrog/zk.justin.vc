@@ -1,6 +1,6 @@
 created: 20200808023836194
 description: Display a table of fields and other information about the source described by this tiddler.
-modified: 20210622082743100
+modified: 20210629140440348
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
 transcludedin: All tiddlers tagged <<tag Source>> or <<tag Sink>>.
@@ -60,7 +60,7 @@ type: text/vnd.tiddlywiki
 		<td>
 			<<read-status-selector>>
 			<$list filter="[all[current]readstatus[read]]">
-				on <$edit-date field="completed"/>
+				on <$view field="completed" format="date" template="YYYY-0MM-0DD"/>
 			</$list>
 		</td>
 	</tr>
