@@ -6,7 +6,6 @@ install:
 		npm install -g tiddlywiki
 
 build:
-		python ./brain2tiddly/main.py
 		tiddlywiki --build index
 
 push:
