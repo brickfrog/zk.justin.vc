@@ -1,0 +1,9 @@
+color: #bbb
+created: 20210715002556687
+icon: $:/core/images/advanced-search-button
+modified: 20210715002556687
+title: $:/AdvancedSearch
+
+<div class="tc-advanced-search">
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/AdvancedSearch]!has[draft.of]]" "$:/core/ui/AdvancedSearch/System">>
+</div>

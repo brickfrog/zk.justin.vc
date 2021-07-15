@@ -1,0 +1,8 @@
+created: 20210715005010275
+modified: 20210715005010275
+title: $:/core/ui/SideBarLists
+
+<$transclude tiddler="$:/core/ui/SideBarSegments/search"/>
+
+<$transclude tiddler="$:/core/ui/SideBarSegments/tabs"/>
+
