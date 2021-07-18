@@ -3,10 +3,12 @@ color: #ff0000
 created: 20200226131429312
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210528201056814
+modified: 20210715020437644
 modifier: soren
 tags: Meta
 title: Sink
 type: text/vnd.tiddlywiki
 
 {{!!caption}}
+
+Right now I primarily have my main website, but also https://fp.justin.vc where my [[Jupyter]] notebooks go. Maybe once I get better writing(? - need to practice, read more books on -how-) I can have a general blog.

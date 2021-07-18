@@ -637,9 +637,47 @@
         "title": "$:/plugins/sq/Stories/changelog"
     },
     {
-        "title": "Draft of 'PapermillNotebooks20210604'"
+        "title": "$:/plugins/sq/Stories",
+        "fromPageRect": {
+            "top": 103.703125,
+            "left": 717.34375,
+            "width": 35.109375,
+            "right": 752.453125,
+            "bottom": 136.5,
+            "height": 32.796875
+        }
     },
     {
-        "title": "PapermillNotebooks20210604"
+        "title": "Home",
+        "fromPageRect": {
+            "top": 821.703125,
+            "left": 740.671875,
+            "width": 11.78125,
+            "right": 752.453125,
+            "bottom": 826.5,
+            "height": 4.796875
+        }
+    },
+    {
+        "title": "Home",
+        "fromPageRect": {
+            "top": 131,
+            "left": 757.671875,
+            "width": 11.78125,
+            "right": 769.453125,
+            "bottom": 135.796875,
+            "height": 4.796875
+        }
+    },
+    {
+        "title": "Home",
+        "fromPageRect": {
+            "top": 111,
+            "left": 1481.84375,
+            "width": 35.109375,
+            "right": 1516.953125,
+            "bottom": 143.796875,
+            "height": 32.796875
+        }
     }
 ]

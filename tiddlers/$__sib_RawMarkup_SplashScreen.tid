@@ -1,5 +1,5 @@
 created: 20200605141146097
-modified: 20210528225954537
+modified: 20210718124620854
 tags: $:/tags/RawMarkupWikified/TopBody
 title: $:/sib/RawMarkup/SplashScreen
 type: text/vnd.tiddlywiki
@@ -71,19 +71,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	display: inline-block;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-	background-color: #f88;
+	background-color: #cb3d33;
 }
 
 .tc-splash-spinner .tc-splash-bounce-1 {
 	-webkit-animation-delay: -0.32s;
 	animation-delay: -0.32s;
-	background-color: #8f8;
+	background-color: #379826;
 }
 
 .tc-splash-spinner .tc-splash-bounce-2 {
 	-webkit-animation-delay: -0.16s;
 	animation-delay: -0.16s;
-	background-color: #88f;
+	background-color: #9658b2;
 }
 
 @-webkit-keyframes sk-bouncedelay {
@@ -109,6 +109,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </div>
 
 <div class="tc-splash-text">
-	Just a moment...
+	Reticulating splines...
 </div>
 </div>
