@@ -1,0 +1,22 @@
+/*automatic counter for fnote macro. The counter resets at the begining of each tiddler*/
+.tc-tiddler-frame {
+  counter-reset: fnote-count;
+}
+.refnotes-footnote {
+  counter-increment: fnote-count;
+}
+.refnotes-footnote:after {
+  content: counter(fnote-count);
+	vertical-align: super;
+  font-size:small;
+  color:#FFFFFF;
+	padding: 4px;
+	  line-height: 1.5;
+	margin-left: -0.5em;
+}
+
+.refnotes-footnote:hover {
+	outline: 0px solid white;
+	box-shadow: inset -3px -3px 0 0 #39FF14; !primarycolor
+	background: black;
+}

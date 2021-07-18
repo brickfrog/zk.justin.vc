@@ -1,0 +1,8 @@
+created: 20210718204303496
+modified: 20210718215531982
+tags: 
+title: $:/jtm/macros/refnote
+
+\define fnotequote(text, cite) <$macrocall $name=fnote note="""<blockquote class="tc-quote"><p>$text$</p><cite></cite>$cite$</blockquote>"""/>
+
+Macros for extending refnotes, allowing to use block quotes inside of them. fnotequote <<fnotequote "This is an example" "Shrek!">>

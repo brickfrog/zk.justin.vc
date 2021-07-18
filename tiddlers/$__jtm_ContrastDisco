@@ -2,7 +2,7 @@ alert-background: #f00
 alert-border: <<colour background>>
 alert-highlight: <<colour foreground>>
 alert-muted-foreground: #800
-background: #000
+background: #111111
 blockquote-bar: <<colour muted-foreground>>
 button-background: <<colour background>>
 button-foreground: <<colour foreground>>
@@ -20,14 +20,14 @@ dropdown-border: <<colour muted-foreground>>
 dropdown-tab-background-selected: <<colour foreground>>
 dropdown-tab-background: <<colour foreground>>
 dropzone-background: rgba(0,200,0,0.7)
-external-link-background-hover: <<colour primary>>
-external-link-background-visited: <<colour primary>>
-external-link-background: <<colour primary>>
-external-link-foreground-hover: <<colour primary>>
-external-link-foreground-visited: #00a
-external-link-foreground: #00e
-foreground: #fff
-message-background: <<colour foreground>>
+external-link-background-hover: <<colour background>>
+external-link-background-visited: <<colour background>>
+external-link-background: <<colour background>>
+external-link-foreground-hover: #999999
+external-link-foreground-visited: <<colour foreground>>
+external-link-foreground: <<colour foreground>>
+foreground: #f1f1f1
+message-background: <<colour background>>
 message-border: <<colour background>>
 message-foreground: <<colour background>>
 modal-backdrop: <<colour foreground>>
@@ -43,8 +43,8 @@ page-background: <<colour background>>
 pre-background: <<colour background>>
 pre-border: <<colour foreground>>
 primary: #00ff32
-select-tag-background:
-select-tag-foreground:
+select-tag-background: 
+select-tag-foreground: 
 sidebar-button-foreground: <<colour foreground>>
 sidebar-controls-foreground-hover: <<colour background>>
 sidebar-controls-foreground: <<colour foreground>>
@@ -64,17 +64,17 @@ sidebar-tiddler-link-foreground: <<colour primary>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: #aaaaaa
 tab-background-selected: <<colour background>>
-tab-background: <<colour foreground>>
+tab-background: <<colour background>>
 tab-border-selected: <<colour foreground>>
 tab-border: <<colour foreground>>
 tab-divider: <<colour foreground>>
 tab-foreground-selected: <<colour foreground>>
-tab-foreground: <<colour background>>
+tab-foreground: <<colour foreground>>
 table-border: #dddddd
 table-footer-background: #a8a8a8
-table-header-background: #f0f0f0
-tag-background: #fff
-tag-foreground: #000
+table-header-background: #484848
+tag-background: <<colour background>>
+tag-foreground: <<colour foreground>>
 tiddler-background: <<colour background>>
 tiddler-border: <<colour foreground>>
 tiddler-controls-foreground-hover: #ddd

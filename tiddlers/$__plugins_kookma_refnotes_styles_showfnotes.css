@@ -1,0 +1,23 @@
+/* Footnote class*/
+
+.fnote-list{
+/* color:blue;*/
+ font-size:90%;
+}
+
+.fnote-pretty{
+  display: grid;
+	grid-template-rows:repeat(auto-fill,auto);
+  grid-gap:15px;
+  margin: 0.5em;
+  margin-right: auto;
+  width: 100% !important;
+  border-collapse: collapse;
+  padding: 15px 15px 15px 25px; /*left padding=25px*/
+  border-top-width:  2px;
+  border-style: groove none none none;
+  background-color:  rgb(17,17,17);
+  color: rgb(241,241,241);
+  line-height: 1.2em; 
+  font-size:0.9em;
+}
