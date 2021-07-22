@@ -2,7 +2,7 @@ caption: Python's 2021 Conference
 color: #6c6cff
 created: 20210603172138585
 icon: $:/core/images/list-bullet
-modified: 20210719183834462
+modified: 20210721221633620
 tags: Notes PyCon2021 Source Class Event Python
 title: PyCon2021
 
@@ -38,7 +38,7 @@ table.pycon21-sessions tr td:nth-child(3) {
 		<tr>
 			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
 			<td>{{!!presenter}}</td>
-			<td><a class="tc-tiddlylink-external" href={{!!url}}>Go</a></td>
+			<td><a class="tc-tiddlylink-external" href={{!!url}}></a></td>
 		</tr>
 	</$list>
 </tbody>

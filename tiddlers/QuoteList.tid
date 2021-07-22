@@ -1,0 +1,8 @@
+created: 20210721154936592
+modified: 20210721215410912
+tags: 
+title: QuoteList
+
+Had an idea rolling around in my head to keep lists of quotes I encounter, not necessarily diretly sourced ones I encounter, but quotes I see -other- people use in their writing. Or at least something with a grander context. Otherwise it'd just end up as a chaotic mess.
+
+I think I'll host it on google sheets <<fnote "Yeah, yeah, I know, Google, boo, hiss">> and simply redirect quotes I've found interesting or relevant back into tiddlers. I've simply published it as a website then hosted an S3 bucket to redirect to: https://qs.justin.vc

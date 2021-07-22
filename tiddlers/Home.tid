@@ -1,22 +1,33 @@
 created: 20210528153225122
 description: I mean, it's a home page
-list: Home/Structure [[Home/Media Consumption]]
-modified: 20210719145633790
+list: Home/Navigation Home/Structure Home/Media Home/About
+modified: 20210722011301773
 tags: Meta
 title: Home
 type: text/vnd.tiddlywiki
 
 !! {{Text Art: Snufkin || ASCII: 12%}}
 
+<style>
+.recently {
+     column-count: 3;
+     font-size: small;
+}
+</style>
+
 @@.center
-vroom vroom <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
+<i>juste un café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
 @@
 
-Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]].
+Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]]. Directly below are the 15 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because the word tiddlers makes me internally laugh">> Further below are sections on navigation and such.
+
+<div class="recently">
+<<timeline dateField: "created" limit: 15 format:" ">>
+</div>
 
 <<tabs 
   tabsList:"[list[Home]]"
-	default:"Home/Structure"
+	default:"Home/Navigation"
   buttonTemplate:"$:/sib/Templates/Topical/PublicHomepageTab"
 >>
 
@@ -26,4 +37,3 @@ Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]].
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" style="color:#FFFFFF"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
 
 <<showfnotes class:"fnote-pretty" title:"''Footnotes''">>
-

@@ -1,7 +1,7 @@
 <col style="width: 9em">
 created: 20200322024716895
 creator: soren
-modified: 20210622075830214
+modified: 20210722001212080
 modifier: soren
 tags: Meta Public
 tbl-add-records: 
@@ -18,12 +18,12 @@ tbl-checkbox-tip:
 tbl-checkbox-value-selected: 
 tbl-checkbox-value-unselected: 
 tbl-class: tbl-style-dark
-tbl-columns: tbl-expand title caption medium year tags
+tbl-columns: tbl-expand title medium year tags
 tbl-expand: 
 tbl-filter: [tag[Source]]
-tbl-limit: 5
+tbl-limit: 50
 tbl-mode: normal
-tbl-page-marker: JuliaFortranNumpy20210615
+tbl-page-marker: PyCon2021
 tbl-show-caption: true
 tbl-show-colgroup: true
 tbl-show-edit: true

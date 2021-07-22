@@ -1,0 +1,19 @@
+created: 20210721142317436
+modified: 20210721150432324
+tags: $:/tags/Stylesheet
+title: $:/jtm/styles/extlinks/reddit
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+<$set name="cfg" value=<<fa5-cfgpath "decorate-wk-extlinks">> >
+<$list filter=<<fa5-cfgfilterexpr>> >
+
+a[href^="https://"][href*=".reddit.com"]:before {
+  <<fa-plugin-font-brands>>
+  font-size: 90%;
+  content: '[\f1a1]\202f';
+}
+
+</$list>
+</$set>
