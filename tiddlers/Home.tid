@@ -1,12 +1,12 @@
 created: 20210528153225122
 description: I mean, it's a home page
 list: Home/Navigation Home/Structure Home/Media Home/About
-modified: 20210722011301773
+modified: 20210722163249896
 tags: Meta
 title: Home
 type: text/vnd.tiddlywiki
 
-!! {{Text Art: Snufkin || ASCII: 12%}}
+!! {{Text Art: Snufkin || ASCII: 10%}}
 
 <style>
 .recently {
