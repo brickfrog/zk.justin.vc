@@ -1,7 +1,7 @@
 created: 20210528153225122
 description: I mean, it's a home page
-list: Home/Navigation Home/Structure Home/Media Home/About
-modified: 20210722163249896
+list: Home/Navigation Home/Structure Home/About Home/Media
+modified: 20210723051655050
 tags: Meta
 title: Home
 type: text/vnd.tiddlywiki
@@ -19,10 +19,12 @@ type: text/vnd.tiddlywiki
 <i>juste un café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
 @@
 
-Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]]. Directly below are the 15 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because the word tiddlers makes me internally laugh">> Further below are sections on navigation and such.
+Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]].
+
+There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 10 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because saying the word tiddler over and over is just kind of funny">> Further below are sectionals on navigation, structure, about, etc.
 
 <div class="recently">
-<<timeline dateField: "created" limit: 15 format:" ">>
+<<timeline dateField: "created" limit: 10 format:" ">>
 </div>
 
 <<tabs 
