@@ -1,0 +1,8 @@
+dependents: 
+description: Consent banner for GDPR etc
+list: readme docs youtube config
+name: Consent Banner
+plugin-type: plugin
+title: $:/plugins/tiddlywiki/consent-banner
+type: application/json
+version: 5.1.23
