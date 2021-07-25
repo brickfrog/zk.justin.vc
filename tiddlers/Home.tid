@@ -1,7 +1,7 @@
 created: 20210528153225122
 description: I mean, it's a home page
 list: Home/Navigation Home/Structure Home/About Home/Media
-modified: 20210723051655050
+modified: 20210724234942898
 tags: Meta
 title: Home
 type: text/vnd.tiddlywiki
@@ -10,21 +10,29 @@ type: text/vnd.tiddlywiki
 
 <style>
 .recently {
-     column-count: 3;
+     column-count: 2;
      font-size: small;
 }
+.wrapper {
+     height: 200px;
+     overflow-y:scroll;
+     overflow-x:hidden;
+}
+
 </style>
 
 @@.center
-<i>juste un café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
+<i>juste un café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.m.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
 @@
 
 Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]].
 
-There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 10 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because saying the word tiddler over and over is just kind of funny">> Further below are sectionals on navigation, structure, about, etc.
+There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because saying the word tiddler over and over is just kind of funny">> Further below are sectionals on navigation, structure, about, etc.
 
-<div class="recently">
-<<timeline dateField: "created" limit: 10 format:" ">>
+<div class="wrapper">
+<div id="Recent" class="recently">
+<<timeline dateField: "created" limit: 50 format:" ">>
+</div>
 </div>
 
 <<tabs 

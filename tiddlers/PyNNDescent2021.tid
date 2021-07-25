@@ -1,0 +1,37 @@
+caption: SessionTitle
+created: 20210724230653020
+medium: video
+modified: 20210725010413919
+presenter: Presenter
+tags: SciPyCon2021 Source
+title: PyNNDescent2021
+type: text/vnd.tiddlywiki
+url: 
+year: 2021
+
+
+!!! ''Notes'':
+* Nearest neighbors is difficult, approximate allows trading accuracy for performance (orders of magnitude)
+* Newer methods use graphs vs trees
+** Sources
+*** Dong, Moses, and Li, 2011
+*** Malkov and Yashunin, 2018
+*** Iwasaki and Miyazaki, 2018
+** take node, look at all nodes connected by edge to best untried candidate, add all of them to a potantial candidate ,sort by closeness to query, truncate to the k best, expand bes untried, continue until complete
+** can get stuck in local minima
+* how is the graph method made fast?
+** capping searches for future iterations and pruning away edges, longest edges of triangles
+** random projection trees inaccurate for lots, but a small forest is a good initialization
+** using [[Numba]]
+** profiling and inspecting the LLVM code helps
+** custom data structures if needed, rolling own heap
+** numba has significatn function call overheat, if the data is readonly, closure reading the data
+** How does it compare?
+*** No GPU support, but seems to be faster than a lot of competitors in CPU
+*** Features: has access to quite a bit of distance measures
+**** <<Wikipedia "Taxicab Geometry" en>>
+!!! ''Questions'':
+* Preemptive Question: Why is this important?
+** Many ML algorithms, at the heart of them, use nearest neighbor computations ( faster -> better ) RecommenderSystems, QueryExpansion
+!!! ''Summary'':
+*  

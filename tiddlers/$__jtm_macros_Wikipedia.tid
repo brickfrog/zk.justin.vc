@@ -1,0 +1,28 @@
+created: 20210725001815545
+modified: 20210725005657437
+tags: $:/tags/Macro
+title: $:/jtm/macros/Wikipedia
+type: text/vnd.tiddlywiki
+
+\define Wikiframe()
+!<span style="margin-left:10px;margin-right:10px;margin-top:5px">Wikipedia:{{!!alias}}<$button class="tc-btn-invisible" style="float:right">
+<$action-sendmessage $message="tm-close-tiddler"/>
+<$action-deletetiddler $tiddler=<<currentTiddler>>/>{{$:/core/images/close-button}}</$button></span><br>
+<div id='wikidiv'>
+<iframe allowtransparency="true" frameborder="0" id="wikiframe" src={{!!url}} style="width:110%;height:95vh;" scrolling="yes"; style= filter:invert(80%); twidth: 600px;></iframe>
+</div>
+{{$:/jtm/macros/WikipediaMacro!!style}}
+\end
+
+\define Wikipedia(subject, lang:"en")
+[[Wikipedia|https://$lang$.m.wikipedia.org/wiki/$subject$]]:<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="""$:/temp/Wikipedia/$subject$""" text=<<Wikiframe>>/>
+<$action-setfield $tiddler="""$:/temp/Wikipedia/$subject$""" tags="Wikipediatemp"/>
+<$action-setfield $tiddler="""$:/temp/Wikipedia/$subject$""" alias="$subject$"/>
+<$action-setfield $tiddler="""$:/temp/Wikipedia/$subject$""" url="https://$lang$.m.wikipedia.org/wiki/$subject$"/>
+<$action-navigate $to="""$:/temp/Wikipedia/$subject$"""/>
+<body style="color:#1aedff;"> $subject$</body>
+</$button>
+\end
+
+!{{!!delete}}

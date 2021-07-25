@@ -1,15 +1,10 @@
 created: 20210721223746023
-modified: 20210722000629083
+modified: 20210724043703499
 tags: Meta
 title: Home/About
 
-!! {{Text Art: Justin || ASCII: 10%}}
-@@.center
- Woo <<fnote "You get the goofy grin picture.">>
-@@
-
 Okay, so, I'm Justin. This all is -mostly- for myself, but I hope eventually either via a tutorial or code snippet that I help someone out. I primarily write things down here because I'm a bit ADD and having things available to the "public" is the kick-in-the-arse to do things, so to speak.
 
-By title I'm a "data scientist", but I dabble with general software engineering, machine learning, and data engineering. Most of my experience is in the agricultural/commodity space but I have pretty varied interests from defense to quantitative finance. I like to spend my free time tinkering with code. <<fnote "Okay, so I should definitely spend some of my time contributing to open source. I do get into the whole 'tutorial paralysis' maxima.">>
+I dabble with general software engineering, machine learning, and data engineering. Most of my experience is in the agricultural/commodity space but I have pretty varied interests from defense to quantitative finance. I like to spend my free time tinkering with code. <<fnote "Okay, so I should definitely spend some of my time contributing to open source. I do get into the whole 'tutorial paralysis' maxima.">>
 
 I enjoy westerns and sci-fi. Otherwise, I just kind of add books to my [[Goodreads|https://www.goodreads.com/brickfrog]], try to read them, and vibe.
