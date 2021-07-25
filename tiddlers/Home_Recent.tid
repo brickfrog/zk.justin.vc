@@ -1,0 +1,12 @@
+created: 20210725065512266
+modified: 20210725065529702
+tags: Meta
+title: Home/Recent
+
+There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because saying the word tiddler over and over is just kind of funny">> Further below are sectionals on navigation, structure, about, etc.
+
+<div class="wrapper">
+<div id="Recent" class="recently">
+<<timeline dateField: "created" limit: 50 format:" ">>
+</div>
+</div>

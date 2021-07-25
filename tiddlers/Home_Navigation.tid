@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20210725020710563
+modified: 20210725053703970
 tags: Meta
 title: Home/Navigation
 
@@ -13,4 +13,4 @@ There's also a search icon ( <i class="fas fa-search"></i> ) at the top (bottom 
 
 The GDPR consent banner is for embedded iframes. I have these for Wikipedia macros such as: <<Wikipedia "hello">> where the left link opens a new page, and the right opens an embedded tiddler with the article. If consent is not granted (I believe) access to the internal links for them are cut off.
 
-The (<i class="fab fa-wikipedia-w"></i> ) button clears all the Wikipedia tiddlers being held in temp. Hidden under the more button (<i class="fas fa-chevron-down"></i>) in the page menu.
+The ( <i class="fab fa-wikipedia-w"></i> ) button clears all the Wikipedia tiddlers being held in temp. Hidden under the more button ( <i class="fas fa-chevron-down"></i> ) in the page menu.
