@@ -1,7 +1,7 @@
 <col style="width: 9em">
 created: 20200322024716895
 creator: soren
-modified: 20210722001212080
+modified: 20210725224155621
 modifier: soren
 tags: Meta Public
 tbl-add-records: 
@@ -23,7 +23,7 @@ tbl-expand:
 tbl-filter: [tag[Source]]
 tbl-limit: 50
 tbl-mode: normal
-tbl-page-marker: PyCon2021
+tbl-page-marker: JuliaFortranNumpy20210615
 tbl-show-caption: true
 tbl-show-colgroup: true
 tbl-show-edit: true

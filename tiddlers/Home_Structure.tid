@@ -1,5 +1,5 @@
 created: 20210715010128304
-modified: 20210721235004590
+modified: 20210725230446662
 tags: Meta
 title: Home/Structure
 
@@ -9,6 +9,7 @@ I  draw inspiration from [[Gwern|https://gwern.net]], from whom I at least (part
 
 The following should more helpfully explain the metadata around the Wiki:
 
+* [[Design]] (More in depth)
 * TagColors
 * CardTypes
 * [[TagManager|$:/TagManager]]

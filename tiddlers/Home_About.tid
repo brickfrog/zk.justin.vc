@@ -1,5 +1,5 @@
 created: 20210721223746023
-modified: 20210725065731029
+modified: 20210725231437032
 tags: Meta
 title: Home/About
 
@@ -9,14 +9,14 @@ I dabble with general software engineering, machine learning, and data engineeri
 
 Since a lot of what I plan to do is tied to media, e.g. ideas and learnings from a film, book, or class, this is one of the bigger parts of the wiki.
 
-Full sources:
+Internal:
 
-* SourceList
-
-Recently:
-
-* RecentlyRead
-* RecentlyWatched
+* [[Source]]
+** SourceList
+** Recently
+*** RecentlyRead
+*** RecentlyWatched
+* [[PersonalComputer]]
 
 External:
 

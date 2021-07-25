@@ -1,6 +1,6 @@
 created: 20210721213759410
-modified: 20210721213810104
-tags: $:/tags/Stylesheet
+modified: 20210725225754621
+tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/jtm/styles/extlinks/youtube
 type: text/vnd.tiddlywiki
 
@@ -9,10 +9,10 @@ type: text/vnd.tiddlywiki
 <$set name="cfg" value=<<fa5-cfgpath "decorate-wk-extlinks">> >
 <$list filter=<<fa5-cfgfilterexpr>> >
 
-a[href^="https://"][href*=".youtube.com"]:before {
+a[href^="https://"][href*=".youtube.com"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
-  content: '[\f167]\202f';
+  content: '⌠\f167⌡';
 }
 
 </$list>

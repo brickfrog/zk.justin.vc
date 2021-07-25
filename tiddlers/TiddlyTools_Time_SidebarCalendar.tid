@@ -1,13 +1,13 @@
 caption: Calendar
 created: 20200904020839440
 list-after: $:/core/ui/SideBar/Recent
-modified: 20201002235526526
+modified: 20210725225239327
 tags: $:/tags/SideBar
 title: TiddlyTools/Time/SidebarCalendar
 
 \define tt_time_config() $:/config/TiddlyTools/Time
 
-\import TiddlyTools/Time/Calendar
+\import $:/TiddlyTools/Time/Calendar
 \whitespace trim
 <$tiddler tiddler="SidebarCalendar"> <!-- needed for SideBar -->
 <$tiddler tiddler=<<calendar_input>>>

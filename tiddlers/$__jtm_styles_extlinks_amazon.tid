@@ -1,6 +1,6 @@
 created: 20210721150839080
-modified: 20210721213553545
-tags: $:/tags/Stylesheet
+modified: 20210725225838593
+tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/jtm/styles/extlinks/amazon
 type: text/vnd.tiddlywiki
 
@@ -9,10 +9,10 @@ type: text/vnd.tiddlywiki
 <$set name="cfg" value=<<fa5-cfgpath "decorate-wk-extlinks">> >
 <$list filter=<<fa5-cfgfilterexpr>> >
 
-a[href^="https://"][href*=".amazon.com"]:before {
+a[href^="https://"][href*=".amazon.com"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
-  content: '[\f270]\202f';
+  content: '⌠\f270⌡';
 }
 
 </$list>

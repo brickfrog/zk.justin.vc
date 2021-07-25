@@ -1,6 +1,6 @@
 created: 20170223100306336
-modified: 20210719145457654
-tags: $:/tags/Stylesheet
+modified: 20210725221407461
+tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/plugins/TheDiveO/FontAwesome/styles/extlinks/Wikipedia
 type: text/vnd.tiddlywiki
 
@@ -9,10 +9,10 @@ type: text/vnd.tiddlywiki
 <$set name="cfg" value=<<fa5-cfgpath "decorate-wk-extlinks">> >
 <$list filter=<<fa5-cfgfilterexpr>> >
 
-a[href^="https://"][href*=".wikipedia.org"]:before {
+a[href^="https://"][href*=".wikipedia.org"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
-  content: '[\f266]\202f';
+  content: ' ⌠\f266⌡';
 }
 
 </$list>
