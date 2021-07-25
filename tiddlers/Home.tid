@@ -1,7 +1,7 @@
 created: 20210528153225122
 description: I mean, it's a home page
 list: Home/Navigation Home/Structure Home/About Home/Media
-modified: 20210724234942898
+modified: 20210725015159956
 tags: Meta
 title: Home
 type: text/vnd.tiddlywiki
@@ -22,7 +22,7 @@ type: text/vnd.tiddlywiki
 </style>
 
 @@.center
-<i>juste un café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.m.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
+<i>café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.m.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
 @@
 
 Note-keeping and random thought section of [[justin.vc|https://www.justin.vc]].

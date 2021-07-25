@@ -1,5 +1,5 @@
 created: 20210725001815545
-modified: 20210725005657437
+modified: 20210725012449636
 tags: $:/tags/Macro
 title: $:/jtm/macros/Wikipedia
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 <$action-sendmessage $message="tm-close-tiddler"/>
 <$action-deletetiddler $tiddler=<<currentTiddler>>/>{{$:/core/images/close-button}}</$button></span><br>
 <div id='wikidiv'>
-<iframe allowtransparency="true" frameborder="0" id="wikiframe" src={{!!url}} style="width:110%;height:95vh;" scrolling="yes"; style= filter:invert(80%); twidth: 600px;></iframe>
+<iframe allowtransparency="true" frameborder="0" id="wikiframe" src={{!!url}} style="width:110%;height:95vh;" scrolling="yes"; ></iframe>
 </div>
 {{$:/jtm/macros/WikipediaMacro!!style}}
 \end

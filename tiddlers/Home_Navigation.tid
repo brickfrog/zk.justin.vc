@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20210724070749859
+modified: 20210725020710563
 tags: Meta
 title: Home/Navigation
 
@@ -10,3 +10,7 @@ I would also note I definitely don't adhere by best practices insofar as UI/UX. 
 That said, there is a hamburger button ( <i class="fas fa-bars"></i> ) to the top-left (bottom if mobile) which opens the menu, where you can see the most recently edited things, tags, a calendar view, and such and such.
 
 There's also a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mobile, IIRC) - generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile.
+
+The GDPR consent banner is for embedded iframes. I have these for Wikipedia macros such as: <<Wikipedia "hello">> where the left link opens a new page, and the right opens an embedded tiddler with the article. If consent is not granted (I believe) access to the internal links for them are cut off.
+
+The (<i class="fab fa-wikipedia-w"></i> ) button clears all the Wikipedia tiddlers being held in temp. Hidden under the more button (<i class="fas fa-chevron-down"></i>) in the page menu.

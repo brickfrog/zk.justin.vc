@@ -2,7 +2,7 @@ caption: new cornell note
 created: 20210715044849664
 description: Create a new Cornell note tiddler
 list-after: $:/core/ui/Buttons/new-tiddler
-modified: 20210715050949879
+modified: 20210725020213804
 tags: $:/tags/PageControls
 title: $:/jtm/Buttons/NewCornell
 type: text/vnd.tiddlywiki

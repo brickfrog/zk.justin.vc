@@ -1,7 +1,7 @@
 caption: SessionTitle
 created: 20210724230653020
 medium: video
-modified: 20210725010413919
+modified: 20210725021248475
 presenter: Presenter
 tags: SciPyCon2021 Source
 title: PyNNDescent2021
@@ -30,8 +30,12 @@ year: 2021
 *** No GPU support, but seems to be faster than a lot of competitors in CPU
 *** Features: has access to quite a bit of distance measures
 **** <<Wikipedia "Taxicab Geometry" en>>
+**** Includes: Euclidean, Wasserstein, Cosine, Hellinger, Hamming, Spearman, Manhattan, Correlation, Minkowski, Mahalanobis, Chebyshev, Canberra, Jaccard, Bray-Curtis, Haversine, Angular, Dice, TSSS + 20 more
+**** Custom metrics using numba, as long as you can  numba compile it.
+**** support for sparse data
+**** drop-in replacement for sklearn (!!)
 !!! ''Questions'':
 * Preemptive Question: Why is this important?
 ** Many ML algorithms, at the heart of them, use nearest neighbor computations ( faster -> better ) RecommenderSystems, QueryExpansion
 !!! ''Summary'':
-*  
+*  https://www.github.com/lmcinnes/pynndescent

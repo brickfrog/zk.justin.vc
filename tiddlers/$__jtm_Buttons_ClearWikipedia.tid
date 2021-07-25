@@ -1,0 +1,17 @@
+caption: clear all temp wikipedia
+created: 20210725013841796
+description: Clear all temporary wikipedia embedded tiddlers
+list-after: 
+modified: 20210725020458362
+tags: $:/tags/PageControls
+title: $:/jtm/Buttons/ClearWikipedia
+type: text/vnd.tiddlywiki
+
+<$button class=<<tv-config-toolbar-class>> selectedClass="tc-selected" tooltip={{!!caption}}>
+	<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+	<i class="fab fa-wikipedia-w"></i>
+	</$list>
+	<$list filter="[<tv-config-toolbar-text>match[yes]]">
+	<span class="tc-btn-text"><$text text={{$:/jtm/Buttons/ClearWikipedia!!caption}}/></span>
+	</$list>
+ <$action-deletetiddler $filter="[prefix[$:/temp/Wikipedia/]]"/> </$button>
