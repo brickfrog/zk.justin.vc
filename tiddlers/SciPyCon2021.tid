@@ -2,7 +2,7 @@ caption: Python's 2021 Conference
 color: #6c6cff
 created: 20210724064845542
 icon: $:/core/images/list-bullet
-modified: 20210724071025282
+modified: 20210725234907083
 tags: Notes Class Event Python SciPyCon2021
 title: SciPyCon2021
 
@@ -50,6 +50,7 @@ table.scipycon21-sessions tr td:nth-child(3) {
     url=""
     year=2021
     medium="video"
+    completed=""
 		text="
 !!! ''Notes'':
 *

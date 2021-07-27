@@ -1,0 +1,11 @@
+created: 20210727064624140
+modified: 20210727071940254
+tags: $:/tags/Stylesheet
+title: $:/jtm/layout.css
+type: text/css
+
+.hzone-focus {
+  border-color: black;
+}
+
+.kk-custom-drop-down .tc-drop-down{min-width:60px;}

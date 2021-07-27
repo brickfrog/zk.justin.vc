@@ -1,15 +1,25 @@
 created: 20210721222719275
-modified: 20210725053703970
+modified: 20210727081219494
 tags: Meta
 title: Home/Navigation
 
-This is TiddlyWiki, where, generally, everything that is CamelCase <<fnote "Okay, it's technically PascalCase, but don't blame me, I didn't create TiddlyWiki">> is a link to somewhere else in the wiki. Additionally anything affixed with "[["'s, but generally I follow the case route.
+This is <<hover1 TiddlyWiki>>, a personal wiki, where generally, everything that is CamelCase <<fnote "Okay, it's technically PascalCase, but don't blame me, I didn't create TiddlyWiki">> is a link to somewhere else in the wiki. Additionally anything affixed with "[["'s, but generally I follow the case route.
 
 I would also note I definitely don't adhere by best practices insofar as UI/UX. I think the best part of stumbling into someones weird little blog is figuring it out in a lot of cases. It's easiest if you just kinda roam around and get a general vibe of the place. 
 
-That said, there is a hamburger button ( <i class="fas fa-bars"></i> ) to the top-left (bottom if mobile) which opens the menu, where you can see the most recently edited things, tags, a calendar view, and such and such.
+!!! Icons
+
+There is a hamburger button ( <i class="fas fa-bars"></i> ) to the top-left (bottom if mobile) which opens the menu, where you can see the most recently edited things, tags, a calendar view, and such and such.
 
 There's also a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mobile, IIRC) - generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile.
+
+"⌟" in a link denotes the abiltiy to hover and see a pop-up of the linked tiddler.
+
+Various FontAwesome5 post-link icons are there to at-a-glacnce show where an external link leads to.
+
+Additionally, there's footnotes<<fnote "Beep.">>, which are either for fun or to link quotes and sources depending on topic.
+
+!!! GDPR / Cookies
 
 The GDPR consent banner is for embedded iframes. I have these for Wikipedia macros such as: <<Wikipedia "hello">> where the left link opens a new page, and the right opens an embedded tiddler with the article. If consent is not granted (I believe) access to the internal links for them are cut off.
 

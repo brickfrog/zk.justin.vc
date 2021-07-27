@@ -1,0 +1,13 @@
+author: Andreas Hahn
+created: 20140917175623545
+creator: Andreas Hahn
+dependents: 
+description: Adds a hover widget.
+list: readme
+modified: 20140917175623545
+modifier: Andreas Hahn
+plugin-type: plugin
+revision: 0
+title: $:/plugins/ahahn/hoverWidget
+type: application/json
+version: 0.1.0

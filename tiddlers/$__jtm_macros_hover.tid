@@ -1,0 +1,35 @@
+created: 20210727061242552
+modified: 20210727081307262
+tags: $:/tags/Macro
+title: $:/jtm/macros/hover
+
+\define hover2(tiddler1,tiddler2)
+<$hover popup="$:/state/$tiddler1$">
+[[$tiddler1$]]
+</$hover>
+
+<$reveal type="popup" state="$:/state/$tiddler1$">
+<div class="tc-drop-down">
+
+{{$tiddler2$}}
+
+</div>
+</$reveal>
+\end
+
+\define hover1(tiddler1)
+<$hover popup="$:/state/$tiddler1$">
+[[$tiddler1$]]⌟
+</$hover>
+<$reveal type="popup" state="$:/state/$tiddler1$" style="
+width:75%;
+background-color: #111111;
+padding: 5px 10px;
+border-radius: 2px;
+border-style: outset;
+transition: 0.2s;">
+
+<$transclude tiddler="$tiddler1$" mode="block"/>
+
+</$reveal>
+\end

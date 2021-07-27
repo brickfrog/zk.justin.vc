@@ -1,8 +1,7 @@
 caption: clear all temp wikipedia
 created: 20210725013841796
 description: Clear all temporary wikipedia embedded tiddlers
-list-after: 
-modified: 20210725020458362
+modified: 20210727062936629
 tags: $:/tags/PageControls
 title: $:/jtm/Buttons/ClearWikipedia
 type: text/vnd.tiddlywiki

@@ -1,0 +1,5 @@
+created: 20140925220915590
+modified: 20210727072811179
+title: EquationFourierTransform
+
+$$ \displaystyle S(\omega) = \int_{-\infty}^{\infty} x(t) e^{-j 2 \pi \omega t} dt$$
