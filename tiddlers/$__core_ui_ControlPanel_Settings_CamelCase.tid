@@ -1,0 +1,10 @@
+caption: {{$:/language/ControlPanel/Settings/CamelCase/Caption}}
+created: 20210727222342345
+modified: 20210727222342345
+tags: $:/tags/ControlPanel/Settings
+title: $:/core/ui/ControlPanel/Settings/CamelCase
+
+\define lingo-base() $:/language/ControlPanel/Settings/CamelCase/
+<<lingo Hint>>
+
+<$checkbox tiddler="$:/config/WikiParserRules/Inline/wikilink" field="text" checked="enable" unchecked="disable" default="enable"> <$link to="$:/config/WikiParserRules/Inline/wikilink"><<lingo Description>></$link> </$checkbox>

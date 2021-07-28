@@ -1,0 +1,27 @@
+created: 20210727203826184
+modified: 20210727203901239
+tags: $:/tags/ViewTemplate
+title: $:/jtm/Templates/AliasView
+
+\define showalias(tid, alias)
+<$set name="alias" value="""content: '$alias$'""">
+<$set name="uri" value=<<makedatauri """$tid$""" "text/plain">> >
+<$list variable="urititle" filter="""[<uri>removeprefix[data:text/plain,]]""">
+<style>
+a[href='#<<urititle>>'] {
+  visibility: hidden;
+  position: relative;
+}~~~~
+a[href="#<<urititle>>"]:before {
+  visibility: visible;
+  <<alias>>;
+}
+</style>
+</$list>
+</$set>
+</$set>
+\end
+
+<$list filter="""[all[current]has[alias]]""">
+<$macrocall $name="showalias" tid={{!!title}} alias={{!!alias}} />
+</$list>

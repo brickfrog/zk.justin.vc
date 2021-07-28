@@ -1,0 +1,68 @@
+created: 20200719210532573
+modified: 20200724105505183
+tags: $:/tags/Stylesheet
+title: $:/plugins/sq/floats/styles
+
+.sq-float-wrapper {
+	position:fixed;
+	top:0;
+	z-index: 1098;
+	background-color: <<colour modal-background>>;
+	border: 1px solid <<colour modal-border>>;
+	border-radius: 6px;
+	width: 350px;
+	height: 400px;
+	min-width: 100px;
+	min-height: 100px;
+	overflow: hidden;
+	resize: both;
+	padding-bottom: 10px;
+	<<box-shadow "0 3px 7px rgba(0,0,0,0.3)">>
+}
+
+.sq-float-active {
+	z-index: 1099;
+}
+
+.sq-float-wrapper > div {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.sq-float-header {
+	padding: 9px 5px  9px 15px;
+	border-bottom: 1px solid <<colour modal-header-border>>;
+	cursor: grab;
+	background-color: <<color page-background>>;
+/*	position: sticky;*/
+	top: 0;
+	z-index: 99;
+}
+
+.sq-float-header button{
+	float: right;
+	height: 30px;
+	padding: 0 10px;
+}
+
+.sq-float-body {
+	padding: 0 15px 15px;
+	overflow-y: scroll;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+
+.sq-float-dragactive {
+/*pointer-events: none;*/
+user-select: none;
+}
+
+
+.sq-float-header h3 {
+	margin: 0;
+	line-height: 30px;
+}
+

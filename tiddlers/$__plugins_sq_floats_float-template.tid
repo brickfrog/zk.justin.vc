@@ -1,0 +1,11 @@
+created: 20200719203951527
+modified: 20200728175856926
+tags: 
+title: $:/plugins/sq/floats/float-template
+
+<div class="sq-float-header sq-float-draggable"><div class="sq-float-header-ctrls"><$button class="tc-btn-invisible" message="tm-close-float" param=<<sq-float-state>> >{{$:/core/images/close-button}}</$button></div><h3><$transclude tiddler=<<sq-contentTiddler>> field="subtitle"><$text text={{{ [<sq-float-subtitle>!is[blank]] ~[<sq-contentTiddler>] }}}/></$transclude></h3></div>
+<div class="sq-float-body">
+
+<$transclude tiddler=<<sq-contentTiddler>>/>
+
+</div>

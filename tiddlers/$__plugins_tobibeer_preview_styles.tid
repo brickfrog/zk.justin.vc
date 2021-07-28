@@ -1,0 +1,13 @@
+created: 20210728004350491
+modified: 20210728032611782
+tags: $:/tags/Stylesheet
+title: $:/plugins/tobibeer/preview/styles
+
+.tc-popup.tc-preview-tiddler{
+  position: fixed;
+	max-width:600px;
+	width:50%;
+	padding:1em;
+  border-radius: 3px;
+  border-style: outset;
+}
