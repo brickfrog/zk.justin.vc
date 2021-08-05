@@ -1,0 +1,12 @@
+created: 20210805082359179
+modified: 20210805082601578
+tags: Meta
+title: RecentlyReading
+type: text/vnd.tiddlywiki
+
+<dl>
+<$list filter="[tag[Source]medium[book]readstatus[partial]!sort[modified]]">
+<dt><$view field="modified" format="date" template="DDth MMM YYYY"/></dt>
+<dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
+</$list>
+</dl>

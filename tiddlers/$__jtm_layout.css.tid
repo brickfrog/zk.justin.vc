@@ -1,10 +1,8 @@
 created: 20210727064624140
-modified: 20210728034519491
+modified: 20210729012016654
 tags: $:/tags/Stylesheet
 title: $:/jtm/layout.css
 type: text/css
-
-/* Overwriting Tiddler links */
 
 html .tc-tiddlylink-missing {
 	color: #FF00FF;

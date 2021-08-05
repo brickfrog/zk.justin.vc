@@ -1,13 +1,13 @@
 caption: {{$:/plugins/sq/Nlite/share.svg}} Edit in float
 created: 20200728185228873
 description: Edit in float
-modified: 20210728025354824
+modified: 20210729024317458
 tags: $:/tags/ViewToolbar
 title: $:/plugins/sq/Nlite/Buttons/open-in-float
 
 \whitespace trim
 <$button tooltip="Edit in float" class=<<tv-config-toolbar-class>>>
-<$action-sendmessage $message="tm-float" $param="$:/plugins/sq/Nlite/editor" state="$:/state/sq-floats/nlite-editor" subtitle="Nlite editor" class="sq-nlite-float"/>
+<$action-sendmessage $message="tm-float" $param="$:/plugins/sq/Nlite/editor" state="$:/state/sq-floats/nlite-editor" subtitle="Editor" class="sq-nlite-float"/>
 <$action-setfield $tiddler="$:/state/sq/Nlite/active" text=<<currentTiddler>>/>
 <$action-setfield $tiddler="$:/temp/sq/Nlite/search" text=<<currentTiddler>>/>
 <$list filter="[<tv-config-toolbar-icons>match[yes]]">

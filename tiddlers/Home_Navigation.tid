@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20210728025831723
+modified: 20210805055959895
 tags: Meta
 title: Home/Navigation
 
@@ -13,7 +13,7 @@ There is a hamburger button ( <i class="fas fa-bars"></i> ) to the top-left (bot
 
 There's also a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mobile, IIRC) - generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile.
 
-Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
+Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show. A side note that ''the popups behave a bit weirdly when hovering while the sidebar is expanded''. Something to figure out eventually, I suppose.
 
 Various FontAwesome5 post-link icons are there to at-a-glacnce show where an external link leads to.
 

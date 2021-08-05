@@ -1,7 +1,6 @@
 caption: Calendar
 created: 20200904020839440
-list-after: $:/core/ui/SideBar/Recent
-modified: 20210725225239327
+modified: 20210729024626548
 tags: $:/tags/SideBar
 title: TiddlyTools/Time/SidebarCalendar
 

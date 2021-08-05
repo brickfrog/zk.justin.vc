@@ -1,0 +1,16 @@
+created: 20210623014041787
+list-after: $:/core/ui/SideBarSegments/site-subtitle
+modified: 20210805083324888
+tags: $:/tags/SideBarSegment
+title: $:/sib/SideBar/InfoLinks
+type: text/vnd.tiddlywiki
+
+[[about|Home/About]]&nbsp;·
+[[reading|RecentlyReading]]&nbsp;
+
+<style>
+.gtw-sidebar-links a, .gtw-sidebar-links button {
+	color: <<color sidebar-foreground>>;
+	text-decoration: underline;
+}
+</style>

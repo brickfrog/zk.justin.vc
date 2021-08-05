@@ -1,13 +1,14 @@
 created: 20210528153612219
-modified: 20210702141747763
+modified: 20210728181541319
 tags: Meta
 title: TagColors
 type: text/vnd.tiddlywiki
 
 Tags are colored to indicate their role in organizing the wiki, one of the following:
 
-*  <<colorsplotch #A3BE8C>> General topics or areas of knowledge. (163,190,140)
-* <<colorsplotch #FF0000>> [[Types|CardTypes]] (255,0,0)
-* <<colorsplotch #ff4d00>> Pseudo-types (255,77,0)
-* <<colorsplotch #6c6cff>> Collections -- tiddlers that all compose a list of a thing (108,108,255)
+*  <<colorsplotch #6c6cff>> Collections -- tiddlers that all compose a list of a thing (108,108,255)
+* <<colorsplotch rgb(0,255,255)>> Journal / daily activities (0,255,255)
+* <<colorsplotch #A3BE8C>> General topics or areas of knowledge. (163,190,140)
 * <<colorsplotch #fff12e>> Maintenance indicators (255,241,46)
+  *  <<colorsplotch #ff4d00>> Pseudo-types (255,77,0)
+* <<colorsplotch #FF0000>> [[Types|CardTypes]] (255,0,0)

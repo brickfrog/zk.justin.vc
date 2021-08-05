@@ -1,0 +1,32 @@
+created: 20200322005021864
+creator: soren
+modified: 20210721001436750
+modifier: soren
+tags: $:/tags/table/BodyTemplate
+tbl-column-list: linktype
+tbl-noedit: linktype
+title: $:/sib/refexplorer/LinkTypeTemplate
+type: text/vnd.tiddlywiki
+
+<td>
+	<!-- The list filter operator does not seem to offer any way to use a dynamic tiddler parameter other than the current tiddler, so we set the current tiddler to the story tiddler (it'll be overridden again by the list widget itself). We use storyTiddler where possible for clarity. -->
+	
+	<$set name="currentTiddler" value=<<storyTiddler>> >
+		<$list filter="
+			[<currentRecord>]
+			-[<storyTiddler>tagging[]] +[else[Tagged]]
+			-[<storyTiddler>links[]] +[else[Link]]
+			-[<storyTiddler>backlinks[]] +[else[Backlink]]
+			-[<currentRecord>] +[else[Subtiddler]]
+		">
+			<<currentTiddler>>
+		</$list>
+	</$set>
+</td>
+
+
+<!--
+			-[<storyTiddler>get[memberof]split[ ]!is[blank]] +[else[Member of]]
+			-[<storyTiddler>listed[memberof]] +[else[Member]]
+			-[<storyTiddler>listed[spouse]] +[else[Spouse]]
+-->

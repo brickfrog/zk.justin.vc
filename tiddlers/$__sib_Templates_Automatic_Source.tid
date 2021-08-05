@@ -1,6 +1,7 @@
 created: 20200808023836194
 description: Display a table of fields and other information about the source described by this tiddler.
-modified: 20210629140440348
+list-after: $:/sib/Templates/Automatic/SpoilerBanner
+modified: 20210805081334760
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
 transcludedin: All tiddlers tagged <<tag Source>> or <<tag Sink>>.

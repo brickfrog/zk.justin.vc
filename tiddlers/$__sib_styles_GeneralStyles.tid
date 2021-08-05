@@ -1,5 +1,5 @@
 created: 20201121015759457
-modified: 20210522025245011
+modified: 20210626234010186
 tags: $:/tags/Stylesheet
 title: $:/sib/styles/GeneralStyles
 type: text/vnd.tiddlywiki
@@ -38,6 +38,11 @@ type: text/vnd.tiddlywiki
 }
 
 .dialogue p {
+	margin: 0;
+	padding: 0;
+}
+
+.checklist p, .checklist p span {
 	margin: 0;
 	padding: 0;
 }

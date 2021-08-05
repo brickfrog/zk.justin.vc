@@ -1,7 +1,6 @@
 caption: Favorites
 created: 20191226064836102
-list-after: $:/core/ui/SideBar/Open
-modified: 20210724053241671
+modified: 20210729024626548
 tags: $:/tags/SideBar
 title: $:/plugins/kookma/favorites/sidebar-tab
 type: text/vnd.tiddlywiki
