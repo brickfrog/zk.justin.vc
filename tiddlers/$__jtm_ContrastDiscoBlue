@@ -52,8 +52,8 @@ sidebar-foreground-shadow: rgba(0,0,0, 0)
 sidebar-foreground: <<colour foreground>>
 sidebar-muted-foreground-hover: #444444
 sidebar-muted-foreground: <<colour foreground>>
-sidebar-tab-background-selected: <<colour background>>
-sidebar-tab-background: <<colour tab-background>>
+sidebar-tab-background-selected: #5c5c5c
+sidebar-tab-background: <<colour background>>
 sidebar-tab-border-selected: <<colour tab-border-selected>>
 sidebar-tab-border: <<colour tab-border>>
 sidebar-tab-divider: <<colour tab-divider>>
@@ -63,7 +63,7 @@ sidebar-tiddler-link-foreground-hover: <<colour foreground>>
 sidebar-tiddler-link-foreground: <<colour primary>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: #aaaaaa
-tab-background-selected: <<colour background>>
+tab-background-selected: #5c5c5c
 tab-background: <<colour background>>
 tab-border-selected: <<colour foreground>>
 tab-border: <<colour foreground>>
