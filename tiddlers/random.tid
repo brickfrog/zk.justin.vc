@@ -5,6 +5,7 @@ revision: 0
 tabs: Info Examples Install
 tags: Plugins Filters
 title: random
+tmap.id: 606238fa-8ecd-4aab-b952-0a4bdfa7b234
 type: text/vnd.tiddlywiki
 
 <<plugin-docs random>>

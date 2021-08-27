@@ -2,6 +2,7 @@ created: 20210528235121505
 modified: 20210529014348203
 tags: Examples
 title: Footnote Example
+tmap.id: 470268d4-90b7-4f81-8430-95f025d81ae4
 
 This is a test <<fnote "This is a small footnote">>. Hover the mouse and see what it shows. This is another note <<fnote "I am another footnote">>.
 

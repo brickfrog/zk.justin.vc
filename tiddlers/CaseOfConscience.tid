@@ -4,12 +4,13 @@ completed:
 created: 20210805060530209
 isbn: 9780099063704
 medium: book
-modified: 20210805084235945
+modified: 20210818084132417
 rating: 
 readstatus: partial
 tags: Source SciFiReadingList
 title: CaseOfConscience
-universe: CaseOfConscience
+tmap.id: 24a34c7d-49c1-4290-97aa-c490f6e69876
+universe: CaseOfConscienceUniverse
 url: 
 year: 1959
 
