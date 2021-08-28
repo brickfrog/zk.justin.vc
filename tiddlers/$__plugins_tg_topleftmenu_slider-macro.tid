@@ -1,0 +1,15 @@
+created: 20161206183736562
+creator: TonGerner
+modified: 20191230161629576
+modifier: TonGerner
+tags: $:/tags/Macro
+title: $:/plugins/tg/topleftmenu/slider-macro
+
+\define slidertg(label,text)
+<$button popup="$:/state/$label$" class="tc-btn-invisible tgc-slider"><$text text="$label$ »"/></$button>
+<$reveal type="nomatch" text="" default="" state="$:/state/$label$" animate="yes">
+
+{{$text$}}
+
+</$reveal>
+\end

@@ -1,0 +1,12 @@
+author: TonGerner
+core-version: >=5.1.15
+created: 20191227185336422
+description: Layout tweaks
+list: readme license
+modified: 20200918192709673
+name: Layout tweaks
+plugin-type: plugin
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tg/layout
+type: application/json
+version: 0.5.2

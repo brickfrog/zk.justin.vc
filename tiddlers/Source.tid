@@ -1,9 +1,9 @@
-caption: A single source of ideas, such as a blog post, book, or musical work. Sources may be part of [[Publication]]s (e.g., a blog, a magazine).
+caption: A single source of ideas
 color: #ff0000
 created: 20200115231452835
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210827133627527
+modified: 20210827202739216
 modifier: justin
 tags: Meta
 title: Source

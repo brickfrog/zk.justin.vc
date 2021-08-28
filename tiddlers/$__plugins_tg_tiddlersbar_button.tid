@@ -1,0 +1,29 @@
+caption: {{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}} tiddlersbar
+created: 20170325114731405
+creator: TonGerner
+description: Toggle tiddlersbar on/off
+modified: 20210827171128547
+modifier: TonGerner
+tags: $:/tags/PageControls
+title: $:/plugins/tg/tiddlersbar/button
+
+<$fieldmangler tiddler="$:/plugins/tg/tiddlersbar/styles">
+<$list filter="[[$:/plugins/tg/tiddlersbar/styles]tag[$:/tags/Stylesheet]]"><$button message="tm-remove-tag" tooltip="Hide Tiddlersbar" param="$:/tags/Stylesheet" class=<<tv-config-toolbar-class>>>
+<span class="tgc-active-indicator">
+{{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}}
+</span>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tgc-active-indicator">
+<$text text="tiddlersbar"/>
+</span>
+</$list>
+</$button>
+</$list>
+<$list filter="[[$:/plugins/tg/tiddlersbar/styles]!tag[$:/tags/Stylesheet]]">
+<$button message="tm-add-tag" tooltip="Show tiddlersbar" param="$:/tags/Stylesheet" class=<<tv-config-toolbar-class>>>{{$:/plugins/tg/tiddlersbar/image-tiddlersbar-off}}
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="tiddlersbar"/>
+</$list>
+</$button>
+</$list>
+</$fieldmangler>

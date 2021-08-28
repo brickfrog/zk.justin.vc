@@ -1,5 +1,5 @@
 created: 20210528144924744
-modified: 20210723051447870
+modified: 20210827172730330
 title: $:/SiteSubtitle
 
-<b> <<now YYYY0MM0DD>> </b><$count filter="[all[tiddlers]]"/>
+<$count filter="[all[tiddlers]]"/>
