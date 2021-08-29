@@ -1,7 +1,7 @@
 created: 20210725202457227
-modified: 20210725204854157
+modified: 20210829103906376
 tags: $:/tags/Stylesheet
 title: $:/jtm/styles/text
 type: text/vnd.tiddlywiki
 
-p.dropcap:first-child:first-letter { float: left; color: #fff; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: anglicantextregular; }
+p.dropcap:first-child:first-letter { float: left; color: {{primary colour}}; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: anglicantextregular; }

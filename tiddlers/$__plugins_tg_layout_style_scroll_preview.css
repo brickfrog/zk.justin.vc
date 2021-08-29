@@ -1,0 +1,4 @@
+.tc-edit-texteditor, .tc-tiddler-preview-preview {
+     max-height:80vh;
+     overflow-y:auto;
+}

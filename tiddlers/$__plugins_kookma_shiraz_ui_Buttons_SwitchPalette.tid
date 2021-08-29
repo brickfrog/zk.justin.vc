@@ -1,9 +1,9 @@
 caption: {{$:/plugins/kookma/shiraz/images/color-switch}} {{$:/language/Buttons/Shiraz/Caption}}
 created: 20201210171047824
-dark-palette: $:/jtm/ContrastDisco
+dark-palette: $:/palettes/Darcula
 description: Toggle between light/dark colour palette
-light-palette: $:/palettes/Vanilla
-modified: 20210817065008825
+light-palette: $:/themes/nico/notebook/palettes/palette-beige
+modified: 20210829190130639
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

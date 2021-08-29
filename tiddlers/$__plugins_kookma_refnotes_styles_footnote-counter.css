@@ -9,7 +9,7 @@
   content: counter(fnote-count);
 	vertical-align: super;
   font-size:small;
-  color:#FFFFFF;
+	color:<<colour foreground>>;
 	padding: 4px;
 	  line-height: 1.5;
 	margin-left: -0.5em;
@@ -18,5 +18,5 @@
 .refnotes-footnote:hover {
 	outline: 0px solid white;
 	box-shadow: inset -3px -3px 0 0 #1AEDFF; !primarycolor
-	background: black;
+	background: <<colour foreground>>;
 }

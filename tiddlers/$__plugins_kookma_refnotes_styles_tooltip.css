@@ -11,8 +11,8 @@
 
 .refnotes-tooltip .refnotes-tooltiptext {
 	visibility: hidden;
-	background-color: #111111;
-	color: #f1f1f1; 
+	background-color: <<colour background>>;
+	color: <<colour foreground>>; 
 	text-align: left;
 	max-width: 20em;
 	max-height:30em;
@@ -31,7 +31,7 @@
 	bottom: 100%;
 	left: 50%;
 	margin-left: -40px;
-	box-shadow:0 4px 10px 0 #1aedff,0 4px 20px 0 rgba(0,0,0,0.19);
+	box-shadow:0 4px 10px 0 <<colour primary>>,0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .refnotes-tooltip:hover .refnotes-tooltiptext {

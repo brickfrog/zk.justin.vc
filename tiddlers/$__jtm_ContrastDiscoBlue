@@ -2,7 +2,7 @@ alert-background: #f00
 alert-border: <<colour background>>
 alert-highlight: <<colour foreground>>
 alert-muted-foreground: #800
-background: #111111
+background: #000000
 blockquote-bar: <<colour muted-foreground>>
 button-background: <<colour background>>
 button-foreground: <<colour foreground>>
@@ -46,7 +46,7 @@ primary: #1aedff
 select-tag-background: 
 select-tag-foreground: 
 sidebar-button-foreground: <<colour foreground>>
-sidebar-controls-foreground-hover: <<colour background>>
+sidebar-controls-foreground-hover: <<colour primary>>
 sidebar-controls-foreground: <<colour foreground>>
 sidebar-foreground-shadow: rgba(0,0,0, 0)
 sidebar-foreground: <<colour foreground>>
@@ -75,8 +75,8 @@ table-footer-background: #a8a8a8
 table-header-background: #484848
 tag-background: #a3be8c
 tag-foreground: <<colour foreground>>
-tiddler-background: <<colour background>>
-tiddler-border: <<colour foreground>>
+tiddler-background: #111111
+tiddler-border: <<colour background>>
 tiddler-controls-foreground-hover: #ddd
 tiddler-controls-foreground-selected: #fdd
 tiddler-controls-foreground: <<colour foreground>>

@@ -1,0 +1,2 @@
+filter: [!is[system]] +[limit[1000]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/filter/nodes

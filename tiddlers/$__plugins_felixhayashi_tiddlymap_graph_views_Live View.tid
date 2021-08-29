@@ -1,12 +1,15 @@
+config.neighbourhood_directions: 
 config.neighbourhood_focus_newly_traced_node: false
 config.neighbourhood_include_traced_node_neighbours: false
-config.neighbourhood_scope: 3
+config.neighbourhood_scope: 2
 config.neighbourhood_trace_clicks: false
 config.physics_mode: true
+config.raster: 
 config.refresh-triggers: $:/temp/tmap/currentTiddler
+config.show_inter_neighbour_edges: false
 config.vis: {"physics":{"forceAtlas2Based":{"springConstant":0.09}}}
 created: 20150331114808577
 isview: true
-modified: 20210828124742458
+modified: 20210829100249491
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki

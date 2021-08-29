@@ -1,0 +1,7 @@
+config.central-topic: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
+config.neighbourhood_scope: 100
+config.physics_mode: false
+created: 20210829095028515
+isview: true
+modified: 20210829095028515
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default

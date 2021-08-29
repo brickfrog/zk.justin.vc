@@ -1,7 +1,8 @@
 caption: Toolbar - title
 created: 20200314154628735
-modified: 20210827202630696
+modified: 20210829185538774
 order: 9
+tags: $:/tags/plugin-tweaks
 title: $:/plugins/tg/layout/settings-toolbar-up
 
 !!Tiddler toolbar settings

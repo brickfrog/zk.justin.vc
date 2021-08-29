@@ -2,18 +2,18 @@ active-state-color: <<colour primary>>
 created: 20161212103011213
 creator: TonGerner
 list-after: $:/themes/tiddlywiki/vanilla/base
-modified: 20210827171257233
+modified: 20210829185605064
 modifier: TonGerner
 sidebar-top: 0px
 story-river-top: 0px
 tags: $:/tags/Stylesheet
 tiddler-button-size: 0.6em
 tiddler-button-spacing: 0px
-tiddler-padding-top: 25px
+tiddler-padding-top: 5px
 title: $:/plugins/tg/layout/styles
 title-toolbar-spacing: 1.3em
 topbar-background-color: <<colour page-background>>
-topbar-height: 45px
+topbar-height: 60px
 
 <pre>/* LAYOUT SETTINGS */
 

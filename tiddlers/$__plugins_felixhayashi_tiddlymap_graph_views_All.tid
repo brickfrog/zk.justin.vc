@@ -1,0 +1,5 @@
+config.physics_mode: false
+config.vis: {"nodes":{"color":{"background":"rgba(175,69,170,1)","border":"rgba(126,130,125,1)"},"font":{"color":"rgba(255,255,255,1)"}}}
+id: 4c27ba3f-4577-4aa9-b4bc-3a8f8f822b92
+isview: true
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/All

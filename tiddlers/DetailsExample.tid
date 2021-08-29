@@ -1,0 +1,15 @@
+created: 20210829153937781
+modified: 20210829204650272
+tags: Examples
+title: DetailsExample
+tmap.id: 87dc5575-8f14-4261-9272-db954d854396
+
+This doesn't seem to like * formatting, maybe figure this out later. See below:
+
+<$details tiddler="ExternalLinks"> {{ExternalLinks}} </$details>
+
+<$details>
+* Test
+** Testing
+* Test 2
+ </$details>
