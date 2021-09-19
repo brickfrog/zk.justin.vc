@@ -1,7 +1,7 @@
 created: 20210528153225122
 description: I mean, it's a home page
 list: Home/Navigation Home/Structure Home/About Home/Recent
-modified: 20210829211225588
+modified: 20210919085403670
 tags: Meta
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
@@ -25,7 +25,7 @@ type: text/vnd.tiddlywiki
 </style>
 
 @@.center
-<i>café</i> <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.m.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
+<i>café</i>  <<fnote "ASCII art is fun - for those curious as to the [[what|https://en.m.wikipedia.org/wiki/Snufkin]] specifically the art is of">>
 @@
 
 <<tabs 

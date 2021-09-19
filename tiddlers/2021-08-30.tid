@@ -1,0 +1,15 @@
+created: 20210830104012317
+modified: 20210830233211710
+tags: Journal
+title: 2021-08-30
+tmap.id: 1e17d356-c7d3-40e8-9221-7be3e7c6623e
+
+!! Doing
+[ ] Finish Case of Conscience
+[x] Typing Practice
+[x] Progress on Compiler
+
+Today's goal will most likely be to finish [[CaseOfConscience]], getting behind on my fiction reading. Additionally would like to start reading: https://mukulrathi.co.uk/create-your-own-programming-language/intro-to-compiler/, which is the beginning of making a programming language. Thought it'd be neat to understand how the [[LLVM]] compiler works. Creating a "Class" for it at: CreatingBolt.  <<fnote "Should tutorials be classes?  Hmm">>
+
+I would note that for the time, I'll probably shelf the Bolt class, I was able to read through the first two posts and understand what was going on. Might need to let it roll around in my head some. Definitely interesting, though.
+

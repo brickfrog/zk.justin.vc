@@ -34,8 +34,8 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
   "y": -1949
  },
  "467ff14d-2540-49df-a78c-7587a5005aa8": {
-  "x": -1929,
-  "y": -365
+  "x": -1326,
+  "y": -427
  },
  "1a107be4-5e68-474c-b4ba-d84703d1f75c": {
   "x": 906,
@@ -508,5 +508,29 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
  "a6143e27-925b-4ab4-8137-837453d2c4f6": {
   "x": -18,
   "y": 61
+ },
+ "3765fe28-9fdb-42c5-820a-34059f04273e": {
+  "x": -82,
+  "y": -29
+ },
+ "3b7ba9fe-f6b5-4da5-bc07-45cfff1fd27f": {
+  "x": -80,
+  "y": 65
+ },
+ "290f6ce9-5876-4e07-87d4-c012b5f270b3": {
+  "x": 56,
+  "y": -39
+ },
+ "1e17d356-c7d3-40e8-9221-7be3e7c6623e": {
+  "x": 119,
+  "y": 58
+ },
+ "d701b5f0-7d2c-4f28-9962-1389b068c7c4": {
+  "x": 8,
+  "y": -82
+ },
+ "9c0d6020-a8af-49c4-8d1d-7b205788668f": {
+  "x": -129,
+  "y": -86
  }
 }

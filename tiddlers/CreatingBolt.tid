@@ -1,0 +1,24 @@
+author: MukulRathi
+caption: Creating the Bolt Compiler
+completed: 
+created: 20210830104830006
+medium: blog
+modified: 20210830222823273
+rating: 
+readstatus: unread
+tags: Source Class Code
+title: CreatingBolt
+tmap.id: 290f6ce9-5876-4e07-87d4-c012b5f270b3
+url: https://mukulrathi.co.uk/create-your-own-programming-language/intro-to-compiler/
+year: 2020
+
+A series of blog posts on creating your own ProgrammingLanguage with Ocaml, C++, and [[LLVM]].
+
+Supplementary materials:
+
+* [[LLVMSharp|https://github.com/Microsoft/LLVMSharp]] - LLVM bindings for .NET, using C# + ClangSharp
+* [[OCaml Dune|https://mukulrathi.co.uk/ocaml-tooling-dune/]] - build system for OCaml
+* [[OCaml Testing Frameworks|https://mukulrathi.co.uk/ocaml-testing-frameworks/]]
+* [[Bolt documentation|https://mukul-rathi.github.io/bolt/]]
+
+This is actually fascinating stuff, and definitely a TODO to come back to. A little bit over my head right now.
