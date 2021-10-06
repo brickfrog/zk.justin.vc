@@ -1,0 +1,9 @@
+created: 20210314224331000
+modified: 20210314224416000
+tags: 
+title: Carhart's Four-Factor model
+tmap.id: ef0c2cb4-092e-44b0-be7d-1fc50689042c
+
+Extension of [[Fama-French Three-Factor Model]] with an additional factor. This was written in 1997, might possibly be superseded by the [[Fama-French Five-Factor Model]].
+
+paper: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1997.tb03808.x

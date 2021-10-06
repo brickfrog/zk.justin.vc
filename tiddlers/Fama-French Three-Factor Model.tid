@@ -1,0 +1,15 @@
+created: 20210314221501000
+modified: 20210314221751000
+tags: 
+title: Fama-French Three-Factor Model
+tmap.id: 6c6aacf6-ede2-4926-a90a-932a59e8f3cf
+
+Extension of popular [[Capital Asset Pricing Model (CAPM)]] with addition of two factors including small/big market cap and high-low)
+
+$$E(r_i) = r_f + \alpha + \beta_{mkt}(E(r_m) - r_f + \beta_{smb}SMB+\beta_{hml}HML$$
+
+Model details: http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html
+
+Paper: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.139.5892&rep=rep1&type=pdf
+
+TODO: Populate with how to do in various programming languages.

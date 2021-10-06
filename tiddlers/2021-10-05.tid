@@ -1,0 +1,19 @@
+created: 20211005124217145
+modified: 20211005201557696
+tags: Journal
+title: 2021-10-05
+tmap.id: 3dfc8cac-5b4c-43b3-aeb1-f04e93bdf1e4
+
+!! Doing
+* Catching up on youtube  backlog
+!! Watching
+* https://www.youtube.com/watch?v=qUL7QabcKcw
+**[[Ploomber]] 
+*** Modularization of code
+* [[Probability Distributions you should know as a Data Scientist|https://www.youtube.com/watch?v=CF0l5zw4t9s]]
+* [[Protecting Your Machine Learning Against Drift: An Introduction|https://www.youtube.com/watch?v=tL5sEaQha5o]]
+** [[Maximum Mean Discrepancy]]
+** [[alibi-detect|https://github.com/SeldonIO/alibi-detect]]
+!! Reading
+* [[Why XGBoost can’t solve all your problems|https://towardsdatascience.com/why-xgboost-cant-solve-all-your-problems-b5003a62d12a]]
+** https://en.wikipedia.org/wiki/Universal_approximation_theorem

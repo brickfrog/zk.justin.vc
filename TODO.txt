@@ -1,0 +1,4 @@
+Ideas external to blog itself:
+
+* Programatic posting to linkedin, twitter, etc.
+* machine learning on tiddlers?

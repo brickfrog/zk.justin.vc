@@ -1,10 +1,10 @@
 21/7/25
 
-OS: Windows 10 Pro [64-bit]
-Motherboard: MEG X570 ACE (MS-7C35)
-Shell: PowerShell v7.1.3
-Resolution: 2560x1440, 1080x1920, 1080x1920, 1080x1920
-Terminal: Windows Terminal
-CPU: AMD Ryzen 9 3900X 12-Core Processor
-GPU: NVIDIA GeForce RTX 2080
-Memory: 32.15 GiB / 127.9 GiB (25%)
+*OS: Windows 10 Pro [64-bit] <<fnote "Yeah, yeah, I know, don't hassle me about this. The year of the 'pure' Linux desktop is out of reach for me as of yet. I'm fine with WSL2 for now.">>
+*Motherboard: MEG X570 ACE (MS-7C35)
+*Shell: PowerShell v7.1.3
+*Resolution: 2560x1440, 1080x1920, 1080x1920, 1080x1920
+*Terminal: Windows Terminal
+*CPU: AMD Ryzen 9 3900X 12-Core Processor
+*GPU: NVIDIA GeForce RTX 2080
+*Memory: 32.15 GIB / 127.9 GIB (25%)
