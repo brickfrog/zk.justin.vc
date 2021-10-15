@@ -1,0 +1,12 @@
+created: 20211009173753250
+modified: 20211009173934673
+source: https://github.com/alteryx/featuretools
+tags: Python Package DataScience MachineLearning FeatureEngineering
+title: Featuretools
+tmap.id: 62f79346-b658-476e-aa20-e5389ff6236f
+url: https://docs.featuretools.com/en/stable/
+
+Featuretools is a [[Python]] library for automated [[FeatureEngineering]].
+
+*Whitepaper
+** [[Deep feature synthesis: Towards automating data science endeavors|https://dai.lids.mit.edu/wp-content/uploads/2017/10/DSAA_DSM_2015.pdf]].

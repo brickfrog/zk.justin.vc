@@ -1,0 +1,12 @@
+created: 20211013221936316
+modified: 20211013222233733
+tags: DeveloperConcepts
+title: CargoCultProgramming
+tmap.id: 7ea75a6f-d8be-4d1e-9ff0-e49f1679d7fe
+wiki:   https://en.wikipedia.org/wiki/Cargo_cult_programming
+
+An idiom for ritual inclusion of code or programming structures that server no real purpose. 
+
+> "Cargo cult programming can also refer to the practice of applying a design pattern or coding style blindly without understanding the reasons behind that design principle. Some examples are adding unnecessary comments to self-explanatory code, overzealous adherence to the conventions of a programming paradigm, or adding deletion code for objects that garbage collection automatically collects."
+
+I would note that some of these are useful, but maybe if you're obsessively checking nulls and such maybe a different tool would be in order.

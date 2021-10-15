@@ -1,0 +1,13 @@
+created: 20211009172311147
+modified: 20211009173503811
+source: https://github.com/pycaret/pycaret
+tags: Python AutoML Package
+title: PyCaret
+tmap.id: a43782d6-8909-4cfe-b9ed-e1aa6f6b6e37
+url: https://pycaret.org
+
+{{!url}}
+
+[[AutoML]] framework for [[Python]]. Very dependency heavy, and somehow runs faster than other comparable options, I think it might subset data during training, otherwise I'm not sure how it finishes so quickly. <<fnote "Booooooooooo">>
+
+ Need to investigate. Otherwise, it's a decent choice for a quick-and-dirty analysis, but I'm not too much a fan of automation in anything critical.

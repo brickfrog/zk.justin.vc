@@ -1,0 +1,17 @@
+created: 20211009140744639
+modified: 20211009170906818
+tags: Journal
+title: 2021-10-09
+tmap.id: 831e6703-011d-42c6-ad80-9aff302590c5
+
+!! Doing
+* Catching up on reading & videos and such
+!! Watching
+* [[Fun with Redis: Creating a Reactive Architecture Using Redis and Microservices|https://www.youtube.com/watch?v=YEOoJZ13JtI]]
+** Key idea: Time-based events in redit used in reactive architecture
+*** [[Redis]] as the message-bus
+*** TTL (time to live?) on records -> emit expire event -> consumer "listening" triggers, etc.
+!! Reading
+* https://earthly.dev/blog/awk-examples/
+* https://antonsruberts.github.io/propensity-model/?utm_medium=social&utm_source=linkedin&utm_campaign=postfity&utm_content=postfity7a23e
+** [[PropensityModeling]], [[ComposeML]], [[Featuretools]], [[PyCaret]] 

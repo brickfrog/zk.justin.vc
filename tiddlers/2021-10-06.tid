@@ -1,5 +1,5 @@
 created: 20211006145429908
-modified: 20211006190413382
+modified: 20211006210216271
 tags: Journal
 title: 2021-10-06
 tmap.id: 300d6740-0f9d-4e4c-aad8-f35b639f6a6f
@@ -11,3 +11,5 @@ tmap.id: 300d6740-0f9d-4e4c-aad8-f35b639f6a6f
 !! Reading
 * [[How to say nothing in 500 words|https://adamsinger.substack.com/p/how-to-say-nothing-in-500-words]]
 ** "when every company is a media company, effective communication is an almost unfair advantage."
+* https://hydra.cc/docs/intro/
+** Hydra, software for making config in complex applications eas(ier)

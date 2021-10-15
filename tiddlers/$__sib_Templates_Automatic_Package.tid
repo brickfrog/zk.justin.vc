@@ -1,0 +1,29 @@
+created: 20211009172840850
+description: Display a table of fields and other information about the software package described by this tiddler
+list-after: $:/sib/Templates/Automatic/SpoilerBanner
+modified: 20211009173425960
+tags: $:/tags/ViewTemplate
+title: $:/sib/Templates/Automatic/Package
+transcludedin: All tiddlers tagged <<tag Package>>.
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[Package]]">
+
+<table class="packageDeetsTable">
+	<tr>
+		<th>Documentation</th>
+		<td>{{!!url}}</td>
+	</tr>
+	<tr>
+		<th>Source code</th>
+		<td>{{!!source}}</td>
+	</tr>
+</table>
+
+<style>
+.sourceDeetsTable tr th {
+	text-align: right;
+}
+</style>
+
+</$list>

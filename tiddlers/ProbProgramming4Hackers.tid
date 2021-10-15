@@ -1,0 +1,34 @@
+author: [[Cam Davidson-Pilon]]
+caption: Probabilistic Programming and Bayesian Methods for Hackers
+completed: 
+created: 20211009174046104
+medium: Book
+modified: 20211009223027990
+rating: 
+readstatus: unread
+tags: Source DataScience Probability Statistics Python
+title: ProbProgramming4Hackers
+tmap.id: 3cfbda45-0adc-49b2-b6ca-56490703db6a
+url: https://nbviewer.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb
+year: 2016
+
+A book on a bayesian approach to inference, utilizing [[Python]]] and [[PyMC3]] (technically there's PyMC2 and TensorflowProbability versions, but I'm using 3) written in a [[Jupyter]] notebook. Will try to coalesce the key findings here, and maybe turn these into [[Anki]] or [[Orbit]] cards.
+
+*Discussion of [[Bayesian]] vs. [[Frequentist]] methods
+** Large N discussion
+*** "Sample sizes are never large. If N is too small to get a sufficiently-precise estimate, you need to get more data (or make more assumptions). But once N is "large enough," you can start subdividing the data to learn more (for example, in a public opinion poll, once you have a good estimate for the entire country, you can estimate among men and women, northerners and southerners, different age groups, etc.). N is never enough because if it were "enough" you'd already be on to the next problem for which you need more data." - [[Andrew Gelman]] 
+* Probability Distributions
+** If Z is discrete, then its distribution is called a probability mass function, which measures the probability Z takes on the value k, denoted P(Z=k).
+*** E[Z|λ]=λ, example, Poisson
+*** <<rememberq "20211009212728913"
+	" if Z is discrete, what function does it's distribution have?"
+	"A probability mass function" >>
+** Instead of a probability mass function, a continuous random variable has a probability density function.
+*** E[Z|λ]=1/λ, example, Exponential
+*** <<rememberq "20211009212939816"
+	"if Z is continous, what function does it's distribution have?"
+	"A probability density function">>
+** What is λ?
+*** In real world, λ is hidden from us, we see Z and must work backwards to try and determine it
+*** Bayesian inference is concerned with beliefs about what λ may be
+*** It is entirely acceptable to have beliefs about λ

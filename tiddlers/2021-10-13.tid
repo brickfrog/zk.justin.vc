@@ -1,0 +1,36 @@
+created: 20211013143639024
+modified: 20211014041354561
+tags: Journal
+title: 2021-10-13
+tmap.id: 35b08820-048c-402a-ba0b-22e27afdca47
+
+!! Doing
+* EuroPy released the last batch of their videos for their conference. Probably going to just list what I watch here instead of making it a source(?). Still not sure which is better, might deprecate less instead just linking key themes for each.
+* Tinkering around with questgenanki - need to add the actual card making part
+!! Watching
+* [[Principles of System Integration|https://www.youtube.com/watch?v=Cv3rQYgM-1I]]
+* [[Is Domain-Driven Design Overrated? • Stefan Tilkov • GOTO 2021|https://www.youtube.com/watch?v=ZZp9RQEGeqQ]]
+** Core idea: focus on the domain vs. shiny object syndrome
+*** Focus on the core domain
+** Tactical patterns
+*** Don't be overly literal, do things in the context of your team
+** Strategic design (most important?)
+*** context maps to visualize bounded contexts (customer -> fulfilment vs accounting vs order management) 
+*** UbiquitousLanguage
+*** DomainAllergy
+* [[Itamar Turner-Trauring - Measuring memory: Python memory profilers and when to use them|https://www.youtube.com/watch?v=s_xWflagwbo]]
+** filprofiler + https://pythonspeed.com
+* [[M. Ristin, P. Schanely, L. De bruyn - Automatic Testing of Python Functions Based on Contracts|https://www.youtube.com/watch?v=ynRdJR5UQWY]]
+** Issues with property based testing (hypothesis) - catching bugs in production
+** icontract?
+*** uses decorators, require + ensure, where you can put assert statements
+*** this lives (closer) to the code
+** but these are complementary - use all available to you, proper naming, type annotations, docstrings, unit tests, rpoeprty-based tests, contracts
+** [[icontract]] + [[hypothesis]], a combination
+** CrossHair - symbolic execution, checking contracts
+* [[David Beazley - No, not typing. Types.|https://www.youtube.com/watch?v=rLRNY5iSvk0]]
+* [[Augusto Stoffel - Graph neural networks for information extraction with PyTorch|https://www.youtube.com/watch?v=LxCeMJXuFpo]]
+** PyTorchGeometric
+ 
+!! Reading
+*
