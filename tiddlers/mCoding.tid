@@ -1,0 +1,53 @@
+author: mCoding
+caption: mCoding
+created: 20211114170905641
+medium: video
+modified: 20211114220624556
+tags: Source YouTube Python
+title: mCoding
+tmap.id: 8940050f-8d35-499e-bae0-7c6cb604086b
+url: [[Link|https://www.youtube.com/channel/UCaiL2GDNpLYH6Wokkk1VNcg]]
+year: 2021
+
+Youtuber focused on [[Python]] coding. Seems to also cover math and [[C++]] to a lesser scale.
+
+<style>
+table.mcoding tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.mcoding tr td:nth-child(3) {
+	max-width: 20em;
+}
+</style>
+
+<table class="sortable">
+<thead>
+	<tr>
+		<th>Name</th>
+    <th>Uploaded</th>
+		<th>Link</th>
+	</tr>
+</thead>
+<tbody>
+	<$list filter="[tag[mCoding]!has[draft.of]!sort[upload-date]]">
+		<tr>
+			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+      <td>{{!!upload-date}}</td>
+			<td><a target="_blank" rel="noopener noreferrer" href={{!!url}}></a></td>
+		</tr>
+	</$list>
+</tbody>
+</table>
+
+<$button>
+	<$action-sendmessage
+		$message="tm-new-tiddler"
+		title="2021"
+		tags="mCoding"
+		caption="title"
+    url=""
+    upload-date=2021
+		text="*"/>
+	New Session
+</$button>

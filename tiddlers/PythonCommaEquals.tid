@@ -1,0 +1,12 @@
+caption: Python's comma equals ,= operator?
+created: 20211114220133436
+modified: 20211114221358712
+tags: mCoding
+title: PythonCommaEquals
+tmap.id: 24cdcaf1-ffe7-4807-8df1-a32e1317fc53
+upload-date: Oct 18, 2020
+url: https://www.youtube.com/watch?v=KeIMUw22SZ8
+
+* Bit of a trick question video showing ,= e.g. x ,= [2] which results in 2
+** this works because of unpacking, essentially, compared to the known case of x,y = y,x
+** still kinda neat, could theoretically be asked somewhere in an interview, etc.

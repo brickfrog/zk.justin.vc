@@ -1,0 +1,12 @@
+caption: Goodbye, List! Type hinting standard collections - New in Python 3.9
+created: 20211114185807109
+modified: 20211114220106038
+tags: mCoding
+title: GoodbyeListTypeHinting
+tmap.id: 9263a48d-df8b-4e42-a5a9-2240def61337
+upload-date: Oct 15, 2020
+url: https://www.youtube.com/watch?v=SMXsIX3PZ5w
+
+* Type hinting for standard collections in 3.9
+** essentially using list[int] vs  List[int] from the typing module
+** abilit to get args and assign generic types from the typing module

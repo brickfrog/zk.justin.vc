@@ -1,0 +1,15 @@
+created: 20211022031433879
+modified: 20211023000827971
+tags: 
+title: CategoryTheory
+tmap.id: 6fd41aad-873c-40cb-995f-033f7d9cffb4
+
+A good Introduction:
+
+* https://www.quantamagazine.org/with-category-theory-mathematics-escapes-from-equality-20191010/
+** Equality vs. Equivalence
+** Higher Topos Theory (2009) - https://arxiv.org/abs/math/0608040
+** Homotopy Theory 
+
+> A category is a set with extra metadata: a description of all the ways that two objects are related to one another, which includes a description of all the ways two objects are equivalent. You can also think of categories as geometric objects in which each element in the category is represented by a point.
+

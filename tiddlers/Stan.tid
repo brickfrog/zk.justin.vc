@@ -1,0 +1,25 @@
+created: 20211102020912757
+modified: 20211102041524930
+tags: C++ Python Platform R DSL
+title: Stan
+tmap.id: b7556927-781e-4797-9c97-eebf94594e10
+
+A platform for statistical modeling and computation. (https://mc-stan.org)
+
+Has bindings in Python, R, I believe original is C++ <<fnote "I think this counts as a DSL">>  I haven't worked with it myself (yet) but I've seen it mentioned by coworkers in medical/pharma.
+
+* Learnings:
+** creator worked with AndrewGelman, interesting and motivating factor was election/polling data wrt healthcare reform (~2009)
+*** Language
+**** users define the data, parameters, and the model
+***** Bayesian Inference; Markov Chain Monte Carlo (MCMC)
+***** Approximate Bayesian Inference
+***** Optimization
+**** Interfaces
+***** Python, R , Julia, Cmd line, C++
+*** Usefulness?
+**** Knowledge about the data generating process
+**** model is complicated / hierarchical / custom
+**** relatively small data
+**** no built in models
+**** need to know mcmc, computation, autodiff

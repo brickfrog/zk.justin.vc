@@ -1,0 +1,21 @@
+created: 20211102020718303
+modified: 20211102090053171
+tags: Journal
+title: 2021-11-01
+tmap.id: c961963b-cf8f-4962-a607-39cd0632f314
+
+!! Doing
+* Couple PyData videos were uploaded, watching them
+* Found this neat site: https://calmcode.io
+** [[deon]]
+!! Watching
+* [[Stan: why does it exist? when is it useful?|https://www.youtube.com/watch?v=SBmqnd1W_iA]]
+** [[Stan]]
+* [[Real-Time ML services: From ideation to production|https://www.youtube.com/watch?v=fOYSk702AHc]]
+** Think about legacy reactive solutions first to allay into proactive
+** Mostly known things, e.g. use data versioning, CI, etc. etc.
+** [[Streamlit]] as an alternative to reporting
+* [[ 10x smaller docker containers for Data Science|https://www.youtube.com/watch?v=Z1Al4I4Os_A]]
+** 
+!! Reading
+* Found https://koaning.io

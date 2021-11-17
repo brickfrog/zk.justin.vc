@@ -1,0 +1,18 @@
+author: ArjanCodes
+caption: 
+completed: 
+created: 20211030073541146
+medium: video
+modified: 20211102020635762
+rating: 
+tags: Source YouTube
+title: ArjanCodes
+tmap.id: 8940050f-8d35-499e-bae0-7c6cb604016b
+url: [[Link|https://www.youtube.com/channel/UCVhQ2NnY5Rskt6UjCUkJ_DA]]
+year: 2021
+
+Youtuber focused on [[Python]] coding. Trying out a thing where I just put all the videos in a single source. Might split up if need be.
+
+* [[Cohesion and Coupling|https://www.youtube.com/watch?v=eiDyK_ofPPM&list=PLC0nd42SBTaNuP4iB4L6SJlMaHE71FG6N]]
+** Cohesion, code that does one thing well, not trying to do too many things
+** Coupling, dependency on objects between eachother, try to reduce

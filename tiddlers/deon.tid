@@ -1,0 +1,10 @@
+created: 20211102090115049
+modified: 20211102090230019
+source: https://github.com/drivendataorg/deon/
+tags: Package Python DataScience
+title: deon
+tmap.id: 633b0f19-edb0-40c0-a8e9-60bb0198b44f
+type: 
+url: https://deon.drivendata.org
+
+It's basically a [[CheckList]] for DataScience ethics. Kinda neat. Might be useful while working, or to at least be aware of it.

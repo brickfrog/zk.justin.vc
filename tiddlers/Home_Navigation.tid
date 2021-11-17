@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20211004131201840
+modified: 20211021203223433
 tags: Meta
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
@@ -17,3 +17,14 @@ Most Tiddlers, assuming they have content, are hoverable, that is, you can hover
 Various FontAwesome5 post-link icons are there to at-a-glacnce show where an external link leads to.
 
 Additionally, there's footnotes <<fnote "Beep.">>, which are either for fun or to link quotes and sources depending on topic.
+
+It generally follows a wiki-esque format of notes that are pretty self explanatory, see the links below for more details. Uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki. 
+
+Additionally, I  draw inspiration from [[Gwern|https://gwern.net]], from whom I at least (partially) mirrored in some formatting.  I plan to focus more on general notes and learnings. I would like to eventually venture into longform writing more, but that remains a future goal.
+
+The following should more helpfully explain the metadata around the Wiki:
+
+* [[DesignMotivation]]
+* TagColors
+* CardTypes
+* [[TagManager|$:/TagManager]]

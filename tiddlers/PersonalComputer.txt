@@ -8,3 +8,5 @@
 *CPU: AMD Ryzen 9 3900X 12-Core Processor
 *GPU: NVIDIA GeForce RTX 2080
 *Memory: 32.15 GIB / 127.9 GIB (25%)
+
+I ended up creating a Arch Linux partition and have been futzing with NixOS, but, free software arguments aside, the polish in Windows wrt to scrolling, audio, etc. is difficult to beat. (Even with imwheel you can't really replicate scrolling as well as I'd like, alas)
