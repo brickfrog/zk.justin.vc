@@ -2,7 +2,7 @@ caption: {{$:/plugins/tg/tiddlersbar/image-tiddlersbar-on}} tiddlersbar
 created: 20170325114731405
 creator: TonGerner
 description: Toggle tiddlersbar on/off
-modified: 20211120010854397
+modified: 20211120040953154
 modifier: TonGerner
 tags: $:/tags/PageControls
 title: $:/plugins/tg/tiddlersbar/button

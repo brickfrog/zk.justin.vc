@@ -1,7 +1,7 @@
 created: 20210528153225122
 description: I mean, it's a home page
-list: Home/Navigation Home/About Home/Map Home/Recent
-modified: 20211120033956692
+list: Home/Navigation Home/About Home/Map Home/Recent Home/Calendar
+modified: 20211120041518707
 tags: Meta
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
@@ -32,4 +32,3 @@ type: text/vnd.tiddlywiki
 
 <hr class="solid">
 <br>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" style="color:#FFFFFF"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />

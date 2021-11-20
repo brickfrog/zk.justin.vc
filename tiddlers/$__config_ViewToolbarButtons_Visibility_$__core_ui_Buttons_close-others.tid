@@ -1,5 +1,5 @@
 created: 20210828175053651
-modified: 20210828175300432
+modified: 20211120040655247
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others
 
-show
+hide

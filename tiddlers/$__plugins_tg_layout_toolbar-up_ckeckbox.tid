@@ -1,8 +1,8 @@
 created: 20200316192402200
-modified: 20210829185538773
+modified: 20211120041041634
 tags: 
 title: $:/plugins/tg/layout/toolbar-up/ckeckbox
-up: yes
+up: no
 
 <$checkbox
 field="up"

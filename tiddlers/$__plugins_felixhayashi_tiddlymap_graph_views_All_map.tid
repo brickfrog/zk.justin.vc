@@ -756,5 +756,21 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
  "5b7ae96f-ed01-4a03-9ec7-ed106c5260eb": {
   "x": -100,
   "y": 515
+ },
+ "478f8f91-a518-4705-8ae0-716818ca34f4": {
+  "x": 4,
+  "y": -4
+ },
+ "8fb1fe05-dfa9-42a1-8167-a7420ed89534": {
+  "x": -13,
+  "y": -24
+ },
+ "0a3f5249-cfb3-48ba-b509-c98ce95dfd5d": {
+  "x": 21,
+  "y": 17
+ },
+ "2460214b-e940-4024-946a-44b816397f10": {
+  "x": -28,
+  "y": 17
  }
 }
