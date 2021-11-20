@@ -2,18 +2,16 @@ caption: {{$:/core/images/menu-button}} top menu
 created: 20150710114656438
 creator: TonGerner
 description: Menu on top
-modified: 20210829082437274
+modified: 20211120023820314
 modifier: TonGerner
 tags: $:/tags/TopLeftBar
 title: $:/plugins/tg/topleftmenu/topmenu
 
 <div class="tgc-topmenu">
 {{$:/core/ui/Buttons/home}}
+{{$:/core/ui/Buttons/more-page-actions}}
 {{$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette}}
 [[justin.vc|https://www.justin.vc]]
-{{$:/core/ui/TopBar/menu}}
-&#x2758;
-[[About|Home/About]] · [[Reading|RecentlyReading]]
-&#x2758;
-{{Projects||$:/plugins/tg/topleftmenu/menu-template}}
+/
+[[Tags|TagCount]] / [[About|Home/About]] / [[Reading|RecentlyReading]] / connected thought
 </div>

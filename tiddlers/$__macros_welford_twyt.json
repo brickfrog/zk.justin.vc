@@ -1,0 +1,21 @@
+{
+    "tiddlers": {
+        "P:\\GitHub\\tiddlywikiplugins\\welford\\twyt\\.gitattributes": {
+            "title": "P:\\GitHub\\tiddlywikiplugins\\welford\\twyt\\.gitattributes",
+            "text": "# Auto detect text files and perform LF normalization\r\n* text=auto\r\n\r\n# Custom for Visual Studio\r\n*.cs     diff=csharp\r\n\r\n# Standard to msysgit\r\n*.doc\t diff=astextplain\r\n*.DOC\t diff=astextplain\r\n*.docx diff=astextplain\r\n*.DOCX diff=astextplain\r\n*.dot  diff=astextplain\r\n*.DOT  diff=astextplain\r\n*.pdf  diff=astextplain\r\n*.PDF\t diff=astextplain\r\n*.rtf\t diff=astextplain\r\n*.RTF\t diff=astextplain\r\n",
+            "type": "text/plain"
+        },
+        "$:/macros/welford/macros/tyif.js": {
+            "title": "$:/macros/welford/macros/tyif.js",
+            "text": "/*\\\r\ntitle: $:/macros/welford/macros/tyif.js\r\ntype: application/javascript\r\nmodule-type: macro\r\n\r\ncreates a youtube iframe, uses tiddler data if possible \r\n\\*/\r\n\r\n(function(){\r\n\r\n\"use strict\";\r\n\r\nexports.name = \"ytif\";\r\n\r\nexports.params = [\r\n\t{ name: \"name\" },\r\n\t{ name: \"code\" },\r\n\t{ name: \"start\" }\r\n];\r\n\r\n//stolen from Rich Shumaker http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html#%24%3A%2F.rich%2Fmacros%2Fyoutube-embed.js\r\n//might change this......\r\nvar seconds = function(time) {\r\n\tvar hms = time || \"00:00:00\";\r\n\tvar bits = hms.split(\":\");\r\n\tvar h = +bits[0], m = +bits[1], s = +bits[2];\r\n\treturn h*60*60 + m*60 + s;\r\n}\r\n\r\nexports.run = function(name, code, start) {\t\r\n\tstart = seconds(start);\r\n\tvar tiddler = this.wiki.getTiddler(this.getVariable(\"currentTiddler\"));\r\n\tif(tiddler) {\r\n\t\tif(\"yt-name\" in tiddler.fields && !name){\r\n\t\t\tname = tiddler.fields[\"yt-name\"];\r\n\t\t}\t\t\r\n\t\tif(\"yt-code\" in tiddler.fields && !code){\r\n\t\t\tcode = tiddler.fields[\"yt-code\"];\r\n\t\t}\r\n\t}\t\r\n\tname = name || \"default-iframe\";\r\n\tcode = code || \"jNQXAC9IVRw\";\r\n\tvar output = [\"<iframe class='ytif' name='\",name,\"' frameborder='0' theme=light  src='http://www.youtube.com/embed/\", code, \"?start=\", start,\"&theme=dark&color=red&wmode=opaque' allowfullscreen/>\\n\\n\"];\r\n\treturn output.join(\"\");\r\n};\r\n\r\n\r\n})();",
+            "type": "application/javascript",
+            "module-type": "macro"
+        },
+        "$:/macros/welford/macros/tylnk.js": {
+            "title": "$:/macros/welford/macros/tylnk.js",
+            "text": "/*\\\r\ntitle: $:/macros/welford/macros/tylnk.js\r\ntype: application/javascript\r\nmodule-type: macro\r\n\r\nupdates an existing YT iframe's time\r\n\\*/\r\n\r\n(function(){\r\n\r\n\"use strict\";\r\n\r\nexports.name = \"ytlnk\";\r\n\r\nexports.params = [\r\n\t{ name: \"start\" },\r\n\t{ name: \"name\" },\r\n\t{ name: \"code\" }\r\n\t\r\n];\r\n\r\n//stolen from Rich Shumaker http://www.richshumaker.com/tw5/TiddlyWiki-Hangouts.html#%24%3A%2F.rich%2Fmacros%2Fyoutube-embed.js\r\n//might change this......\r\nvar seconds = function(time) {\r\n\tvar hms = time || \"00:00:00\";\r\n\tvar bits = hms.split(\":\");\r\n\tvar h = +bits[0], m = +bits[1], s = +bits[2];\r\n\treturn h*60*60 + m*60 + s;\r\n}\r\n\r\nexports.run = function(start, name, code) {\t\r\n\tstart = start || \"0:00:00\";\r\n\tvar ms_start = seconds(start);\r\n\tvar tiddler = this.wiki.getTiddler(this.getVariable(\"currentTiddler\"));\r\n\tif(tiddler) {\r\n\t\tif(\"yt-name\" in tiddler.fields && !name){\r\n\t\t\tname = tiddler.fields[\"yt-name\"];\r\n\t\t}\t\t\r\n\t\tif(\"yt-code\" in tiddler.fields && !code){\r\n\t\t\tcode = tiddler.fields[\"yt-code\"];\r\n\t\t}\r\n\t}\t\r\n\tname = name || \"default-iframe\";\r\n\tcode = code || \"jNQXAC9IVRw\";\r\n\tvar output = [\"<a target='\",name,\"' href='http://www.youtube.com/embed/\", code, \"?start=\", ms_start,\"&autoplay=1&theme=dark&color=red&wmode=opaque'>\",start,\"</a>\"];\r\n\t//<a href=<<video 2037>> target=\"chandler\">@t=2037</a>\r\n\treturn output.join(\"\");\r\n};\r\n\r\n})();",
+            "type": "application/javascript",
+            "module-type": "macro"
+        }
+    }
+}

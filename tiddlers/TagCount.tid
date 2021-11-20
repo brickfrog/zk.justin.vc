@@ -1,0 +1,30 @@
+created: 20211120003901564
+modified: 20211120005800983
+tags: 
+title: TagCount
+tmap.id: 1f5ba1fc-310c-4f57-8a35-e9ad5a7aad05
+
+\define lingo-base() $:/language/TagManager/
+\define sub() [tagging[]count[]]
+
+
+<th><<lingo Tag/Heading>></th>
+<th><<lingo Count/Heading>></th>
+<$list filter="[tags[]!is[system]sort[title]!sortsub:integer<sub>]">
+<tr>
+<td>{{||$:/core/ui/TagTemplate}}</td>
+<td><$count filter="[all[current]tagging[]]"/></td>
+<td>
+<$macrocall $name="iconEditor" title={{!!title}}/>
+</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="1">
+<$reveal stateTitle={{{ [[$:/state/tag-manager/]addsuffix<currentTiddler>] }}} type="match" text="open" default="">
+<table>
+</table>
+</$reveal>
+</td>
+</tr>
+</$list>

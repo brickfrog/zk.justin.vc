@@ -1,0 +1,21 @@
+created: 20200113122827159
+modified: 20211120012244346
+tags: $:/tags/Stylesheet
+title: $:/plugins/tg/layout/button2top/style
+
+<pre>/* BUTTON TO TOP */
+.tgc-fixed-bottom {
+     display: block;
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+     padding: 8px;
+     background-color: <<colour page-background>>;
+}
+.tgc-button-color {
+     color: {{$:/plugins/tg/layout/styles!!active-state-color}};
+}
+.tgc-button-color:hover {
+     color: <<colour sidebar-controls-foreground-hover>>;
+}
+</pre>

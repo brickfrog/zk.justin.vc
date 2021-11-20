@@ -3,7 +3,7 @@ created: 20201210171047824
 dark-palette: $:/jtm/ContrastDiscoGrey
 description: Toggle between light/dark colour palette
 light-palette: $:/themes/nico/notebook/palettes/palette-beige
-modified: 20211012155158480
+modified: 20211120011652597
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

@@ -1,0 +1,4 @@
+/* REMOVE DESCRIPTIONS OF BUTTONS IN TOOLS TAB */
+.tc-sidebar-lists .tc-muted {
+     display:none;
+}

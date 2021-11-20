@@ -1,0 +1,9 @@
+author: James W. Anderson
+core-version: >=5.0.0
+dependents: 
+description: simple youtube macro
+list: readme
+plugin-type: plugin
+title: $:/macros/welford/twyt
+type: application/json
+version: 5.1.23
