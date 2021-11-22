@@ -1,6 +1,6 @@
 buttons: close
 created: 20211120034157567
-modified: 20211120034157567
+modified: 20211122015717642
 subtitle: {{$:/core/images/permalink-button}} Widget Code Generator
 title: $:/plugins/felixhayashi/tiddlymap/dialog/widgetCodeGenerator
 

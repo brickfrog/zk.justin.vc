@@ -1,0 +1,33 @@
+created: 20180925155320737
+creator: Thomas Elmiger
+modified: 20211120234434419
+modifier: Thomas Elmiger
+tags: $:/tags/Stylesheet
+title: $:/plugins/telmiger/details/colours.css
+
+/* details and summary colours */
+
+details {
+   background-color: <<colour background>>;
+   color: <<colour foreground>>;
+}
+
+details summary {
+   background-color: <<colour tab-background>>;;
+   color: <<colour tab-foreground>>;
+}
+
+details.notification summary {
+    background-color: <<colour background>>;
+    /* TW leaves color undefined/uses foreground */
+}
+
+details.warning summary {
+    background-color: #ffbbaf;
+    color: #000;
+}
+
+details.success summary {
+    background-color: #88edc5;
+    color: #000;
+}

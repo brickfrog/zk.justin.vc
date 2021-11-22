@@ -1,8 +1,8 @@
 calendar_background: MediumGray
-calendar_changes: cyan
+calendar_changes: NavajoWhite
 calendar_foreground: White
 calendar_showevents: yes
 created: 20210715005118621
-modified: 20211006145010649
+modified: 20211122021131302
 tags: 
 title: $:/config/TiddlyTools/Time

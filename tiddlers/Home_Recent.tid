@@ -1,10 +1,10 @@
 created: 20210725065512266
-modified: 20210725065529702
+modified: 20211121004405958
 tags: Meta
 title: Home/Recent
 tmap.id: 28abd52c-244b-470a-a046-19639e901480
 
-There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified) tiddlers. <<fnote "Generally I'll call these notes, because saying the word tiddler over and over is just kind of funny">> Further below are sectionals on navigation, structure, about, etc.
+There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified, which can be seen in the recent tab of the sidebar) tiddlers.
 
 <div class="wrapper">
 <div id="Recent" class="recently">

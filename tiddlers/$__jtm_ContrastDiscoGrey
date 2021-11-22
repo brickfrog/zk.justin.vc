@@ -64,7 +64,7 @@ sidebar-tiddler-link-foreground: <<colour primary>>
 site-title-foreground: <<colour tiddler-title-foreground>>
 static-alert-foreground: #aaaaaa
 tab-background-selected: #5c5c5c
-tab-background: <<colour background>>
+tab-background: #111111
 tab-border-selected: <<colour foreground>>
 tab-border: <<colour foreground>>
 tab-divider: <<colour foreground>>

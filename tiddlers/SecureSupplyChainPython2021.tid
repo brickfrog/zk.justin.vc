@@ -2,7 +2,7 @@ caption: Secure Software Supply Chains for Python
 completed: 20210625000000000
 created: 20210625032938939
 medium: video
-modified: 20210625035824997
+modified: 20211121233137674
 presenter: Dustin Ingram
 rating: good
 readstatus: read
@@ -15,7 +15,7 @@ year: 2021
 * ''Summary'':
 ** Explore the common Python software supply chain, various ways in which such a supply chain can be attacked, as well as protected. We'll examine some tools and methodologies that help improve supply-chain security, and discuss the challenges and benefits these tools provide
 * ''Thoughts'':
-** Good talk, I remember hearing about some of these attacks in the news and was curious on how some of them might be solved, it introduced new things to me such as pip-compile
+** I remember hearing about some of these attacks in the news and was curious on how some of them might be solved, it introduced new things to me such as pip-compile
 * ''Notes'':
 **  Software Supply Chain
 *** everything tha it takes to produce your software, all the dependencies, their dependencies, etc. etc. etc.

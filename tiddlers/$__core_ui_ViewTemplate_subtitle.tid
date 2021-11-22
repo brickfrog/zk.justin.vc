@@ -1,18 +1,45 @@
 created: 20210611074832773
-modified: 20210727193645312
+description: For editing what shows up beneath the title in tiddlers
+modified: 20211122010646759
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
 
 \whitespace trim
+\define color-style() color: $(itemColor)$;
 
 <$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+
 <div class="tc-subtitle">
 <div>
-<i class="fa fa-history"/>&ensp;Created&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
+<i class="fa fa-history"/>&ensp;&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
+&ensp;-&ensp;<$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}} />
 </div>
-<div>
-<i class="fa fa-clock"/>&ensp;Updated&nbsp;<$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}} />
+
+<$list filter="[all[current]!is[system]]">
+<$list filter="[all[current]tag[Source]]" variable=_>
+
+<div style="float: right; vertical-align: center;">
+<$list filter="[[$:/config/sib/IsPublicEdition]text[true]]" variable=_>
+	<span style={{{ [prefix[$:/sib/MediaRating/]caption{!!rating}get[color]addprefix[color: ]addsuffix[;]] }}}>rating</span></$link>:
+	<$select field="rating" default="">
+		<$list filter="[prefix[$:/sib/MediaRating]has[caption]!nsort[stackorder]]">
+			<$set name="itemColor" value={{!!color}}>
+				<option style=<<color-style>> value={{!!caption}}>{{!!caption}}</option>
+			</$set>
+		</$list>
+	</$select>
+</$list>
+<$list filter="[[$:/config/sib/IsPublicEdition]!text[true]]" variable=_>
+<$list filter="[all[current]has[rating]]">
+	[[Rating|MediaRating]]:&nbsp; <span style={{{ [prefix[$:/sib/MediaRating/]caption{!!rating}get[color]addprefix[color: ]addsuffix[;]] }}}>{{!!rating}}</span>
+</$list>
+</$list>
 </div>
+
+</$list>
+</$list>
+
 <$list filter="[all[current]has[description]]">
 	<div>
 	<i class="fa fa-gem"/>&ensp;{{!!description}}

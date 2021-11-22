@@ -226,8 +226,8 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
   "y": 1153
  },
  "6539b6c5-3d82-40be-904f-0c89be9035ad": {
-  "x": -1116,
-  "y": 969
+  "x": -1000,
+  "y": 1000
  },
  "f228e1d1-cb1b-4ed4-b79c-566577a11a38": {
   "x": -205,
@@ -772,5 +772,13 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
  "2460214b-e940-4024-946a-44b816397f10": {
   "x": -28,
   "y": 17
+ },
+ "bb04b299-8255-4b05-a6bd-ef436e7795ff": {
+  "x": 36,
+  "y": -12
+ },
+ "1cd834c1-e8a6-433c-adc5-8b8a5b246d67": {
+  "x": 2,
+  "y": 33
  }
 }
