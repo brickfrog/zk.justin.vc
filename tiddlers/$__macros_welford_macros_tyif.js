@@ -37,7 +37,7 @@ exports.run = function(code, start) {
 	}	
 	name = name || "default-iframe";
 	code = code || "jNQXAC9IVRw";
-	var output = ["<iframe class='yt' name='",name,"' frameborder='0' theme=light  src='http://www.youtube.com/embed/", code, "?start=", start,"&theme=dark&color=red&wmode=opaque' allowfullscreen/>\n\n"];
+	var output = ["<iframe class='yt' name='",name,"' frameborder='0' theme=light  src='https://www.youtube.com/embed/", code, "?start=", start,"&theme=dark&color=red&wmode=opaque' allowfullscreen/>\n\n"];
 	return output.join("");
 };
 
