@@ -1,6 +1,0 @@
-created: 20200721233146544
-modified: 20200722075846331
-tags: $:/tags/PageTemplate
-title: $:/plugins/sq/floats/pagetemplate
-
-<$floatmanager persist={{$:/config/sq/floats/persist}} state="$:/plugins/sq/floats/state/floatmanager"/>

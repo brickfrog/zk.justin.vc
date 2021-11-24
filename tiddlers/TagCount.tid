@@ -1,5 +1,5 @@
 created: 20211120003901564
-modified: 20211122042538255
+modified: 20211124065210239
 tags: 
 title: TagCount
 tmap.id: 1f5ba1fc-310c-4f57-8a35-e9ad5a7aad05
@@ -7,7 +7,6 @@ tmap.id: 1f5ba1fc-310c-4f57-8a35-e9ad5a7aad05
 \define lingo-base() $:/language/TagManager/
 \define sub() [tagging[]count[]]
 
-<div class="wrapper">
 <div id="Recent" class="recently">
 <$list filter="[tags[]!is[system]sort[title]!sortsub:integer<sub>]">
 <tr>
@@ -27,5 +26,4 @@ tmap.id: 1f5ba1fc-310c-4f57-8a35-e9ad5a7aad05
 </td>
 </tr>
 </$list>
-</div>
 </div>
