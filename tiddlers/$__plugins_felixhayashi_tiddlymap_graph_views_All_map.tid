@@ -774,11 +774,23 @@ title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/map
   "y": 17
  },
  "bb04b299-8255-4b05-a6bd-ef436e7795ff": {
-  "x": 36,
-  "y": -12
+  "x": 100,
+  "y": 100
  },
  "1cd834c1-e8a6-433c-adc5-8b8a5b246d67": {
   "x": 2,
   "y": 33
+ },
+ "bc940732-f360-4186-8ffb-319f692cc053": {
+  "x": 65,
+  "y": 7
+ },
+ "ed74e8e2-be4c-43c1-be95-78c9c0e65840": {
+  "x": 29,
+  "y": 64
+ },
+ "1e62a486-06e0-4d33-bbd2-e9eded6eda89": {
+  "x": -95,
+  "y": -108
  }
 }

@@ -1,5 +1,5 @@
 created: 20210728025017791
-modified: 20210729003139918
+modified: 20211122040835429
 tags: $:/tags/Stylesheet
 title: $:/plugins/tobibeer/appear/styles
 
@@ -7,21 +7,17 @@ title: $:/plugins/tobibeer/appear/styles
 
 <pre>.tc-reveal.appear-block,
 .tc-popup.appear {
-	border-radius: 2px;
+	border-radius: 5px;
 	padding: 1px 1em;
-  position: fixed;
-  <<box-shadow "2px 2px 4px rgba(0,0,0,0.3)">>;
+	<<box-shadow "2px 2px 4px rgba(0,0,0,0.3)">>;
 }
 .tc-popup.appear {
 	padding: 0 1em;
-    position: fixed;
 	background: <<colour background>>;
 }
 .appear-reveal.appear-inline{
-    position: fixed;
-  margin-left:5px;
+margin-left:5px;
 }
 .appear-reveal.appear-inline.appear-once{
-  position: fixed;
 margin-left:0;
 }</pre>

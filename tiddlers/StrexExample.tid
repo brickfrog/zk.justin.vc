@@ -1,0 +1,21 @@
+created: 20211124001705974
+modified: 20211124022305706
+tags: Examples
+title: StrexExample
+tmap.id: 2e7add1d-b0dd-44d9-8226-5001d05602f2
+
+''Compact and powerful.'' Want to hide some content? `<<strex magic>>` will stretch it out when the dots are clicked: <<strex magic>>. Use presets for simplicity or define your own styles and flavors. Tell stories using complex [[nested structures|TextStretch Transclusion Examples]] and transclusion.
+
+!! Parameters
+Use quotation marks, if your parameter contains whitespace <<strex "e.g. &quot;your text&quot; or 'long label'">>. If you want to use the default value, you write "" or nothing.
+
+; content
+: Text you want to hide – you can use <<strex {{!!example-1}} transclusion>> and HTML <<strex "~HyperText Markup Language can help you to display <ul><li>characters like &quot;</li><li>lists</li><li>other elements …</li></ul>that otherwise are difficult to transclude." "(?)" "x" "?" "hint">>
+; label
+: Text on the button that <<strex "disappears after opening" opens>> the element.
+; start //and// end
+: Texts on the buttons which close the element <<strex "and are placed at the beginning/end of the //content//" … ^ $>>.
+; class
+: Classes can be appended here. There are [[examples|TextStretch Examples]] for predefined classes.
+; id
+: Control the activation of TextStretch elements defined in the same tiddler.<<strex "(hidden)" * * "" "nocontent noend" "id_1">> Elements with identical //id// open and close <<strex "at the same time" together "" "" "" "id_2">> which can be useful <<strex "or funny in rare cases." "…" "" "" "" "id_2">> Elements with identical //content// open together too. You can separate them using unique id’s. <<strex "An element that was transcluded or which is displayed in another open tiddler, will ''always'' open and close independently. Even if it has the same id. The reason is TiddlyWiki’s ''state handling:'' we use the standard [[qualify macro|http://tiddlywiki.com/#qualify%20Macro]] here." " * " "*" "close *" "blockinner" "id_1">> 

@@ -1,6 +1,6 @@
 caption: Finding Primes in Python with the Sieve of Eratosthenes
 created: 20211114221409842
-modified: 20211122022022680
+modified: 20211124060050008
 tags: mCoding
 title: FindingPrimesSieveEratosthenes
 tmap.id: 697de829-1ab3-4a98-b4fe-e59baed8511f
@@ -12,7 +12,8 @@ url: https://www.youtube.com/watch?v=JA_YrFwE1hc
 * https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 ** "it is one of the most efficient ways to find all of the smaller primes." See: https://en.wikipedia.org/wiki/Generation_of_primes
 
-```python
+<<copy-code  title:"Sieve of Eratosthenes" language:python
+"
 def primes_less_than(n: int) -> list[int]:
          if n<= 2:
                 return []
@@ -25,5 +26,5 @@ def primes_less_than(n: int) -> list[int]:
                       for x in range(i*i, n, i):
                                is_prime[x] False
         return [i for i in range(n) if is_prime[i]]
-    
-```
+
+">>

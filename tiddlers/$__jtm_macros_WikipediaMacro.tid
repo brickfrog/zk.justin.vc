@@ -1,0 +1,16 @@
+created: 20211124022314333
+modified: 20211124050833525
+tags: $:/tags/Macro
+title: $:/jtm/macros/WikipediaMacro
+tmap.id: 542f98bc-2a7e-40f8-8f64-d1adb9419566
+
+\define wikipedia(url:"")
+
+[[$url$|https://en.m.wikipedia.org/wiki/$url$]]
+<<strex """<iframe src='https://en.m.wikipedia.org/wiki/$url$' frameborder="0" width="1024"; height="600"></iframe>""" """<i class="fas fa-external-link-alt"></i>""" "x"  "?" "hint"
+>>
+\end
+
+Test:
+
+<<wikipedia "Esalen_Institute">>

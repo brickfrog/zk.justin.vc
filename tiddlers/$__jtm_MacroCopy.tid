@@ -1,0 +1,23 @@
+created: 20210527202956234
+creator: user
+list: 
+modified: 20211124053052024
+modifier: user
+source: https://tiddlywiki.narkive.com/kHG9RlNh/tw-copy-button-in-each-code-block
+tags: TW5 $:/tags/Macro copy-code-to-clipboard
+title: $:/jtm/MacroCopy
+tmap.id: 7de70106-1afa-40e7-b986-5462700655bb
+type: 
+
+\define copy-code(language:"" code:"" title:"" display-language:"show")
+<span class="copy-code-to-clipboard">
+<div class="copy-code-to-clipboard-code-area-title">$title$</div>
+<span class="copy-code-to-clipboard-code-area">
+<span class="copy-code-to-clipboard-language $display-language$">$language$</span>
+<span class="copy-code-to-clipboard-button">
+<$macrocall $name="copy-to-clipboard" src="""$code$""" /> 
+</span>
+<$codeblock code="""$code$""" language="$language$"/>
+</span>
+</span>
+\end

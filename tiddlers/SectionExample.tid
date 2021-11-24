@@ -1,0 +1,19 @@
+created: 20211122040252553
+modified: 20211122054926385
+se-type: 
+tags: Examples
+title: SectionExample
+tmap.id: bc940732-f360-4186-8ffb-319f692cc053
+
+
+! The first level h1
+<<.lorem>> This is a test and I am here! 
+
+!! Second h2 
+!!! Level third of info h3 
+
+!!!! Lower four h4 
+
+!!!!! Lowest among all h5 
+
+!!!!!! h6 closed
