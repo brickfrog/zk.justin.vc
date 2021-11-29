@@ -1,0 +1,25 @@
+created: 20211129035707823
+modified: 20211129041410451
+tags: 
+title: RotatingASCII
+tmap.id: 6b6f2fe0-37b4-4069-bbec-d5f38ce1dd38
+
+\define linkup(link) !!{{$link$|| ASCII: 15%}}
+
+<$setvars _r="[prefix[TextArt]random[]]" random="\\ [r] \\">
+
+<$reveal type="match" state="$:/palette" text="$:/palettes/Twilight">
+<$setvars _r="[prefix[TextArtDark]random[]]" random="\\ [r] \\">
+
+<$macrocall $name="linkup" link=<<random>> />
+
+</$setvars>
+</$reveal>
+
+<$reveal type="match" state="$:/palette" text="$:/palettes/SolarizedLight">
+<$setvars _r="[prefix[TextArtLight]random[]]" random="\\ [r] \\">
+
+<$macrocall $name="linkup" link=<<random>> />
+
+</$setvars>
+</$reveal>

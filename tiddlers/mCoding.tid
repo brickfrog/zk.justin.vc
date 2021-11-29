@@ -2,8 +2,8 @@ author: mCoding
 caption: mCoding
 created: 20211114170905641
 medium: video
-modified: 20211114220624556
-tags: Source YouTube Python
+modified: 20211129083306115
+tags: Source YouTube Python Index
 title: mCoding
 tmap.id: 8940050f-8d35-499e-bae0-7c6cb604086b
 url: [[Link|https://www.youtube.com/channel/UCaiL2GDNpLYH6Wokkk1VNcg]]
@@ -46,8 +46,9 @@ table.mcoding tr td:nth-child(3) {
 		title="2021"
 		tags="mCoding"
 		caption="title"
-    url=""
+    url="https://www.google.com"
     upload-date=2021
-		text="*"/>
+		text='* <a href={{!!url}} target="_blank">{{!!caption}}</a>
+**'/>
 	New Session
 </$button>

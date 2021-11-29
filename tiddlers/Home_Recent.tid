@@ -1,11 +1,23 @@
 created: 20210725065512266
-modified: 20211124065132919
+modified: 20211129084514386
 tags: Meta
 title: Home/Recent
 tmap.id: 28abd52c-244b-470a-a046-19639e901480
 
 There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified, which can be seen in the recent tab of the sidebar) tiddlers.
 
+<style>
+.recently {
+     column-count: 2;
+     font-size: small;
+}
+.wrapper {
+     height: 200px;
+     overflow-y:scroll;
+     overflow-x:hidden;
+}
+
+</style>
 
 <div id="Recent" class="recently">
 <<timeline dateField: "created" limit: 50 format:" ">>

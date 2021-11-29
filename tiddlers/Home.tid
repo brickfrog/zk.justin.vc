@@ -1,34 +1,15 @@
 created: 20210528153225122
 description: I mean, it's a home page
 list: Home/Navigation Home/About Home/Map Home/Recent Home/Calendar
-modified: 20211124051049110
+modified: 20211129084457001
 tags: Meta
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
 type: text/vnd.tiddlywiki
 
-\define linkup(link) !!{{$link$|| ASCII: 15%}}
-
 <p class="dropcap">The random notes, thoughts, and musings of [[justin.vc|https://www.justin.vc]], assembled into a wiki for quick(er) retrieval, sorting, and general vibes.
 
-<$setvars _r="[prefix[TextArt]random[]]" random="\\ [r] \\">
-
-<$macrocall $name="linkup" link=<<random>> />
-
-</$setvars>
-
-<style>
-.recently {
-     column-count: 2;
-     font-size: small;
-}
-.wrapper {
-     height: 200px;
-     overflow-y:scroll;
-     overflow-x:hidden;
-}
-
-</style>
+{{RotatingASCII}}
 
 <<tabs 
   tabsList:"[list[Home]]"

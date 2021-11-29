@@ -1,10 +1,10 @@
 created: 20210721222719275
-modified: 20211124050644650
+modified: 20211129074631301
 tags: Meta
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
 
-This is TiddlyWiki, a personal wiki, where generally, everything that is CamelCase <<fnote "Okay, it's technically PascalCase">> is a link to somewhere else in the wiki.  Additionally anything affixed with double "[" 's, but generally I follow the case route. <<fnote "Mostly, I might get bored and switch when I realize it becomes cumbersome.">> It's also a <<wikipedia "Quine_(computing)">><<strex ", with the button next to most wikipedia links popping into a note iframe within the site itself, might need to figure out if the cookie errors it complains about are worth pursuing, since I only use this for wikipedia/youtube,">> which is pretty neat. <<fnote "The core tiddlywiki code feeds from itself, but all my notes are seperate files built from node.js">>
+This is TiddlyWiki, a personal wiki, where generally, everything that is CamelCase <<fnote "Okay, it's technically PascalCase">> is a link to somewhere else in the wiki.  Additionally anything affixed with double "[" 's, but generally I follow the case route. <<fnote "Mostly, I might get bored and switch when I realize it becomes cumbersome.">> It's also a <<wikipedia "Quine_(computing)">><<strex ", with the button next to most wikipedia links popping into a note iframe within the site itself, might need to figure out if the cookie errors it complains about are worth pursuing, since I only use this for wikipedia/youtube," expandable!>> which is pretty neat. <<fnote "The core tiddlywiki code feeds from itself, but all my notes are seperate files built from node.js">>
 
 I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote, and due to the way TiddlyWiki is structured, with lack of access to the DOM, I believe certain things such as his more expansive pop-ups aren't necessarily tenable.">> I plan to focus more on general notes and learnings. I would like to eventually venture into longform writing more, but that remains a future goal.
 

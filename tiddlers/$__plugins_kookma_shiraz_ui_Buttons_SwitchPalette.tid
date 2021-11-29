@@ -1,9 +1,9 @@
 caption: {{$:/plugins/kookma/shiraz/images/color-switch}} {{$:/language/Buttons/Shiraz/Caption}}
 created: 20201210171047824
-dark-palette: $:/palettes/GruvboxDark
+dark-palette: $:/palettes/Twilight
 description: Toggle between light/dark colour palette
-light-palette: $:/palettes/SolarFlare
-modified: 20211122011524459
+light-palette: $:/palettes/SolarizedLight
+modified: 20211129012553597
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

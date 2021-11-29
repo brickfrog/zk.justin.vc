@@ -1,13 +1,12 @@
 caption: Finding Primes in Python with the Sieve of Eratosthenes
 created: 20211114221409842
-modified: 20211124060050008
+modified: 20211129081504848
 tags: mCoding
 title: FindingPrimesSieveEratosthenes
 tmap.id: 697de829-1ab3-4a98-b4fe-e59baed8511f
 upload-date: Oct 30, 2020
 url: https://www.youtube.com/watch?v=JA_YrFwE1hc
 
-<<yt "JA_YrFwE1hc">>
 
 * https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 ** "it is one of the most efficient ways to find all of the smaller primes." See: https://en.wikipedia.org/wiki/Generation_of_primes

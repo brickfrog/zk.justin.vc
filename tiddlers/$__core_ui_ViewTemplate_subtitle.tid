@@ -1,6 +1,6 @@
 created: 20210611074832773
 description: For editing what shows up beneath the title in tiddlers
-modified: 20211122010646759
+modified: 20211129082144179
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
 type: text/vnd.tiddlywiki
@@ -14,6 +14,7 @@ type: text/vnd.tiddlywiki
 <div>
 <i class="fa fa-history"/>&ensp;&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
 &ensp;-&ensp;<$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}} />
+&ensp;
 </div>
 
 <$list filter="[all[current]!is[system]]">
@@ -46,4 +47,5 @@ type: text/vnd.tiddlywiki
 	</div>
 </$list>
 </div>
+
 </$reveal>
