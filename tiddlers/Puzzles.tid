@@ -1,0 +1,45 @@
+created: 20211130212600343
+modified: 20211201035040024
+tags: Interviewing Career Puzzles
+title: Puzzles
+tmap.id: c093ba77-3647-4669-bccb-334031110042
+
+Mostly for compiling brain teasers and random puzzles.
+
+<style>
+table.puzzles tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.puzzles tr td:nth-child(3) {
+	max-width: 20em;
+}
+</style>
+
+<table class="sortable">
+<thead>
+	<tr>
+		<th>Name</th>
+    <th> Added </th>
+	</tr>
+</thead>
+<tbody>
+	<$list filter="[tag[Puzzles]!has[draft.of]]">
+		<tr>
+			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+      <td>{{!!date}}</td>
+		</tr>
+	</$list>
+</tbody>
+</table>
+
+<$button>
+	<$action-sendmessage
+		$message="tm-new-tiddler"
+		title="2021"
+    date="2021"
+		tags="Puzzles"
+		caption="title"
+		text='*'/>
+	New Session
+</$button>

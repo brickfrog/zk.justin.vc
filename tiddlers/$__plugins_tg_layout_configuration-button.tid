@@ -2,8 +2,8 @@ caption: {{$:/plugins/tg/layout/icon}} adjust layout
 created: 20171203165317769
 description: Adjust layout
 list-before: $:/core/ui/TopBar/menu
-modified: 20211120041015601
-tags: $:/tags/TopRightBar
+modified: 20211130092918568
+tags: 
 title: $:/plugins/tg/layout/configuration-button
 
 <$button class="tc-btn-invisible" tooltip="Adjust layout">
