@@ -1,0 +1,11 @@
+created: 20211226002100286
+modified: 20211226020246384
+tags: Journal
+title: 2021-12-25
+tmap.id: 11453927-4d49-4e92-a378-f660ccb2cde7
+
+* christmas!
+* reading, deciding to assemble assorted jupyter notebooks into a single github repo - might transfer posts from fastpages, not sure i like how static it is design wise, also not great looking with the manual dark mode hack
+* https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/ - discussion of AutomaticDifferentiation in TensorFlow, PyTorch, JAX, and Julia
+** A bit out of my depths but it seems like a key difference is dynamicism and most modern ML methods don't really need it so an engineering decision was made, -but- physics and scientific informed ML it gets benefits, so it's worth keeping an eye out
+* A discussion with friends on the viability of ApacheSpark for the average corporate user - to give a ballpark, if you data is below 12TB, do you really need spark? GNU tooling + something like [[Vaex]] to combine and aggregate vs. the overhead that comes with paying something like Databricks or the hassle of an open source implementation

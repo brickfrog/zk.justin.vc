@@ -1,9 +1,9 @@
-background: #282a36
+background: #22212C
 untagged-background: #6272a4
-foreground: #f8f8f2
+foreground: #F8F8F2
 tiddler-border: #44475a
 page-background: #282a36
-primary: #8be9fd
+primary: #80FFEA
 tag-background: #bd93f9
 muted-foreground: rgba(255,255,255,0.5)
 alert-background: <<colour tag-background>>

@@ -1,0 +1,9 @@
+created: 20211217194220402
+modified: 20211217194335488
+title: bodo.ai
+tmap.id: ad34e71e-322f-451e-9e0d-b10e56ecf10f
+url: https://www.bodo.ai
+
+parallel python computing, supposedly faster than spark, ray, dask, etc.
+
+noticed the company is based in Pittsburgh, so it must be a spinoff of some PhD research by [[CarnegieMellon]]

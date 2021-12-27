@@ -1,0 +1,12 @@
+created: 20211226005005935
+modified: 20211226010211297
+tags: Statistics
+title: Simpson'sParadox
+tmap.id: aad956fb-ebf3-4a42-a011-d49ba6d7faf7
+
+Combining data and aggregating it can show results differently than when it is seperated out, think causally about the source of the data and any confounding variables. ThinkCausally
+
+> the data alone are not enough. Data are never purely objective and especially when we only see the final plot, we must consider if we are getting the whole story.
+
+!! Other Sources:
+* https://towardsdatascience.com/simpsons-paradox-how-to-prove-two-opposite-arguments-using-one-dataset-1c9c917f5ff9

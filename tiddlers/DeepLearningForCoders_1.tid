@@ -1,0 +1,30 @@
+author: JeremyHoward, SylvainGugger
+caption: Deep Learning for Coders with Fastai and PyTorch
+completed: 
+created: 20211207110032356
+medium: book
+modified: 20211222173255011
+rating: 
+readstatus: reading
+tags: Source
+title: DeepLearningForCoders
+tmap.id: 1a2ad04c-2be0-4d40-96e7-7f187c8bd3d7
+url: https://course.fast.ai
+year: 2021
+
+Notes and key concepts gleaned from reading this, I'm attempting it locally using my own GPU since whenever I seem to try colab I run into issues or get distracted and it turns off.
+
+* key idea: "In general, you'll find that a small number of general approaches in deep learning can go a long way, if you're a bit creative in how you represent your data!"
+** mouse movements to images
+** binary to image representations of malware
+* Ethics related, see: https://arxiv.org/abs/1901.10002
+** Historical bias - bias in data, procedures, etc.
+** Measurement bias - measuring the wrong thing, the wrong way, or incorporating it into the model inappropriately
+** Aggregation bias - not incorporating appropriate factors or interaction terms
+** Representation bias - simple models amplifying existing disparities, e.g. women more likely to be nurses
+* Disinformation - LadislavBittman
+* https://www.scu.edu/ethics-in-technology-practice/ethical-lenses/
+* rank, axis, length of tensors
+* StochasticGradientDescent
+* universal approximation theorem
+* "When we first take the softmax, and then the log likelihood of that, that combination is called cross-entropy loss. In PyTorch, this is available as nn.CrossEntropyLoss"
