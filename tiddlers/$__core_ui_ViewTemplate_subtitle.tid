@@ -1,6 +1,6 @@
 created: 20210611074832773
 description: For editing what shows up beneath the title in tiddlers
-modified: 20211129082144179
+modified: 20220102043412272
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
 type: text/vnd.tiddlywiki
@@ -11,11 +11,13 @@ type: text/vnd.tiddlywiki
 <$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
 
 <div class="tc-subtitle">
+<$list filter="[all[current]!tag[Journal]]">
 <div>
 <i class="fa fa-history"/>&ensp;&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
 &ensp;-&ensp;<$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}} />
 &ensp;
 </div>
+</$list>
 
 <$list filter="[all[current]!is[system]]">
 <$list filter="[all[current]tag[Source]]" variable=_>
@@ -46,6 +48,13 @@ type: text/vnd.tiddlywiki
 	<i class="fa fa-gem"/>&ensp;{{!!description}}
 	</div>
 </$list>
+
+<$list filter="[all[current]has[feeling]]">
+	<div>
+	<i class="far fa-grin"/>&ensp;Feeling:&ensp;{{!!feeling}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;Tasks:&ensp;{{!!tasks}}
+	</div>
+</$list>
+
 </div>
 
 </$reveal>

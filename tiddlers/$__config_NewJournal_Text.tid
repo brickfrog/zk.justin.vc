@@ -1,6 +1,23 @@
 created: 20210715015127344
-modified: 20211222173431580
+modified: 20220102033630607
 tags: 
 title: $:/config/NewJournal/Text
 
-*
+!!! Summary
+
+* beep
+
+<br>
+<$details summary="Quotes for the Day" open="yes" class="vibe">
+
+<$transclude tiddler=<<linkup>> />
+
+</$details>
+
+<font size=1>
+
+Transclusion links:
+
+* <<linkuptitle>>
+
+</font>

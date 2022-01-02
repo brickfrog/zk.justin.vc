@@ -1,5 +1,5 @@
 created: 20210829124146841
-modified: 20211226021352411
+modified: 20220101212830848
 tags: 
 title: ExternalLinks
 tmap.id: e67d27e9-111f-45ae-af0c-9d3be4275b92
@@ -7,11 +7,12 @@ tmap.id: e67d27e9-111f-45ae-af0c-9d3be4275b92
 
 * Social
 ** [[LinkedIn|https://www.linkedin.com/in/justin-tm/]] - Not really used too much, use to keep up with old coworkers and the like
-** [[Urbit]] - iykyk
+** [[Urbit]] - ---
 * Code
 ** [[Github|https://github.com/brickfrog]] - Code, not a huge fan that they were bought by Microsoft, but the page hosting is good ((this is hosted on github pages))
 * Books/Reading
-** [[Goodreads|https://www.goodreads.com/brickfrog]] - try to keep books I read up to date / suggestions, etc.
+** [[Goodreads|https://www.goodreads.com/brickfrog]] - try to keep books I read up to date / suggestions, etc. 
+*** Internal Widget - GoodreadsWidget
 * Media/Watching
 ** [[Trakt|https://trakt.tv/users/justinvc]] - television/movies watched, programatically updated/scrobbled <<fnote "Basically it automatically updates based on things I watch">>
 ** [[Anilist|https://anilist.co/user/brickfrog/]] - similar to Trakt, but anime/manga, programatically updated for anime (not manga - [[AppIdea]])

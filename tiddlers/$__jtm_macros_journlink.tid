@@ -1,0 +1,7 @@
+created: 20220101163947532
+modified: 20220102023300445
+tags: $:/tags/Macro
+title: $:/jtm/macros/journlink
+
+\define linkuptitle() [[Transcluded Quotes|$(currentTiddler)$Q]]
+\define linkup() $(currentTiddler)$Q

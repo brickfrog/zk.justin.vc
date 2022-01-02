@@ -1,0 +1,30 @@
+created: 20220102034838445
+feeling: 4
+modified: 20220102042854693
+tags: Journal
+tasks: 1
+title: 2022-01-01
+tmap.id: 6822a6a5-bf36-4173-b297-0ec92a097093
+
+!!! Summary
+
+* New Year!
+*  I started to use [[quotebacks|https://github.com/Blogger-Peer-Review/quotebacks]] more often, you have to change the shortcuts around to get it to work in Vivaldi, i plan to fork it and try to make it easily exportable into TW, I think, right now the markdown doesn't look nice when ported over to this.
+** on second thought, might just use a markdown tiddler and transclude, the differences aren't that big and id have to futz with some annoying javascript to get it decent
+* pondering to center things more around journals and use that as a flow to other topics
+** edited the template for journals with some fields for "feeling", e.g. general productivity/mood + tasks for how many nontrivial (read: useful) things accomplished
+
+<br>
+<$details summary="Quotes for the Day" open="yes" class="vibe">
+
+<$transclude tiddler=<<linkup>> />
+
+</$details>
+
+<font size=1>
+
+Transclusion links:
+
+* <<linkuptitle>>
+
+</font>
