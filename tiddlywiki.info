@@ -20,7 +20,8 @@
 	"feed": [
 	    "--rendertiddler",
             "feed.atom",
-            "../feed.atom"
+            "../feed.atom",
+	    "text/plain"
 	],
         "static": [
             "--rendertiddler",
