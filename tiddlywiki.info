@@ -21,7 +21,7 @@
 	    "--rendertiddler",
             "feed.atom",
             "../feed.atom",
-	    "text/plain"
+	    "text/xml"
 	],
         "static": [
             "--rendertiddler",
