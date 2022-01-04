@@ -1,6 +1,6 @@
 created: 20220102034639446
 description: create a new journal tiddler
-modified: 20220102034835037
+modified: 20220103145724752
 tags: $:/tags/Actions
 title: $:/core/ui/Actions/new-journal
 
@@ -10,7 +10,7 @@ title: $:/core/ui/Actions/new-journal
 <$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text={{{ [<journalTitle>get[]] }}}/>
 </$reveal>
 <$reveal type="match" state=<<journalTitle>> text="">
-<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> feeling="7" tasks="0"/>
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> vibe="7" tasks="0"/>
 </$reveal>
 </$wikify>
 </$vars>

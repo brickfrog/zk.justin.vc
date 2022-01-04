@@ -1,0 +1,12 @@
+created: 20150930123136679
+creator: Tobias Beer
+modified: 20220104025611316
+modifier: Tobias Beer
+revision: 0
+title: $:/.tb/templates/atom/filter
+type: text/vnd.tiddlywiki
+
+[tag[Source]]
+[tag[Journal]]
++[!prefix[$:/]]
++[has[created]!sort[created]limit[50]]

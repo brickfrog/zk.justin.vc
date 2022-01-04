@@ -1,6 +1,6 @@
 created: 20210611074832773
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220102043412272
+modified: 20220103150719156
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
 type: text/vnd.tiddlywiki
@@ -49,9 +49,9 @@ type: text/vnd.tiddlywiki
 	</div>
 </$list>
 
-<$list filter="[all[current]has[feeling]]">
+<$list filter="[all[current]has[vibe]]">
 	<div>
-	<i class="far fa-grin"/>&ensp;Feeling:&ensp;{{!!feeling}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;Tasks:&ensp;{{!!tasks}}
+	<i class="far fa-grin"/>&ensp;[[Vibe]]:&ensp;{{!!vibe}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;Tasks:&ensp;{{!!tasks}}&ensp;&#183;&ensp;<<linkuptitle>>
 	</div>
 </$list>
 

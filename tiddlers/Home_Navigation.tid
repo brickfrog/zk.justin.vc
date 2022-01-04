@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20220102024935722
+modified: 20220103150845018
 tags: Meta
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
@@ -23,17 +23,11 @@ There's footnotes <<fnote "Beep.">>, which are either for fun or to link quotes 
 
 Additionally, there's folded details content which you can open via clicking. I (most likely) will be using this to transclude content into larger articles if needed, e.g. Chapters in a book analysis
 
-<$details summary="Click me!">
-
-Hello!
-
-</$details>
-
 And finally, make note of the [[Map|Home/Map]] tab on the home mage. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun.
 
 The following should more helpfully explain the metadata around the Wiki:
 
-* [[DesignMotivation]]
+* [[DesignNotes]]
 * TagColors
 * CardTypes
 * [[TagManager|$:/TagManager]]

@@ -1,0 +1,9 @@
+.atom-link svg{
+height: 16px;
+fill: #acacac;
+margin-bottom:-1px;
+}
+
+.atom-link:hover svg{
+fill: #777;
+}

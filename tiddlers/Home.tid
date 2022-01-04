@@ -1,15 +1,14 @@
 created: 20210528153225122
-description: I mean, it's a home page
-list: Home/Navigation Home/About Home/Map Home/Recent Home/Calendar
-modified: 20220102035911829
+list: Home/About Home/Navigation Home/Recent Home/Calendar Home/Map
+modified: 20220104031201120
 tags: Meta
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
 type: text/vnd.tiddlywiki
 
-<p class="dropcap">The random notes, thoughts, and musings of [[justin.vc|https://www.justin.vc]], assembled into a wiki for quick(er) retrieval, sorting, and general vibes.
+<p class="dropcap">The random notes, thoughts, and musings of [[justin.vc|https://www.justin.vc]], assembled into a wiki for quick(er) retrieval, sorting, and general vibes.</p>
 
-{{RotatingASCII}}
+<br>
 
 <<tabs 
   tabsList:"[list[Home]]"

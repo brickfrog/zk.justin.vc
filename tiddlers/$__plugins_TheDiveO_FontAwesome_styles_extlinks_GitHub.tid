@@ -1,6 +1,6 @@
 created: 20170223102202986
 list-after: $:/plugins/TheDiveO/FontAwesome/styles/extlinks
-modified: 20210725210218005
+modified: 20220103191354441
 tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/plugins/TheDiveO/FontAwesome/styles/extlinks/GitHub
 type: text/vnd.tiddlywiki
@@ -10,7 +10,7 @@ type: text/vnd.tiddlywiki
 <$set name="cfg" value=<<fa5-cfgpath "decorate-wk-extlinks">> >
 <$list filter=<<fa5-cfgfilterexpr>> >
 
-a[href^="https://"][href*="github.com"]:after {
+a[href*="https://"][href*="github.com"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
   content: '⌠\f09b⌡\202f';
