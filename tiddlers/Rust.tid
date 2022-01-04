@@ -2,6 +2,7 @@ color: #a5a5ee
 created: 20211129083729006
 icon: $:/jtm/images/icons/rust
 modified: 20211129084224467
+revision: 0
 title: Rust
 tmap.id: a42cffbc-6cd5-4f03-8b79-47a4aa030dcb
 url: https://www.rust-lang.org

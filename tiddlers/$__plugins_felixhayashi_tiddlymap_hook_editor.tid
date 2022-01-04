@@ -1,6 +1,7 @@
 caption: Map
 created: 20210829093742715
 modified: 20211120031333368
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/hook/editor
 
 \define width() calc(100% - 15px)

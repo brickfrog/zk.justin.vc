@@ -1,25 +1,82 @@
-created: 20220104021953401
-creator: Tobias Beer
-modified: 20220104031111700
-modifier: Tobias Beer
-revision: 0
-title: feed.atom
-tmap.id: ef595fe2-a1d1-4c57-8187-fc6e450d7038
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://justin.vc/feed.atom</id>
+  <title>justin.vc</title>
+  <subtitle>compiled notes, code, and miscellanea 
+    
+        
+    
+</subtitle>
+  <link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml"/>
+  <author>
+    <name></name>
+  </author>
+  <updated>2022-01-03T23:26:29+02:00</updated>
+  <entry>    <title>2022-01-01</title>    <id>http://justin.vc/#2022-01-01</id>    <link href='http://justin.vc/#2022-01-01'/>    <updated>2022-01-03T21:45:05+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-12-25</title>    <id>http://justin.vc/#2021-12-25</id>    <link href='http://justin.vc/#2021-12-25'/>    <updated>2021-12-25T21:02:46+02:00</updated>    <summary>* christmas...</summary>  </entry>  <entry>    <title>CanticleForLeibowitz</title>    <id>http://justin.vc/#CanticleForLeibowitz</id>    <link href='http://justin.vc/#CanticleForLeibowitz'/>    <updated>2021-12-23T21:05:27+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-12-23</title>    <id>http://justin.vc/#2021-12-23</id>    <link href='http://justin.vc/#2021-12-23'/>    <updated>2021-12-23T21:02:29+02:00</updated>    <summary>* discussion led to discovery of Minio, cloud object storage, friend noted the codebase is very good, worth looking into if the need arises
+* After yesterdays Adaptation reviews, ended up watching "I'...</summary>  </entry>  <entry>    <title>2021-12-22</title>    <id>http://justin.vc/#2021-12-22</id>    <link href='http://justin.vc/#2021-12-22'/>    <updated>2021-12-23T08:27:46+02:00</updated>    <summary>* Adaptation Explained - good video on Adaptation, Kaufman, and writing.
+...</summary>  </entry>  <entry>    <title>2021-12-17</title>    <id>http://justin.vc/#2021-12-17</id>    <link href='http://justin.vc/#2021-12-17'/>    <updated>2021-12-17T15:29:05+02:00</updated>    <summary>* Reading DeepLearningForCoders
+* Saw a post on Linkin showing https://www.bodo.ai, bodo.ai
+* https://www.usenix.org/publications/loginonline/web3-fraud
+* https://www.usenix.org/system/files/conferenc...</summary>  </entry>  <entry>    <title>2021-12-09</title>    <id>http://justin.vc/#2021-12-09</id>    <link href='http://justin.vc/#2021-12-09'/>    <updated>2021-12-09T05:41:54+02:00</updated>    <summary>* Polars - faster dataframe package written in rust (https://calmcode.io/polars/introduction.html)
+* 
+...</summary>  </entry>  <entry>    <title>DeepLearningForCoders</title>    <id>http://justin.vc/#DeepLearningForCoders</id>    <link href='http://justin.vc/#DeepLearningForCoders'/>    <updated>2021-12-22T12:32:55+02:00</updated>    <summary>Notes and key concepts gleaned from reading this, I'm attempting it locally using my own GPU since whenever I seem to try colab I run into issues or get distracted and it turns off.
 
-\define tv-wikilink-template() #$uri_encoded$
-\define tv-config-toolbar-icons() no
-\define tv-config-toolbar-text() no
-\define tv-config-toolbar-class() tc-btn-invisible
+* key idea: "In g...</summary>  </entry>  <entry>    <title>2021-12-07</title>    <id>http://justin.vc/#2021-12-07</id>    <link href='http://justin.vc/#2021-12-07'/>    <updated>2021-12-07T06:00:26+02:00</updated>    <summary>Tutorial day today, I think. Try to work through some stuff vs. passively absorb content
 
-`<?xml version="1.0" encoding="utf-8"?>`<br>
-`<feed xmlns="http://www.w3.org/2005/Atom">`<br>
-&nbsp;&nbsp;`<id>`http://justin.vc/feed.atom`</id>`<br>
-&nbsp;&nbsp;`<title>`{{$:/SiteTitle}}`</title>`<br>
-&nbsp;&nbsp;`<subtitle>`{{$:/SiteSubtitle}}`</subtitle>`<br>
-&nbsp;&nbsp;`<link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml"/>`<br>
-&nbsp;&nbsp;`<author>`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`<name>`<$list filter="[!is[system]!has[draft.of]!untagged[]!tag[static]!is[tag]!sort[modified]limit[1]]"><$link><$view field="creator" format="htmlencoded"/></$link></$list>`</name>`<br>
-&nbsp;&nbsp;`</author>`<br>
-&nbsp;&nbsp;`<updated>`<$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]"><$link><$view field="modified" format="date" template="YYYY-0MM-0DDT0hh:0mm:0ss"/></$link></$list>+02:00`</updated>`<br>
-<<atom-entries filter:"$:/.tb/templates/atom/filter">><br>
-`</feed>`
+* Minitorch
+** a pure python implementation teaching the basics of ML
+* DeepLearningForCoders
+...</summary>  </entry>  <entry>    <title>2021-11-14</title>    <id>http://justin.vc/#2021-11-14</id>    <link href='http://justin.vc/#2021-11-14'/>    <updated>2021-11-15T20:24:47+02:00</updated>    <summary>Tinkered around with structure, spent most of day reading and looking at programming videos
+
+*watching  mCoding and setting up tiddler for source
+* Remember to bloody use pandas pipe: https://calmcode...</summary>  </entry>  <entry>    <title>mCoding</title>    <id>http://justin.vc/#mCoding</id>    <link href='http://justin.vc/#mCoding'/>    <updated>2022-01-01T11:36:57+02:00</updated>    <summary>Youtuber focused on Python coding. Seems to also cover math and C++ to a lesser scale.
+
+
+table.mcoding tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.mcoding tr td:nth-child(3) {
+	max-width: 20em;
+}
+
+...</summary>  </entry>  <entry>    <title>2021-11-11</title>    <id>http://justin.vc/#2021-11-11</id>    <link href='http://justin.vc/#2021-11-11'/>    <updated>2021-11-11T08:42:41+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>koaning.io</title>    <id>http://justin.vc/#koaning.io</id>    <link href='http://justin.vc/#koaning.io'/>    <updated>2021-11-02T05:05:12+02:00</updated>    <summary>Blog of VincentWarmerdam covering miscellaneous tech topics, mostly related to DataScience. This is a SPA, I think, so will cover notes as I go through them, there's not -that- many posts- though.
+
+* ...</summary>  </entry>  <entry>    <title>2021-11-01</title>    <id>http://justin.vc/#2021-11-01</id>    <link href='http://justin.vc/#2021-11-01'/>    <updated>2021-11-02T05:00:53+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>ArjanCodes</title>    <id>http://justin.vc/#ArjanCodes</id>    <link href='http://justin.vc/#ArjanCodes'/>    <updated>2021-12-25T21:01:02+02:00</updated>    <summary>Youtuber focused on Python coding. Trying out a thing where I just put all the videos in a single source. Might split up if need be, but most of his videos are pretty short with one core idea.
+
+* Cohe...</summary>  </entry>  <entry>    <title>2021-10-14</title>    <id>http://justin.vc/#2021-10-14</id>    <link href='http://justin.vc/#2021-10-14'/>    <updated>2021-10-14T19:05:12+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-10-13</title>    <id>http://justin.vc/#2021-10-13</id>    <link href='http://justin.vc/#2021-10-13'/>    <updated>2021-10-14T00:13:54+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>InTheCellsEggplant</title>    <id>http://justin.vc/#InTheCellsEggplant</id>    <link href='http://justin.vc/#InTheCellsEggplant'/>    <updated>2021-10-10T16:18:01+02:00</updated>    <summary>In the Cells of the Eggplant is an introduction to meta-rationality. It involves many linked discussions to many different books, synthesizing their concepts. For now, I'll be noting a lot of them wit...</summary>  </entry>  <entry>    <title>ProbProgramming4Hackers</title>    <id>http://justin.vc/#ProbProgramming4Hackers</id>    <link href='http://justin.vc/#ProbProgramming4Hackers'/>    <updated>2021-10-09T18:30:27+02:00</updated>    <summary>A book on a bayesian approach to inference, utilizing Python] and PyMC3 (technically there's PyMC2 and TensorflowProbability versions, but I'm using 3) written in a Jupyter notebook. Will try to coale...</summary>  </entry>  <entry>    <title>2021-10-09</title>    <id>http://justin.vc/#2021-10-09</id>    <link href='http://justin.vc/#2021-10-09'/>    <updated>2021-10-09T13:09:06+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-10-07</title>    <id>http://justin.vc/#2021-10-07</id>    <link href='http://justin.vc/#2021-10-07'/>    <updated>2021-10-07T21:03:03+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-10-06</title>    <id>http://justin.vc/#2021-10-06</id>    <link href='http://justin.vc/#2021-10-06'/>    <updated>2021-10-06T17:02:16+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-10-05</title>    <id>http://justin.vc/#2021-10-05</id>    <link href='http://justin.vc/#2021-10-05'/>    <updated>2021-10-05T16:15:57+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-10-04</title>    <id>http://justin.vc/#2021-10-04</id>    <link href='http://justin.vc/#2021-10-04'/>    <updated>2021-10-04T10:51:08+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-09-30</title>    <id>http://justin.vc/#2021-09-30</id>    <link href='http://justin.vc/#2021-09-30'/>    <updated>2021-09-30T11:40:00+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>Python for Finance Cookbook</title>    <id>http://justin.vc/#Python%20for%20Finance%20Cookbook</id>    <link href='http://justin.vc/#Python%20for%20Finance%20Cookbook'/>    <updated>2021-10-12T11:49:02+02:00</updated>    <summary>A Python cookbook for #Finance, seems to cover a lot of basic stuff, but there is a couple of things in here that might be of interest. Relatively new, published in 2020. Hopefully avoids any deprecat...</summary>  </entry>  <entry>    <title>ScienceBeforeStatistics</title>    <id>http://justin.vc/#ScienceBeforeStatistics</id>    <link href='http://justin.vc/#ScienceBeforeStatistics'/>    <updated>2021-09-25T11:34:13+02:00</updated>    <summary>Hello.
+* Test
+* test
+* ...</summary>  </entry>  <entry>    <title>2021-09-17</title>    <id>http://justin.vc/#2021-09-17</id>    <link href='http://justin.vc/#2021-09-17'/>    <updated>2021-09-28T14:16:22+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>CreatingBolt</title>    <id>http://justin.vc/#CreatingBolt</id>    <link href='http://justin.vc/#CreatingBolt'/>    <updated>2021-08-30T18:28:23+02:00</updated>    <summary>A series of blog posts on creating your own ProgrammingLanguage with Ocaml, C++, and LLVM.
+
+Supplementary materials:
+
+* LLVMSharp - LLVM bindings for .NET, using C# + ClangSharp
+* OCaml Dune - build s...</summary>  </entry>  <entry>    <title>2021-08-30</title>    <id>http://justin.vc/#2021-08-30</id>    <link href='http://justin.vc/#2021-08-30'/>    <updated>2021-08-30T19:32:11+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-08-29</title>    <id>http://justin.vc/#2021-08-29</id>    <link href='http://justin.vc/#2021-08-29'/>    <updated>2021-08-29T18:19:03+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-08-17</title>    <id>http://justin.vc/#2021-08-17</id>    <link href='http://justin.vc/#2021-08-17'/>    <updated>2021-08-17T18:07:04+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>CaseOfConscience</title>    <id>http://justin.vc/#CaseOfConscience</id>    <link href='http://justin.vc/#CaseOfConscience'/>    <updated>2021-12-23T21:05:53+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>PyNNDescent2021</title>    <id>http://justin.vc/#PyNNDescent2021</id>    <link href='http://justin.vc/#PyNNDescent2021'/>    <updated>2021-07-25T19:48:26+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>2021-07-15</title>    <id>http://justin.vc/#2021-07-15</id>    <link href='http://justin.vc/#2021-07-15'/>    <updated>2021-07-15T01:13:02+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>TechnologyAndCounterculture</title>    <id>http://justin.vc/#TechnologyAndCounterculture</id>    <link href='http://justin.vc/#TechnologyAndCounterculture'/>    <updated>2021-08-27T16:26:52+02:00</updated>    <summary>...</summary>  </entry>  <entry>    <title>NumbersDontLie</title>    <id>http://justin.vc/#NumbersDontLie</id>    <link href='http://justin.vc/#NumbersDontLie'/>    <updated>2021-08-27T09:38:09+02:00</updated>    <summary>This is a more recent book by VaclavSmil and my first read of him. I believe he was mentioned in a chat with my friends and I decided to pick up the two most recent books by him. This seemed like a qu...</summary>  </entry>  <entry>    <title>FunctionalPythonTutorial2021</title>    <id>http://justin.vc/#FunctionalPythonTutorial2021</id>    <link href='http://justin.vc/#FunctionalPythonTutorial2021'/>    <updated>2021-06-25T07:28:10+02:00</updated>    <summary>This is a talk on FunctionalProgramming in Python. It first covers functional programming, nice overview, but I skipped abit of it, then a discussion on functional features in python
+
+* Pure functions...</summary>  </entry>  <entry>    <title>StatisticalTyping2021</title>    <id>http://justin.vc/#StatisticalTyping2021</id>    <link href='http://justin.vc/#StatisticalTyping2021'/>    <updated>2021-07-14T20:21:42+02:00</updated>    <summary>* Summary:
+**  in this talk I define statistical typing as a general concept describing a runtime typing system, which extends primitive data types like bool, str, and float into the class of statisti...</summary>  </entry>  <entry>    <title>NetworkAnalysisPython2021</title>    <id>http://justin.vc/#NetworkAnalysisPython2021</id>    <link href='http://justin.vc/#NetworkAnalysisPython2021'/>    <updated>2021-06-25T05:16:28+02:00</updated>    <summary>* Summary:
+** The purpose of this talk is to introduce members of the audience to network analysis and its importance, and give them the basic building blocks for applied network analysis with Python....</summary>  </entry>  <entry>    <title>AsyncAppDevelopmentViews2021</title>    <id>http://justin.vc/#AsyncAppDevelopmentViews2021</id>    <link href='http://justin.vc/#AsyncAppDevelopmentViews2021'/>    <updated>2021-06-25T04:43:00+02:00</updated>    <summary>* Summary:
+** This talk covers how Python's async is useful for "development views"– visualizing and interacting with the state of your running app
+* Thoughts:
+** So, this talk is more about async in ...</summary>  </entry>  <entry>    <title>GradualTypingPractice2021</title>    <id>http://justin.vc/#GradualTypingPractice2021</id>    <link href='http://justin.vc/#GradualTypingPractice2021'/>    <updated>2021-08-31T17:54:43+02:00</updated>    <summary>* Summary:
+** This presentation will focus on how you can get meaningful results from Pyre as you move from just a few annotations to a fully typed codebase, and the guarantees we can make along the w...</summary>  </entry>  <entry>    <title>ProtocolTypehints2021</title>    <id>http://justin.vc/#ProtocolTypehints2021</id>    <link href='http://justin.vc/#ProtocolTypehints2021'/>    <updated>2021-06-25T03:55:29+02:00</updated>    <summary>* Summary:
+** The typing.Protocol special class lets you define types in terms of the interface implemented by objects, regardless of type hierarchies, in the spirit of duck typing–but in a way that c...</summary>  </entry>  <entry>    <title>LargeScaleDataValidation2021</title>    <id>http://justin.vc/#LargeScaleDataValidation2021</id>    <link href='http://justin.vc/#LargeScaleDataValidation2021'/>    <updated>2021-06-25T01:53:50+02:00</updated>    <summary>* Summary:
+** Data validation is checking if data follows certain requirements needed for data pipelines to run reliably. It is used by data scientists and data engineers to preserve the integrity of ...</summary>  </entry>  <entry>    <title>DeclarativeConfig2021</title>    <id>http://justin.vc/#DeclarativeConfig2021</id>    <link href='http://justin.vc/#DeclarativeConfig2021'/>    <updated>2021-08-18T01:06:14+02:00</updated>    <summary>* Summary:
+** Declarative configs can be leveraged to make your code maintainable and reproducible at the same time
+* Thoughts:
+** Interesting talk, might find some applicaiton in my personal projects...</summary>  </entry>  <entry>    <title>SecureSupplyChainPython2021</title>    <id>http://justin.vc/#SecureSupplyChainPython2021</id>    <link href='http://justin.vc/#SecureSupplyChainPython2021'/>    <updated>2021-11-21T18:31:37+02:00</updated>    <summary>* Summary:
+** Explore the common Python software supply chain, various ways in which such a supply chain can be attacked, as well as protected. We'll examine some tools and methodologies that help imp...</summary>  </entry>  <entry>    <title>UsingWarningsExceptions2021</title>    <id>http://justin.vc/#UsingWarningsExceptions2021</id>    <link href='http://justin.vc/#UsingWarningsExceptions2021'/>    <updated>2021-11-21T17:56:45+02:00</updated>    <summary>* Summary:
+** Discussion of Python's Warning System, when to use versus Exceptions and some advanced tricks in using them
+* Thoughts:
+** This was a good talk, recommend it since it's more general deve...</summary>  </entry>  <entry>    <title>IntroPydantic2021</title>    <id>http://justin.vc/#IntroPydantic2021</id>    <link href='http://justin.vc/#IntroPydantic2021'/>    <updated>2021-06-24T23:09:56+02:00</updated>    <summary>* Summary:
+** Pydantic offers a pythonic way to validate your user data using run-time enforced standard type-annotations.
+* Thoughts:
+** I've used Pydantic with FastAPI so a bit of a rehash but still...</summary>  </entry>  <entry>    <title>RoadToPatternMatchingPython2021</title>    <id>http://justin.vc/#RoadToPatternMatchingPython2021</id>    <link href='http://justin.vc/#RoadToPatternMatchingPython2021'/>    <updated>2021-06-24T22:50:24+02:00</updated>    <summary>* Summary:
+** This talk tries to give an answer and discusses the rationale and ideas behind the recent "pattern matching" PEPs.
+* Thoughts:
+** More of a hypothetical discussion on pattern matching - ...</summary>  </entry>  <entry>    <title>DaskSQL2021</title>    <id>http://justin.vc/#DaskSQL2021</id>    <link href='http://justin.vc/#DaskSQL2021'/>    <updated>2021-09-30T11:50:08+02:00</updated>    <summary>* Summary:
+** Dask-sql empowers Pythonistas with little or no knowledge of the JVM/Hadoop world to create end-to-end data projects.
+* Thoughts:
+** So it seems like dask is basically making inroads to ...</summary>  </entry>
+</feed>

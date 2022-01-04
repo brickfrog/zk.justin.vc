@@ -3,6 +3,7 @@ created: 20171203165317769
 description: Adjust layout
 list-before: $:/core/ui/TopBar/menu
 modified: 20211130092918568
+revision: 0
 tags: 
 title: $:/plugins/tg/layout/configuration-button
 

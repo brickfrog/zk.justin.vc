@@ -4,6 +4,7 @@ list: readme
 name: CodeMirror Keymap Vim
 parent-plugin: $:/plugins/tiddlywiki/codemirror
 plugin-type: plugin
+revision: 0
 title: $:/plugins/tiddlywiki/codemirror-keymap-vim
 type: application/json
 version: 5.1.23

@@ -4,6 +4,7 @@ creator: TonGerner
 description: Toggle tiddlersbar on/off
 modified: 20211130093046258
 modifier: TonGerner
+revision: 0
 tags: $:/tags/PageControls
 title: $:/plugins/tg/tiddlersbar/button
 

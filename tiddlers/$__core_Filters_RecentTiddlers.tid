@@ -2,5 +2,6 @@ created: 20210721221514245
 description: {{$:/language/Filters/RecentTiddlers}}
 filter: [!is[system]has[created]!sort[created]limit[50]]
 modified: 20210721221528774
+revision: 0
 tags: $:/tags/Filter
 title: $:/core/Filters/RecentTiddlers

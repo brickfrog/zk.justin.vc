@@ -1,6 +1,7 @@
 created: 20210508223048629
 description: Show the [[epistemic status|EpistemicStatuses]] of the current tiddler, if any. The status is editable in the private edition.
 modified: 20210523141512727
+revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/EpistemicStatus/Display
 transcludedin: All [[idea tiddlers|ZettelkastenCardType]]: those that are not tagged with a red type tag and are not system tiddlers, except that index tiddlers are included.

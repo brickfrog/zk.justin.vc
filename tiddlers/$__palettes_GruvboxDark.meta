@@ -3,6 +3,7 @@ description: Retro groove color scheme
 license: https://github.com/morhetz/gruvbox
 modified: 20211122025335035
 name: Gruvbox Dark
+revision: 0
 tags: $:/tags/Palette
 title: $:/palettes/GruvboxDark
 type: application/x-tiddler-dictionary

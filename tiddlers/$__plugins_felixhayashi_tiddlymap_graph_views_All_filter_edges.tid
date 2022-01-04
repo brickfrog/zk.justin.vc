@@ -1,2 +1,3 @@
 filter: -[prefix[_]] -[[tw-list:tags]]
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/filter/edges

@@ -1,3 +1,10 @@
+created: 20181214085707714
+modified: 20211122025804527
+revision: 0
+tags: $:/tags/Stylesheet
+title: $:/plugins/kookma/refnotes/styles/footnote-counter
+type: text/vnd.tiddlywiki
+
 /*automatic counter for fnote macro. The counter resets at the begining of each tiddler*/
 .tc-tiddler-frame {
   counter-reset: fnote-count;

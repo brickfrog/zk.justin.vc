@@ -6,6 +6,7 @@ description: TiddlyTables
 list: readme
 modified: 20200322003951511
 plugin-type: plugin
+revision: 0
 title: $:/plugins/aaldrich/tables
 type: application/json
 version: 0.6.21

@@ -1,6 +1,7 @@
 caption: {{$:/language/ControlPanel/Settings/CamelCase/Caption}}
 created: 20210727222342345
 modified: 20210727222342345
+revision: 0
 tags: $:/tags/ControlPanel/Settings
 title: $:/core/ui/ControlPanel/Settings/CamelCase
 

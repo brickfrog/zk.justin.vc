@@ -1,6 +1,7 @@
 created: 20210611074832773
 description: For editing what shows up beneath the title in tiddlers
 modified: 20220103150719156
+revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
 type: text/vnd.tiddlywiki

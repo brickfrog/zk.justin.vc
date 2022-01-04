@@ -7,6 +7,7 @@ list: readme usage examples fields support
 modified: 20181111202416903
 name: rpn
 plugin-type: plugin
+revision: 0
 source: https://tid.li/tw5/plugins.html
 title: $:/plugins/telmiger/rpn
 type: application/json

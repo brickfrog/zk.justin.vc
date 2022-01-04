@@ -6,6 +6,7 @@ list: readme license history
 modified: 20210516040338298
 name: Favorites
 plugin-type: plugin
+revision: 0
 source: https://github.com/kookma/TW-Favorites
 tags: 
 title: $:/plugins/kookma/favorites

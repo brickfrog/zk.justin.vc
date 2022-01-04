@@ -2,6 +2,7 @@ created: 20211009172840850
 description: Display a table of fields and other information about the software package described by this tiddler
 list-after: $:/sib/Templates/Automatic/SpoilerBanner
 modified: 20211009173425960
+revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Package
 transcludedin: All tiddlers tagged <<tag Package>>.

@@ -4,6 +4,7 @@ dark-palette: $:/palettes/Darcula
 description: Toggle between light/dark colour palette
 light-palette: $:/palettes/SolarizedLight
 modified: 20211209122645356
+revision: 0
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

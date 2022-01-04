@@ -4,6 +4,7 @@ left-tiddlersbar: 85px
 list-after: $:/plugins/tg/tiddlersbar/style-no-tiddlersbar
 modified: 20220102032603767
 modifier: TonGerner
+revision: 0
 tags: $:/tags/Stylesheet
 tiddlersbar-border-radius: 1px
 tiddlersbar-color: <<colour tab-background>>

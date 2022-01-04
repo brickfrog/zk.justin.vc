@@ -4,4 +4,5 @@ config.physics_mode: false
 created: 20210829095028515
 isview: true
 modified: 20210829095028515
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default

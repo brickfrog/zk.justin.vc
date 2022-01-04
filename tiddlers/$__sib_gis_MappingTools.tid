@@ -2,6 +2,7 @@ created: 20201129175820541
 description: Show the mapping tools available for place tiddlers with location information, or prompt the user to add such information.
 list: $:/sib/gis/SatelliteMap $:/sib/gis/DrivingDirections $:/sib/gis/Info
 modified: 20210523142716592
+revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/gis/MappingTools
 transcludedin: All tiddlers tagged <<tag Place>>.

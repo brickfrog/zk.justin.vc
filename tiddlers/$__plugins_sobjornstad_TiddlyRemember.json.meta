@@ -4,6 +4,7 @@ dependents:
 description: TiddlyRemember: Embed Anki notes in your TiddlyWiki
 list: readme license
 plugin-type: plugin
+revision: 0
 source: https://github.com/sobjornstad/TiddlyRemember
 title: $:/plugins/sobjornstad/TiddlyRemember
 type: application/json

@@ -1,6 +1,7 @@
 caption: Live
 created: 20210829093807509
 modified: 20210829100756115
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/hook/liveTab
 
 \define width() calc(100% - 15px)

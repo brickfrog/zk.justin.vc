@@ -4,6 +4,7 @@ dependents:
 description: triple-click to edit tiddlers
 list: readme
 plugin-type: plugin
+revision: 0
 source: https://github.com/sobjornstad/TW5-3click2edit
 title: $:/plugins/sobjornstad/3click2edit
 type: application/json

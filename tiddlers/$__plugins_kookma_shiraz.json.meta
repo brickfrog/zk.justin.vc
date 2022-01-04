@@ -5,6 +5,7 @@ description: extended markups, styles, images, tables, and macros
 list: readme license history
 name: Shiraz
 plugin-type: plugin
+revision: 0
 source: https://github.com/kookma/TW-Shiraz
 title: $:/plugins/kookma/shiraz
 type: application/json

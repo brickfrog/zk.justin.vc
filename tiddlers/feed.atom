@@ -1,11 +1,3 @@
-created: 20220104021953401
-creator: Tobias Beer
-modified: 20220104031111700
-modifier: Tobias Beer
-revision: 0
-title: feed.atom
-tmap.id: ef595fe2-a1d1-4c57-8187-fc6e450d7038
-
 \define tv-wikilink-template() #$uri_encoded$
 \define tv-config-toolbar-icons() no
 \define tv-config-toolbar-text() no

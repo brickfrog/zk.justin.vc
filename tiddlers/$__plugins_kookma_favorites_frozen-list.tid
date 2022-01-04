@@ -2,6 +2,7 @@ caption: Favorites
 created: 20191228192318272
 list-after: $:/core/ui/SideBar/Open
 modified: 20210724053241670
+revision: 0
 tags: 
 title: $:/plugins/kookma/favorites/frozen-list
 type: text/vnd.tiddlywiki

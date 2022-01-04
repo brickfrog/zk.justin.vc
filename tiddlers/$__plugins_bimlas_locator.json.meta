@@ -4,6 +4,7 @@ dependents:
 description: Locator: Discover and search by context
 list: README/README README/macros README/TIPS README/CHANGELOG README/LICENSE
 plugin-type: plugin
+revision: 0
 source: https://gitlab.com/bimlas/tw5-locator
 title: $:/plugins/bimlas/locator
 type: application/json

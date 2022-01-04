@@ -3,6 +3,7 @@ creator: soren
 description: Display the Reference Explorer, a table that shows related topics, for the current tiddler.
 modified: 20210523144029743
 modifier: soren
+revision: 0
 tags: Template $:/tags/ViewTemplate
 title: $:/sib/refexplorer/ReferenceExplorer
 transcludedin: All non-system tiddlers.

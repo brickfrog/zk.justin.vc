@@ -4,6 +4,7 @@ dependents:
 description: Checklist Plugin
 list: readme Usage Configuration
 plugin-type: plugin
+revision: 0
 source: https://github.com/tgrosinger/tw5-checklist
 title: $:/plugins/tgrosinger/tw5-checklist
 type: application/json

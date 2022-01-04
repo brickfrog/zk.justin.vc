@@ -4,6 +4,7 @@ description: A better editor for TW5 - built on the Official CodeMirror Plugin
 modified: 20210510224047195
 name: CMPlus
 plugin-type: plugin
+revision: 0
 tags: 
 title: $:/plugins/adithyab/cmplus
 type: application/json

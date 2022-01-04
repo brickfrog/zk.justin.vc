@@ -4,6 +4,7 @@ filter:
 list: 1 2 3 4 5
 modified: 20210829144823858
 modifier: Thomas Elmiger
+revision: 0
 tags: MyMacros ToDoComponents
 title: $:/plugins/telmiger/todonow/settings
 type: application/x-tiddler-dictionary

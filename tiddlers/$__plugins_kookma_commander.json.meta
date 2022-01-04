@@ -5,6 +5,7 @@ description: batch processing tiddlers
 list: readme history license authors
 name: Tiddler Commander
 plugin-type: plugin
+revision: 0
 source: https://github.com/kookma/TW-Commander
 title: $:/plugins/kookma/commander
 type: application/json

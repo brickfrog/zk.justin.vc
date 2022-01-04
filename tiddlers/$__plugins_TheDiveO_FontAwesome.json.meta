@@ -7,6 +7,7 @@ fa-version: 5.8.2
 list: readme license history
 modified: 20200419150315831
 plugin-type: plugin
+revision: 0
 source: https://github.com/TheDiveO/TW5FontAwesome
 title: $:/plugins/TheDiveO/FontAwesome
 type: application/json

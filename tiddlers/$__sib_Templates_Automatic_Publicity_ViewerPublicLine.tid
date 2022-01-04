@@ -1,6 +1,7 @@
 created: 20200508002211355
 description: Show a checkbox to make the tiddler private or public while viewing it.
 modified: 20210523142811057
+revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Publicity/ViewerPublicLine
 transcludedin: All non-system tiddlers, in the private edition. Never, in the public edition.

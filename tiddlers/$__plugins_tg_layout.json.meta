@@ -6,6 +6,7 @@ list: readme license
 modified: 20200918192709673
 name: Layout tweaks
 plugin-type: plugin
+revision: 0
 source: http://tongerner.tiddlyspot.com/
 title: $:/plugins/tg/layout
 type: application/json

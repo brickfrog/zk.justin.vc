@@ -6,6 +6,7 @@ list: readme license
 modified: 20191228211019421
 name: Tiddlersbar
 plugin-type: plugin
+revision: 0
 source: http://tw5custom.tiddlyspot.com/
 tags: 
 title: $:/plugins/tg/tiddlersbar

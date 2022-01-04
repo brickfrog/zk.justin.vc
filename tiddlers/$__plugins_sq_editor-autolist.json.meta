@@ -4,6 +4,7 @@ description: Editor AutoList - editor extension to automatically continue lists
 modified: 20200803173012976
 name: Editor AutoList
 plugin-type: plugin
+revision: 0
 title: $:/plugins/sq/editor-autolist
 type: application/json
 version: 0.1.10

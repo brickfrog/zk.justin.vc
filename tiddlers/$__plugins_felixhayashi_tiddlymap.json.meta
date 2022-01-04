@@ -7,6 +7,7 @@ list: readme license
 modified: 20210827133046889
 plugin-type: plugin
 released: Thu, 21 May 2020 11:32:58 GMT
+revision: 0
 source: https://github.com/felixhayashi/TW5-TiddlyMap
 suggested: $:/plugins/felixhayashi/topstoryview
 title: $:/plugins/felixhayashi/tiddlymap

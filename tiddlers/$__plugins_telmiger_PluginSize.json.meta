@@ -9,6 +9,7 @@ modified: 20200525202202692
 modifier: Thomas Elmiger
 name: PluginSize
 plugin-type: plugin
+revision: 0
 source: https://tid.li/tw5/plugins.html
 title: $:/plugins/telmiger/PluginSize
 type: application/json

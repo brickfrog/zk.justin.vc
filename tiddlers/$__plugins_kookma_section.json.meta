@@ -5,6 +5,7 @@ description: Sectionize tiddler, create patchworks, and manage sections
 modified: 20211221140843999
 name: Section Editor
 plugin-type: plugin
+revision: 0
 source: https://github.com/kookma/TW-Section
 tags: 
 title: $:/plugins/kookma/section

@@ -35,6 +35,7 @@ install:
 
 build:
 		tiddlywiki --build index
+		tiddlywiki --build feed
 
 push:
 		git add .

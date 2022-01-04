@@ -11,5 +11,6 @@ config.vis: {"physics":{"forceAtlas2Based":{"springConstant":0.09}}}
 created: 20150331114808577
 isview: true
 modified: 20210829100249491
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki

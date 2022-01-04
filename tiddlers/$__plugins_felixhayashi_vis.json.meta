@@ -4,6 +4,7 @@ dependents:
 description: Visjs – TiddlyWiki5 plugin for the vis.js library
 list: readme
 plugin-type: plugin
+revision: 0
 source: https://github.com/felixhayashi/TW5-Vis.js
 title: $:/plugins/felixhayashi/vis
 type: application/json

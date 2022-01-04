@@ -1,6 +1,7 @@
 caption: {{$:/language/codemirror/theme/hint}}
 created: 20210724225727981
 modified: 20210724225727981
+revision: 0
 tags: $:/tags/ControlPanel/Settings/CodeMirror
 title: $:/core/ui/ControlPanel/Settings/codemirror/theme
 

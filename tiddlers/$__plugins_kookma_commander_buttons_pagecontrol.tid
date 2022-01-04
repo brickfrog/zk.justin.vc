@@ -2,6 +2,7 @@ caption: {{$:/plugins/kookma/commander/images/file-alt}} {{$:/language/Buttons/C
 created: 20190724145015836
 description: Open tiddler commander
 modified: 20210528182832598
+revision: 0
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/commander/buttons/pagecontrol
 type: text/vnd.tiddlywiki

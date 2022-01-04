@@ -1,3 +1,10 @@
+created: 20181215201115750
+modified: 20210829123529107
+revision: 0
+tags: $:/tags/Stylesheet
+title: $:/plugins/kookma/refnotes/styles/tooltip
+type: text/vnd.tiddlywiki
+
 /* tooltip class used for ref, fnote and other macros */
 .refnotes-tooltip {
 	position: relative;

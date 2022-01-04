@@ -5,6 +5,7 @@ description: references, citations, footnotes and abbreviations in Tiddlywiki
 list: readme license history
 name: Refnotes
 plugin-type: plugin
+revision: 0
 source: https://github.com/kookma/TW-Refnotes
 title: $:/plugins/kookma/refnotes
 type: application/json

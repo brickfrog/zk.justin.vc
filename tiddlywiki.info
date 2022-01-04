@@ -17,6 +17,12 @@
             "../index.html",
             "text/plain"
         ],
+	"feed": [
+	    "--rendertiddler",
+            "feed.atom",
+            "../feed.atom",
+	    "text/plain"
+	],
         "static": [
             "--rendertiddler",
             "$:/core/templates/static.template.html",

@@ -6,6 +6,7 @@ description: Flexibility when relinking renamed tiddlers
 list: readme configuration license
 name: Relink
 plugin-type: plugin
+revision: 0
 source: https://github.com/flibbles/tw5-relink
 title: $:/plugins/flibbles/relink
 type: application/json

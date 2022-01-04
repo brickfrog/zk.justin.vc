@@ -1,2 +1,3 @@
 filter: [!is[system]] +[limit[1000]]
+revision: 0
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/All/filter/nodes

@@ -4,6 +4,7 @@ dependents:
 description: simple youtube macro
 list: readme
 plugin-type: plugin
+revision: 0
 title: $:/macros/welford/twyt
 type: application/json
 version: 5.1.23

@@ -4,6 +4,7 @@ library-version: v0.10.2
 list: readme usage
 name: KaTeX
 plugin-type: plugin
+revision: 0
 title: $:/plugins/tiddlywiki/katex
 type: application/json
 version: 5.1.23
