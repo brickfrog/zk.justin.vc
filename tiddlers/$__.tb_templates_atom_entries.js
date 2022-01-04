@@ -40,7 +40,7 @@ exports.run = function(filter) {
 			summary = $tw.wiki.renderText(
 				"text/plain",
 				"text/vnd.tiddlywiki",
-				summary || tiddler.getFieldString("text") || "",
+				summary || "",
 				{
 					parseAsInline: true,
 					variables: {
@@ -48,12 +48,7 @@ exports.run = function(filter) {
 				}
 			});
 			if(!tiddler.getFieldString("summary")) {
-				summary = summary
-					.split("<")[0]
-					.split("`")[0]
-					.split("!")[0]
-					.substr(0,200)
-					+ "...";
+				summary = ""
 			} else {
 				summary = summary.replace(/\</mg,"").replace(/\>/mg,"");
 			}
