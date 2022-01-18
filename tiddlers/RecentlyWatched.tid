@@ -1,13 +1,33 @@
 created: 20210611072547102
-modified: 20210622052751181
+modified: 20220106020742849
 revision: 0
 tags: Meta
 title: RecentlyWatched
 tmap.id: e99279f9-f643-4d6b-af5f-536cdc3284c7
 
+<$details summary="Film" open="no" class="vibe"> 
 <dl>
-<$list filter="[tag[Source]medium[video]readstatus[read]has[completed]!sort[completed]]">
+<$list filter="[tag[Source]medium[film]readstatus[read]has[completed]!sort[completed]]">
 <dt><$view field="completed" format="date" template="DDth MMM YYYY"/></dt>
 <dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
 </$list>
 </dl>
+</$details>
+
+<$details summary="Television" open="no" class="vibe"> 
+<dl>
+<$list filter="[tag[Source]medium[television]readstatus[read]has[completed]!sort[completed]]">
+<dt><$view field="completed" format="date" template="DDth MMM YYYY"/></dt>
+<dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
+</$list>
+</dl>
+</$details>
+
+<$details summary="YouTube" open="no" class="vibe"> 
+<dl>
+<$list filter="[tag[Source]medium[youtube]readstatus[read]has[completed]!sort[completed]]">
+<dt><$view field="completed" format="date" template="DDth MMM YYYY"/></dt>
+<dd><$macrocall $name="stretch-template" tiddler=<<currentTiddler>> smallTemplate="$:/sib/Templates/Topical/ReadingList/SmallTemplate" largeTemplate="$:/sib/Templates/Topical/ReadingList/LargeTemplate"/></dd>
+</$list>
+</dl>
+</$details>

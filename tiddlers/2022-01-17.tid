@@ -1,0 +1,26 @@
+class: leftbar border-info
+created: 20220117190318419
+modified: 20220117190320110
+productivity: 5
+summary: 2022-01-17
+tags: Journal
+title: 2022-01-17
+tmap.id: 4e20a1d4-cc9e-4554-8b35-b64e0f0de6b7
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+---
+
+
+<$details summary="Todo" open="yes" class="vibe">
+<<todolist-ui caption:" " base:"$(currentTiddler)$T">>
+</$details>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

@@ -1,0 +1,12 @@
+author: Mohammad Rahmani
+core-version: 5.1.20+
+created: 20190728104956978
+description: Timelines
+list: readme license history
+modified: 20190809192301500
+plugin-type: plugin
+source: https://github.com/kookma/TW-Timelines
+tags: 
+title: $:/plugins/kookma/timelines
+type: application/json
+version: 1.0.0

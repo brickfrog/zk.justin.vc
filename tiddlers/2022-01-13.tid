@@ -1,0 +1,27 @@
+created: 20220113144335759
+modified: 20220114043504117
+productivity: 4
+summary: 2022-01-13
+tags: Journal
+title: 2022-01-13
+tmap.id: aec9966f-17a9-4843-b9f7-c072ec133739
+vibe: 7
+
+<p class="dropcap">Daily  notes, quotes, and todos for {{!!title}}. </p>
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+---
+
+
+<$details summary="Todo" open="yes" class="vibe">
+<<todolist-ui caption:" " base:"$(currentTiddler)$T">>
+</$details>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

@@ -1,8 +1,25 @@
 color: #ffffff
 created: 20210725225300797
 icon: $:/jtm/images/icons/julia
-modified: 20211129185835793
+modified: 20220114025219505
 revision: 0
 tags: Code Software ProgrammingLanguage
 title: Julia
 tmap.id: 36a6a849-17b8-4109-a79b-aa8281f96f13
+url: https://julialang.org
+
+> Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.
+
+!! Links and Misc
+!!! Documentation
+* [[Performance Tips|https://docs.julialang.org/en/v1/manual/performance-tips/#man-performance-tips]]
+
+!!! ~YouTubers
+* [[julia for talented amateurs|https://www.youtube.com/c/juliafortalentedamateurs/featured]]
+** Mostly new to programming content, haven't made my way through all of it, but it's worth pointing out and sharing to anyone curious about programming in general
+
+!!! Packages
+* DataVoyager - view of data in external window, reminds me of something like PandasProfile, or charting in JMP
+* Makie, CairoMakie - plotting package, written from ground up in Julia compared to just being a wrapper, 
+* JuMP - optimization language for interacting with solvers, 24 different solvers
+* HypothesisTest

@@ -3,7 +3,7 @@ color: #ff0000
 created: 20200226131429312
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210715020437644
+modified: 20220104060700611
 modifier: soren
 revision: 0
 tags: Meta
@@ -13,4 +13,4 @@ type: text/vnd.tiddlywiki
 
 {{!!caption}}
 
-Right now I primarily have my main website, but also https://fp.justin.vc where my [[Jupyter]] notebooks go. Maybe once I get better writing(? - need to practice, read more books on -how-) I can have a general blog.
+This would primarily be long-form posts, maybe not stored in tiddlywiki. External sites, medium, substack?

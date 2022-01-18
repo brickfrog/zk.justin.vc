@@ -1,0 +1,23 @@
+created: 20220109210658123
+modified: 20220109211125136
+tags: 
+title: MediaServer
+tmap.id: e3683471-bead-4554-817b-869e63e6f0e2
+
+Should keep my notes for this stuff here incase I want to point someone out how I created mine:
+
+External Things that are helpful/needed
+
+* Usenet access / server
+* NZB indexes
+* VPN
+* External harddrives
+* NUC / spare computer
+
+*Local
+** DockStarter - https://dockstarter.com
+*** This is simple to set up and lets you pick all the services you'd need
+*** TODO - selection / misc steps
+* Server for other people
+** HomeabOS - https://homelabos.com
+*** This is pretty neat, similar to DockStarter but requires a bit more technical knowledge, allows you to set up a reverse proxy and bastion server, then point it to something like DigitalOcean so people won't attack your home internet

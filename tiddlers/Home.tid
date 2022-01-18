@@ -1,6 +1,7 @@
 created: 20210528153225122
+icon: $:/core/images/home-button
 list: Home/About Home/Navigation Home/Recent Home/Calendar Home/Map
-modified: 20220104031201120
+modified: 20220110204004133
 revision: 0
 tags: Meta
 title: Home
@@ -13,7 +14,7 @@ type: text/vnd.tiddlywiki
 
 <<tabs 
   tabsList:"[list[Home]]"
-	default:"Home/Navigation"
+	default:"Home/About"
   buttonTemplate:"$:/sib/Templates/Topical/PublicHomepageTab"
 >>
 

@@ -1,0 +1,27 @@
+created: 20220110140929321
+modified: 20220111232137914
+productivity: 4
+summary: A Tale of Two Cities
+tags: Journal
+title: 2022-01-10
+tmap.id: 9edbcc5e-4c2f-400e-b105-af9723c823a4
+vibe: 6
+
+<p class="dropcap">Daily  notes, quotes, and todos for {{!!title}}. </p>
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+---
+
+
+<$details summary="Todo" open="yes" class="vibe">
+<<todolist-ui caption:" " base:"$(currentTiddler)$T">>
+</$details>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

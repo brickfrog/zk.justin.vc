@@ -1,8 +1,9 @@
 created: 20220101163947532
-modified: 20220104024618667
+modified: 20220110205959667
 revision: 0
 tags: $:/tags/Macro
 title: $:/jtm/macros/journlink
 
 \define linkuptitle() [[Quotes|$(currentTiddler)$Q]]
+
 \define linkups() <$list filter="[[$(currentTiddler)$Q]has[created]]"><$details summary="Quotes for the Day" open="yes" class="vibe"> {{$(currentTiddler)$Q}}</$details></$list>
