@@ -1,0 +1,44 @@
+color: #6c6cff
+created: 20210805055338136
+icon: $:/core/images/list-bullet
+modified: 20220123221312060
+revision: 0
+tbl-add-records: 
+tbl-anything: 
+tbl-button-actions: 
+tbl-button-icon: {{$:/core/images/menu-button}}
+tbl-button-tip: 
+tbl-caption: ''{{!!title}}''
+tbl-checkbox-actions-selected: 
+tbl-checkbox-actions-unselected: 
+tbl-checkbox-field: 
+tbl-checkbox-tag: 
+tbl-checkbox-tip: 
+tbl-checkbox-value-selected: 
+tbl-checkbox-value-unselected: 
+tbl-class: tbl-style-dark
+tbl-columns: title created year rating tags
+tbl-expand: 
+tbl-filter: [tag[SciFiReading]]
+tbl-limit: 10
+tbl-mode: normal
+tbl-page-marker: 
+tbl-show-caption: true
+tbl-show-colgroup: false
+tbl-show-edit: true
+tbl-show-footer: false
+tbl-show-header: true
+tbl-show-mode: true
+tbl-show-pagination: auto
+tbl-sort-by: year
+tbl-sort-negate: false
+tbl-sort-type: nsort
+tbl-style-colgroup: 
+tbl-style-container: 
+tbl-style-table: width:100%;
+title: SciFiReading
+tmap.id: 7a37d7b5-41ba-4d85-9f53-c0d6574b72c9
+
+Reading / Read list for SciFi, going by HugoAward and NebulaAward winners  (See: HugoNebulaList) . (Currently attempting to read in chronological order, have finished a few already, so starting with 1959 for TW purposes)
+
+<<table "SciFiReading">>

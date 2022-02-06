@@ -1,0 +1,18 @@
+[
+    {
+        "created": "20210611051128449",
+        "text": "Using Features \"Off-Label\" with Python, primarily in the \"Pants\" build system. I don't have much experience with it, the underlying engine is built in Rust, with the language for building in Python.\n\n* type annotations\n** Depedency injection by types\n* asyncio\n** Coroutines helping avoid side effects, remote execution\n* dataclasses\n** cacheabiity\n*** frozen dataclasses to make types cacheable",
+        "title": "ExtensibleWorkflows2021",
+        "tags": "PyCon2021 Source",
+        "presenter": "Benjy Weinberger",
+        "caption": " Creating extensible workflows with off-label use of Python",
+        "modified": "20220204031651410",
+        "url": "https://www.youtube.com/watch?v=HA5gzP4Ncao",
+        "year": "2021",
+        "medium": "youtube",
+        "readstatus": "read",
+        "completed": "20210611000000000",
+        "tmap.id": "074973f0-31ee-4d08-ac30-7401dbc39962",
+        "revision": "0"
+    }
+]

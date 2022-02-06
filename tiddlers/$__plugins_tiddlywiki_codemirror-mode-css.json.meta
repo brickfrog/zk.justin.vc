@@ -4,7 +4,6 @@ list: readme
 name: CodeMirror Mode CSS
 parent-plugin: $:/plugins/tiddlywiki/codemirror
 plugin-type: plugin
-revision: 0
 title: $:/plugins/tiddlywiki/codemirror-mode-css
 type: application/json
-version: 5.1.23
+version: 5.2.1

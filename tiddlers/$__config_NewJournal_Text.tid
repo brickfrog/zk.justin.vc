@@ -1,5 +1,5 @@
 created: 20210715015127344
-modified: 20220117163501883
+modified: 20220206061635622
 revision: 0
 tags: 
 title: $:/config/NewJournal/Text
@@ -8,12 +8,13 @@ vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" in
  productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
 <br>
 
+<p class="dropcap">Summary</p>
+
+<br>
+
 ---
 
-
-<$details summary="Todo" open="yes" class="vibe">
-<<todolist-ui caption:" " base:"$(currentTiddler)$T">>
-</$details>
+<br>
 
 <$details summary="Interstitial" open="yes" class="vibe">
 <<interstitial-ui base:"$(currentTiddler)$" caption:" ">>

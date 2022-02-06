@@ -1,0 +1,48 @@
+author: HudaNassar
+caption: Julia for Data Science
+completed: 
+created: 20220119234304249
+medium: course
+modified: 20220122062935809
+rating: average
+readstatus: unread
+tags: Source
+title: JuliaForDataScience
+tmap.id: acfbfebf-5102-40ad-bda8-442d99f53586
+url: https://juliaacademy.com/courses/enrolled/937702
+year: 2021
+
+Course from JuliaAcademy with code hosted at https://github.com/JuliaAcademy/DataScience, as most of the material is hosted jupyter notebooks, I'll most likely just utilize this space as a regurgitation of concepts and thoughts on usefulness.
+
+One thing I notice is, that, unlike Python, Julia tends to cocentrate package into very more distinct instead of monolithic, e.g TSNE for t-sne, vs. lots of things being tossed into Scikit-learn.
+
+*Dimensionality Reduction
+** PCA
+** t-SNE
+** UMAP
+* Clustering (Clustering.jl)
+** k-means clustering
+** k-medoid clustering
+** hierarchial clustering
+** DBscan
+* Classification
+**  LASSO - GLMnet
+**  Ridge
+** ~ElasticNet
+** Decision Tree - ~DecisionTree package
+** Random Forest
+**  Nearest Neighbors - ~NearestNeighbors package
+** Support Vector Machines -  
+* Regression
+** GLM package
+* Graphs
+** ~MatrixNetworks
+** Adjacency matrix
+** Minimum Spanning Tree
+* Numerical Optimization
+** ~Convex.jl
+** mentions but does not use ~JuMP
+* Neural Networks
+** Flux.jl
+
+Ended up being a decent overview, but definitely more introductory level and not necessarily something I'd revisit.

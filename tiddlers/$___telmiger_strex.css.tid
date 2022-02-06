@@ -1,6 +1,6 @@
 created: 20160702121640544
 creator: Thomas Elmiger
-modified: 20211124044150999
+modified: 20220201045836866
 modifier: Thomas Elmiger
 revision: 0
 tags: $:/tags/Stylesheet TextStretch
@@ -47,77 +47,6 @@ type: text/vnd.tiddlywiki
 }
 .strex-content .tc-reveal .strex-content { 
   color: #766;
-}
-
-
-/* * * * * * * * * * * *
-** Footnotes with Numbers
-* * * * * * * * * * * * */
-
-body {
-   counter-reset: notenr;  /* set counter to 0 */
-}
-div .tc-tiddler-frame {
-   counter-reset: tidnotenr;
-}
-.strex-container.storynumbers {
-   counter-increment: notenr; /* counter +1 */
-}
-.strex-container.numbers {
-   counter-increment: tidnotenr;
-}
-button.strex-open.storynumbers::before, 
-button.strex-start.storynumbers::before {
-   content: counter(notenr); /* Display the counter */
-   font-size: xx-small;
-   vertical-align: top;
-}
-button.strex-end.storynumbers::after {
-   content: counter(notenr);
-   font-size: xx-small;
-   vertical-align: top;
-}
-button.strex-open.numbers::before, 
-button.strex-start.numbers::before {
-   content: counter(tidnotenr);
-}
-button.strex-end.numbers::after {
-   content: counter(tidnotenr);
-}
-
-
-/* Footer Collection as Numbered List `<ol>` */
-
-.footnotes p ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    counter-reset: li-counter;
-}
-
-.footnotes p ol span > li {
-   position: relative;
-   margin-bottom: 0.6em;
-   margin-left: 2.25rem;
-   padding: 0.2em;
-   background-color: <<colour sidebar-tab-background-selected>>;
-   min-height: 2.1em;
-}
-
-.footnotes p ol span > li:before {
-   position: absolute;
-   top: 0;
-   width: 1.75rem;
-   height: 1.75rem;
-   font-size: 0.75rem;
-   line-height: 1;
-   text-align: right;
-   color: <<colour sidebar-tab-foreground>>;
-   background-color: <<colour sidebar-tab-background>>;
-   content: counter(li-counter);
-   counter-increment: li-counter;
-   padding: 0.1em 0.2em 0.2em 0.1em;
-   margin-left: -2.5rem;
 }
 
 

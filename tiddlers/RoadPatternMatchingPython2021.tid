@@ -1,0 +1,31 @@
+caption: The Road to Pattern Matching in Python
+completed: 20210625000000000
+created: 20210624072655915
+medium: youtube
+modified: 20220204031625811
+presenter: Tobias Kohn
+readstatus: read
+revision: 0
+tags: PyCon2021 Source
+title: RoadPatternMatchingPython2021
+tmap.id: 98fd9e9d-7a84-4a3b-bf8d-1cdb327482dc
+url: https://www.youtube.com/watch?v=NYUXNRswe6k
+year: 2021
+
+* ''Summary'':
+** This talk tries to give an answer and discusses the rationale and ideas behind the recent "pattern matching" PEPs.
+* ''Thoughts'':
+** More of a hypothetical discussion on pattern matching - interesting but difficult to distill notes from
+* ''Notes'':
+**  checks the structure/shape/type -> selects code to handle a specific object -> extracts relevant pieces of information
+** in the beginning:
+*** tuple unpacking
+*** new paradigm of coding
+**** isolated -> do not affect outside of match
+**** familiar -> follow established syntax / conventions
+**** compatible -> work well with existing code
+*** simple names are binding targets 
+*** attributes provide value constraints
+*** the set of binding targets is detereministic
+*** objects are complex
+**** views on different classes?

@@ -1,0 +1,11 @@
+{
+    "20220205193459578": "getting rid of the seperate todo window, I think, can put item in the this one - however it deletes all without the shadow tiddler ",
+    "20220205200815278": "testing, made a shortcut using the built in checkbox, so don't need to nest todolist integrations and create a cluster",
+    "20220205204437042": "just realize they don't maintain state, sucks.",
+    "20220205221758804": "<<cb \"This is a test\">>",
+    "20220205222223483": "Got it working using data tiddlers, similar to kooma's todolist, but using my own path",
+    "20220205222400908": "I don't -love- it, but for now using \"< < cb \"text\" > >\" as the mechanism should work well enough",
+    "20220205223106389": "Also reminded that linking here, while visible for perusers doesn't show up on map and such because it's technically obsfucated in a shadow",
+    "20220205223300948": "enough digressions - watching new RedLetterMedia",
+    "20220205235956133": "finishing up the writing for books / moves ive finished, need to finish nightcrawler"
+}

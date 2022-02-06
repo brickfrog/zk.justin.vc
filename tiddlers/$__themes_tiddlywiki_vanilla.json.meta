@@ -1,7 +1,9 @@
 author: JeremyRuston
 core-version: >=5.0.0
+created: 20220201042504859
 dependents: 
 description: Basic theme
+modified: 20220201042504859
 name: Vanilla
 plugin-priority: 0
 plugin-type: theme

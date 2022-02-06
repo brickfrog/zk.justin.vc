@@ -1,6 +1,6 @@
 created: 20180925155320737
 creator: Thomas Elmiger
-modified: 20220102032156536
+modified: 20220201052830484
 modifier: Thomas Elmiger
 revision: 0
 tags: $:/tags/Stylesheet
@@ -34,6 +34,6 @@ details.success summary {
 }
 
 details.vibe summary {
-    background-color: <<colour button-background>>;
-    color: #000;
+    background-color: <<colour primary>>;
+    color: <<colour foreground>>;
 }

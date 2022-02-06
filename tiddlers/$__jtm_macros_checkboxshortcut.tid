@@ -1,0 +1,10 @@
+created: 20220205203113524
+modified: 20220205222041012
+revision: 0
+tags: $:/tags/Macro
+title: $:/jtm/macros/checkboxshortcut
+
+\define cblink(u) $u$$(currentTiddler)$
+\define cb(u)
+<$checkbox tiddler=<<cblink "$:/jtm/tododata/">> index="$u$" checked="complete" unchecked="incomplete" default="">&nbsp;$u$</$checkbox>
+\end

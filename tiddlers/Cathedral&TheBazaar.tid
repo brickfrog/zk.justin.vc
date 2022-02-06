@@ -1,0 +1,33 @@
+author: EricSRaymond
+caption: The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary
+completed: 20220131
+created: 20220201024743279
+medium: book
+modified: 20220205235921340
+rating: distinguished
+readstatus: read
+tags: Source
+title: Cathedral&TheBazaar
+tmap.id: 61e52c5f-001f-48c9-8350-12ef894f7278
+url: 
+year: 2001
+
+An interesting read in a historical sense with open source having already "won" over the more zealous "free software" movement. If I were to rate the chapters in time-worthness <<fnote "the appendices are... not great">>, I'd go with:
+
+* Homesteading the Nooosphere
+* Cathedral and the Bazaar
+* A Brief History of Hackerdom
+* Revenge of the Hackers
+* The Magic Cauldron
+
+The software discussion wrt Cathedral in the Bazaar is pretty much a "known", but is entertaining and worth reinforcing, while the Magic Cauldron is known and a bit dry with most predictions spot on (re: software as a service vs. individual sales). 
+
+The psychological components in Homesteading the Noosphere remain relevant with a discussion on "gift culture"
+
+> For examined in this way, it is quite clear that the society of open-source hackers is in fact a gift culture. Within it, there is no serious shortage of the ‘survival necessities’—disk space, network bandwidth, computing power. Software is freely shared. This abundance creates a situation in which the only available measure of competitive success is reputation among one’s peers.
+
+This is the one section that has faltered a bit. I don't think the financialization predictions were made -knowing- the methods used by the big corporations would eventually cannibalize the movement with things getting "too big to fail". While still open source, with the ability to fork, things become entrenched, with cumbersome Conduct and Contribution guidelines, it's effectively stifling who can contribute and becoming more about the overarching organizations brand instead of solving a problem. See: FAANG using open source as a recruitment mechanism, keeping most useful things as internal tools, spinning them off only when there's external benefits.
+
+Additionally, I'm not sure he foresaw the social competition sphere that would be twitter, with users competing in social clout gleaned through manipulation and exorcism of the other. In that world, a user with 20,000 followers gleaned through toy projects and deft marketing can excise users who (have) made useful contributions due to some percieved wrong.
+
+All in all, this is more just kind of a ramble of thoughts while reading it and I'm still surprised how prescient things were given the second edition was written ~20 years ago and it's a bit amusing that "big-tech" used his blueprint to take over.

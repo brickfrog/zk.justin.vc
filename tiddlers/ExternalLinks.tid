@@ -1,19 +1,18 @@
 created: 20210829124146841
-modified: 20220110205128866
+modified: 20220204040704700
 revision: 0
 tags: 
 title: ExternalLinks
 tmap.id: e67d27e9-111f-45ae-af0c-9d3be4275b92
 
 
-* Social
-** [[urbit]]
 * Books/Reading
 ** [[Goodreads|https://www.goodreads.com/brickfrog]] - try to keep books I read up to date / suggestions, etc. 
-*** Internal Widget - GoodreadsWidget
 * Media/Watching
 ** [[Trakt|https://trakt.tv/users/justinvc]] - television/movies watched, programatically updated/scrobbled <<fnote "Basically it automatically updates based on things I watch">>
 ** [[Anilist|https://anilist.co/user/brickfrog/]] - similar to Trakt, but anime/manga, programatically updated for anime (not manga - [[AppIdea]])
 * Music/Listening
 ** [[last.fm|https://www.last.fm/user/justinvc]] - music scrobbled from Spotify
 ** [[rateyourmusic.com|https://rateyourmusic.com/~justinvc]] - rating albums, manually updated
+* Social / Misc
+** [[urbit]]

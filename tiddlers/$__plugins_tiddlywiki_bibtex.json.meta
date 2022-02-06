@@ -4,7 +4,6 @@ description: BibTeX importer
 list: readme license
 name: BibTeX
 plugin-type: plugin
-revision: 0
 title: $:/plugins/tiddlywiki/bibtex
 type: application/json
-version: 5.1.24-prerelease
+version: 5.2.1-prerelease

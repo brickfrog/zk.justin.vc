@@ -1,0 +1,29 @@
+caption: Your app is async so take advantage of it for development!
+completed: 20210626000000000
+created: 20210625082534915
+medium: youtube
+modified: 20220204031638863
+presenter: John Belmonte
+readstatus: read
+revision: 0
+tags: PyCon2021 Source
+title: AsyncDevelopmentViews2021
+tmap.id: 5e1d0612-be60-421d-9424-89fd74f2c848
+url: https://www.youtube.com/watch?v=olT7ejlv0uE
+year: 2021
+
+* ''Summary'':
+** This talk covers how Python's async is useful for "development views"-- visualizing and interacting with the state of your running app
+* ''Thoughts'':
+** So, this talk is more about async in the sense that its used to make up Pura, which allows graphical representation of whats going on within an existing(?) program. Doesn't cover the "how" in -great- detail, but stil kind of interesting.
+* ''Notes'':
+** Inspecting a program while it is running?
+** leveraging async
+*** between await statements is an atomic section of code
+*** in practice?
+**** Pura! - open-source package
+**** borrowed the graphical API from the PRocessing framework
+**** has a web view server with components
+**** Things you could do with this:
+***** realtime variable epxlorer
+***** task epxlorer

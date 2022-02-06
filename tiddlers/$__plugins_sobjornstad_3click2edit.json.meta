@@ -1,8 +1,10 @@
 author: Soren Bjornstad, after Danielo Rodriguez
 core-version: >=5.1.0
+created: 20220120225401220
 dependents: 
 description: triple-click to edit tiddlers
 list: readme
+modified: 20220120225401220
 plugin-type: plugin
 revision: 0
 source: https://github.com/sobjornstad/TW5-3click2edit

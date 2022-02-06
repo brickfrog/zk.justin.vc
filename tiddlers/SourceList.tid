@@ -1,7 +1,7 @@
 <col style="width: 9em">
 created: 20200322024716895
 creator: soren
-modified: 20210805083720029
+modified: 20220201050754571
 modifier: soren
 revision: 0
 tags: Meta Public
@@ -19,15 +19,15 @@ tbl-checkbox-tip:
 tbl-checkbox-value-selected: 
 tbl-checkbox-value-unselected: 
 tbl-class: tbl-style-dark
-tbl-columns: tbl-expand title medium year tags
+tbl-columns: title medium year tags
 tbl-expand: 
 tbl-filter: [tag[Source]]
-tbl-limit: 50
+tbl-limit: 9999999
 tbl-mode: normal
-tbl-page-marker: JuliaFortranNumpy20210615
+tbl-page-marker: CreatingBolt
 tbl-show-caption: true
 tbl-show-colgroup: true
-tbl-show-edit: true
+tbl-show-edit: false
 tbl-show-footer: false
 tbl-show-header: true
 tbl-show-mode: true

@@ -1,0 +1,14 @@
+caption: An Introduction to Statistical Learning
+completed: 
+created: 20220123042831150
+medium: book
+modified: 20220123045035289
+rating: 
+readstatus: reading
+tags: Source
+title: IntroductionStatisticalLearning
+tmap.id: 926a8469-e30c-4ddd-9f66-3758cf6c9651
+url: https://www.statlearning.com
+year: 2021
+
+Introductory look at many methods in statistical learning by GarethJames DanielaWitten TrevorHastie RobTibshirani using [[R]]. I actually read this first in ~2014 when I first started grad school. A new version dropped in 2021, so I'm reading through it again.  <<fnote "Unmentioned is my rustiness, of which I am also rereading, to get more of the basics down again. Surprising how quick things rust when one is in industry. I blame all the meetings.">>

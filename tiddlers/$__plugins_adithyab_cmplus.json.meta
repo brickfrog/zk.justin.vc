@@ -1,11 +1,11 @@
 created: 20210327052508762
 dependents: $:/plugins/tiddlywiki/codemirror
 description: A better editor for TW5 - built on the Official CodeMirror Plugin
-modified: 20210510224047195
+modified: 20220201040139622
 name: CMPlus
 plugin-type: plugin
 revision: 0
-tags: 
+tags: CodeMirror
 title: $:/plugins/adithyab/cmplus
 type: application/json
-version: 0.2.1
+version: 0.2.2

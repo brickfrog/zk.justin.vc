@@ -1,12 +1,12 @@
 created: 20211021203243019
-modified: 20220102053254854
+modified: 20220201053028813
 revision: 0
 title: DesignNotes
 tmap.id: f78f2dbd-5060-4eb6-8f98-204f951588e7
 
 Just random thoughts on design and such, I think one of the more neat things is the difficulty of SEOing TiddlyWiki (Can you? - Look into this); if someone is here it means they either randomly found it or actually intend to read around vs. ending up from google
 
-I originally kept a simple black theme like Gwern, but I found myself gravitating towards [[Dracula|https://draculatheme.com/]].
+I originally kept a simple black theme like Gwern, but I found [[Dracula|https://draculatheme.com/]] and I'm not sure which I like better.
 
 Aside from that it's mostly just a veritable cluster of things I think are neat.
 
@@ -20,5 +20,6 @@ Things I should figure out
 
 * Better pop-ups for links, difficult to do with, I know Gwern has javascript for how he handles it. Probably not worth unless bored, current hover solution works fine enough.
 * Best way to handle YouTube sources, a lot of videos are long and might be worthy of being a seperate source, but not sure if it's worth the hassle to source, say, a 15 minute python video that has one core idea that can be summarized in a bullet point
-* Figure out why the hell footnote counters resets in the same tiddler between paragraphs
+* ~~Figure out why the hell footnote counters resets in the same tiddler between paragraphs~~
+** This was because strex conflicted with refnote
 * Ideas for keeping everything constrained to TW, thus allowing analytics during my build step

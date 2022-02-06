@@ -1,0 +1,18 @@
+created: 20220121020755995
+modified: 20220121021949625
+tags: Examples
+title: DetailSearchExample
+tmap.id: b2b812f7-2703-4090-9105-7150a73b8325
+
+<$keyboard key="escape" actions='<$action-setfield $tiddler="$:/temp/demo/qa/search-details" $field="text" $value=""/>'>
+<$edit-text tiddler="$:/temp/demo/qa/search-details" filed=text tag=input default="" placeholder="Search" class="alert alert-info w-100"/>
+</$keyboard>
+
+Template for possible interview / knowledge questions
+
+
+<$list filter="[tag[FAQ]search:caption{$:/temp/demo/qa/search-details}]">
+<$macrocall $name=details label={{!!caption}} src=<<currentTiddler>>
+ labelClass="alert alert-secondary py-1 my-2" srcClass="alert border-secondary py-0"/>
+</$list>
+

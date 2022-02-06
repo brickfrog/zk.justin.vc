@@ -1,0 +1,32 @@
+caption: No, Maybe and Close Enough: Using Probabilistic Data Structures in Python
+completed: 20210625000000000
+created: 20210624025418932
+medium: youtube
+modified: 20220204031545452
+presenter: Simon Prickett
+readstatus: read
+revision: 0
+tags: PyCon2021 Source
+title: ProbabilisticDataPython2021
+tmap.id: 6539b6c5-3d82-40be-904f-0c89be9035ad
+url: https://www.youtube.com/watch?v=VjFS-_H10bw
+year: 2021
+
+* ''Summary'':
+** Probabilistic data structures trade accuracy for approximate results, speed and economy of resources. They provide fast, scalable solutions to problems such as counting likes on social media posts, or determining which articles on a website a user has previously read.
+* ''Thoughts'':
+** A lot of these are based on hashing, interesting, I haven't encountered this much at work, but nice to be aware of, especially if applying for "internet scale" companies, etc.
+* ''Notes'':
+** Counting Things!
+*** Easy when small enough, sets, length, easypeasy
+*** Issue is scaling - memory usage, exact counting gets expensive at internet scale
+** Move to database? [[Redis]], for example
+*** Still have problem of size
+** Tradeoffs!
+*** Probabilistic Data Structures!
+**** HyperLogLog - Approximating Distinct Items
+***** Hashes to determine cardinality of set with reasonable estimation, can't retrieve items, not built into python stdlib (don't roll your own, there's libraries or datastore built in - redis has this)
+**** BloomFilters (No vs. Maybe)
+***** hash to different bits, lookup to determine if it might be in dataset, depending on length, there might be clashes so there's not really a definitive "yes"
+***** this can be implemented from the "probables" library (redis also has this)
+***** strategies for "stacking" bloom filters - not mentioned in the talk, but interesting

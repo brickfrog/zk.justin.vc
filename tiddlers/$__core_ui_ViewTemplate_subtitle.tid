@@ -1,6 +1,6 @@
 created: 20210611074832773
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220117060410677
+modified: 20220123031554254
 revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
@@ -47,6 +47,12 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[current]has[description]]">
 	<div>
 	<i class="fa fa-gem"/>&ensp;{{!!description}}
+	</div>
+</$list>
+
+<$list filter="[all[current]has[wikipedia]]">
+	<div>
+	<i class="fa fa-chevron-right"/>&ensp;<$macrocall $name="wikipedia" url={{!!wikipedia}}/>
 	</div>
 </$list>
 

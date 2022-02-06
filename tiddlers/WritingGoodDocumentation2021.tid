@@ -1,0 +1,32 @@
+caption: Writing Good Documentation for Developers
+completed: 20210616000000000
+created: 20210617003634680
+medium: youtube
+modified: 20220204031612101
+presenter: Meredydd Luff
+readstatus: read
+revision: 0
+tags: PyCon2021 Source
+title: WritingGoodDocumentation2021
+tmap.id: 005d36a3-0511-4729-91b1-e02d3f6d752f
+url: https://www.youtube.com/watch?v=eWaWvUhpseM
+year: 2021
+
+* ''Summary'':
+** Docs aren't just docs: They're your UI, your marketing, and they - not your code - define what your product is.
+* ''Thoughts'':
+** Googling something and ending up on medium, stackoverflow, etc. in a lot of cases can be considered a failure of your documentation
+** Reference and API documentation should be different
+** Talk to your users
+* ''Notes'':
+** Docs should define your product
+** Docs for developer tools shouldn't be like a car manual - tossed in a glove box and forgotten (Twilio as a good example of good docs)
+** Types of Documentation
+*** Tutorials
+*** Explanations
+*** How-To Guides
+*** References (too many things in this category?)
+*** API docs shouldn't be reference docs - no space for storytelling
+*** Reference docs should tell a story, tear-up, tear-down, how things work
+*** Javadoc - problem, crowded out other forms of documentation, end up with only API documentation, but no telling a story of how things interact
+*** Q&A - Discourse / Issues -> think of these as bugs in your documentation, and answers as patches, help you fill in the gaps
