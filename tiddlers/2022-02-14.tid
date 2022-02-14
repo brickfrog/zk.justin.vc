@@ -1,0 +1,27 @@
+class: leftbar border-info
+created: 20220214170535246
+modified: 20220214170722757
+productivity: 5
+summary: 2022-02-14
+tags: Journal
+title: 2022-02-14
+tmap.id: b0345bed-a815-4e72-9bd4-265eba578c38
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Couple of days delay, have been futzing with a tutorial at: https://www.jetbrains.com/pycharm/guide/tutorials/fastapi-aws-kubernetes and just catching up on television probably not worth recording. I'm not sure how much I could wax poetic about the XFiles anyways. </p>
+
+<br>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

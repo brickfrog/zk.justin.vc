@@ -1,17 +1,723 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://justin.vc/feed.atom</id>
-  <title>justin.vc</title>
-  <subtitle>compiled notes, code,
-and miscellanea 
+      
+    <id>http://justin.vc/feed.atom</id>
+      
+    <title>justin.vc</title>
+      
+    <subtitle> compiled notes, code,and miscellanea 
     
         
     
 </subtitle>
-  <link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml"/>
-  <author>
-    <name></name>
-  </author>
-  <updated>2022-02-06T02:18:44+02:00</updated>
-  <entry>    <title>2022-02-06</title>    <id>http://justin.vc/#2022-02-06</id>    <link href='http://justin.vc/#2022-02-06'/>    <updated>2022-02-06T01:17:56+02:00</updated>    <summary>2022-02-06</summary>  </entry>  <entry>    <title>Nightcrawler</title>    <id>http://justin.vc/#Nightcrawler</id>    <link href='http://justin.vc/#Nightcrawler'/>    <updated>2022-02-05T23:31:54+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-02-05</title>    <id>http://justin.vc/#2022-02-05</id>    <link href='http://justin.vc/#2022-02-05'/>    <updated>2022-02-06T01:17:45+02:00</updated>    <summary>2022-02-05</summary>  </entry>  <entry>    <title>Cathedral&TheBazaar</title>    <id>http://justin.vc/#Cathedral%26TheBazaar</id>    <link href='http://justin.vc/#Cathedral%26TheBazaar'/>    <updated>2022-02-05T18:59:21+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-31</title>    <id>http://justin.vc/#2022-01-31</id>    <link href='http://justin.vc/#2022-01-31'/>    <updated>2022-01-31T21:51:56+02:00</updated>    <summary>2022-01-31</summary>  </entry>  <entry>    <title>2022-01-30</title>    <id>http://justin.vc/#2022-01-30</id>    <link href='http://justin.vc/#2022-01-30'/>    <updated>2022-01-30T23:47:14+02:00</updated>    <summary>2022-01-30</summary>  </entry>  <entry>    <title>2022-01-29</title>    <id>http://justin.vc/#2022-01-29</id>    <link href='http://justin.vc/#2022-01-29'/>    <updated>2022-01-30T06:21:28+02:00</updated>    <summary>2022-01-29</summary>  </entry>  <entry>    <title>2022-01-26</title>    <id>http://justin.vc/#2022-01-26</id>    <link href='http://justin.vc/#2022-01-26'/>    <updated>2022-01-26T00:47:51+02:00</updated>    <summary>2022-01-26</summary>  </entry>  <entry>    <title>2022-01-25</title>    <id>http://justin.vc/#2022-01-25</id>    <link href='http://justin.vc/#2022-01-25'/>    <updated>2022-01-26T00:47:43+02:00</updated>    <summary>2022-01-25</summary>  </entry>  <entry>    <title>2022-01-24</title>    <id>http://justin.vc/#2022-01-24</id>    <link href='http://justin.vc/#2022-01-24'/>    <updated>2022-01-25T00:02:40+02:00</updated>    <summary>2022-01-24</summary>  </entry>  <entry>    <title>2022-01-23</title>    <id>http://justin.vc/#2022-01-23</id>    <link href='http://justin.vc/#2022-01-23'/>    <updated>2022-01-24T00:29:25+02:00</updated>    <summary>2022-01-23</summary>  </entry>  <entry>    <title>IntroductionStatisticalLearning</title>    <id>http://justin.vc/#IntroductionStatisticalLearning</id>    <link href='http://justin.vc/#IntroductionStatisticalLearning'/>    <updated>2022-01-22T23:50:35+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-22</title>    <id>http://justin.vc/#2022-01-22</id>    <link href='http://justin.vc/#2022-01-22'/>    <updated>2022-01-22T21:52:03+02:00</updated>    <summary>2022-01-22</summary>  </entry>  <entry>    <title>2022-01-20</title>    <id>http://justin.vc/#2022-01-20</id>    <link href='http://justin.vc/#2022-01-20'/>    <updated>2022-01-20T20:19:00+02:00</updated>    <summary>2022-01-20</summary>  </entry>  <entry>    <title>JuliaForDataScience</title>    <id>http://justin.vc/#JuliaForDataScience</id>    <link href='http://justin.vc/#JuliaForDataScience'/>    <updated>2022-01-22T01:29:35+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-19</title>    <id>http://justin.vc/#2022-01-19</id>    <link href='http://justin.vc/#2022-01-19'/>    <updated>2022-01-19T11:59:11+02:00</updated>    <summary>2022-01-19</summary>  </entry>  <entry>    <title>2022-01-18</title>    <id>http://justin.vc/#2022-01-18</id>    <link href='http://justin.vc/#2022-01-18'/>    <updated>2022-01-18T23:27:57+02:00</updated>    <summary>2022-01-18</summary>  </entry>  <entry>    <title>2022-01-17</title>    <id>http://justin.vc/#2022-01-17</id>    <link href='http://justin.vc/#2022-01-17'/>    <updated>2022-01-17T14:03:20+02:00</updated>    <summary>2022-01-17</summary>  </entry>  <entry>    <title>Yellowjackets2021</title>    <id>http://justin.vc/#Yellowjackets2021</id>    <link href='http://justin.vc/#Yellowjackets2021'/>    <updated>2022-01-19T12:07:59+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-16</title>    <id>http://justin.vc/#2022-01-16</id>    <link href='http://justin.vc/#2022-01-16'/>    <updated>2022-01-16T18:01:50+02:00</updated>    <summary>2022-01-16</summary>  </entry>  <entry>    <title>2022-01-14</title>    <id>http://justin.vc/#2022-01-14</id>    <link href='http://justin.vc/#2022-01-14'/>    <updated>2022-01-15T11:05:31+02:00</updated>    <summary>2022-01-14</summary>  </entry>  <entry>    <title>2022-01-13</title>    <id>http://justin.vc/#2022-01-13</id>    <link href='http://justin.vc/#2022-01-13'/>    <updated>2022-01-13T23:35:04+02:00</updated>    <summary>2022-01-13</summary>  </entry>  <entry>    <title>2022-01-12</title>    <id>http://justin.vc/#2022-01-12</id>    <link href='http://justin.vc/#2022-01-12'/>    <updated>2022-01-13T09:42:45+02:00</updated>    <summary>2022-01-12</summary>  </entry>  <entry>    <title>2022-01-11</title>    <id>http://justin.vc/#2022-01-11</id>    <link href='http://justin.vc/#2022-01-11'/>    <updated>2022-01-12T00:00:01+02:00</updated>    <summary>2022-01-11</summary>  </entry>  <entry>    <title>2022-01-10</title>    <id>http://justin.vc/#2022-01-10</id>    <link href='http://justin.vc/#2022-01-10'/>    <updated>2022-01-11T18:21:37+02:00</updated>    <summary>A Tale of Two Cities</summary>  </entry>  <entry>    <title>You2018</title>    <id>http://justin.vc/#You2018</id>    <link href='http://justin.vc/#You2018'/>    <updated>2022-02-05T16:00:26+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-09</title>    <id>http://justin.vc/#2022-01-09</id>    <link href='http://justin.vc/#2022-01-09'/>    <updated>2022-01-17T00:41:07+02:00</updated>    <summary>Journal entry for </summary>  </entry>  <entry>    <title>2022-01-07</title>    <id>http://justin.vc/#2022-01-07</id>    <link href='http://justin.vc/#2022-01-07'/>    <updated>2022-01-10T09:05:50+02:00</updated>    <summary>Journal entry for 2022-01-07</summary>  </entry>  <entry>    <title>LearningEpidemicModels</title>    <id>http://justin.vc/#LearningEpidemicModels</id>    <link href='http://justin.vc/#LearningEpidemicModels'/>    <updated>2022-01-07T19:40:23+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2022-01-05</title>    <id>http://justin.vc/#2022-01-05</id>    <link href='http://justin.vc/#2022-01-05'/>    <updated>2022-01-10T09:05:29+02:00</updated>    <summary>Journal entry for 2022-01-05</summary>  </entry>  <entry>    <title>2022-01-01</title>    <id>http://justin.vc/#2022-01-01</id>    <link href='http://justin.vc/#2022-01-01'/>    <updated>2022-01-10T09:06:14+02:00</updated>    <summary>Beep</summary>  </entry>  <entry>    <title>2021-12-25</title>    <id>http://justin.vc/#2021-12-25</id>    <link href='http://justin.vc/#2021-12-25'/>    <updated>2021-12-25T21:02:46+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>CanticleForLeibowitz</title>    <id>http://justin.vc/#CanticleForLeibowitz</id>    <link href='http://justin.vc/#CanticleForLeibowitz'/>    <updated>2022-01-31T23:10:41+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-12-23</title>    <id>http://justin.vc/#2021-12-23</id>    <link href='http://justin.vc/#2021-12-23'/>    <updated>2021-12-23T21:02:29+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-12-22</title>    <id>http://justin.vc/#2021-12-22</id>    <link href='http://justin.vc/#2021-12-22'/>    <updated>2021-12-23T08:27:46+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-12-17</title>    <id>http://justin.vc/#2021-12-17</id>    <link href='http://justin.vc/#2021-12-17'/>    <updated>2021-12-17T15:29:05+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-12-09</title>    <id>http://justin.vc/#2021-12-09</id>    <link href='http://justin.vc/#2021-12-09'/>    <updated>2021-12-09T05:41:54+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>DeepLearningForCoders</title>    <id>http://justin.vc/#DeepLearningForCoders</id>    <link href='http://justin.vc/#DeepLearningForCoders'/>    <updated>2021-12-22T12:32:55+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-12-07</title>    <id>http://justin.vc/#2021-12-07</id>    <link href='http://justin.vc/#2021-12-07'/>    <updated>2021-12-07T06:00:26+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-11-14</title>    <id>http://justin.vc/#2021-11-14</id>    <link href='http://justin.vc/#2021-11-14'/>    <updated>2021-11-15T20:24:47+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>mCoding</title>    <id>http://justin.vc/#mCoding</id>    <link href='http://justin.vc/#mCoding'/>    <updated>2022-01-01T11:36:57+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-11-11</title>    <id>http://justin.vc/#2021-11-11</id>    <link href='http://justin.vc/#2021-11-11'/>    <updated>2021-11-11T08:42:41+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>koaning.io</title>    <id>http://justin.vc/#koaning.io</id>    <link href='http://justin.vc/#koaning.io'/>    <updated>2021-11-02T05:05:12+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-11-01</title>    <id>http://justin.vc/#2021-11-01</id>    <link href='http://justin.vc/#2021-11-01'/>    <updated>2021-11-02T05:00:53+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>ArjanCodes</title>    <id>http://justin.vc/#ArjanCodes</id>    <link href='http://justin.vc/#ArjanCodes'/>    <updated>2021-12-25T21:01:02+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-10-14</title>    <id>http://justin.vc/#2021-10-14</id>    <link href='http://justin.vc/#2021-10-14'/>    <updated>2021-10-14T19:05:12+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-10-13</title>    <id>http://justin.vc/#2021-10-13</id>    <link href='http://justin.vc/#2021-10-13'/>    <updated>2021-10-14T00:13:54+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>InTheCellsEggplant</title>    <id>http://justin.vc/#InTheCellsEggplant</id>    <link href='http://justin.vc/#InTheCellsEggplant'/>    <updated>2022-01-31T22:58:11+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>ProbProgramming4Hackers</title>    <id>http://justin.vc/#ProbProgramming4Hackers</id>    <link href='http://justin.vc/#ProbProgramming4Hackers'/>    <updated>2022-01-31T22:58:01+02:00</updated>    <summary></summary>  </entry>  <entry>    <title>2021-10-09</title>    <id>http://justin.vc/#2021-10-09</id>    <link href='http://justin.vc/#2021-10-09'/>    <updated>2021-10-09T13:09:06+02:00</updated>    <summary></summary>  </entry>
+      
+    <link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml" />
+      
+    <author>
+            
+        <name></name>
+          
+    </author>
+      
+    <updated>2022-02-14T13:41:53+02:00</updated>
+      
+    <entry>
+            
+        <title>2022-02-14</title>
+            
+        <id>http://justin.vc/#2022-02-14</id>
+            
+        <link href='http://justin.vc/#2022-02-14' />
+            
+        <updated>2022-02-14T12:07:22+02:00</updated>
+            
+        <summary>2022-02-14</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-02-09</title>
+            
+        <id>http://justin.vc/#2022-02-09</id>
+            
+        <link href='http://justin.vc/#2022-02-09' />
+            
+        <updated>2022-02-09T13:21:25+02:00</updated>
+            
+        <summary>2022-02-09</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-02-08</title>
+            
+        <id>http://justin.vc/#2022-02-08</id>
+            
+        <link href='http://justin.vc/#2022-02-08' />
+            
+        <updated>2022-02-09T13:21:31+02:00</updated>
+            
+        <summary>2022-02-08</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-02-07</title>
+            
+        <id>http://justin.vc/#2022-02-07</id>
+            
+        <link href='http://justin.vc/#2022-02-07' />
+            
+        <updated>2022-02-09T13:21:39+02:00</updated>
+            
+        <summary>2022-02-07</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-02-06</title>
+            
+        <id>http://justin.vc/#2022-02-06</id>
+            
+        <link href='http://justin.vc/#2022-02-06' />
+            
+        <updated>2022-02-07T13:43:19+02:00</updated>
+            
+        <summary>2022-02-06</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>Nightcrawler</title>
+            
+        <id>http://justin.vc/#Nightcrawler</id>
+            
+        <link href='http://justin.vc/#Nightcrawler' />
+            
+        <updated>2022-02-08T19:05:42+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-02-05</title>
+            
+        <id>http://justin.vc/#2022-02-05</id>
+            
+        <link href='http://justin.vc/#2022-02-05' />
+            
+        <updated>2022-02-06T01:17:45+02:00</updated>
+            
+        <summary>2022-02-05</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>Cathedral&TheBazaar</title>
+            
+        <id>http://justin.vc/#Cathedral%26TheBazaar</id>
+            
+        <link href='http://justin.vc/#Cathedral%26TheBazaar' />
+            
+        <updated>2022-02-08T21:23:59+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-31</title>
+            
+        <id>http://justin.vc/#2022-01-31</id>
+            
+        <link href='http://justin.vc/#2022-01-31' />
+            
+        <updated>2022-01-31T21:51:56+02:00</updated>
+            
+        <summary>2022-01-31</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-30</title>
+            
+        <id>http://justin.vc/#2022-01-30</id>
+            
+        <link href='http://justin.vc/#2022-01-30' />
+            
+        <updated>2022-01-30T23:47:14+02:00</updated>
+            
+        <summary>2022-01-30</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-29</title>
+            
+        <id>http://justin.vc/#2022-01-29</id>
+            
+        <link href='http://justin.vc/#2022-01-29' />
+            
+        <updated>2022-01-30T06:21:28+02:00</updated>
+            
+        <summary>2022-01-29</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-26</title>
+            
+        <id>http://justin.vc/#2022-01-26</id>
+            
+        <link href='http://justin.vc/#2022-01-26' />
+            
+        <updated>2022-01-26T00:47:51+02:00</updated>
+            
+        <summary>2022-01-26</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-25</title>
+            
+        <id>http://justin.vc/#2022-01-25</id>
+            
+        <link href='http://justin.vc/#2022-01-25' />
+            
+        <updated>2022-01-26T00:47:43+02:00</updated>
+            
+        <summary>2022-01-25</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-24</title>
+            
+        <id>http://justin.vc/#2022-01-24</id>
+            
+        <link href='http://justin.vc/#2022-01-24' />
+            
+        <updated>2022-01-25T00:02:40+02:00</updated>
+            
+        <summary>2022-01-24</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-23</title>
+            
+        <id>http://justin.vc/#2022-01-23</id>
+            
+        <link href='http://justin.vc/#2022-01-23' />
+            
+        <updated>2022-01-24T00:29:25+02:00</updated>
+            
+        <summary>2022-01-23</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>IntroductionStatisticalLearning</title>
+            
+        <id>http://justin.vc/#IntroductionStatisticalLearning</id>
+            
+        <link href='http://justin.vc/#IntroductionStatisticalLearning' />
+            
+        <updated>2022-01-22T23:50:35+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-22</title>
+            
+        <id>http://justin.vc/#2022-01-22</id>
+            
+        <link href='http://justin.vc/#2022-01-22' />
+            
+        <updated>2022-01-22T21:52:03+02:00</updated>
+            
+        <summary>2022-01-22</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-20</title>
+            
+        <id>http://justin.vc/#2022-01-20</id>
+            
+        <link href='http://justin.vc/#2022-01-20' />
+            
+        <updated>2022-01-20T20:19:00+02:00</updated>
+            
+        <summary>2022-01-20</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>JuliaForDataScience</title>
+            
+        <id>http://justin.vc/#JuliaForDataScience</id>
+            
+        <link href='http://justin.vc/#JuliaForDataScience' />
+            
+        <updated>2022-01-22T01:29:35+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-19</title>
+            
+        <id>http://justin.vc/#2022-01-19</id>
+            
+        <link href='http://justin.vc/#2022-01-19' />
+            
+        <updated>2022-01-19T11:59:11+02:00</updated>
+            
+        <summary>2022-01-19</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-18</title>
+            
+        <id>http://justin.vc/#2022-01-18</id>
+            
+        <link href='http://justin.vc/#2022-01-18' />
+            
+        <updated>2022-01-18T23:27:57+02:00</updated>
+            
+        <summary>2022-01-18</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-17</title>
+            
+        <id>http://justin.vc/#2022-01-17</id>
+            
+        <link href='http://justin.vc/#2022-01-17' />
+            
+        <updated>2022-01-17T14:03:20+02:00</updated>
+            
+        <summary>2022-01-17</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>Yellowjackets2021</title>
+            
+        <id>http://justin.vc/#Yellowjackets2021</id>
+            
+        <link href='http://justin.vc/#Yellowjackets2021' />
+            
+        <updated>2022-01-19T12:07:59+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-16</title>
+            
+        <id>http://justin.vc/#2022-01-16</id>
+            
+        <link href='http://justin.vc/#2022-01-16' />
+            
+        <updated>2022-01-16T18:01:50+02:00</updated>
+            
+        <summary>2022-01-16</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-14</title>
+            
+        <id>http://justin.vc/#2022-01-14</id>
+            
+        <link href='http://justin.vc/#2022-01-14' />
+            
+        <updated>2022-01-15T11:05:31+02:00</updated>
+            
+        <summary>2022-01-14</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-13</title>
+            
+        <id>http://justin.vc/#2022-01-13</id>
+            
+        <link href='http://justin.vc/#2022-01-13' />
+            
+        <updated>2022-01-13T23:35:04+02:00</updated>
+            
+        <summary>2022-01-13</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-12</title>
+            
+        <id>http://justin.vc/#2022-01-12</id>
+            
+        <link href='http://justin.vc/#2022-01-12' />
+            
+        <updated>2022-01-13T09:42:45+02:00</updated>
+            
+        <summary>2022-01-12</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-11</title>
+            
+        <id>http://justin.vc/#2022-01-11</id>
+            
+        <link href='http://justin.vc/#2022-01-11' />
+            
+        <updated>2022-01-12T00:00:01+02:00</updated>
+            
+        <summary>2022-01-11</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-10</title>
+            
+        <id>http://justin.vc/#2022-01-10</id>
+            
+        <link href='http://justin.vc/#2022-01-10' />
+            
+        <updated>2022-01-11T18:21:37+02:00</updated>
+            
+        <summary>A Tale of Two Cities</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>You2018</title>
+            
+        <id>http://justin.vc/#You2018</id>
+            
+        <link href='http://justin.vc/#You2018' />
+            
+        <updated>2022-02-05T16:00:26+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-09</title>
+            
+        <id>http://justin.vc/#2022-01-09</id>
+            
+        <link href='http://justin.vc/#2022-01-09' />
+            
+        <updated>2022-01-17T00:41:07+02:00</updated>
+            
+        <summary>Journal entry for </summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-07</title>
+            
+        <id>http://justin.vc/#2022-01-07</id>
+            
+        <link href='http://justin.vc/#2022-01-07' />
+            
+        <updated>2022-01-10T09:05:50+02:00</updated>
+            
+        <summary>Journal entry for 2022-01-07</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>LearningEpidemicModels</title>
+            
+        <id>http://justin.vc/#LearningEpidemicModels</id>
+            
+        <link href='http://justin.vc/#LearningEpidemicModels' />
+            
+        <updated>2022-01-07T19:40:23+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-05</title>
+            
+        <id>http://justin.vc/#2022-01-05</id>
+            
+        <link href='http://justin.vc/#2022-01-05' />
+            
+        <updated>2022-01-10T09:05:29+02:00</updated>
+            
+        <summary>Journal entry for 2022-01-05</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2022-01-01</title>
+            
+        <id>http://justin.vc/#2022-01-01</id>
+            
+        <link href='http://justin.vc/#2022-01-01' />
+            
+        <updated>2022-01-10T09:06:14+02:00</updated>
+            
+        <summary>Beep</summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-25</title>
+            
+        <id>http://justin.vc/#2021-12-25</id>
+            
+        <link href='http://justin.vc/#2021-12-25' />
+            
+        <updated>2021-12-25T21:02:46+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>CanticleForLeibowitz</title>
+            
+        <id>http://justin.vc/#CanticleForLeibowitz</id>
+            
+        <link href='http://justin.vc/#CanticleForLeibowitz' />
+            
+        <updated>2022-01-31T23:10:41+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-23</title>
+            
+        <id>http://justin.vc/#2021-12-23</id>
+            
+        <link href='http://justin.vc/#2021-12-23' />
+            
+        <updated>2021-12-23T21:02:29+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-22</title>
+            
+        <id>http://justin.vc/#2021-12-22</id>
+            
+        <link href='http://justin.vc/#2021-12-22' />
+            
+        <updated>2021-12-23T08:27:46+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-17</title>
+            
+        <id>http://justin.vc/#2021-12-17</id>
+            
+        <link href='http://justin.vc/#2021-12-17' />
+            
+        <updated>2021-12-17T15:29:05+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-09</title>
+            
+        <id>http://justin.vc/#2021-12-09</id>
+            
+        <link href='http://justin.vc/#2021-12-09' />
+            
+        <updated>2021-12-09T05:41:54+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>DeepLearningForCoders</title>
+            
+        <id>http://justin.vc/#DeepLearningForCoders</id>
+            
+        <link href='http://justin.vc/#DeepLearningForCoders' />
+            
+        <updated>2021-12-22T12:32:55+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-12-07</title>
+            
+        <id>http://justin.vc/#2021-12-07</id>
+            
+        <link href='http://justin.vc/#2021-12-07' />
+            
+        <updated>2021-12-07T06:00:26+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-11-14</title>
+            
+        <id>http://justin.vc/#2021-11-14</id>
+            
+        <link href='http://justin.vc/#2021-11-14' />
+            
+        <updated>2021-11-15T20:24:47+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>mCoding</title>
+            
+        <id>http://justin.vc/#mCoding</id>
+            
+        <link href='http://justin.vc/#mCoding' />
+            
+        <updated>2022-01-01T11:36:57+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-11-11</title>
+            
+        <id>http://justin.vc/#2021-11-11</id>
+            
+        <link href='http://justin.vc/#2021-11-11' />
+            
+        <updated>2021-11-11T08:42:41+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>koaning.io</title>
+            
+        <id>http://justin.vc/#koaning.io</id>
+            
+        <link href='http://justin.vc/#koaning.io' />
+            
+        <updated>2021-11-02T05:05:12+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-11-01</title>
+            
+        <id>http://justin.vc/#2021-11-01</id>
+            
+        <link href='http://justin.vc/#2021-11-01' />
+            
+        <updated>2021-11-02T05:00:53+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>ArjanCodes</title>
+            
+        <id>http://justin.vc/#ArjanCodes</id>
+            
+        <link href='http://justin.vc/#ArjanCodes' />
+            
+        <updated>2021-12-25T21:01:02+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
+      
+    <entry>
+            
+        <title>2021-10-14</title>
+            
+        <id>http://justin.vc/#2021-10-14</id>
+            
+        <link href='http://justin.vc/#2021-10-14' />
+            
+        <updated>2021-10-14T19:05:12+02:00</updated>
+            
+        <summary></summary>
+          
+    </entry>
 </feed>

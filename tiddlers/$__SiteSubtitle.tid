@@ -1,7 +1,6 @@
 created: 20210528144924744
-modified: 20220104053643335
+modified: 20220214173738067
 revision: 0
 title: $:/SiteSubtitle
 
-compiled notes, code,<br>
-and miscellanea <a href="http://justin.vc/feed.atom" target="_blank" title="subcribe to atom feed" class="atom-link">{{$:/.tb/images/feed}}</a>
+{{mermaidExample2}} compiled notes, code,<br>and miscellanea <a href="http://justin.vc/feed.atom" target="_blank" title="subcribe to atom feed" class="atom-link">{{$:/.tb/images/feed}}</a>

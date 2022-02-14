@@ -1,0 +1,27 @@
+class: leftbar border-info
+created: 20220207184323824
+modified: 20220209182139107
+productivity: 5
+summary: 2022-02-07
+tags: Journal
+title: 2022-02-07
+tmap.id: 94e34d84-6ba4-442b-96b5-d5a677daac35
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Quasi-productive today, read a decent amount of ACT/SSC posts, kinda borked over sleep schedule - no book reading done</p>
+
+<br>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

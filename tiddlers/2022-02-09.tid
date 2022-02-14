@@ -1,0 +1,27 @@
+class: leftbar border-info
+created: 20220209182120162
+modified: 20220209182125969
+productivity: 5
+summary: 2022-02-09
+tags: Journal
+title: 2022-02-09
+tmap.id: c22af667-05ea-4040-b4d5-9ca18d0e24ce
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Summary</p>
+
+<br>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

@@ -1,5 +1,5 @@
 created: 20210725231135769
-modified: 20211021203549642
+modified: 20220210203804799
 revision: 0
 title: PersonalComputer
 tmap.id: f99a7d17-b463-4a75-aefe-6c40d8fd054c
@@ -14,6 +14,6 @@ type: text/vnd.tiddlywiki
 *Terminal: Windows Terminal
 *CPU: AMD Ryzen 9 3900X 12-Core Processor
 *GPU: NVIDIA GeForce RTX 2080
-*Memory: 32.15 GIB / 127.9 GIB (25%)
+*Memory: 127.9 GIB
 
 I ended up creating a Arch Linux partition and have been futzing with NixOS, but, free software arguments aside, the polish in Windows wrt to scrolling, audio, etc. is difficult to beat. (Even with imwheel you can't really replicate scrolling as well as I'd like, alas)

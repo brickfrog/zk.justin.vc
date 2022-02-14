@@ -1,0 +1,13 @@
+<$mermaid text='
+  graph
+    A --> C
+    B --> C
+    C --> D
+    D --> TestTest
+'></$mermaid>
+
+Doesn't seem to work with TW's linking system - maybe a way to get it to work?
+
+* https://efurlanm.github.io/mermaid-tw5
+
+There's a lot of examples on this site, I didn't realize this could do other graphs and such.
