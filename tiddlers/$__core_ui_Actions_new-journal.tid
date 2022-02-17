@@ -1,6 +1,6 @@
 created: 20220102034639446
 description: create a new journal tiddler
-modified: 20220117190307025
+modified: 20220217003551357
 revision: 0
 tags: $:/tags/Actions
 title: $:/core/ui/Actions/new-journal
@@ -14,7 +14,7 @@ title: $:/core/ui/Actions/new-journal
 </$reveal>
 
 <$reveal type="match" state=<<journalTitle>> text="">
-<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> vibe="7" productivity="5" summary=<<journalTitle>> class="leftbar border-info"/>
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> vibe="7" productivity="5" keywords="" summary=<<journalTitle>> class="leftbar border-info"/>
 </$reveal>
 
 </$wikify>

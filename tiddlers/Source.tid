@@ -3,7 +3,7 @@ color: #ff0000
 created: 20200115231452835
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210827202739216
+modified: 20220215212427646
 modifier: justin
 revision: 0
 tags: Meta
@@ -36,7 +36,5 @@ Books may have the following fields in addition:
 : `paperback`, `hardcover`, or `ebook`. Only relevant if //owned//.
 ; isbn
 : The ISBN of the edition at issue, without dashes. (This can be scanned in with my barcode reader if a barcode is available.)
-; owned
-: `yes` or `no`
 ; readstatus
 : `read` (fully read), `partial` (partly read), `unread` (never read), or `reread` (have read fully, but would be interested in reading again).

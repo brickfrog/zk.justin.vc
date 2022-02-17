@@ -1,2 +1,5 @@
 flowchart LR
-    0[" "] --> 1((" "))
+    0[" "] --> 1((" ")) --> 2[/ \]
+    style 0 fill:#CB3C33,stroke:#333,stroke-width:4px
+    style 1 fill:#389826,stroke:#333,stroke-width:4px
+    style 2 fill:#9558B2,stroke:#333,stroke-width:4px

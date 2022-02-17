@@ -5,3 +5,7 @@ html .tc-tiddlylink-missing {
 html .hzone-focus {
   border-color: black;
 }
+
+html .navigation-journal {
+  padding-top: 10px;
+}

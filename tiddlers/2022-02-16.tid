@@ -1,0 +1,32 @@
+class: leftbar border-info
+created: 20220216211517725
+keywords: StatusGames Obligations Psychoanalysis
+modified: 20220217021412066
+productivity: 5
+summary: 2022-02-16
+tags: Journal
+title: 2022-02-16
+tmap.id: 34ba1454-600d-4a94-87f6-e34558b647c8
+vibe: 7
+
+\define kw-of-current-tiddler() {{!!keywords}}
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="-1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Catching up on reading, mostly. A bit too much time trying to futz with TiddlyMap.</p>
+
+<br>
+<!--- Tag Copies Here --->
+<small hidden> StatusGames Obligations Psychoanalysis </small>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
+
+<<linkups>>

@@ -1,7 +1,7 @@
 created: 20200808023836194
 description: Display a table of fields and other information about the source described by this tiddler.
 list-after: $:/sib/Templates/Automatic/SpoilerBanner
-modified: 20220106043053317
+modified: 20220215044207500
 revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
@@ -68,7 +68,7 @@ type: text/vnd.tiddlywiki
 	<tr>
 		<th>Status</th>
 		<td>
-			<<read-status-selector>>
+			{{!!readstatus}}
 			<$list filter="[all[current]readstatus[read]]">
 				on <$view field="completed" format="date" template="YYYY-0MM-0DD"/>
 			</$list>
