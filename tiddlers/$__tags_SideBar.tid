@@ -1,5 +1,5 @@
 created: 20210729024626550
-list: $:/core/ui/SideBar/Open $:/core/ui/SideBar/Recent $:/jt/Locator $:/plugins/kookma/favorites/sidebar-tab Home/Calendar $:/plugins/kookma/refnotes/ui/bibtexlibrary $:/plugins/felixhayashi/tiddlymap/hook/editor $:/core/ui/SideBar/More
-modified: 20211120035334449
+list: $:/core/ui/SideBar/Open $:/core/ui/SideBar/Recent $:/jt/Locator $:/plugins/kookma/favorites/sidebar-tab $:/jtm/Calendar $:/plugins/kookma/refnotes/ui/bibtexlibrary $:/plugins/felixhayashi/tiddlymap/hook/editor $:/core/ui/SideBar/More
+modified: 20220221044659478
 revision: 0
 title: $:/tags/SideBar

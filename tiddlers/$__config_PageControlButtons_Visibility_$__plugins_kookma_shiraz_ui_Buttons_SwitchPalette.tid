@@ -1,6 +1,6 @@
 created: 20210528182818089
-modified: 20210828174938283
+modified: 20220221050317882
 revision: 0
 title: $:/config/PageControlButtons/Visibility/$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 
-hide
+show

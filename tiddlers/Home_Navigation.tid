@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20220221021943473
+modified: 20220221040349102
 revision: 0
 tags: Meta Public
 title: Home/Navigation
@@ -18,7 +18,7 @@ There's a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mo
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 
-And finally, make note of the [[Map|Home/Map]] tab on the home mage. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun.
+And finally, make note of the [[Map|Home/Map]] tab on the home page. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun.
 
 The following should more helpfully explain the metadata/design around the Wiki:
 

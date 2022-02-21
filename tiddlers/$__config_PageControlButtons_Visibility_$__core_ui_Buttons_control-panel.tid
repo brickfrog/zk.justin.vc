@@ -1,6 +1,6 @@
 created: 20210528145108071
-modified: 20210528182814390
+modified: 20220221050346929
 revision: 0
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel
 
-show
+hide

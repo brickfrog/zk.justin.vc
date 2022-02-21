@@ -2,10 +2,9 @@ caption: {{$:/core/images/menu-button}} top menu
 created: 20150710114656438
 creator: TonGerner
 description: Menu on top
-modified: 20220221022802299
+modified: 20220221041549354
 modifier: TonGerner
 revision: 0
-tags: $:/tags/TopLeftBar
 title: $:/plugins/tg/topleftmenu/topmenu
 
 \define go-random-action() <$action-navigate $to={{{[tag[Idea]!tag[PrivateChunk]!regexp[/]!tag[Stub]shuffle[]first[]]}}}/>
@@ -16,8 +15,4 @@ title: $:/plugins/tg/topleftmenu/topmenu
 {{$:/core/ui/Buttons/more-page-actions}}
 {{$:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette}}
 |
-[[justin.vc|https://www.justin.vc]] / 
-[[Tags|TagCount]] / [[About|Home/About]] / 
-[[Reading|RecentlyRead]] / 
-[[Favorites|Favorites]] / 
-<$button class="tc-tiddlylink tc-btn-invisible" actions=<<go-random-action>>>Random Idea</$button>
+[[justin.vc|https://www.justin.vc]]

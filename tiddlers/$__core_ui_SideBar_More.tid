@@ -1,0 +1,9 @@
+caption: {{$:/language/SideBar/More/Caption}}
+created: 20220221044806953
+modified: 20220221044806953
+tags: $:/tags/SideBar
+title: $:/core/ui/SideBar/More
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical tc-sidebar-tabs-more" />
+</div>

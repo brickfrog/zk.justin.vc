@@ -1,7 +1,8 @@
-caption: Explorer
+caption: Locator
 created: 20210827210606581
-modified: 20220220203528149
+modified: 20220221045156512
 revision: 0
+tags: $:/tags/MoreSideBar
 title: $:/jt/Locator
 
 <$reveal type="match" default="" text={{{ [prefix[$:/state/popup/search-dropdown]] }}}>

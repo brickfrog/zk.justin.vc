@@ -2,8 +2,7 @@ caption: tools
 created: 20210825121643555
 creator: soren
 description: Open the Zettelkasten tools
-list-after: $:/core/ui/Buttons/control-panel
-modified: 20210825121844661
+modified: 20220221050222730
 modifier: soren
 tags: $:/tags/PageControls
 title: $:/sib/Buttons/Tools
