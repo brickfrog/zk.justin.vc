@@ -1,0 +1,6 @@
+caption: {{$:/language/SideBar/Shadows/Caption}}
+created: 20220221052520311
+modified: 20220221052520311
+title: $:/core/ui/MoreSideBar/Shadows
+
+<$list filter={{$:/core/Filters/ShadowTiddlers!!filter}} template="$:/core/ui/ListItemTemplate"/>

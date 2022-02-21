@@ -1,0 +1,6 @@
+caption: {{$:/language/SideBar/Orphans/Caption}}
+created: 20220221052442915
+modified: 20220221052442915
+title: $:/core/ui/MoreSideBar/Orphans
+
+<$list filter={{$:/core/Filters/Orphans!!filter}} template="$:/core/ui/ListItemTemplate"/>

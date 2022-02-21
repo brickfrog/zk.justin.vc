@@ -1,0 +1,6 @@
+caption: {{$:/language/SideBar/Missing/Caption}}
+created: 20220221052539971
+modified: 20220221052539971
+title: $:/core/ui/MoreSideBar/Missing
+
+<$list filter={{$:/core/Filters/Missing!!filter}} template="$:/core/ui/MissingTemplate"/>

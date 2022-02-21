@@ -1,0 +1,6 @@
+caption: {{$:/language/SideBar/Drafts/Caption}}
+created: 20220221052553599
+modified: 20220221052553599
+title: $:/core/ui/MoreSideBar/Drafts
+
+<$list filter={{$:/core/Filters/Drafts!!filter}} template="$:/core/ui/ListItemTemplate"/>

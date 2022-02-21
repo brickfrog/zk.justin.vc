@@ -1,0 +1,6 @@
+caption: {{$:/language/SideBar/System/Caption}}
+created: 20220221052616431
+modified: 20220221052616431
+title: $:/core/ui/MoreSideBar/System
+
+<$list filter={{$:/core/Filters/SystemTiddlers!!filter}} template="$:/core/ui/ListItemTemplate"/>

@@ -1,16 +1,22 @@
 created: 20210528153225122
 icon: $:/core/images/home-button
-list: Home/About Home/Navigation Home/Map
-modified: 20220221045016420
+list: Home/About Home/Navigation
+modified: 20220221060214274
 revision: 0
 tags: Meta Public
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
 type: text/vnd.tiddlywiki
 
-<p class="dropcap">The random notes, thoughts, and musings of [[justin.vc|https://www.justin.vc]], assembled into a wiki for quick(er) retrieval, sorting, and general vibes.</p>
+<p class="dropcap">T his is TiddlyWiki, a personal wiki. It's also a <<wikipedia "Quine_(computing)">> It uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out) <<fnote "I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">> </p>
 
-<br>
+The big ''TL;DR'' of this is that it's to help me remember and draw connections between media I consume or ideas I have. I've read way too many books that have slipped into the ether years down the road.
+
+What's in it for you? I dunno, maybe you'll find a movie I watched or concept I learned helpful. I've always had a bit of TechNostalgia for the [[Geocities]] sites of yore, wandering through weird little bustles of content.
+
+---
+
+
 
 <<tabs 
   tabsList:"[list[Home]]"

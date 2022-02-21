@@ -1,0 +1,15 @@
+caption: {{$:/language/SideBar/Types/Caption}}
+created: 20220221052607056
+modified: 20220221052607056
+title: $:/core/ui/MoreSideBar/Types
+
+<$list filter={{$:/core/Filters/TypedTiddlers!!filter}}>
+<div class="tc-menu-list-item">
+<$view field="type"/>
+<$list filter="[type{!!type}!is[system]sort[title]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}><$view field="title"/></$link>
+</div>
+</$list>
+</div>
+</$list>
