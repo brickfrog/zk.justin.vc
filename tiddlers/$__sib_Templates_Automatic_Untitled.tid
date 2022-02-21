@@ -1,7 +1,6 @@
 created: 20210307160101458
 description: Display buttons enabling a workflow where you paste content directly into TiddlyWiki and then use a custom form to turn it into a tiddler.
 modified: 20210523141850561
-revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Untitled
 transcludedin: Tiddlers whose name begins with `Untitled` (the name you get when you paste text into TiddlyWiki).

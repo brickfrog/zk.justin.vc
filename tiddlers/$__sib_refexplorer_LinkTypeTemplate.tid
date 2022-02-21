@@ -1,11 +1,8 @@
 created: 20200322005021864
 creator: soren
-modified: 20210721001436750
+modified: 20210825190353974
 modifier: soren
-revision: 0
-tags: $:/tags/table/BodyTemplate
-tbl-column-list: linktype
-tbl-noedit: linktype
+tags: 
 title: $:/sib/refexplorer/LinkTypeTemplate
 type: text/vnd.tiddlywiki
 
@@ -24,10 +21,3 @@ type: text/vnd.tiddlywiki
 		</$list>
 	</$set>
 </td>
-
-
-<!--
-			-[<storyTiddler>get[memberof]split[ ]!is[blank]] +[else[Member of]]
-			-[<storyTiddler>listed[memberof]] +[else[Member]]
-			-[<storyTiddler>listed[spouse]] +[else[Spouse]]
--->

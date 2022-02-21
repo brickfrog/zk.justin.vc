@@ -1,0 +1,10 @@
+caption: Representing conferences, groups of talks either centralized or distributed on a specific topic.
+color: #ff0000
+created: 20220220081801065
+icon: $:/core/images/tag-button
+modified: 20220221020444630
+tags: Meta Public
+title: Conference
+tmap.id: 505455df-e392-4f3e-b1ff-87006ab981bf
+
+{{!!caption}}

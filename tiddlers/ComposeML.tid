@@ -1,8 +1,8 @@
 created: 20211009171101905
-modified: 20211102083305571
+modified: 20220221020444629
 revision: 0
 source: https://github.com/alteryx/compose
-tags: Python Package DataScience MachineLearning AutoML
+tags: Python Package DataScience MachineLearning AutoML Public
 title: ComposeML
 tmap.id: c2d2141c-c667-4f34-8996-2711c1f8ceb9
 url: https://compose.alteryx.com/en/stable/index.html

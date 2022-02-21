@@ -1,12 +1,12 @@
 caption: A metasource, an organization or location that gathers together Sources.
-color: #008080
+color: #ff0000
 created: 20200201045921067
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210531191044289
+modified: 20220221020444672
 modifier: justin
 revision: 0
-tags: Meta
+tags: Meta Public
 title: Publication
 tmap.id: b79c5ff4-6e29-41a3-9493-8357b988aeb9
 type: text/vnd.tiddlywiki

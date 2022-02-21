@@ -1,12 +1,12 @@
 caption: From NumPy to PyTorch, A Story of API Compatibility
 completed: 20210615000000000
 created: 20210615100411759
-medium: youtube
-modified: 20220106015454495
+medium: video
+modified: 20220221020444663
 presenter: Randall Hunt, Mike Ruberry
 readstatus: read
 revision: 0
-tags: PyCon2021 Source
+tags: PyCon2021 Source Public
 title: NumpyPyTorchCompat2021
 tmap.id: aa8e15cf-8c10-46d5-842d-91b9baee3de3
 url: https://www.youtube.com/watch?v=5wk13yle5GA

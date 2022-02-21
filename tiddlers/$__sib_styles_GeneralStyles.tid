@@ -1,6 +1,7 @@
 created: 20201121015759457
-modified: 20210626234010186
-revision: 0
+creator: soren
+modified: 20210920193138900
+modifier: soren
 tags: $:/tags/Stylesheet
 title: $:/sib/styles/GeneralStyles
 type: text/vnd.tiddlywiki
@@ -46,4 +47,13 @@ type: text/vnd.tiddlywiki
 .checklist p, .checklist p span {
 	margin: 0;
 	padding: 0;
+}
+
+.epistemic-color-box {
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	margin-left: 0px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	display: inline-block;
 }

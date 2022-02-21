@@ -1,12 +1,12 @@
 caption: 0 to production-ready: a best-practices process for Docker packaging
 completed: 20210617000000000
 created: 20210617022207963
-medium: youtube
-modified: 20220106015454490
+medium: video
+modified: 20220221020444636
 presenter: Itamar Turner-Trauring
 readstatus: read
 revision: 0
-tags: PyCon2021 Source
+tags: PyCon2021 Source Public
 title: DockerPackaging2021
 tmap.id: 8e2efa29-9373-459c-a963-53c9e4d104ed
 url: https://www.youtube.com/watch?v=EC0CSevbt9k

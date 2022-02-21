@@ -1,12 +1,12 @@
 caption: PyNNDescent Fast Approximate Nearest Neighbor Search with Numba
 completed: 20210725
 created: 20210724230653020
-medium: youtube
-modified: 20220106015454500
+medium: video
+modified: 20220221020444676
 presenter: Leland Mcinnes
 readstatus: read
 revision: 0
-tags: SciPyCon2021 Source
+tags: SciPyCon2021 Source Public
 title: PyNNDescent2021
 tmap.id: fed98c7b-9ad4-4939-8e43-1214a51a3830
 type: text/vnd.tiddlywiki

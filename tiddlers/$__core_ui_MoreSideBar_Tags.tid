@@ -1,0 +1,29 @@
+caption: {{$:/language/SideBar/Tags/Caption}}
+created: 20220220223525372
+modified: 20220220224248315
+tags: $:/tags/MoreSideBar
+title: $:/core/ui/MoreSideBar/Tags
+
+<$set name="tv-config-toolbar-icons" value="yes">
+
+<$set name="tv-config-toolbar-text" value="yes">
+
+<$set name="tv-config-toolbar-class" value="">
+
+{{$:/core/ui/Buttons/tag-manager}}
+
+</$set>
+
+</$set>
+
+</$set>
+
+<$list filter="[all[tiddlers]tags[]!is[system]sort[color]]">
+
+<$transclude tiddler="$:/core/ui/TagTemplate"/>
+
+</$list>
+
+<hr class="tc-untagged-separator">
+
+{{$:/core/ui/UntaggedTemplate}}

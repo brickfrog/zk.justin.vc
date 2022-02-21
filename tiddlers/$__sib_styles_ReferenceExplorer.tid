@@ -1,6 +1,7 @@
 created: 20210721020857476
-modified: 20210723004027624
-revision: 0
+creator: soren
+modified: 20210825185624720
+modifier: soren
 tags: $:/tags/Stylesheet
 title: $:/sib/styles/ReferenceExplorer
 type: text/vnd.tiddlywiki
@@ -49,4 +50,11 @@ table.ideas-table tr:nth-child(odd) {
 
 table.ideas-table a {
 	color: <<color foreground>>;
+}
+
+@media print
+{
+	.sib-reference-explorer {
+		display: none;
+	}
 }

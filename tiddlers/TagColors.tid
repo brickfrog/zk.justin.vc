@@ -1,7 +1,7 @@
 created: 20210528153612219
-modified: 20210728181541319
+modified: 20220221020444699
 revision: 0
-tags: Meta
+tags: Meta Public
 title: TagColors
 tmap.id: 394e75d1-0416-4574-a1da-f94ce2a6b63f
 type: text/vnd.tiddlywiki
@@ -13,4 +13,4 @@ Tags are colored to indicate their role in organizing the wiki, one of the follo
 * <<colorsplotch #A3BE8C>> General topics or areas of knowledge. (163,190,140)
 * <<colorsplotch #fff12e>> Maintenance indicators (255,241,46)
   *  <<colorsplotch #ff4d00>> Pseudo-types (255,77,0)
-* <<colorsplotch #FF0000>> [[Types|CardTypes]] (255,0,0)
+* <<colorsplotch #FF0000>> [[Types|ZettelkastenCardType]] (255,0,0)

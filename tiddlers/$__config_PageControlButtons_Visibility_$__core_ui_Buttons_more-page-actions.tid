@@ -1,6 +1,6 @@
 created: 20210528145015130
-modified: 20210528145015130
+modified: 20220220221329468
 revision: 0
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions
 
-show
+hide

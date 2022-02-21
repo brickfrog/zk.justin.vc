@@ -1,12 +1,12 @@
 caption: Restarting Pyjion, a general purpose JIT for Python- is it worth it?
 completed: 20210622000000000
 created: 20210621234630613
-medium: youtube
-modified: 20220106015454500
+medium: video
+modified: 20220221020444675
 presenter: Anthony Shaw
 readstatus: read
 revision: 0
-tags: PyCon2021 Source
+tags: PyCon2021 Source Public
 title: PyjionJIT2021
 tmap.id: 73de4ab3-6968-4959-93f5-d951e2ca293b
 url: https://www.youtube.com/watch?v=YFeUUdKBrJ8

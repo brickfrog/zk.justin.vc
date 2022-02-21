@@ -1,8 +1,8 @@
 created: 20211009173753250
-modified: 20211009173934673
+modified: 20220221020444640
 revision: 0
 source: https://github.com/alteryx/featuretools
-tags: Python Package DataScience MachineLearning FeatureEngineering
+tags: Python Package DataScience MachineLearning FeatureEngineering Public
 title: Featuretools
 tmap.id: 62f79346-b658-476e-aa20-e5389ff6236f
 url: https://docs.featuretools.com/en/stable/

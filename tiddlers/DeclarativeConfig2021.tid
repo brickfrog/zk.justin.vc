@@ -1,12 +1,12 @@
 caption: Using Declarative Configs for Maintainable Reproducible Code
 completed: 20210626000000000
 created: 20210625035645726
-medium: youtube
-modified: 20220106015454490
+medium: video
+modified: 20220221020444633
 presenter: Jonathan Striebel
 readstatus: read
 revision: 0
-tags: PyCon2021 Source
+tags: PyCon2021 Source Public
 title: DeclarativeConfig2021
 tmap.id: 496ae3c7-302a-45ee-b40a-8bae82d8b497
 url: https://www.youtube.com/watch?v=omhJrT90lXU

@@ -1,8 +1,7 @@
 caption: Explorer
 created: 20210827210606581
-modified: 20210827210654744
+modified: 20220220203528149
 revision: 0
-tags: $:/tags/SideBar
 title: $:/jt/Locator
 
 <$reveal type="match" default="" text={{{ [prefix[$:/state/popup/search-dropdown]] }}}>

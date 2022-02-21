@@ -1,14 +1,13 @@
-caption: Like an [[Attachment]], but pictorial data.
+caption: Any image in a standard format embedded within the wiki for transclusion in other tiddlers.
 color: #ff0000
 created: 20200118044638935
 creator: soren
 icon: $:/core/images/tag-button
-modified: 20210715002554496
-modifier: justin
-revision: 0
-tags: Meta done
+modified: 20220221020444648
+modifier: soren
+tags: Meta Public
 title: Image
-tmap.id: 33bcbb4a-6602-4bae-8240-54ab616c7ced
+tmap.id: 7d4d3f3f-0b66-41dc-8352-5f607f9dada0
 type: text/vnd.tiddlywiki
 
-{{!!caption}} 
+{{!!caption}} See also [[Attachment]].

@@ -1,12 +1,12 @@
 caption: Dask-SQL: Scalable End-to-End Data Engineering
 completed: 20210624000000000
 created: 20210624054055200
-medium: youtube
-modified: 20220106015454489
+medium: video
+modified: 20220221020444631
 presenter: Adam Breindel
 readstatus: read
 revision: 0
-tags: PyCon2021 Source
+tags: PyCon2021 Source Public
 title: DaskSQL2021
 tmap.id: 6cc80ed7-9a1a-4c41-bc50-7941a183c36a
 url: https://www.youtube.com/watch?v=z7xKikaScxg

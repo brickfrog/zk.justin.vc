@@ -1,34 +1,29 @@
 created: 20210721222719275
-modified: 20220201045349342
+modified: 20220221021943473
 revision: 0
-tags: Meta
+tags: Meta Public
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
 type: text/vnd.tiddlywiki
 
-This is TiddlyWiki, a personal wiki, where generally, everything that is CamelCase <<fnote "Okay, it's technically PascalCase">> is a link to somewhere else in the wiki.  Additionally anything affixed with double "[" 's, but generally I follow the case route. <<fnote "Mostly, I might get bored and switch when I realize it becomes cumbersome.">> It's also a <<wikipedia "Quine_(computing)">> with the button next to most wikipedia links popping into a note iframe within the site itself, might need to figure out if the cookie errors it complains about are worth pursuing, since I only use this for wikipedia/youtube, which is pretty neat. <<fnote "The core tiddlywiki code feeds from itself, but all my notes are seperate files built from node.js">>
+This is TiddlyWiki, a personal wiki. It's also a <<wikipedia "Quine_(computing)">>!
+
+It generally follows a wiki-esque format of notes that are pretty self explanatory, see the links below for more details. Uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out, since I spent awhile just kind of staring blankly at how he used filters) <<fnote "I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">>
 
 I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote, and due to the way TiddlyWiki is structured, with lack of access to the DOM, I believe certain things such as his more expansive pop-ups aren't necessarily tenable.">> I plan to focus more on general notes and learnings. I would like to venture into longform writing more, but that remains a future goal. 
 
 I would also note I definitely don't adhere by best practices insofar as UI/UX. I think the best part of stumbling into someones weird little blog is figuring it out in a lot of cases. It's easiest if you just kinda roam around and get a general vibe of the place. 
 
-It generally follows a wiki-esque format of notes that are pretty self explanatory, see the links below for more details. Uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki. 
-
-There's also a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mobile, IIRC) - generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile.
+There's a search icon ( <i class="fas fa-search"></i> ) at the top (bottom in mobile, IIRC) - generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile.
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 
-Various FontAwesome5 post-link icons are there to at-a-glacnce show where an external link leads to.
-
-There's footnotes <<fnote "Beep.">>, which are either for fun or to link quotes and sources depending on topic.
-
-Additionally, there's folded details content which you can open via clicking. I (most likely) will be using this to transclude content into larger articles if needed, e.g. Chapters in a book analysis
-
 And finally, make note of the [[Map|Home/Map]] tab on the home mage. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun.
 
-The following should more helpfully explain the metadata around the Wiki:
+The following should more helpfully explain the metadata/design around the Wiki:
 
 * [[DesignNotes]]
+* OurNamingConventions
 * TagColors
-* CardTypes
+* ZettelkastenCardType
 * [[TagManager|$:/TagManager]]

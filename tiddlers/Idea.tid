@@ -1,0 +1,30 @@
+caption: Ideas are tiddlers that describe some concept
+color: #ff0000
+created: 20210721004110425
+creator: soren
+description: 
+icon: $:/core/images/tag-button
+modified: 20220221020444648
+modifier: soren
+refexplorer-hide: true
+tags: Meta Public
+title: Idea
+tmap.id: 9dc76b12-da2e-402e-9f3a-ee7454a2ca20
+type: text/vnd.tiddlywiki
+
+{{!!caption}}
+
+!! Fields
+
+; description
+: When possible, the main idea of a tiddler should be summed up into a sentence or two and placed in the `description` field.
+; es
+: The [[epistemic status|EpistemicStatuses]] of this idea, if one is appropriate.
+  ; topic
+    : list of searches / wikipedia links, etc. to put in subtitle
+; universe
+: If this idea is associated with a fictional [[Source]], that source's universe key.
+; url
+: If this idea has a single URL strongly associated with it
+  ; wikipedia
+    : wikipedia link to topic (if not main url) that supercedes the topic field, for cases where the wikipedia link is different, more of a convenience for the end user

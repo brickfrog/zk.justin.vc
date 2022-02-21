@@ -9,3 +9,11 @@ html .hzone-focus {
 html .navigation-journal {
   padding-top: 10px;
 }
+
+.tc-scrollable {
+	border: 1px solid <<colour message-border>>;
+	background-color: <<colour message-background>>;
+	padding: 1em;
+	height: 400px;
+	position: relative;
+}

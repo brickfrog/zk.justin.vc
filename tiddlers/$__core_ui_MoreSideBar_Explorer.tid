@@ -1,0 +1,7 @@
+caption: {{$:/language/SideBar/Explorer/Caption}}
+created: 20220220203414125
+modified: 20220220203425420
+tags: $:/tags/MoreSideBar
+title: $:/core/ui/MoreSideBar/Explorer
+
+<<tree "$:/">>

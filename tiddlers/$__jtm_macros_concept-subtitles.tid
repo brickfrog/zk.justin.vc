@@ -1,0 +1,18 @@
+created: 20220219231109167
+modified: 20220219235846911
+revision: 0
+tags: $:/tags/Macro
+title: $:/jtm/macros/concept-subtitles
+type: text/vnd.tiddlywiki
+
+\define eli5(topic)
+[[ELI5 Search|https://www.reddit.com/r/explainlikeimfive/search/?q=$topic$&sort=relevance&restrict_sr=on]]
+\end
+
+\define lesswrong(topic)
+[[LW Search|https://www.greaterwrong.com/search?q=$topic$]]
+\end
+
+\define googleexaplin(topic)
+[[Google Search|https://www.google.com/search?q=%22$topic$%22+explanation]]
+\end

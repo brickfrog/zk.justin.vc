@@ -1,32 +1,25 @@
 created: 20200321225156394
 creator: soren
 description: Display the Reference Explorer, a table that shows related topics, for the current tiddler.
-modified: 20210523144029743
+modified: 20210920193434935
 modifier: soren
-revision: 0
-tags: Template $:/tags/ViewTemplate
+tags: $:/tags/ViewTemplate
 title: $:/sib/refexplorer/ReferenceExplorer
 transcludedin: All non-system tiddlers.
 type: text/vnd.tiddlywiki
 
 \define ref-explorer()
-	<$set name="myDefaultTab"
-				tiddler=<<currentTiddler>>
-				field="refexplorer-starttab"
-				emptyValue="$:/sib/refexplorer/Ideas">
-		<$macrocall $name="tabs"
-			tabsList="[tag[$:/sib/refexplorer/tabs]]"
-			default=<<myDefaultTab>>
-			state="$:/temp/sibrefexplorertabstate"/>
+	<$set name="tabList" value={{{ [tag[$:/tags/ReferenceExplorerTab]] :reduce[<storyTiddler>subfilter{!!condition}then<currentTiddler>addprefix[ ]addprefix<accumulator>] }}}>
+	<$set name="myDefaultTab" value={{{ [<storyTiddler>has[refexplorer-starttab]get[refexplorer-starttab]addprefix[$:/sib/refexplorer/]] ~[enlist<tabList>first[]] }}}>
+	<$list filter="[<tabList>!is[blank]]" variable=_>
+		<$macrocall $name="tabs" tabsList=<<tabList>> default=<<myDefaultTab>> class="sib-reference-explorer"/>
+	</$list>
+	</$set>
 	</$set>
 \end
 
-
 <!-- If this is a system tiddler, don't do anything. -->
 <$list filter="[all[current]!is[system]]" variable=_>
-
-<!-- Clear any outstanding floats or things will look really weird. -->
-<div class="clarify"/>
 
 <!-- If the refexplorer-hide field is not set, just render the explorer. -->
 <$reveal stateTitle=<<currentTiddler>>
@@ -50,6 +43,7 @@ type: text/vnd.tiddlywiki
 					 type="nomatch"
 					 text="show"
 					 default="hide">
+		<<clarify>>
 		<hr>
 		<div>
 			<span style="font-size: 50%;">
@@ -70,6 +64,7 @@ type: text/vnd.tiddlywiki
 					 type="match"
 					 text="show"
 					 default="hide">
+		<<clarify>>
 		<hr>
 		<div>
 			<span style="font-size: 50%;">
@@ -82,15 +77,7 @@ type: text/vnd.tiddlywiki
 						 setTo="hide">
 			Hide Reference Explorer
 		</$button>
-		<$set name="myDefaultTab"
-					tiddler=<<currentTiddler>>
-					field="refexplorer-starttab"
-					emptyValue="$:/sib/refexplorer/Ideas">
-			<$macrocall $name="tabs"
-				tabsList="[tag[$:/sib/refexplorer/tabs]]"
-				default=<<myDefaultTab>>
-				state="$:/temp/sibrefexplorertabstate"/>
-		</$set>
+		<<ref-explorer>>
 	</$reveal>
 </$reveal>
 

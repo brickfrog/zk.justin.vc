@@ -1,9 +1,9 @@
 caption: {{$:/plugins/kookma/shiraz/images/palette-switch}} {{$:/language/Buttons/Shiraz/Caption}}
 created: 20201210171047824
-dark-palette: $:/jtm/ContrastDiscoBlue
+dark-palette: $:/palettes/Darcula
 description: Toggle between light/dark color palette
 light-palette: $:/palettes/Vanilla
-modified: 20220201052853924
+modified: 20220220212450290
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

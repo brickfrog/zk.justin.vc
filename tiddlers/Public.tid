@@ -1,0 +1,13 @@
+color: #77777e
+created: 20200507032259254
+icon: $:/core/images/globe
+modified: 20220221020444672
+refexplorer-hide: true
+tags: Public Meta
+title: Public
+tmap.id: 8666807a-3c38-4b11-901f-e88d6b87ccdd
+type: text/vnd.tiddlywiki
+
+All tiddlers tagged with this tag, as well as all system tiddlers, will be included in the upload.
+
+Tiddlers not tagged Public may still be redlinked from elsewhere in the wiki, which may be useful for establishing connections between other ideas.

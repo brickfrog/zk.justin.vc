@@ -1,6 +1,8 @@
 created: 20210805081354933
-modified: 20210805081354933
+creator: fffffff
+modified: 20220220045234388
+modifier: fffffff
 revision: 0
 title: $:/config/sib/HideSpoilerBanner
 
-yes
+no

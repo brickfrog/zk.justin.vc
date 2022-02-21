@@ -3,10 +3,10 @@ caption: Julia: faster than Fortran, cleaner than Numpy
 completed: 20210622000000000
 created: 20210622034127063
 medium: blog
-modified: 20210622053707236
+modified: 20220221020444652
 readstatus: read
 revision: 0
-tags: Source Code Julia
+tags: Source Code Julia Public
 title: JuliaFortranNumpy20210615
 tmap.id: 2665a1c5-4016-44f5-b45a-8ccf222be017
 url: https://www.matecdev.com/posts/numpy-julia-fortran.html

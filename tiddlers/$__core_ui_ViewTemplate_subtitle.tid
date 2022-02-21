@@ -1,6 +1,8 @@
 created: 20210611074832773
+creator: fffffff
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220123031554254
+modified: 20220221025021034
+modifier: fffffff
 revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/core/ui/ViewTemplate/subtitle
@@ -14,8 +16,8 @@ type: text/vnd.tiddlywiki
 <div class="tc-subtitle">
 <$list filter="[all[current]!tag[Journal]]">
 <div>
-<i class="fa fa-history"/>&ensp;&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
-&ensp;-&ensp;<$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}} />
+<i class="fa fa-history"/>&ensp;Created:&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
+&ensp;-&ensp;Updated:&ensp;<$view field="modified" format="date" template="YYYY-0MM-0DD 0hh:ss" />
 &ensp;
 </div>
 </$list>
@@ -50,9 +52,23 @@ type: text/vnd.tiddlywiki
 	</div>
 </$list>
 
-<$list filter="[all[current]has[wikipedia]]">
+<$list filter="[all[current]has[topic]!has[wikipedia]]">
 	<div>
-	<i class="fa fa-chevron-right"/>&ensp;<$macrocall $name="wikipedia" url={{!!wikipedia}}/>
+	<i class="fa fa-chevron-right"/>
+    &ensp;<$macrocall $name="wikipedia" url={{!!topic}}/>
+    •&nbsp;<$macrocall $name="eli5" topic={{!!topic}}/>
+    &ensp;•&nbsp;<$macrocall $name="lesswrong" topic={{!!topic}}/>
+    &ensp;•&nbsp;<$macrocall $name="googleexaplin" topic=   {{!!topic}}/>
+	</div>
+</$list>
+
+<$list filter="[all[current]has[topic]has[wikipedia]]">
+	<div>
+	<i class="fa fa-chevron-right"/>
+    &ensp;<$macrocall $name="wikipedia" url={{!!wikipedia}}/>
+    •&nbsp;<$macrocall $name="eli5" topic={{!!topic}}/>
+    &ensp;•&nbsp;<$macrocall $name="lesswrong" topic={{!!topic}}/>
+    &ensp;•&nbsp;<$macrocall $name="googleexaplin" topic=   {{!!topic}}/>
 	</div>
 </$list>
 
@@ -61,6 +77,31 @@ type: text/vnd.tiddlywiki
 	<i class="far fa-grin"/>&ensp;[[Vibe]]:&ensp;{{!!vibe}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;[[Productivity]]:&ensp;{{!!productivity}}&ensp;&#183;&ensp;<<linkuptitle>>
 	</div>
 </$list>
+
+<$list filter="[all[current]!is[system]]">
+<$list filter="[all[current]tag[Idea]]" variable=_>
+
+<div style="float: right; vertical-align: center;">
+<$list filter="[[$:/config/sib/IsPublicEdition]text[true]]" variable=_>
+	<span style={{{ [prefix[$:/jtm/EpistemicStatus/]caption{!!rating}get[color]addprefix[color: ]addsuffix[;]] }}}>rating</span></$link>:
+	<$select field="es" default="">
+		<$list filter="[prefix[$:/jtm/EpistemicStatus]has[caption]!nsort[stackorder]]">
+			<$set name="itemColor" value={{!!color}}>
+				<option style=<<color-style>> value={{!!caption}}>{{!!caption}}</option>
+			</$set>
+		</$list>
+	</$select>
+</$list>
+<$list filter="[[$:/config/sib/IsPublicEdition]!text[true]]" variable=_>
+<$list filter="[all[current]has[es]]">
+	[[Epistemic Status|EpistemicStatuses]]:&nbsp; <span style={{{ [prefix[$:/jtm/EpistemicStatus/]caption{!!es}get[color]addprefix[color: ]addsuffix[;]] }}}>{{!!es}}</span>
+</$list>
+</$list>
+</div>
+
+</$list>
+</$list>
+
 
 </div>
 

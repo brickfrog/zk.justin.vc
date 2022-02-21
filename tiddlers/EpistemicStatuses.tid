@@ -1,0 +1,30 @@
+created: 20210508222350989
+creator: soren
+modified: 20220221020444636
+modifier: soren
+tags: Meta Public
+title: EpistemicStatuses
+tmap.id: d0c7ef27-fd2f-4c12-8720-f2498799232f
+type: text/vnd.tiddlywiki
+
+An ''epistemic status'', where provided, offers a rough idea of support / belief in an idea. I've adapted these from Soren and Gwern, using the specific terms from the [[CFAR]] handbook.
+
+<dl>
+<$list filter="[prefix[$:/jtm/EpistemicStatus]section[main]nsort[stackorder]]">
+<dt style={{{ [{!!color}addprefix[color: ]addsuffix[;]] }}}>{{!!caption}}</dt>
+<dd>{{!!text}} (<$count filter="[es{!!caption}]"/> tiddlers)</dd>
+</$list>
+</dl>
+
+Not everything fits neatly into that framework, so three more statuses fill in the gaps:
+
+<dl>
+	<dt>(empty)</dt>
+	<dd>I have not assigned an epistemic status to this tiddler, or one doesn't make sense to add.</dd>
+<$list filter="[prefix[$:/jtm/EpistemicStatus]section[auxiliary]nsort[stackorder]]">
+	<dt style={{{ [{!!color}addprefix[color: ]addsuffix[;]] }}}>{{!!caption}}</dt>
+	<dd>{{!!text}} (<$count filter="[es{!!caption}]"/> tiddlers)</dd>
+</$list>
+</dl>
+
+The epistemic status of a tiddler, if assigned, is kept in its `es` field.
