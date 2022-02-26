@@ -1,7 +1,7 @@
 created: 20210611074832773
 creator: fffffff
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220221025021034
+modified: 20220221210158419
 modifier: fffffff
 revision: 0
 tags: $:/tags/ViewTemplate
@@ -70,6 +70,13 @@ type: text/vnd.tiddlywiki
     &ensp;•&nbsp;<$macrocall $name="lesswrong" topic={{!!topic}}/>
     &ensp;•&nbsp;<$macrocall $name="googleexaplin" topic=   {{!!topic}}/>
 	</div>
+</$list>
+
+<$list filter="[all[current]!has[topic]has[wikipedia]]">
+	<div>
+	<i class="fa fa-chevron-right"/>
+    &ensp;<$macrocall $name="wikipedia" url={{!!wikipedia}}/>
+</div>
 </$list>
 
 <$list filter="[all[current]has[vibe]]">

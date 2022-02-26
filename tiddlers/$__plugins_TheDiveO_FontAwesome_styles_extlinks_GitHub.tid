@@ -1,6 +1,6 @@
 created: 20170223102202986
 list-after: $:/plugins/TheDiveO/FontAwesome/styles/extlinks
-modified: 20220103191354441
+modified: 20220226075142942
 revision: 0
 tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/plugins/TheDiveO/FontAwesome/styles/extlinks/GitHub
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 a[href*="https://"][href*="github.com"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
-  content: '⌠\f09b⌡\202f';
+  content: ' \f09b\202f';
 }
 
 </$list>

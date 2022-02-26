@@ -1,5 +1,5 @@
 created: 20210721142317436
-modified: 20210725225741818
+modified: 20220226075102962
 revision: 0
 tags: $:/tags/Stylesheet $:/jtm/ExternalLinks
 title: $:/jtm/styles/extlinks/reddit
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 a[href^="https://"][href*=".reddit.com"]:after {
   <<fa-plugin-font-brands>>
   font-size: 90%;
-  content: '⌠\f1a1⌡';
+  content: '\f1a1';
 }
 
 </$list>

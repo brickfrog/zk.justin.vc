@@ -1,5 +1,5 @@
 created: 20210721223746023
-modified: 20220221055552500
+modified: 20220226113427521
 revision: 0
 tags: Meta Public
 title: Home/About
@@ -8,33 +8,38 @@ type: text/vnd.tiddlywiki
 
 !! 'sup
 
-Assuming you didn't catch it by the domain name, I'm Justin! <<fnote "Why justin.vc? I dunno, thought it sounded neat. I'm honestly baffled that Justin Kan didn't own the domain.">> Hello! I'm just a run-of-the-mill data scientist/software engineer who likes learning stuff in his free time.
+Assuming you didn't catch it by the domain name, I'm Justin! <<fnote "Why justin.vc? I dunno, thought it sounded neat. I'm honestly baffled that Justin Kan didn't own the domain.">> Hello! I'm just a run-of-the-mill data scientist/software engineer who likes learning stuff in his free time. <<fnote "TODO: Mental note to fill this out more later">>
 
 To reiterate, this all is -mostly- for myself, but I hope eventually either via a tutorial or code snippet that I help someone out. I primarily write things down here because I'm a bit ADD and having things available to the "public" is the kick-in-the-arse to do things, so to speak. Please jump to the navigation tab if you quickly wish to know how to maneuver around the site.
 
-I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote, and due to the way TiddlyWiki is structured, with lack of access to the DOM, I believe certain things such as his more expansive pop-ups aren't necessarily tenable.">> I plan to focus more on general notes and learnings. I would like to venture into longform writing more, but that remains a future goal. 
+I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In some design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote.">> I plan to focus more on general notes and learnings. I would like to venture into longform writing more, but that remains a future goal. 
 
-I would also note I definitely don't adhere by best practices insofar as UI/UX and I am easily NerdSniped. I think the best part of stumbling into someones weird little blog is figuring it out in a lot of cases. It's easiest if you just kinda roam around and get a general vibe of the place. 
+I would also note I definitely don't adhere by best practices insofar as UI/UX and I am easily NerdSniped. I think the best part of stumbling into someones weird little blog is figuring it out in a lot of cases. It's easiest if you just kinda roam around and get a general vibe of the place. After all, this is -mostly- for myself. <<fnote "Maybe I'll stike out these caveats if I ever somehow get popular.">>
 
-<a title="GitHub" href="https://github.com/brickfrog" class="tc-btn-big-green" style="background-color:#9ba6b1;color:#000;" target="_blank" rel="noopener noreferrer">
-{{$:/core/images/github}} brickfrog
-</a>
-<a title="LinkedIn" href="https://linkedin.com/in/justin-tm" class="tc-btn-big-green" style="background:#9ba6b1;color:#000;" target="_blank" rel="noopener noreferrer">
-{{$:/jtm/images/logos/linkedin}} justin-tm 
-</a>
+!! Various Links
 
+*[[Github|https://github.com/brickfrog]]
+*[[Linkedin|https://linkedin.com/in/justin-tm]]
+*[[urbit]]
+* Books/Reading
+** [[Goodreads|https://www.goodreads.com/brickfrog]] - try to keep books I read up to date / suggestions, etc. All reviews/notes will be here, but I find the Goodreads API useful for marking things from [[Calibre]]. See: RecentlyRead / RecentlyReading
+* Media/Watching
+** [[Trakt|https://trakt.tv/users/justinvc]] - television/movies watched, programatically updated/scrobbled. <<fnote "Basically it automatically updates based on things I watch. Mostly for fun, since I tie it to my server, it means if I fall asleep watching something, it still gets recorded.">> See: RecentlyWatched
+** [[Anilist|https://anilist.co/user/brickfrog/]] - similar to Trakt, but anime/manga, programatically updated for anime - unsure if myanimelist is better.
+* Music/Listening
+** [[last.fm|https://www.last.fm/user/justinvc]] - music scrobbled from Spotify
+** [[rateyourmusic.com|https://rateyourmusic.com/~justinvc]] - rating albums, manually updated
 
-!! Other Links
+!! Uses
+{{UsesThis}}
 
-Internal:
-
-* RecentlyRead
-* RecentlyReading
-* RecentlyWatched
-* [[PersonalComputer]]
-* PersonalityTests
-
-
-External:
+!! Personality
+{{PersonalityTests}}
 
 {{ExternalLinks}}
+
+!! Contact
+
+* Email: my name @ justin .vc
+* PgpKey (fingerprint: `B06B58045B938474FB78CC8619446B9862693812`)
+ {{PGPKey}}

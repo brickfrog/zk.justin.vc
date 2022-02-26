@@ -1,0 +1,59 @@
+caption: AWS Innovate AI/ML 2022
+color: #6c6cff
+created: 20220224162420446
+icon: $:/core/images/list-bullet
+modified: 20220224181901223
+revision: 0
+tags: Event Conference Public
+title: AwsInnovateAiMl2022
+tmap.id: a1a973e6-1a04-4820-9f49-5b9dee0316bc
+
+
+AWS' AI/ML Conference for 2022. A bit of a meta note is I need to excise into <<tag Idea>> tiddlers. Didn't end up doing this for PyCon2021, kind of regret. Also viewing this live, so no links. Amazon seems to like obsfucating all their stuff.
+
+Seem to have borked their video player and the sessions don't seem useful enough to troubleshoot. C'est la vie.
+
+!! Sessions
+
+<style>
+table.awsaiml2022-sessions tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.awsaiml2022-sessions tr td:nth-child(3) {
+	max-width: 20em;
+}
+</style>
+
+<table class="sortable">
+<thead>
+	<tr>
+		<th>Name</th>
+		<th>Presenter(s)</th>
+    <th>Created</th>
+	</tr>
+</thead>
+<tbody>
+	<$list filter="[tag[AwsInnovateAiMl2022]tag[Source]!has[draft.of]sort[at]]">
+		<tr>
+			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+			<td>{{!!author}}</td>
+      <td>{{!!created}}</td>
+		</tr>
+	</$list>
+</tbody>
+</table>
+
+<$button>
+	<$action-sendmessage
+		$message="tm-new-tiddler"
+		title="2022"
+		tags="AwsInnovateAiMl2022 Source"
+		author="Presenter"
+		caption="SessionTitle"
+    url=""
+    year=2022
+    medium="video"
+		text=""/>
+	New Session
+</$button>

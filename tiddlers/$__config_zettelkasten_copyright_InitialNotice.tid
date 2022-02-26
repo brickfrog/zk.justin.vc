@@ -1,9 +1,9 @@
 created: 20210523151255793
 creator: soren
-modified: 20220220211714938
+modified: 20220226061335716
 modifier: soren
 tags: 
 title: $:/config/zettelkasten/copyright/InitialNotice
 type: text/vnd.tiddlywiki
 
-Copyright © 2020--<<now YYYY>> Justin Malloy.
+© 2020--<<now YYYY>> Justin Malloy.

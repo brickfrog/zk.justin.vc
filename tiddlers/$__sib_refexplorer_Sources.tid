@@ -1,8 +1,8 @@
 caption: Sources
-condition: [<storyTiddler>backlinks[]] [<storyTiddler>links[]] [<storyTiddler>tagging[]] +[regexp:tags[Class|Publication|Source]sort[]]
+condition: [<storyTiddler>backlinks[]] [<storyTiddler>links[]] [<storyTiddler>tagging[]] +[regexp:tags[Class|Conference|Publication|Source]sort[]]
 created: 20200321225758173
 creator: soren
-modified: 20220221013413441
+modified: 20220221223311632
 modifier: soren
 tags: $:/tags/ReferenceExplorerTab
 title: $:/sib/refexplorer/Sources

@@ -1,7 +1,7 @@
 created: 20200808023836194
 description: Display a table of fields and other information about the source described by this tiddler.
 list-after: $:/sib/Templates/Automatic/SpoilerBanner
-modified: 20220220071826129
+modified: 20220224165713956
 revision: 0
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Source
@@ -19,9 +19,9 @@ type: text/vnd.tiddlywiki
 	</tr>
 <$list filter={{{ [all[current]has[author]] }}}>
 	<tr>
-		<th>Author </th>
+		<th>Author</th>
 		<td>
-			<$link to={{!!author}}/>
+      <$link to={{!!author}}/>
 		</td>
 	</tr>
 	</$list>
@@ -41,10 +41,12 @@ type: text/vnd.tiddlywiki
 		</td>
 	</tr>
 	</$list>
+  <$list filter="[all[current]has[url]]">
 	<tr>
 		<th>URL</th>
 		<td>{{!!url}}</td>
 	</tr>
+  </$list>
 	<$list filter="[all[current]has[isbn]]">
 	<tr>
 		<th>ISBN</th>
@@ -55,6 +57,7 @@ type: text/vnd.tiddlywiki
 		</td>
 	</tr>
 	</$list>
+  <$list filter="[all[current]has[bibliography]]">
 	<tr>
 		<th>Bibliographies</th>
 		<td>
@@ -65,6 +68,7 @@ type: text/vnd.tiddlywiki
 			</$list>
 		</td>
 	</tr>
+  </$list>
 	<tr>
 		<th>Status</th>
 		<td>

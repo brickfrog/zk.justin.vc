@@ -1,6 +1,6 @@
 created: 20210721020857476
 creator: soren
-modified: 20210825185624720
+modified: 20220221230653877
 modifier: soren
 tags: $:/tags/Stylesheet
 title: $:/sib/styles/ReferenceExplorer
@@ -17,6 +17,7 @@ table.ideas-table th {
 }
 
 table.ideas-table th, table.ideas-table td {
+  color: white;
 	border: 0;
 	border-right: 1px solid #999999;
 	border-left: 1px solid #999999;
@@ -34,8 +35,8 @@ table.ideas-table tr:last-child {
     margin: 0 0 0 0;
     padding: 2px 7px 2px 7px;
     text-shadow: none;
-    color: #FFFFFF;
-    background-color: #3D3D3D;
+    color: <<colour foreground>>;
+    background-color: <<colour tag-background>>;
     vertical-align: middle;
     border-top: 1px solid #999999;
     border-right: 1px solid #999999;
@@ -49,7 +50,7 @@ table.ideas-table tr:nth-child(odd) {
 }
 
 table.ideas-table a {
-	color: <<color foreground>>;
+	color: white;
 }
 
 @media print

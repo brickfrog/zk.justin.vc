@@ -2,7 +2,7 @@ created: 20220220004511806
 creator: fffffff
 description: Displays links to search for ancillary information about a concept/idea
 list-after: $:/sib/Templates/Automatic/SpoilerBanner
-modified: 20220220172550304
+modified: 20220221185041884
 modifier: fffffff
 revision: 0
 tags: $:/tags/ViewTemplate
@@ -10,7 +10,7 @@ title: $:/jtm/Templates/Automatic/Idea
 transcludedin: All tiddlers tagged <<tag Concept>>.
 type: text/vnd.tiddlywiki
 
-<$list filter="[all[current]tag[Idea]!has[topic]]">
+<$list filter="[all[current]tag[Idea]!has[search-hide]]">
 
 <$fieldmangler>
 Add field topic <$edit-text field="temp_topic"/> to this tiddler to set subtitle links
@@ -21,6 +21,7 @@ or set field here if wikipedia's topic is different <$edit-text field="wikipedia
 <$action-sendmessage $message="tm-add-field" topic={{!!temp_topic}} />
 <$action-setfield temp_topic=""/>
 <$action-deletefield temp_topic/>
+<$action-setfield search-hide="true"/>
 Click to Set / Clear Entry Form
 </$button>
 <br>

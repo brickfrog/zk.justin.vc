@@ -1,0 +1,11 @@
+created: 20220226112122797
+modified: 20220226112355494
+tags: Definition Cryptography
+title: PgpKey
+tmap.id: fb58e796-0311-42cf-b171-45bfea15d2bc
+
+PGP (Pretty Good Privacy) is an encryption system used for both sending encrypted emails and encrypting sensitive files. Since its invention back in 1991, PGP has become the de facto standard for email security.
+
+Further Reading:
+
+* https://www.varonis.com/blog/pgp-encryption

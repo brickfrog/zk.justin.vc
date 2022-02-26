@@ -1,14 +1,12 @@
 created: 20210721222719275
-modified: 20220221060046283
+modified: 20220224194910288
 revision: 0
 tags: Meta Public
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
 type: text/vnd.tiddlywiki
 
-!! Where the heck am I?
-
-The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with the padlocks and an underline lead outside of the wiki. That should be enough to get started quickly.
+The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere. That should be enough to get started quickly.
 
 There's a search icon ( <i class="fas fa-search"></i> ) in the sidebar. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons. One thing to note for mobile is, I use triple-clicks to edit content, so tapping three times in rapid succession will open the edit menu.
 

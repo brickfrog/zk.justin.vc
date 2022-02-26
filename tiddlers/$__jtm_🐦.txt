@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Status: All good
+As Of: 2/26/2022
+
+During this period, justin.vc has received:
+
+Zero National Security Letters
+Zero Foreign Intelligence Surveillance Court orders
+Zero gag orders that prevent us from from stating that we have received legal process seeking our customers' information
+
+https://keyserver.ubuntu.com/pks/lookup?search=justin%40justin.vc&fingerprint=on&op=index
+
+NATO Response Force activated for first time https://www.cnn.com/2022/02/25/politics/nato-ukraine-russia/index.html
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSwa1gEW5OEdPt4zIYZRGuYYmk4EgUCYhnDCQAKCRAZRGuYYmk4
+EpNxAQDTyLRDOcla0I0XIAX+kvjBYLz/ExLgA5upbk1ILJcrkQEA9cTmeCP4oFL3
+B4EEjIG5KNP5csSYPXlaDbKfPyDxIg4=
+=oRlS
+-----END PGP SIGNATURE-----
