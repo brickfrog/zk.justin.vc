@@ -1,16 +1,15 @@
 color: #15d5bf
 created: 20210528153225122
-description: I mean, what is "home", really?
-icon: $:/core/images/home-button
-list: Home/About Home/Navigation
-modified: 20220226113517267
+description: I mean, "home" is pretty self-explanatory
+list: Home/Navigation Home/About
+modified: 20220302182254761
 revision: 0
 tags: Meta Public
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
 type: text/vnd.tiddlywiki
 
-<p class="dropcap">H owdy, this is TiddlyWiki, a personal wiki. It's also a <<wikipedia "Quine_(computing)">> It uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out) <<fnote "I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">> </p>
+<p class="dropcap">H owdy, this is my wiki/blog/site, built in TiddlyWiki. It uses the structure of [[Soren Bjornstad's Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out). <<fnote "Important enough not to be buried in a footnote, also I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">> </p>
 
 The big ''TL;DR'' of this is that it's to help me remember and draw connections between media I consume or ideas I have. I've read way too many books that have slipped into the ether years down the road.
 
@@ -22,7 +21,7 @@ What's in it for you? I dunno, maybe you'll find a movie I watched or concept I 
 
 <<tabs 
   tabsList:"[list[Home]]"
-	default:"Home/About"
+	default:"Home/Navigation"
   buttonTemplate:"$:/sib/Templates/Topical/PublicHomepageTab"
 >>
 

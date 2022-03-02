@@ -1,12 +1,12 @@
 created: 20210721223746023
-modified: 20220226113427521
+modified: 20220302172144379
 revision: 0
 tags: Meta Public
 title: Home/About
 tmap.id: 1e63e965-caa1-40b3-96db-13813398334c
 type: text/vnd.tiddlywiki
 
-!! 'sup
+!! <<glitch "'sup">>
 
 Assuming you didn't catch it by the domain name, I'm Justin! <<fnote "Why justin.vc? I dunno, thought it sounded neat. I'm honestly baffled that Justin Kan didn't own the domain.">> Hello! I'm just a run-of-the-mill data scientist/software engineer who likes learning stuff in his free time. <<fnote "TODO: Mental note to fill this out more later">>
 

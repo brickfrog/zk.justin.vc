@@ -1,0 +1,16 @@
+created: 20220302144056397
+modified: 20220302150323752
+tags: $:/tags/Stylesheet
+title: $:/jtm/css/misc
+type: text/vnd.tiddlywiki
+
+.disco {
+    background-color: <<colour primary>>;
+    color: <<colour foreground>>;
+}
+
+details.vibe summary {
+    background-color: <<colour primary>>;
+    color: black;
+}
+

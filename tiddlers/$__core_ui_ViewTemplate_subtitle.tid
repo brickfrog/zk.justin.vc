@@ -1,7 +1,7 @@
 created: 20210611074832773
 creator: fffffff
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220221210158419
+modified: 20220302143442996
 modifier: fffffff
 revision: 0
 tags: $:/tags/ViewTemplate
@@ -81,7 +81,7 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[all[current]has[vibe]]">
 	<div>
-	<i class="far fa-grin"/>&ensp;[[Vibe]]:&ensp;{{!!vibe}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;[[Productivity]]:&ensp;{{!!productivity}}&ensp;&#183;&ensp;<<linkuptitle>>
+	<i class="far fa-grin"/>&ensp;[[Vibe]]:&ensp;{{!!vibe}}&ensp;&#183;&ensp;<i class="fas fa-check"/>&ensp;[[Productivity]]:&ensp;{{!!productivity}}&ensp;
 	</div>
 </$list>
 

@@ -1,6 +1,6 @@
 created: 20210825140429794
 creator: soren
-modified: 20220226062604153
+modified: 20220227045143666
 modifier: soren
 tags: $:/tags/BelowStory
 title: $:/sib/Templates/Automatic/StoryRiverFooter
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 | CopyrightNotice | [[♪🐦|$:/jtm/🐦]]
 </div>
 <div class="zk-footer-row">
-Zettelkasten [[edition of TiddlyWiki|https://zettelkasten.sorenbjornstad.com]] by [[Soren Bjornstad|https://sorenbjornstad.com]].
+[[TiddlyWiki Zettelkasten |https://zettelkasten.sorenbjornstad.com]] by [[Soren Bjornstad|https://sorenbjornstad.com]].
 </div>
 
 <style>

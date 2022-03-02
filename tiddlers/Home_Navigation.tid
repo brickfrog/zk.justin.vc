@@ -1,10 +1,12 @@
 created: 20210721222719275
-modified: 20220224194910288
+modified: 20220302172243577
 revision: 0
 tags: Meta Public
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
 type: text/vnd.tiddlywiki
+
+!! <<glitch "how do?">>
 
 The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere. That should be enough to get started quickly.
 
