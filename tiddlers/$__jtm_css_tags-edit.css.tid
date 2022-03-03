@@ -1,0 +1,35 @@
+created: 20220303010103278
+description: changes the styling of the tag-pills
+modified: 20220303063518390
+tags: $:/tags/Stylesheet
+title: $:/jtm/css/tags-edit.css
+tmap.id: 6426de10-84d5-4001-8ba8-93bfe5b948bb
+
+.tc-btn-invisible {
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: <<colour foreground>>;
+	fill: <<colour foreground>>;
+}
+
+button.tc-untagged-label {
+	background-color: <<colour untagged-background>>;
+}
+
+button.tc-tag-label, span.tc-tag-label {
+  box-shadow:0.5px 0.5px 0 <<colour primary>>;
+	color: <<colour tag-foreground>>;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: <<colour tag-background>>;
+	border-radius: 1.2em;
+  transform: skew(-10deg);
+}
+
+button.tc-tag-label:hover, span.tc-tag-label:hover {
+  box-shadow:0.5px 1.5px 0 <<colour background>>;
+  transform: skew(10deg);
+}

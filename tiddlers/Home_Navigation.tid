@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20220302172243577
+modified: 20220303043812089
 revision: 0
 tags: Meta Public
 title: Home/Navigation
@@ -8,9 +8,13 @@ type: text/vnd.tiddlywiki
 
 !! <<glitch "how do?">>
 
-The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere. That should be enough to get started quickly.
+The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere. For example, these two buttons open/close the latest 3 journal entries:
 
-There's a search icon ( <i class="fas fa-search"></i> ) in the sidebar. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons. One thing to note for mobile is, I use triple-clicks to edit content, so tapping three times in rapid succession will open the edit menu.
+<<openTiddlers "[!is[system]tag[Journal]!sort[modified]limit[3]]" "Open">> <<closeTiddlers "[!is[system]tag[Journal]!sort[modified]limit[3]]" "Close">>
+
+Also note the "random idea" link in the sidebar. <<fnote "I need to link more things, though.">> That should be enough to get started quickly / be a jumping off point. 
+
+Additionally, there's a search icon ( <i class="fas fa-search"></i> ) in the sidebar. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons. One thing to note for mobile is, I use triple-clicks to edit content, so tapping three times in rapid succession will open the edit menu.
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 

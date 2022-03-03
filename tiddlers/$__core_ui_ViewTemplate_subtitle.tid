@@ -1,7 +1,7 @@
 created: 20210611074832773
 creator: fffffff
 description: For editing what shows up beneath the title in tiddlers
-modified: 20220302143442996
+modified: 20220303030458620
 modifier: fffffff
 revision: 0
 tags: $:/tags/ViewTemplate
@@ -17,7 +17,7 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[current]!tag[Journal]]">
 <div>
 <i class="fa fa-history"/>&ensp;Created:&nbsp;<$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}} />
-&ensp;-&ensp;Updated:&ensp;<$view field="modified" format="date" template="YYYY-0MM-0DD 0hh:ss" />
+&ensp;-&ensp;Updated:&ensp;<$view field="modified" format="date" template="YYYY-0MM-0DD 0hh:0mm" />
 &ensp;
 </div>
 </$list>

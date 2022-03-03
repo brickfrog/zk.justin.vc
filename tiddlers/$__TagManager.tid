@@ -1,7 +1,7 @@
 color: #bbb
 created: 20220220223835862
 icon: $:/core/images/tag-button
-modified: 20220220223835862
+modified: 20220303055628462
 title: $:/TagManager
 
 \define lingo-base() $:/language/TagManager/

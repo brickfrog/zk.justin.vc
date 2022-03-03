@@ -1,0 +1,9 @@
+caption: Created
+created: 20220303054500163
+modified: 20220303054807688
+tags: $:/tags/MoreSideBar
+title: $:/core/ui/MoreSideBar/Recent2
+
+<$macrocall $name="timeline" dateField="created" limit=50 format={{$:/language/RecentChanges/DateFormat}}/>
+
+<<timeline dateField: "created" limit: 50 format:" ">>

@@ -1,5 +1,5 @@
 created: 20210721223746023
-modified: 20220302172144379
+modified: 20220303070720236
 revision: 0
 tags: Meta Public
 title: Home/About
@@ -12,7 +12,7 @@ Assuming you didn't catch it by the domain name, I'm Justin! <<fnote "Why justin
 
 To reiterate, this all is -mostly- for myself, but I hope eventually either via a tutorial or code snippet that I help someone out. I primarily write things down here because I'm a bit ADD and having things available to the "public" is the kick-in-the-arse to do things, so to speak. Please jump to the navigation tab if you quickly wish to know how to maneuver around the site.
 
-I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In some design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote.">> I plan to focus more on general notes and learnings. I would like to venture into longform writing more, but that remains a future goal. 
+I  draw inspiration from [[Gwern|https://gwern.net]].<<fnote "In some design, not content, at least - I believe most of his shortform notes are kept offsite in EverNote.">> I plan to focus more on general notes and learnings. I would like to venture into longform writing more, but that remains a future goal. I have much less of a LongNowFoundation goal with this. For better or worse.
 
 I would also note I definitely don't adhere by best practices insofar as UI/UX and I am easily NerdSniped. I think the best part of stumbling into someones weird little blog is figuring it out in a lot of cases. It's easiest if you just kinda roam around and get a general vibe of the place. After all, this is -mostly- for myself. <<fnote "Maybe I'll stike out these caveats if I ever somehow get popular.">>
 
@@ -42,4 +42,4 @@ I would also note I definitely don't adhere by best practices insofar as UI/UX a
 
 * Email: my name @ justin .vc
 * PgpKey (fingerprint: `B06B58045B938474FB78CC8619446B9862693812`)
- {{PGPKey}}
+ {{PgpPublicKey}}

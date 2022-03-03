@@ -1,0 +1,22 @@
+created: 20220303020256871
+modified: 20220303043202513
+tags: $:/tags/Macro
+title: $:/jtm/macros/open-multiple
+
+\define openTiddlers(tf:"[tag[Journal]limit[1]]" label:"open")
+<$button>
+<$list filter="""$tf$""">
+<$action-navigate $to={{!!title}}/>
+</$list>
+$label$
+</$button>
+\end
+
+\define closeTiddlers(tf:"[tag[Journal]limit[1]]" label:"close")
+<$button>
+<$list filter="""$tf$""">
+<$action-sendmessage $message="tm-close-tiddler"/>
+</$list>
+$label$
+</$button>
+\end
