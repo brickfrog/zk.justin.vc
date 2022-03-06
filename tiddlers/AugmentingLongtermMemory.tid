@@ -1,0 +1,42 @@
+author: MrMichaelNielsen
+caption: Augmenting Long-term Memory
+completed: 20220307000000000
+created: 20220306065104968
+medium: web
+modified: 20220306074513634
+rating: 
+readstatus: read
+tags: Source Public
+title: AugmentingLongtermMemory
+tmap.id: 16a4dc36-84ae-4ad7-9724-e4d7a5be4075
+url: http://augmentingcognition.com/ltm.html
+year: 2018
+
+> Anki makes memory a choice.
+> Ankify things that serve your long-term goals.
+
+An ad-hoc guide and observations on PersonalMemorySystems using [[Anki]]. The key observation initially is the concept of SpacedRepetition, allowing an large stepoff when reviewing cards as you cement them in your memory.
+
+The author has made over 10,000 cards in ~two years, and uses them for any thing in life he wants to remember, be it little facts or such. He seemed to have trouble starting off, and the thing that made it "click" for him was project based, finding something he wanted to know, which was the command line.
+
+He used it to understand the AlphaGo ReinforcementLearning paper, but had trouble connecting it to things he didn't find emotionally appealing such as history. Shallow reading of many papers to figure out the most important papers without spending too much time, and to gather a sense of what progress looks like.
+
+SyntopicReading is mentioned, from HowToReadABook.
+
+!! Patterns of Use
+
+* Make questions/answers as atomic as possible
+** Example of breaking down: How to create a soft link from linkname to filename? -> ln -s filename linkname - this is not atomic, break down into...
+*** “What's the basic command and option to create a Unix soft link?” Answer: “ln -s …”
+*** “When creating a Unix soft link, in what order do linkname and filename go?” Answer: “filename linkname”
+*** but the original question might be worth retaining, just keep the atomic ones too
+* Use one big deck! - not much benefit to having a complicated scheme, more likely to hinder
+* orphan questions - avoid passing interests, most likely will grow stale
+* make your own decks, creating the cards is an act of understanding itself
+* avoid yes/no answers
+
+> For this reason, when someone is getting started I advise not using any advanced features, and not installing any plugins. Don't, in short, come down with a bad case of programmer's efficiency disease.
+
+A discussion on chunking as an "IQ boost" and further discussion on the EbbinghausForgettingCurve and the superiority of distributing practice.
+
+One key relevance to me is the appendix on APIs, and how to start with some piece of code and work it out, resist the temptation to Ankify something unless you know it's going to be used again. (In my case, this would be APIs like Flask / FastAPI / Sklearn, etc. - things I'm likely to use over and over)

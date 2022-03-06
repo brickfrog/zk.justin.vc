@@ -1,5 +1,5 @@
 created: 20220302173903976
-modified: 20220303023407350
+modified: 20220305071027941
 tags: $:/tags/Stylesheet
 title: $:/jtm/css/glitch2
 type: text/vnd.tiddlywiki
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 	color: <<colour foreground>>;
   text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, 0.025em 0.04em 0 #fffc00;
   animation: glitch-vibe 725ms infinite;
-  animation-iteration-count: 2;
+  animation-iteration-count: 4;
 }
 
 .glitch-vibe span {

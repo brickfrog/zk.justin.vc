@@ -1,0 +1,19 @@
+author: MrAntonRuberts
+caption: Predicting Super Customers using Feature Labs and PyCaret
+completed: 20220307000000000
+created: 20220306083043349
+medium: web
+modified: 20220306223309119
+rating: skimmable
+readstatus: read
+tags: Source Class Tutorial Public
+title: PredictingSuperCustomers
+tmap.id: 75923ad7-4d22-47d6-b845-d58cb77b8d19
+url: https://antonsruberts.github.io/propensity-model
+year: 2020
+
+This is a tutorial for PropensityModeling, using ComposeML, [[Featuretools]], and PyCaret.
+
+Quite simply, it uses Compose for "label engineering", generating labels based on weekly data, then featuretools to generate features associated with said labels. You treat the associated dataset kind of like a database, adding relationships between dataframes instead of globbing them all together preemptively.
+
+I would note that this tutorial is a bit out of date insofar as TheAlteryx has already made breaking API changes. I was able to fix them and generally understand what was going on though.

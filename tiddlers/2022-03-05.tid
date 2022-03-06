@@ -1,0 +1,28 @@
+class: leftbar border-info
+created: 20220305071319455
+keywords: Pig2021
+modified: 20220306065003165
+productivity: 3
+summary: 2022-03-05
+tags: Journal Public
+title: 2022-03-05
+tmap.id: 5cd82ca3-584b-45b1-abee-fea74a33a0ce
+vibe: 6
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">I think I borked my sleep schedule.</p>
+
+<br>
+<!--- Tag Copies Here --->
+<small hidden> Pig2021 BelleAnime RankingOfKings MobPsycho MySenpaiIsAnnoying </small>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
