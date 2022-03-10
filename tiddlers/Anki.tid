@@ -1,7 +1,9 @@
 created: 20220306074536447
-modified: 20220306074656572
-tags: Software
+modified: 20220307060255727
+search-hide: true
+tags: Software Idea Public
 title: Anki
 tmap.id: bddb9d06-f5e0-4ba4-a950-c2a7556838b4
+topic: 
 
 Software for SpacedRepetition. Most of it's power comes from the spacing of learning, and it's -generally- not worth getting OptimizationSniped eeking out small performance gains.

@@ -1,7 +1,7 @@
 class: leftbar border-info
 created: 20220306064938216
 keywords: 
-modified: 20220306231156501
+modified: 20220307061105951
 productivity: 7
 summary: 2022-03-06
 tags: Journal Public
@@ -13,7 +13,7 @@ vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" inc
  productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
 <br>
 
-<p class="dropcap">Summary</p>
+<p class="dropcap">reading.</p>
 
 <br>
 <!--- Tag Copies Here --->

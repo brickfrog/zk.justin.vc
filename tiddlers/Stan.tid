@@ -1,9 +1,11 @@
 created: 20211102020912757
-modified: 20220221020444692
+modified: 20220307060213748
 revision: 0
-tags: C++ Python Platform R DSL Public
+search-hide: true
+tags: C++ Python Platform R DSL Public Idea
 title: Stan
 tmap.id: b7556927-781e-4797-9c97-eebf94594e10
+topic: 
 
 A platform for statistical modeling and computation. (https://mc-stan.org)
 

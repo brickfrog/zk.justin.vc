@@ -1,11 +1,13 @@
 color: #ffffff
 created: 20210725225300797
 icon: $:/jtm/images/icons/julia
-modified: 20220221020444651
+modified: 20220307060049280
 revision: 0
-tags: Code Software ProgrammingLanguage Public
+search-hide: true
+tags: Code Software ProgrammingLanguage Public Idea
 title: Julia
 tmap.id: 36a6a849-17b8-4109-a79b-aa8281f96f13
+topic: 
 url: https://julialang.org
 
 > Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.
