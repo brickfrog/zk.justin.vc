@@ -1,0 +1,10 @@
+{
+    "name": "wiki",
+    "version": "1.0.0",
+    "description": "My nice notes",
+    "dependencies": {
+        "tiddlywiki": "^5.1.23"
+    },
+    "author": "justin",
+    "license": "See copyright notice in wiki"
+}

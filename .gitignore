@@ -1,4 +1,6 @@
-venv
-credentials.json
-cred*
-schedule*
+__pycache__/
+node_modules/
+.peru/
+output/
+
+\$__StoryList.tid
