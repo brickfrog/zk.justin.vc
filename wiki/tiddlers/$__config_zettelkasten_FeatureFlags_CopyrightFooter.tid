@@ -2,9 +2,9 @@ caption: Copyright footer
 created: 20210902152332169
 creator: soren
 description: Display a copyright and attribution notice underneath the story river.
-modified: 20220220210907751
+modified: 20220311112056963
 modifier: soren
-private: yes
+private: no
 public: yes
 tags: 
 title: $:/config/zettelkasten/FeatureFlags/CopyrightFooter

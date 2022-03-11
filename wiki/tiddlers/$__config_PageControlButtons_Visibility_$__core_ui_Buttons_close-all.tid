@@ -1,6 +1,6 @@
 created: 20210528145102731
-modified: 20211120040540719
-revision: 0
+modified: 20220311112304043
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all
+type: text/vnd.tiddlywiki
 
-hide
+show

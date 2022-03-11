@@ -1,0 +1,83 @@
+bibliography: LifetimeReading
+created: 20210703165332506
+modified: 20220311200937166
+tags: Bibliography Public
+title: LifetimeReading
+tmap.id: 200c1528-12dd-410a-b768-10c8c3b6ff28
+type: text/vnd.tiddlywiki
+
+\define priorityFilt() [get[priority]else[3]compare:number:lteq{$:/temp/LifetimeReading!!priority}]
+\define myfilt() [tag[Source]bibliography[LifetimeReading]filter<priorityFilt>regexp:genre{$:/temp/LifetimeReading!!genre}regexp:readstatus{$:/temp/LifetimeReading!!readstatus}$(sortfrag)$] -[[LifetimeReading]]
+
+
+A compilation of various classics / book-lists. The source is indicated in the //Recommender// column:
+
+* SJGB: [[SaintJohnsGreatBooks]], a "great book" liberal education, no particular ordering.
+* HNW: [[HugoNebulaList]], award winners for SciFi books.
+
+There are currently <$count filter="[tag[Source]bibliography[LifetimeReading]readstatus[unread]]"/> unread items on this list; if I read one per month, it will take <$text text={{{ [tag[Source]bibliography[LifetimeReading]readstatus[unread]count[]divide[12]fixed[2]] }}}/> years to complete.
+
+
+!! Find something to read
+
+@@.sib-lr-table
+|!Sort fragment |<$edit-text tiddler="$:/temp/LifetimeReading" field="sort" tag="input" default=""/>|
+|!Genre |<$select tiddler="$:/temp/LifetimeReading" field="genre"><option value=".*">(any)</option><$list filter="[tag[Source]bibliography[LifetimeReading]each[genre]get[genre]!regexp[/]sort[]]"><option value=<<currentTiddler>>><<currentTiddler>></option></$list></$select>|
+|!Priority ≤ |<$select tiddler="$:/temp/LifetimeReading" field="priority"><option value="1">1</option><option value="2">2</option><option value="3">3</option></$select>|
+|!Read status |<$select tiddler="$:/temp/LifetimeReading" field="readstatus"><option value=".*">(any)</option><option value="^unread$">unread</option><option value="^partial$">partial</option><option value="^read$">read</option><option value="^reread$">reread</option></$select>|
+@@
+
+<table class="sib-lifetime-reading sib-lr-table">
+	<tr>
+		<th>Status</th>
+		<th>Title</th>
+		<th>Author</th>
+		<th>Genre</th>
+		<th>Year</th>
+		<th>Priority</th>
+		<th>Reco</th>
+		<th>Rating</th>
+	</tr>
+<$vars sortfrag={{$:/temp/LifetimeReading!!sort}}>
+<$list filter=<<myfilt>> >
+	<tr>
+		<td>
+			<$select field="readstatus">
+				<option value="unread">unread</option>
+				<option value="partial">partial</option>
+				<option value="read">read</option>
+				<option value="reread">reread</option>
+			</$select>
+		</td>
+		<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+		<td>{{!!author}}</td>
+		<td>{{!!genre}}</td>
+		<td>{{!!year}}</td>
+		<td>
+			<$select field="priority">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</$select>
+		</td>
+		<td>{{!!recommendedby}}</td>
+		<td>{{||$:/sib/Templates/Topical/ReadingList/Rating}}</td>
+	</tr>
+</$list>
+</$vars>
+</table>
+
+
+<!--
+{{||$:/sib/Templates/Topical/BibliographyList}}
+-->
+
+<style>
+table.sib-lifetime-reading {
+	width: 100%;
+}
+
+table.sib-lr-table input, table.sib-lr-table select {
+	width: 100%;
+}
+</style>

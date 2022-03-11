@@ -1,7 +1,7 @@
 created: 20210215024632766
 creator: soren
 description: Show sources you might want to read soon.
-modified: 20210920155102294
+modified: 20220311162302495
 modifier: soren
 tags: Tool
 title: $:/sib/Tools/ReadingInbox
@@ -10,10 +10,10 @@ type: text/vnd.tiddlywiki
 
 \define tableRow(dueFragment)
 <tr>
-	<td><$list filter="[all[current]has[url]]"><a href={{!!url}} class="tc-tiddlylink-external">go</a></$list></td>
-	<td><$link to=<<currentTiddler>>>open</$link></td>
-	<td>//{{!!caption}}//</td>
-	<td>{{!!author}}</td>
+	<td><$list filter="[all[current]has[url]]"><a href={{!!url}} class="tc-tiddlylink-external">
+     <i class="fas fa-link"></i></a></$list></td>
+	<td>//<$link to={{!!title}}>{{!!caption}}</$link>//</td>
+	<td> <$link to={{!!author}}></$link> </td>
 	<td>{{!!medium}}</td>
 	<td>{{!!bibliography}}</td>
 	<!--<td>$dueFragment$</td>-->
@@ -27,7 +27,7 @@ type: text/vnd.tiddlywiki
 		</$button>&nbsp;|
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr="5"/>
-			in 5 days
+			5 days
 		</$button>&nbsp;|
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr={{{ [all[current]get[ivl]else[5]multiply[2]] }}}/>
@@ -48,11 +48,10 @@ The table does not include [[lifetime reading items|LifetimeReading]] unless the
 <table>
 	<tr>
 		<th style="width: 3.5em;">Text</th>
-		<th>Tiddler</th>
 		<th>Title</th>
 		<th style="width: 15%;">Author</th>
 		<th>Medium</th>
-		<th>Biblio</th>
+		<th>Bibliography</th>
 		<!--<th style="width: 6.2em;">Due</th>-->
 		<th style="width: 6.5em;">Status</th>
 		<th style="width: 18em;">Postpone</th>

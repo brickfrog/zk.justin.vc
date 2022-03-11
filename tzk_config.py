@@ -11,6 +11,7 @@
 
 # Imports. Don't remove this or you won't be able to configure builders.
 from tzk import builders
+from datetime import datetime
 
 # Name of the subfolder containing your wiki data and its tiddlywiki.info file.
 wiki_folder = "wiki"
@@ -19,7 +20,9 @@ wiki_folder = "wiki"
 ### COMMITTING ####
 # Default commit message to use with 'tzk commit'.
 # You can always use 'tzk commit -m' to use a different message on the fly.
-commit_message = "checkpoint"
+now = datetime.now()
+
+commit_message = f'{now.strftime("%Y/%m/%d")} changes'
 
 # Git remote to push changes to when you run 'tzk commit'.
 # If you never want to push changes, set this to the empty string ("").

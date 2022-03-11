@@ -2,14 +2,16 @@ author: [[Cam Davidson-Pilon]]
 caption: Probabilistic Programming and Bayesian Methods for Hackers
 completed: 
 created: 20211009174046104
+due: 202203261200
+ivl: 15
 medium: book
-modified: 20220221020444671
+modified: 20220311113235627
 rating: 
 readstatus: unread
-revision: 0
 tags: Source DataScience Probability Statistics Python Public
 title: ProbProgramming4Hackers
 tmap.id: 3cfbda45-0adc-49b2-b6ca-56490703db6a
+type: text/vnd.tiddlywiki
 url: https://nbviewer.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb
 year: 2016
 

@@ -2,14 +2,16 @@ author: MukulRathi
 caption: Creating the Bolt Compiler
 completed: 
 created: 20210830104830006
+due: 202203261200
+ivl: 15
 medium: blog
-modified: 20220221020444631
+modified: 20220311113219816
 rating: 
 readstatus: unread
-revision: 0
 tags: Source Class Code Public
 title: CreatingBolt
 tmap.id: 290f6ce9-5876-4e07-87d4-c012b5f270b3
+type: text/vnd.tiddlywiki
 url: https://mukulrathi.co.uk/create-your-own-programming-language/intro-to-compiler/
 year: 2020
 

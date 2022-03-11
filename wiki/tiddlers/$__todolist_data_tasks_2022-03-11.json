@@ -1,3 +1,4 @@
 {
-    "20220311081502484": "Started moving my tiddlers to WSL, since Soren's tzk CLI requires unix-based OS"
+    "20220311081502484": "Started moving my tiddlers to WSL, since Soren's tzk CLI requires unix-based OS",
+    "20220311115554274": "Got it mostly working, made some changes wrt to public vs. private, etc."
 }

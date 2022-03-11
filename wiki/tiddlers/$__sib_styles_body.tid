@@ -1,6 +1,6 @@
 created: 20210615030339909
 creator: soren
-modified: 20210917203545404
+modified: 20220311200855832
 modifier: soren
 tags: $:/tags/Stylesheet
 title: $:/sib/styles/body
@@ -18,15 +18,16 @@ div.tc-tiddler-body { max-width: 50em; margin: auto; }
 div[data-tiddler-title*="$:/sib/Tools/ReadingInbox"] div.tc-tiddler-body, div[data-tags*="Indite"] div.tc-tiddler-body {
 	max-width: 100%;
 }
-div[data-tiddler-title*="$:/sib/Tools/ReadingInbox"],
-div[data-tags*="Indite"] {
-	max-width: 90em;
-}
 
 div[data-tiddler-title*="LifetimeReading"] div.tc-tiddler-body {
 	max-width: 100%;
 }
 div[data-tiddler-title*="LifetimeReading"] {
+	max-width: 90em;
+}
+
+div[data-tiddler-title*="$:/sib/Tools/ReadingInbox"],
+div[data-tags*="Indite"] {
 	max-width: 90em;
 }
 
