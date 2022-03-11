@@ -84,7 +84,7 @@ products = {
             '$__config_sib_CurrentEditionPublicity.tid': 'public',
             '$__config_sib_IsPublicEdition.tid': 'false',
             '$__config_DefaultSidebarTab.tid': '$:/sib/SideBar/Explore',
-            '$__DefaultTiddlers.tid': 'PublicHomepage',
+            '$__DefaultTiddlers.tid': 'Home',
             '$__config_PageControlButtons_Visibility_$__core_ui_Buttons_close-all.tid': 'show',
             '$__config_PageControlButtons_Visibility_$__core_ui_Buttons_control-panel.tid': 'hide',
             '$__config_PageControlButtons_Visibility_$__core_ui_Buttons_home.tid': 'show',
@@ -109,7 +109,7 @@ products = {
         # Create a single HTML file from the public wiki, externalizing the images
         # as we do, and copy it and the extimages folder to the output/public_wiki
         # folder inside our private wiki.
-        builders.compile_html_file(externalize_attachments=True),
+        builders.compile_html_file(externalize_attachments=True, output_folder="../docs"),
     ],
     # If you want a second product, add it like this:
     #'secondproduct': [
