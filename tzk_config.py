@@ -112,7 +112,7 @@ products = {
         # Create a single HTML file from the public wiki, externalizing the images
         # as we do, and copy it and the extimages folder to the output/public_wiki
         # folder inside our private wiki.
-        builders.compile_html_file(externalize_attachments=True, output_folder="../docs"),
+        builders.compile_html_file(externalize_attachments=False, output_folder="../docs"),
     ],
     # If you want a second product, add it like this:
     #'secondproduct': [
