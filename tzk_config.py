@@ -108,7 +108,7 @@ products = {
         # public, configured within the wiki) are found in the build.
         builders.check_for_kill_phrases(),
         # Save images to separate files.
-        builders.save_attachments_externally(),
+        # builders.save_attachments_externally(),
         # Create a single HTML file from the public wiki, externalizing the images
         # as we do, and copy it and the extimages folder to the output/public_wiki
         # folder inside our private wiki.
