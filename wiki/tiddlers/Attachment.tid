@@ -1,11 +1,10 @@
-caption: Any embedded file that is not an [[Image]].
 color: #ff0000
 created: 20200122024451228
 creator: soren
+description: Any embedded file that is not an [[Image]].
 icon: $:/core/images/tag-button
-modified: 20220221020444612
+modified: 20220313214604545
 modifier: justin
-revision: 0
 tags: Meta Public
 title: Attachment
 tmap.id: 47d46729-ae84-424e-b077-0db8d39b0532

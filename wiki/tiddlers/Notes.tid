@@ -1,9 +1,8 @@
-caption: Raw notes from an ephemeral or non-print source such as a lecture.
 color: #ff0000
 created: 20200512003031926
+description: Raw notes from an ephemeral or non-print source such as a lecture.
 icon: $:/core/images/tag-button
-modified: 20220221020444661
-revision: 0
+modified: 20220313214759645
 tags: Meta Public
 title: Notes
 tmap.id: 2f983c1e-9679-42f3-af34-51f6c4989093

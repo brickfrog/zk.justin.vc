@@ -1,11 +1,10 @@
-caption: A tiddler that serves primarily as an overview of or collection of links to other information, containing little information of its own.
 color: #ff0000
 created: 20200314213905906
 creator: soren
+description: A tiddler that serves primarily as an overview of or collection of links to other information, containing little information of its own.
 icon: $:/core/images/tag-button
-modified: 20220221020444649
+modified: 20220313214724605
 modifier: justin
-revision: 0
 tags: Meta Public
 title: Index
 tmap.id: f3c66358-7bcf-4a72-8be7-a62bf24a093c

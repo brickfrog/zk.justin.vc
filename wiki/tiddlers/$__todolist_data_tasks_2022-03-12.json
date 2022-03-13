@@ -1,0 +1,5 @@
+{
+    "20220312091706034": "https://lareviewofbooks.org/article/the-myth-of-the-classically-educated-elite/ <<fnote \"The Classics can’t save us. They can’t generate wealth and opportunity from nothing. If we ever emerge from our current civilizational rut, they’ll be there waiting for us. If there is anything we can learn from history, it’s that the Classics do not need defending: at the moments when they are most useful, the moments when ordinary people once more have a role to play in public life, they inevitably emerge to guide the way.\">>",
+    "20220312100226377": "What I want to do today is I think change the foonote to prettified version, then replace title with alias during build step, maybe (long Wiki titles futz up in mobile, might rectify)",
+    "20220312204509783": "Got those mostly worked out, added favicon, installed as a PWA, should make easier to edit, need to add daemon for WSL"
+}

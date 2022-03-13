@@ -1,11 +1,11 @@
 created: 20210314172952000
-modified: 20220221020444612
-revision: 0
+modified: 20220312105713063
 tags: Software Public
-title: backtrader (Python)
+title: BacktraderPython
 tmap.id: ff4f3b1a-7b4e-45d9-b2fe-b7ab5b28ff23
+type: text/vnd.tiddlywiki
 
-A #Package for [[Backtesting]] in Python. Mentioned in [[Python for Finance Cookbook]].
+A #Package for [[Backtesting]] in Python. Mentioned in [[PythonForFinanceCookbook]].
 
 https://www.backtrader.com/home/features/ for documentation. It appears to have rather robust support with third party brokers, specifically [[Interactive Brokers]] and [[Alpaca]]
 

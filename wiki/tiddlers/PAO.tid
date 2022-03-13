@@ -1,11 +1,10 @@
-caption: A Person, Animal, or Organization exhibiting agency.
 color: #ff0000
 created: 20200115231447676
 creator: soren
+description: A Person, Animal, or Organization exhibiting agency.
 icon: $:/core/images/tag-button
-modified: 20220221020444666
+modified: 20220313214811886
 modifier: soren
-revision: 0
 tags: Meta Public
 title: PAO
 tmap.id: 92fa8dce-4b16-4da9-a01f-e7acc42308ed

@@ -1,9 +1,8 @@
-caption: An aggregation of sources that might be useful to someone studying a particular topic.
 color: #ff0000
 created: 20200808024704618
+description: An aggregation of sources that might be useful to someone studying a particular topic.
 icon: $:/core/images/tag-button
-modified: 20220221020444613
-revision: 0
+modified: 20220313214616725
 tags: Meta Public
 title: Bibliography
 tmap.id: 43981544-c48e-4951-9260-99cdbfac807e

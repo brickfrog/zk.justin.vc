@@ -1,10 +1,11 @@
-caption: Representing conferences, groups of talks either centralized or distributed on a specific topic.
 color: #ff0000
 created: 20220220081801065
+description: Representing conferences, groups of talks either centralized or distributed on a specific topic.
 icon: $:/core/images/tag-button
-modified: 20220221020444630
+modified: 20220313214643849
 tags: Meta Public
 title: Conference
 tmap.id: 505455df-e392-4f3e-b1ff-87006ab981bf
+type: text/vnd.tiddlywiki
 
 {{!!caption}}

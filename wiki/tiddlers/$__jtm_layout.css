@@ -17,3 +17,11 @@ html .navigation-journal {
 	height: 400px;
 	position: relative;
 }
+
+.tc-tiddler-frame h2.tc-title {
+    font-size: 28px !important;
+}
+
+ .tc-titlebar {
+    font-size: 32px;
+}

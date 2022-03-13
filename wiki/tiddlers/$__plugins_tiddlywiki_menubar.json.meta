@@ -1,0 +1,8 @@
+dependents: 
+description: Menu Bar
+list: readme config
+name: Menu Bar
+plugin-type: plugin
+title: $:/plugins/tiddlywiki/menubar
+type: application/json
+version: 5.1.22

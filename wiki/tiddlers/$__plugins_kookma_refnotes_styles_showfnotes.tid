@@ -1,0 +1,28 @@
+created: 20181219144814573
+modified: 20220312105453959
+tags: $:/tags/Stylesheet
+title: $:/plugins/kookma/refnotes/styles/showfnotes
+type: text/vnd.tiddlywiki
+
+/* Footnote class*/
+
+.fnote-list{
+ /* color:blue; */
+ font-size:90%;
+}
+
+.fnote-pretty{
+  display: block;
+  margin: 0.5em;
+  margin-right: auto;
+  width: 100% !important;
+  border-collapse: collapse;
+  padding: 15px 15px 15px 25px; /*left padding=25px*/
+  border-width:  0px;
+  border-style: solid;
+  border-left-width: 1px;
+  background-color:  <<colour background>>;
+  color: <<colour foreground>>;
+  line-height: 1.5em; 
+  font-size:90%;
+}

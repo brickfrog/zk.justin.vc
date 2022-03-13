@@ -5,11 +5,11 @@ created: 20210930152208997
 due: 202203261200
 ivl: 15
 medium: book
-modified: 20220311113247672
+modified: 20220312105713066
 rating: 
 readstatus: partial
 tags: Source Python Finance Public
-title: Python for Finance Cookbook
+title: PythonForFinanceCookbook
 tmap.id: 4f04ed05-e41c-4d40-b9db-6b42fc3a9560
 type: text/vnd.tiddlywiki
 url: 
@@ -50,7 +50,7 @@ Five Stylized Facts:
 
 This chapters starts out mentioning candlestick charts, using cufflinks as a mechanism to plot them, which is standard affair.
 
-Interestingly, it mentions a Python package which I hadn't heard of [[backtrader (Python)]] for backtesting. Normally I see things mention zipline, which has essentially become defunct after Robinhood's acquisition of Quantopian. (See the specific subsection for code samples, the book seems to cover a generic class use case.) The book covers bolinger bands and RSI as inputs to the library. These are [[Technical Analysis]] using price/volume, etc. as a mechanism for trading.
+Interestingly, it mentions a Python package which I hadn't heard of [[BacktraderPython]] for backtesting. Normally I see things mention zipline, which has essentially become defunct after Robinhood's acquisition of Quantopian. (See the specific subsection for code samples, the book seems to cover a generic class use case.) The book covers bolinger bands and RSI as inputs to the library. These are [[Technical Analysis]] using price/volume, etc. as a mechanism for trading.
 
 Lastly, there's a discussion on using [[Dash (Python)]] / [[Ipywidgets (Python)]] to create dashboards using [[Cufflinks (Python)]]. Depending on your data sources you could make a chart based on technical analysis indicators that (may) be more cost effective than paid solutions.
 

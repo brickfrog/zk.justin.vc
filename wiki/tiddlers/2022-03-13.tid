@@ -1,0 +1,29 @@
+class: leftbar border-info
+created: 20220313131753240
+keywords: 
+modified: 20220313182009787
+productivity: 7
+summary: 2022-03-13
+tags: Journal Public
+title: 2022-03-13
+tmap.id: 1c316fcf-e542-404d-9ba5-01f351e8175d
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Started to skim through [[Syntopicon]], assembling the GreatIdea's for tags. I think the ideal would maybe to make notes on 3-4 a day, and in that case I'd finish in a month and could proceed to link ideas to things I'm reading in general.</p>
+
+<br>
+<!--- Tag Copies Here --->
+<small hidden> </small>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>

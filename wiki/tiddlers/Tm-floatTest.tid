@@ -1,0 +1,11 @@
+created: 20200722052606150
+modified: 20220312105736610
+tags: Examples
+title: Tm-floatTest
+tmap.id: a27b3092-1cce-41b9-9722-0cc389c62e78
+type: text/vnd.tiddlywiki
+
+
+<$button>float hello there
+<$action-sendmessage $message="tm-float" $param="TiddlyWiki" state="$:/state/sq-floats/TiddlyWiki" class="xyz"/>
+</$button>

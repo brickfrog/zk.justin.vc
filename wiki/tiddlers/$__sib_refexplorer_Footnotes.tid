@@ -1,7 +1,7 @@
 caption: Footnotes
 condition: [search[fnote]]
 created: 20210719234943395
-modified: 20220221011958521
+modified: 20220312105114664
 modifier: soren
 tags: $:/tags/ReferenceExplorerTab
 title: $:/sib/refexplorer/Footnotes
@@ -40,7 +40,7 @@ type: text/vnd.tiddlywiki
 <li><$text text=<<__p__>>/></li>
 \end
 
-\define showfnotes(filter:"[<currentTiddler>]", title:"Empty" class:"fnote-list", emptyMessage:"")
+\define showfnotes(filter:"[<currentTiddler>]", title:"Empty" class:"fnote-pretty", emptyMessage:"")
 <$vars leftDelimiter="<<fnote ">
 <$list filter="[subfilter<__filter__>search:text:literal<leftDelimiter>limit[1]]" variable=null emptyMessage=<<__emptyMessage__>> ><!-- check to see if there is any footnote -->
 <$reveal tag="div" type="nomatch" default="Empty" text=<<__title__>> >
