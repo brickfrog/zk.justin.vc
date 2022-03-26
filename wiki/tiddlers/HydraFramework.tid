@@ -1,10 +1,12 @@
 created: 20211226002620576
-modified: 20220221020444648
-revision: 0
+modified: 20220318011754027
+search-hide: true
 source: https://github.com/facebookresearch/hydra
-tags: Package Public
+tags: Package Public Idea
 title: HydraFramework
 tmap.id: 1b6da929-7385-46a0-bce7-f7fa2b64c92c
+topic: 
+type: text/vnd.tiddlywiki
 url: https://hydra.cc/docs/intro/
 
-Framework for config management by FacebookResearch
+Framework for config management by TheFacebookResearch

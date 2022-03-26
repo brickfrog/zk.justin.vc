@@ -1,0 +1,10 @@
+created: 20220318223528424
+modified: 20220318223610632
+search-hide: true
+tags: Idea Public
+title: DataPipeline
+tmap.id: 499b2c53-0fb9-48fe-b517-ee4506e1a647
+topic: 
+type: text/vnd.tiddlywiki
+
+The act of using a pipeline (generally a directed acyclic graph (DAG)) to orchestrate tasks associated with moving/transforming data.

@@ -1,0 +1,16 @@
+created: 20220319151146172
+modified: 20220320194826974
+search-hide: true
+source: https://github.com/jina-ai/docarray
+tags: Package Software Idea Python Public
+title: DocArray
+tmap.id: f9ff7bb1-8afe-4316-b4aa-cf89578ab234
+topic: 
+type: text/vnd.tiddlywiki
+url: https://docarray.jina.ai
+
+[[DocArray]] is a library for nested, unstructured data in transit, including text, image, audio, video, 3D mesh, etc. It allows deep-learning engineers to efficiently process, embed, search, recommend, store, and transfer the data with a Pythonic API.
+
+Multi-modal representation of objects, think of a house, you have the picture of the house, text representation from a resl estate agent, a graph structure representation of the neighborhood, video, etc. etc. - interesting for DeepLearning
+
+* [[Jina AI DocArray - Documentation Overview|https://www.youtube.com/watch?v=Ii4uCcjfrgY]] from HenryAiLabs

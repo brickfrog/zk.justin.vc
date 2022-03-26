@@ -2,11 +2,11 @@ caption: PyCon 2021
 color: #6c6cff
 created: 20210603172138585
 icon: $:/core/images/list-bullet
-modified: 20220221020444673
-revision: 0
+modified: 20220318234442601
 tags: Event Python Conference Public
 title: PyCon2021
 tmap.id: 502c3ffb-30fb-48a3-8665-920f2d833cf2
+type: text/vnd.tiddlywiki
 
 
 Python Conference for 2021, started to keep my notes for the lightning talks at [[PyCon2021Notes]] but I think better served by seperating them out for the main vids in table format

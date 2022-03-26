@@ -1,12 +1,12 @@
 color: #ffffff
 created: 20210604033549938
 icon: $:/jtm/images/icons/python
-modified: 20220307060120611
-revision: 0
+modified: 20220325204129064
 search-hide: true
 tags: Code Software ProgrammingLanguage Public Idea
 title: Python
 tmap.id: a26f1085-c4bd-4e3e-b08f-447cc0db3b51
 topic: 
+type: text/vnd.tiddlywiki
 
-Programming language, simple to learn. One of my first [[ProgrammingLanguage]]s
+Programming language, simple to learn. One of my first [[ProgrammingLanguage]]s. Incidentally, named after the comedy troupe, not the snake.

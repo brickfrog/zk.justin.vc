@@ -1,0 +1,14 @@
+created: 20220318213729129
+modified: 20220318223647913
+search-hide: true
+source: https://github.com/orchest/orchest
+tags: Python Platform Package Idea Public
+title: Orchest
+tmap.id: a810e413-31f9-4557-8f05-db720a06371d
+topic: 
+type: text/vnd.tiddlywiki
+url: https://docs.orchest.io/en/stable/index.html
+
+(Yet another) DataPipeline tool. Presumably named because of Orchest...ration. Created by TheOrchest.
+
+Seems to be focused on friendly UI / creation of pipelines in notebooks with Python/R/Julia/Bash.

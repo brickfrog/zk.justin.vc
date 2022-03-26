@@ -1,0 +1,14 @@
+created: 20220320205004586
+modified: 20220320205528398
+search-hide: true
+tags: Idea Public SoftwareDesign
+title: UnixPhilosophy
+tmap.id: d47efe17-b56f-46a0-8f2a-c1efe817ddb5
+topic: Unix_philosophy
+type: text/vnd.tiddlywiki
+
+is a set of cultural norms and philosophical approaches to minimalist, modular software development.
+
+*Write programs that do one thing and do it well, DoOneThingWell
+*Write programs to work together.
+*Write programs to handle text streams, because that is a universal interface.

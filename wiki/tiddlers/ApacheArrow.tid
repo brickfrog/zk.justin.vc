@@ -1,0 +1,14 @@
+created: 20220318210830053
+modified: 20220318213704001
+search-hide: true
+source: https://github.com/apache/arrow
+tags: Package C++ Platform Idea Public
+title: ApacheArrow
+tmap.id: 8f658f65-3995-4643-83f1-bb33430e2472
+topic: 
+type: text/vnd.tiddlywiki
+url: https://arrow.apache.org/docs/
+
+ApacheArrow is a development platform for in-memory analytics. It contains a set of technologies that enable big data systems to process and move data fast. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware.
+
+Generally, it's used as a building block for other [[Package]]s, e.g. reading CSVs in Python's [[Pandas]]

@@ -1,0 +1,45 @@
+author: MrJuanLuisCano
+caption: The great Python dataframe showdown, part 1: Demystifying Apache Arrow
+completed: 20220319000000000
+created: 20220318203051238
+medium: article
+modified: 20220325202934133
+rating: 
+readstatus: read
+tags: Source Public
+title: PythonDataframeShowdownPt1
+tmap.id: f8c4dfc9-219a-474a-a2ed-5b3289a68fb8
+type: text/vnd.tiddlywiki
+url: https://www.orchest.io/blog/the-great-python-dataframe-showdown-part-1-demystifying-apache-arrow
+year: 2022
+
+This is the first article by TheOrchest, discussing ApacheArrow and its relationship to [[Pandas]]. Two key issues are mentioned:
+
+* Many pandas operations do not take advantage of multiple cores and/or query planning.
+** It uses an eager evaluation model, many intermediate objects might be created
+** The Global Interpreter Lock is still an issue
+* Weird memory management
+** Sentinel values, handling missing data
+** Inconsistancies that make it difficult to vectorize math
+** lack of memory mapping support 
+** string/category handling
+
+!! What is ApacheArrow?
+
+* Arrow IPC Streaming Format
+** batches of data of arbitrary length
+* Arrow IPC File Format
+** fixed amount of batches / seek operations
+
+Arrow is ''not'' a file format. No rules to save on disk, think of them as a `data structure`. It is meant for transient/ephemeral storage.
+
+* ApacheParquet (-usually- smaller, more adoption)
+* FeatherFormat (created at same time as Arrow, sometimes faster read/writes)
+
+!! Pandas differences
+
+* Immutability of data!
+* https://arrow.apache.org/docs/python/memory.html#on-disk-and-memory-mapped-files
+** read in batches, possible use case of converting csv to parquet
+
+PyArrow optionally is used in pandas for reading csv/parquet files, and is meant as a building block. Some higher level constructs not supported, although.

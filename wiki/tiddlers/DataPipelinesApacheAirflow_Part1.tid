@@ -1,0 +1,34 @@
+caption: Part 1
+created: 20220318231222196
+modified: 20220320212407067
+tags: Public
+title: DataPipelinesApacheAirflow/Part1
+tmap.id: ed2d803a-7069-447b-b5b2-e0e60545514b
+type: text/vnd.tiddlywiki
+
+!! Chapter 1
+
+* Usefulness of DAGs and data pipelines
+** Handling failure
+** parallelizing tasks instead of sequentially handling many
+** breaking apart monolithic scripts
+** [[ApacheAirflow]] has many things baked in, such as scheduling and backfilling. This could be a negative though, if one follows the [[DoOneThingWell]] philosophy, e.g. why should one use a custom baked scheduler when Cron exists, etc.
+* Airflow's Organization
+** Scheduler
+*** parses DAGs and checks/starts the schedule by passing to worker(s)
+** Worker
+*** does the work
+** Webserver
+*** visualization and interface
+
+!! Chapter 2
+
+* <<rememberq "20220320211459966"
+	"In Airflow, what do we use to define dependencies between tasks?"
+	"The binary right shift operator '>>'">>
+* <<rememberq "20220320212152340"
+	"What's an Operator in Airflow?"
+	"Operators provide the implementation of a piece of work. Airflow has a ~BaseOperator class, from which many other subclasses inherit.">>
+* <<rememberq "20220320212319961"
+	"What's a Task in Airflow?"
+	"Tasks can be thought of as a wrapper around an Operator, ensuring that it executes correctly.">>

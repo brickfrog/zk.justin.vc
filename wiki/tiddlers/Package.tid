@@ -1,0 +1,9 @@
+color: #6c6cff
+created: 20220318005925325
+modified: 20220318191225094
+tags: Index
+title: Package
+tmap.id: 48b97775-0981-4bb8-85a0-66c2dfc836cd
+type: text/vnd.tiddlywiki
+
+This is a tag primarily assoicated with software packages / libraries, etc. Generally limited to things I'm interested in or plan to work with, since otherwise it would become a veritable cluster. Supercedes `Software` as a tag unless package is also a platform of sorts. E.g [[ApacheAirflow]]

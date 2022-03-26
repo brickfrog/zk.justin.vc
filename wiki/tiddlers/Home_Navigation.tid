@@ -1,6 +1,5 @@
 created: 20210721222719275
-modified: 20220303043812089
-revision: 0
+modified: 20220325203534795
 tags: Meta Public
 title: Home/Navigation
 tmap.id: 9d4c7cec-798a-4390-88fd-59aed9682cb5
@@ -18,7 +17,7 @@ Additionally, there's a search icon ( <i class="fas fa-search"></i> ) in the sid
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 
-And finally, make note of the [[Map|LiveMap]] tab on the Explore sidebar page. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun. It seems to only really work on Desktop though, CaveatEmptor for those on mobile.
+And finally, make note of the [[Map|LiveMap]] tab on the Explore sidebar page. It's basically a javascript tag cloud of all tiddlers, similar to those used in Roam, Obsidian, etc. etc. I mostly have it here 'cause I think it's fun. It seems to only really work on Desktop though, CaveatLector for those on mobile.
 
 The following should more helpfully explain the metadata/design around the Wiki in much more depth:
 

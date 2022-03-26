@@ -1,0 +1,27 @@
+class: leftbar border-info
+created: 20220325205232937
+keywords: 
+modified: 20220326181509030
+productivity: 5
+summary: 2022-03-25
+tags: Journal
+title: 2022-03-25
+tmap.id: 8ac74e89-491f-4c13-a063-49d56d266f90
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+<br>
+<!--- Tag Copies Here --->
+<small hidden> SarahZ </small>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>

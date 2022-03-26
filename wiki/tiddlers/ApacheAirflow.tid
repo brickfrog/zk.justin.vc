@@ -1,0 +1,12 @@
+created: 20220318010537365
+modified: 20220318223628797
+search-hide: true
+source: https://github.com/apache/airflow
+tags: Software Package Data Idea Public Platform Python
+title: ApacheAirflow
+tmap.id: 4599b94a-5e8a-446a-aa50-56f0903702c0
+topic: 
+type: text/vnd.tiddlywiki
+url: https://airflow.apache.org/docs/apache-airflow/stable/
+
+{{!!title}} is a platform to programmatically author, schedule, and monitor workflows. Primarily used as a DataPipeline tool.

@@ -1,7 +1,7 @@
 created: 20210215024632766
 creator: soren
 description: Show sources you might want to read soon.
-modified: 20220311162302495
+modified: 20220326195837423
 modifier: soren
 tags: Tool
 title: $:/sib/Tools/ReadingInbox
@@ -12,9 +12,7 @@ type: text/vnd.tiddlywiki
 <tr>
 	<td><$list filter="[all[current]has[url]]"><a href={{!!url}} class="tc-tiddlylink-external">
      <i class="fas fa-link"></i></a></$list></td>
-	<td>//<$link to={{!!title}}>{{!!caption}}</$link>//</td>
-	<td> <$link to={{!!author}}></$link> </td>
-	<td>{{!!medium}}</td>
+	<td>//<$link to={{!!title}}>{{!!caption}}</$link>  ({{!!medium}})//</td>
 	<td>{{!!bibliography}}</td>
 	<!--<td>$dueFragment$</td>-->
 	<td>
@@ -48,13 +46,11 @@ The table does not include [[lifetime reading items|LifetimeReading]] unless the
 <table>
 	<tr>
 		<th style="width: 3.5em;">Text</th>
-		<th>Title</th>
-		<th style="width: 15%;">Author</th>
-		<th>Medium</th>
+		<th>Title (Medium)</th>
 		<th>Bibliography</th>
 		<!--<th style="width: 6.2em;">Due</th>-->
 		<th style="width: 6.5em;">Status</th>
-		<th style="width: 18em;">Postpone</th>
+		<th style="width: 10em;">Postpone</th>
 	</tr>
 	<$list filter="[!days:due[-1]] [days:due[0]] +[sort[due]] [!has[due]] +[tag[Source]readstatus[partial]!is[draft]]">
 		<<tableRow """(reading)""">>

@@ -1,22 +1,16 @@
-author: ArjanCodes
+author: ArjanEgges
 caption: ArjanCodes
 completed: 
 created: 20211030073541146
 medium: video
-modified: 20220311163551334
+modified: 20220325204007411
 rating: 
 readstatus: read
-tags: Python YouTube Public
+tags: Python Public PAO TheYouTube
 title: ArjanCodes
 tmap.id: 8940050f-8d35-499e-bae0-7c6cb604016b
 type: text/vnd.tiddlywiki
 url: [[Link|https://www.youtube.com/channel/UCVhQ2NnY5Rskt6UjCUkJ_DA]]
 year: 2021
 
-Youtuber focused on [[Python]] coding. Trying out a thing where I just put all the videos in a single source. Might split up if need be, but most of his videos are pretty short with one core idea.
-
-* [[Cohesion and Coupling|https://www.youtube.com/watch?v=eiDyK_ofPPM&list=PLC0nd42SBTaNuP4iB4L6SJlMaHE71FG6N]]
-** Cohesion, code that does one thing well, not trying to do too many things
-** Coupling, dependency on objects between eachother, try to reduce
-* [[Configuration Management For Data Science Made Easy With Hydra|https://www.youtube.com/watch?v=tEsPyYnzt8s]]
-**[[HydraFramework]] 
+Video producer on TheYouTube focused on [[Python]] coding, primarily on design and architecture of the code.
