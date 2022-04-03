@@ -1,0 +1,13 @@
+created: 20220326235751611
+description: Hello! You only really see this if futzing around with the subtiddlers, anyways.
+modified: 20220327000203724
+tags: Public
+title: Home/Contact
+tmap.id: 177e1710-e4ff-4ac3-acb1-00f9895df8c6
+type: text/vnd.tiddlywiki
+
+! <<glitch "I mean, if you have to">>
+
+* Email: my name @ justin .vc
+* PgpKey (fingerprint: `B06B58045B938474FB78CC8619446B9862693812`)
+ {{PgpPublicKey}}

@@ -1,0 +1,31 @@
+class: leftbar border-info
+created: 20220402225137625
+keywords: 
+modified: 20220402230644978
+productivity: 5
+summary: 2022-04-02
+tags: Journal
+title: 2022-04-02
+tmap.id: 0b8e142d-720b-4639-99c3-71419aad356d
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* [[Why You Should STILL Read Berserk|https://www.youtube.com/watch?v=UBrUVqZ_pO8]]
+** Watched the first part, will watch second part when needed. Used as kickoff to start reading [[Berserk]] - surprisingly good essay on it though, and why it's important and worth reading.
+* Got Tachiyomi working, should automatically track manga on tablet.
+* Finished [[WeirdWest]].
+* Found a tutorial on [[ApacheKafka]] - do tomorrow.
+
+</$details>

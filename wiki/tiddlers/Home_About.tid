@@ -1,5 +1,5 @@
 created: 20210721223746023
-modified: 20220315165237346
+modified: 20220327160503390
 tags: Meta Public
 title: Home/About
 tmap.id: 1e63e965-caa1-40b3-96db-13813398334c
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 ! <<glitch "'sup">>
 
-Assuming you didn't catch it by the domain name, I'm Justin! <<fnote "Why justin.vc? I dunno, thought it sounded neat. I'm honestly baffled that Justin Kan didn't own the domain.">> Hello! I'm just a run-of-the-mill data scientist/software engineer who likes learning stuff in his free time. <<fnote "TODO: Mental note to fill this out more later">>
+Assuming you didn't catch it by the domain name, I'm Justin! Hello! I'm just a run-of-the-mill data scientist/software engineer/business intelligence engineer/-insert title of the month here- who likes learning things in his free time. I would also note that I'm not a VentureCapitalist, despite said domain name. <<fnote "Why justin.vc then? I dunno, thought it sounded neat. I'm honestly baffled that Justin Kan didn't own the domain. But if you wander into this and you're a VC who's hiring, I wouldn't be opposed, just 'sayin">>
 
 To reiterate, this all is -mostly- for myself, but I hope eventually either via a tutorial or code snippet that I help someone out. I primarily write things down here because I'm a bit ADD and having things available to the "public" is the kick-in-the-arse to do things, so to speak. Please jump to the navigation tab if you quickly wish to know how to maneuver around the site.
 
@@ -37,9 +37,3 @@ I would also note I definitely don't adhere by best practices insofar as UI/UX a
 * [[Quirks]]
 
 {{ExternalLinks}}
-
-!! Contact
-
-* Email: my name @ justin .vc
-* PgpKey (fingerprint: `B06B58045B938474FB78CC8619446B9862693812`)
- {{PgpPublicKey}}

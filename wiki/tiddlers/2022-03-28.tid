@@ -1,0 +1,29 @@
+class: leftbar border-info
+created: 20220328150823750
+keywords: 
+modified: 20220330023701088
+productivity: 5
+summary: 2022-03-28
+tags: Journal Public
+title: 2022-03-28
+tmap.id: e26d61e0-793b-4174-9164-349fd4113df3
+type: text/vnd.tiddlywiki
+vibe: 4
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+<p class="dropcap">Summary</p>
+
+<br>
+<!--- Tag Copies Here --->
+<small hidden> </small>
+
+---
+
+<br>
+
+<$details summary="Interstitial" open="yes" class="vibe">
+<<interstitial-ui base:"$(currentTiddler)$" caption:" ">>
+</$details>
