@@ -1,0 +1,34 @@
+class: leftbar border-info
+created: 20220404142102931
+keywords: 
+modified: 20220404162913552
+productivity: 5
+summary: 2022-04-04
+tags: Journal Public
+title: 2022-04-04
+tmap.id: ca67b9c3-d6bc-4e49-aa7c-d5a5d571047d
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Didn't get around to it yesterday, got stuck with chores - work on ApacheKafka tutorial today
+* Planning on redoing the [[PAO]] tag. I like how it was done in Soren's site, but think I'd be better off splitting them.
+* Random thought: at first they annoyed me, but those general knowledge .pdfs you see people spam on linkedin aggregating certain things, be it [[Statistics]] or [[DataScience]] knowledge are much more useful than I gave them credit. 
+** They get to the point, as opposed to say, a 500 page book spending 50 pages on how to do a basic regression in python, or an overly wordy Springer textbook showing the mathematical proof.
+* Automating blog updates - Cron jobs on WSL? Figure out
+** https://www.howtogeek.com/746532/how-to-launch-cron-automatically-in-wsl-on-windows-10-and-11/
+* Added "Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars" to Goodreads - read later?
+* https://www.stitcher.com/show/learning-bayesian-statistics - Podcast on BayesianStatistics
+
+</$details>
