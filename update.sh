@@ -1,4 +1,4 @@
 #! /bin/bash
 # Script to automatically update site
 
-tzk build public
+tzk build public && tzk commit
