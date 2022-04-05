@@ -1,7 +1,7 @@
 class: leftbar border-info
 created: 20220404142102931
 keywords: 
-modified: 20220404162913552
+modified: 20220405003135653
 productivity: 5
 summary: 2022-04-04
 tags: Journal Public
@@ -22,7 +22,7 @@ Beep.
 
 <$details summary="Notes" open="yes" class="vibe">
 
-* Didn't get around to it yesterday, got stuck with chores - work on ApacheKafka tutorial today
+* Didn't get around to it yesterday, got stuck with chores - ~~work on ApacheKafka tutorial today~~
 * Planning on redoing the [[PAO]] tag. I like how it was done in Soren's site, but think I'd be better off splitting them.
 * Random thought: at first they annoyed me, but those general knowledge .pdfs you see people spam on linkedin aggregating certain things, be it [[Statistics]] or [[DataScience]] knowledge are much more useful than I gave them credit. 
 ** They get to the point, as opposed to say, a 500 page book spending 50 pages on how to do a basic regression in python, or an overly wordy Springer textbook showing the mathematical proof.
