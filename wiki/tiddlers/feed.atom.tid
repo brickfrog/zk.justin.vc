@@ -1,6 +1,6 @@
 created: 20220104021953401
 creator: Tobias Beer
-modified: 20220406200903673
+modified: 20220406204327673
 modifier: Tobias Beer
 tags: Public
 title: feed.atom
@@ -14,12 +14,12 @@ type: text/vnd.tiddlywiki
 
 `<?xml version="1.0" encoding="utf-8"?>`
 `<feed xmlns="http://www.w3.org/2005/Atom">`
-&nbsp;&nbsp;`<id>`http://justin.vc/feed.atom`</id>`
+&nbsp;&nbsp;`<id>`https://justin.vc/feed.atom`</id>`
 &nbsp;&nbsp;`<title>`{{$:/SiteTitle}}`</title>`
 &nbsp;&nbsp;`<subtitle>`compiled notes, code, and miscellanea`</subtitle>`
 &nbsp;&nbsp;`<link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml"/>`
 &nbsp;&nbsp;`<author>`
-&nbsp;&nbsp;&nbsp;&nbsp;`<name>`<$list filter="[!is[system]!has[draft.of]!has[text]!untagged[]!tag[static]!is[tag]!sort[modified]limit[1]]"><$link><$view field="creator" format="htmlencoded"/></$link></$list>`</name>`
+&nbsp;&nbsp;&nbsp;&nbsp;`<name>`Justin Malloy`</name>`
 &nbsp;&nbsp;`</author>`
 &nbsp;&nbsp;`<updated>`<$list filter="[!is[system]!has[draft.of]!sort[modified]limit[1]]"><$link><$view field="modified" format="date" template="YYYY-0MM-0DDT0hh:0mm:0ss"/></$link></$list>+02:00`</updated>`
 <<atom-entries filter:"$:/.tb/templates/atom/filter">>

@@ -3,10 +3,10 @@ created: 20220221221807426
 keywords: 
 modified: 20220221222506994
 productivity: 6
-summary: 2022-02-21
 tags: Journal Public
 title: 2022-02-21
 tmap.id: 185ff4df-3579-4692-abdb-4572a65b6c4b
+type: text/vnd.tiddlywiki
 vibe: 7
 
 vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>

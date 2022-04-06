@@ -24,7 +24,7 @@ exports.run = function(filter) {
 		if(tiddler) {
 			var title = tiddler.getFieldString("title"),
 				modified = tiddler.getFieldString("modified"),
-				summary = tiddler.getFieldString("summary"),
+				summary = tiddler.getFieldString("description"),
 				url = server + "#" + encodeURIComponent(title);
 			lines.push("`<entry>`");
 			lines.push("&nbsp;&nbsp;`<title>`[[" + title + "]]`</title>`");

@@ -2,10 +2,10 @@ class: leftbar border-info
 created: 20220205182836292
 modified: 20220221020444605
 productivity: 7
-summary: 2022-02-05
 tags: Journal Public
 title: 2022-02-05
 tmap.id: f6843fb2-ea51-4df3-8775-ed81a537d030
+type: text/vnd.tiddlywiki
 vibe: 6
 
 vibe: <$range tiddler={{!!title}}  field="vibe" min="-1" max="10" default="7" increment="1"/>

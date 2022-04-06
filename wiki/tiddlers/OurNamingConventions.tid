@@ -1,6 +1,6 @@
 created: 20200115225047720
 creator: soren
-modified: 20220406172657470
+modified: 20220406212102433
 modifier: soren
 tags: Meta Public
 title: OurNamingConventions
@@ -40,7 +40,6 @@ TiddlyWiki titles are case-sensitive, which can cause some irritation when you a
 
 Titles of certain [[ZettelkastenCardType]]s follow specific patterns:
 
-* //PAO//, ''^(Mr|Ms|Mx|The)[A-Z][a-zA-Z]+'': Identifies a person, author, or organization. 'The' is used for nongendered, impersonal sources. Mx is used in cases where person prefers non-gendered. <<fnote "Better way to handle?">>
 * //Source//, ''^[A-Z][a-zA-Z]*[0-9]{4,8}'': Identifies a source (an individual instance of a book, article, or other medium). Typically the page will note it as written by a //PAO//. The final number should be the publication date to as many digits of precision as known.
 * //Image//, ''.*\.(png|jpg|gif)$'': Identifies an image embedded in the wiki.
 * //Meta//, ''^Our[A-Z][a-zA-Z]+'': Something (like this article) that discusses the wiki rather than an idea.

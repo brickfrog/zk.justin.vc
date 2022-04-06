@@ -1,9 +1,9 @@
 created: 20220102034639446
 description: create a new journal tiddler
-modified: 20220219223319238
-revision: 0
+modified: 20220406204616746
 tags: $:/tags/Actions
 title: $:/core/ui/Actions/new-journal
+type: text/vnd.tiddlywiki
 
 <$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags!!tags}} journalText={{$:/config/NewJournal/Text}}>
 
@@ -14,7 +14,7 @@ title: $:/core/ui/Actions/new-journal
 </$reveal>
 
 <$reveal type="match" state=<<journalTitle>> text="">
-<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> vibe="7" productivity="5" keywords="" summary=<<journalTitle>> class="leftbar border-info"/>
+<$action-sendmessage $message="tm-new-tiddler" title=<<journalTitle>> tags=<<journalTags>> text=<<journalText>> vibe="7" productivity="5" keywords="" description="Notes for <<journalTitle>>" class="leftbar border-info"/>
 </$reveal>
 
 </$wikify>

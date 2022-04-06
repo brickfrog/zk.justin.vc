@@ -1,9 +1,9 @@
 class: leftbar border-info
 created: 20220406154559567
+description: Notes for 2022-04-06
 keywords: 
-modified: 20220406201620009
-productivity: 5
-summary: 2022-04-06
+modified: 20220406212342007
+productivity: 6
 tags: Journal Public
 title: 2022-04-06
 tmap.id: 26a65edf-67c6-419d-9622-6e776d0299ed
@@ -22,7 +22,7 @@ Beep.
 
 <$details summary="Notes" open="yes" class="vibe">
 
-* https://huyenchip.com/2021/09/13/data-science-infrastructure.html - (ChipHuyen) on bad abstraction of infra, data scientists owning entire process, ApacheAirflow vs. [[Prefect]] vs. [[Argo]] and [[Flyte]] / [[MLFlow]] 
+* https://huyenchip.com/2021/09/13/data-science-infrastructure.html - (ChipHuyen) on bad abstraction of infra, data scientists owning entire process, ApacheAirflow vs. [[Prefect]] vs. [[Argo]] and [[Flyte]] / [[MlFlow]] 
 ** Apparently she has a book coming out in June - mental note
 * Finally getting around to fixing some of the tags here. Mentioned it a couple days ago but there were/are stragglers.
 * Need to figure out RSS feed, maybe. Or some sort of build step that does an alternate hosting mechanism? - Gemini capsule? Pure text?
