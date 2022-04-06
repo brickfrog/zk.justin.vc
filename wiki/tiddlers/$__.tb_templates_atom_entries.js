@@ -57,7 +57,7 @@ exports.run = function(filter) {
 			lines.push("`</entry>`");
 		};
 	}
-	return "&nbsp;&nbsp;" + lines.join("&#013;&nbsp;&nbsp;");
+	return "&nbsp;&nbsp;" + lines.join("&#10;&nbsp;&nbsp;");
 };
 
 })();

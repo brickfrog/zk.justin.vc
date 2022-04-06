@@ -119,6 +119,6 @@ products = {
         builders.new_output_folder(),
         builders.export_public_tiddlers(export_filter=_public_export_filt),
         builders.check_for_kill_phrases(),
-        builders.shell('tiddlywiki --render "feed.atom" "../../feed.atom" "text/xml"')
+        builders.shell('tiddlywiki --render "feed.atom" "../../docs/feed.atom" "text/xml"')
     ] 
 }
