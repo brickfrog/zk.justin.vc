@@ -1,5 +1,5 @@
 created: 20211021203243019
-modified: 20220313235743338
+modified: 20220406173145850
 tags: Public
 title: DesignNotes
 tmap.id: f78f2dbd-5060-4eb6-8f98-204f951588e7
@@ -20,7 +20,7 @@ Right now I:
 Things I should figure out
 
 * Better pop-ups for links, difficult to do with, I know Gwern has javascript for how he handles it. Probably not worth unless bored, current hover solution works fine enough.
-* Best way to handle TheYouTube sources, a lot of videos are long and might be worthy of being a seperate source, but not sure if it's worth the hassle to source, say, a 15 minute python video that has one core idea that can be summarized in a bullet point
+* Best way to handle YouTube sources, a lot of videos are long and might be worthy of being a seperate source, but not sure if it's worth the hassle to source, say, a 15 minute python video that has one core idea that can be summarized in a bullet point
 * ~~Figure out why the hell footnote counters resets in the same tiddler between paragraphs~~
 ** This was because strex conflicted with refnote
 * Ideas for keeping everything constrained to TW, thus allowing analytics during my build step

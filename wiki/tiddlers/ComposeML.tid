@@ -1,13 +1,13 @@
 created: 20211009171101905
-modified: 20220306223550322
-revision: 0
+modified: 20220406173144299
 source: https://github.com/alteryx/compose
 tags: Python Package DataScience MachineLearning AutoML Public
 title: ComposeML
 tmap.id: c2d2141c-c667-4f34-8996-2711c1f8ceb9
+type: text/vnd.tiddlywiki
 url: https://compose.alteryx.com/en/stable/index.html
 
-Compose is a machine learning tool for automated [[PredictionEngineering]] by [[TheAlteryx]]
+Compose is a machine learning tool for automated [[PredictionEngineering]] by [[Alteryx]]
 
 *White paper
 ** https://dai.lids.mit.edu/wp-content/uploads/2017/10/Pred_eng1.pdf

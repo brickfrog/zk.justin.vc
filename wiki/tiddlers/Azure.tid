@@ -1,10 +1,10 @@
 color: #6c6cff
 created: 20210615095843492
 icon: $:/core/images/list-bullet
-modified: 20220313235844664
+modified: 20220406173145268
 tags: Software Public
 title: Azure
 tmap.id: d611378c-797f-4899-a1a4-aaf55e2660e4
 type: text/vnd.tiddlywiki
 
-[[TheMicrosoft]]'s Cloud Prodduct. Have used in my career. I like it, simple to use, better documentation than AWS. Not as supported for ML/DS packages though, which makes me sad (at least as of 2020/21)
+[[Microsoft]]'s Cloud Prodduct. Have used in my career. I like it, simple to use, better documentation than AWS. Not as supported for ML/DS packages though, which makes me sad (at least as of 2020/21)

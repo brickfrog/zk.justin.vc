@@ -21,8 +21,8 @@ wiki_folder = "wiki"
 # Default commit message to use with 'tzk commit'.
 # You can always use 'tzk commit -m' to use a different message on the fly.
 now = datetime.now()
-
 commit_message = f'{now.strftime("%Y/%m/%d")} changes'
+
 
 # Git remote to push changes to when you run 'tzk commit'.
 # If you never want to push changes, set this to the empty string ("").
@@ -114,9 +114,11 @@ products = {
         # folder inside our private wiki.
         builders.compile_html_file(externalize_attachments=False, output_folder="../docs"),
     ],
-    # If you want a second product, add it like this:
-    #'secondproduct': [
-    #    builders.new_output_folder(),
-    #    ... and so on ...
-    #],
+    # Builds an atom feed for the wiki.
+    'feed': [
+        builders.new_output_folder(),
+        builders.export_public_tiddlers(export_filter=_public_export_filt),
+        builders.check_for_kill_phrases(),
+        builders.shell('tiddlywiki --render "feed.atom" "../../feed.atom" "text/xml"')
+    ] 
 }

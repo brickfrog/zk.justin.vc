@@ -3,7 +3,7 @@ caption: The great Python dataframe showdown, part 1: Demystifying Apache Arrow
 completed: 20220319000000000
 created: 20220318203051238
 medium: article
-modified: 20220325202934133
+modified: 20220406173229281
 rating: 
 readstatus: read
 tags: Source Public
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 url: https://www.orchest.io/blog/the-great-python-dataframe-showdown-part-1-demystifying-apache-arrow
 year: 2022
 
-This is the first article by TheOrchest, discussing ApacheArrow and its relationship to [[Pandas]]. Two key issues are mentioned:
+This is the first article by [[Orchest]], discussing ApacheArrow and its relationship to [[Pandas]]. Two key issues are mentioned:
 
 * Many pandas operations do not take advantage of multiple cores and/or query planning.
 ** It uses an eager evaluation model, many intermediate objects might be created

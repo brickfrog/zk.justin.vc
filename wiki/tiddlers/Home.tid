@@ -2,13 +2,13 @@ color: #15d5bf
 created: 20210528153225122
 description: I mean, "home" is pretty self-explanatory
 list: Home/Navigation Home/About Home/Contact
-modified: 20220326235820604
+modified: 20220406172811795
 tags: Meta Public
 title: Home
 tmap.id: ba9de80d-6dec-4f67-aaab-e8c4d98761e1
 type: text/vnd.tiddlywiki
 
-<p class="dropcap">H owdy, this is my wiki/blog/site, built in TiddlyWiki. It uses the structure of [[MrSorenBjornstad]]'s [[Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] (a <<wikipedia zettelkasten>>) as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out). <<fnote "Important enough not to be buried in a footnote, also I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">> Of course, then a sizeable amount of plugins and personal css edits.</p>
+<p class="dropcap">H owdy, this is my wiki/blog/site, built in TiddlyWiki. It uses the structure of [[SorenBjornstad]]'s [[Zettelkasten|https://zettelkasten.sorenbjornstad.com#]] (a <<wikipedia zettelkasten>>) as a base after reading [[his book|https://groktiddlywiki.com/]] on TiddlyWiki (and to whom I owe most of the credit for figuring this out). <<fnote "Important enough not to be buried in a footnote, also I was dumb and didn't realize he had a github link set up with most tiddlers already, so I kind of hand assembled things. Womp womp.">> Of course, then a sizeable amount of plugins and personal css edits.</p>
 
 The big ''TL;DR'' of this is that it's to help me remember and draw connections between media I consume or ideas I have. I've read way too many books that have slipped into the ether years down the road. 
 

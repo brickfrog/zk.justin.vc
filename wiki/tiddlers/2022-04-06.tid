@@ -1,0 +1,31 @@
+class: leftbar border-info
+created: 20220406154559567
+keywords: 
+modified: 20220406201620009
+productivity: 5
+summary: 2022-04-06
+tags: Journal Public
+title: 2022-04-06
+tmap.id: 26a65edf-67c6-419d-9622-6e776d0299ed
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* https://huyenchip.com/2021/09/13/data-science-infrastructure.html - (ChipHuyen) on bad abstraction of infra, data scientists owning entire process, ApacheAirflow vs. [[Prefect]] vs. [[Argo]] and [[Flyte]] / [[MLFlow]] 
+** Apparently she has a book coming out in June - mental note
+* Finally getting around to fixing some of the tags here. Mentioned it a couple days ago but there were/are stragglers.
+* Need to figure out RSS feed, maybe. Or some sort of build step that does an alternate hosting mechanism? - Gemini capsule? Pure text?
+** Think I figured it out - shell commands in tzk + had to edit the javascript, some LR/CR funkiness
+
+</$details>

@@ -1,5 +1,5 @@
 created: 20211226002620576
-modified: 20220318011754027
+modified: 20220406173144665
 search-hide: true
 source: https://github.com/facebookresearch/hydra
 tags: Package Public Idea
@@ -9,4 +9,4 @@ topic:
 type: text/vnd.tiddlywiki
 url: https://hydra.cc/docs/intro/
 
-Framework for config management by TheFacebookResearch
+Framework for config management by FacebookResearch
