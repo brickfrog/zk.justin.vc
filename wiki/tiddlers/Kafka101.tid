@@ -1,0 +1,23 @@
+author: Confluent
+caption: Apache Kafka 101
+completed: 
+created: 20220407000717315
+description: A relatively short online course for Apache Kafka.
+due: 202204071200
+ivl: 1
+medium: web
+modified: 20220407004535070
+rating: 
+readstatus: partial
+tags: Source Public
+title: Kafka101
+tmap.id: 8b346d4c-6286-4f29-8707-5d32a199442d
+type: text/vnd.tiddlywiki
+url: https://developer.confluent.io/learn-kafka/apache-kafka/events/
+year: 2021
+
+Course on ApacheKafka by [[Confluent]] teaching the basics of the software.
+
+* Introduction
+** What is an "Event"? - an action, incident, or change - notification and state
+* 

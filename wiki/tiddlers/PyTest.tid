@@ -1,0 +1,17 @@
+created: 20220407215916981
+modified: 20220407221440322
+search-hide: true
+source: https://github.com/pytest-dev/pytest
+tags: Package Python Idea Public
+title: PyTest
+tmap.id: 69e4a6fd-d6d9-4961-863a-6ced9e9011d4
+topic: 
+type: text/vnd.tiddlywiki
+url: https://pytest.org
+
+"The" SoftwareTesting framework for Python. Not a part of the standard library so updated much more frequently than unittest
+
+* [[Anatomy of a Test|https://docs.pytest.org/en/stable/explanation/anatomy.html#test-anatomy]]
+** Arrange -> Act -> Asset -> Cleanup
+* https://docs.pytest.org/en/stable/explanation/fixtures.html
+** Fixtures could be thought of the "arrange" phase

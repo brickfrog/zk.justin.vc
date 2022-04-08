@@ -1,10 +1,10 @@
 created: 20211009173753250
-modified: 20220306230233982
-revision: 0
+modified: 20220407001549886
 source: https://github.com/alteryx/featuretools
 tags: Python Package DataScience MachineLearning FeatureEngineering Public AutoML
 title: Featuretools
 tmap.id: 62f79346-b658-476e-aa20-e5389ff6236f
+type: text/vnd.tiddlywiki
 url: https://docs.featuretools.com/en/stable/
 
 Featuretools is a [[Python]] library for automated [[FeatureEngineering]]. It treats dataframes like tables on a database, where you add relationships and generate features based on how things are connected vs. creating a megadataframe preemptively.

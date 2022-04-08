@@ -1,0 +1,14 @@
+created: 20220407184054336
+modified: 20220407184332628
+search-hide: true
+tags: Idea Public
+title: MutationTesting
+tmap.id: dc21e83e-eeb9-4f09-9be1-2af7fd4c19cb
+topic: 
+type: text/vnd.tiddlywiki
+
+> Mutation testing, also known as code mutation testing, is a form of white box testing in which testers change specific components of an application's source code to ensure a software test suite will be able to detect the changes. Changes introduced to the software are intended to cause errors in the program.
+
+One such example would be [[mutmut]] in Python.
+
+* https://hackernoon.com/mutmut-a-python-mutation-testing-system-9b9639356c78

@@ -1,0 +1,26 @@
+created: 20220407221846461
+modified: 20220407222705788
+search-hide: true
+tags: Idea SoftwareDesign Public
+title: SoftwareTesting
+tmap.id: 0e0d7d71-f807-40b7-94db-99446e3ba1bc
+topic: 
+type: text/vnd.tiddlywiki
+
+As evident by the name, this is the high-level concept of testing software, to (within reason) test that it's correct. Specifically, to ensure that it works as expected, and to protect against regressions.
+
+Generally, involves:
+
+* Unit Tests
+** What exactly is a unit? In most tutorials it is a single function/method, but in production this might not be so simple.
+* Integration Tests
+* End-to-End Tests
+
+Typically, there's no "right" way to test software and everyone has different ideas on frameworks and methodologies. When to Mock, when to write tests first, etc.
+
+> tests are a liability not an asset; they should cover your software's behavior but don't over test.
+
+
+Reading:
+
+* https://martinfowler.com/articles/practical-test-pyramid.html

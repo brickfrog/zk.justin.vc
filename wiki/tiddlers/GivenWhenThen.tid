@@ -1,0 +1,16 @@
+created: 20220407193459664
+modified: 20220407193734427
+search-hide: true
+tags: Idea Public
+title: GivenWhenThen
+tmap.id: 75d3c3d2-1d32-4179-b1e9-8aeb492ba27e
+topic: 
+type: text/vnd.tiddlywiki
+
+A structure for SoftwareTesting that can help with formulating the expected behavior of the unit under testing.
+
+* https://martinfowler.com/bliki/GivenWhenThen.html
+** GIVEN - what are the initial conditions for the test?
+** WHEN - what is occurring that needs to be tested?
+** THEN - what is the expected response?
+

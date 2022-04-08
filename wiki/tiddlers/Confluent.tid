@@ -1,0 +1,8 @@
+created: 20220407000753824
+modified: 20220407000936214
+tags: PAO Organization Public
+title: Confluent
+tmap.id: fd541c73-bd62-49d7-804e-b4da4fc554bb
+type: text/vnd.tiddlywiki
+
+Company that was spun-off to provide support for ApacheKafka from LinkedIn. Provides training, support, and (what I assume) are optimized non-FOSS contributions for people that use their hosted solution, similar to [[Databricks]], [[Astronomer]], etc.

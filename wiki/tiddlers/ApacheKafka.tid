@@ -1,0 +1,10 @@
+created: 20220407001433401
+modified: 20220407001926686
+source: https://github.com/apache/kafka
+tags: Software Platform Package Public Java Scala
+title: ApacheKafka
+tmap.id: 2c223a9d-2f35-4941-8b58-45a568b21577
+type: text/vnd.tiddlywiki
+url: https://kafka.apache.org/documentation/
+
+Kafka is a platform for EventStreaming, to publish and read streams of events, store, and process said events. Is distributed for scale.
