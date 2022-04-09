@@ -2,7 +2,7 @@ class: leftbar border-info
 created: 20220407160651034
 description: Notes for 2022-04-07
 keywords: 
-modified: 20220407215858642
+modified: 20220409000154218
 productivity: 5
 tags: Journal Public
 title: 2022-04-07
@@ -16,13 +16,14 @@ vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" inc
 
 !!! ''Retrospective''
 
-Beep.
+'Readin
 
 <br>
 
 <$details summary="Notes" open="yes" class="vibe">
 
 * Automating cron did not work as well as I'd hoped, doesn't seem to start automatically - need to make some edits, otherwise have to manually start service when starting WSL (which in effect doesn't matter as much, since I rarely turn off my computer)
+** Derp. Absolute paths.
 * https://testdriven.io/blog/testing-python/
 ** PyTest, MutationTesting / PropertyTesting
 * https://testdriven.io/blog/modern-tdd/
