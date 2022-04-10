@@ -1,7 +1,7 @@
 created: 20200508002211355
 creator: soren
 description: Show a checkbox to make the tiddler private or public while viewing it.
-modified: 20210825185507543
+modified: 20220410022039254
 modifier: soren
 tags: $:/tags/ViewTemplate
 title: $:/sib/Templates/Automatic/Publicity/ViewerPublicLine
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 
 <$list filter=<<ff ViewerPublicLine>> variable=_>
 	<div class="sib-viewer-public-line">
-		<$checkbox tag=Public> Publish this tiddler</$checkbox>
+		<$checkbox tag=Public> Publish </$checkbox>
 	</div>
 </$list>
 

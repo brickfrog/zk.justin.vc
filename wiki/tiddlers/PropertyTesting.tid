@@ -1,5 +1,5 @@
 created: 20220407183539617
-modified: 20220407183908540
+modified: 20220409152408405
 search-hide: true
 tags: Idea Public
 title: PropertyTesting
@@ -11,4 +11,4 @@ type: text/vnd.tiddlywiki
 
 > Property based testing is the construction of tests such that, when these tests are fuzzed, failures in the test reveal problems with the system under test that could not have been revealed by direct fuzzing of that system.
 
-One example would be [[Hypothesis]] in Python
+One example would be [[HypothesisPkg]] in Python

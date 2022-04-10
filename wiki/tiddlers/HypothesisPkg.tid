@@ -1,0 +1,13 @@
+caption: Hypothesis (Software)
+created: 20220407183913936
+modified: 20220409152408401
+search-hide: true
+source: https://github.com/HypothesisWorks/hypothesis
+tags: Python Package Public Idea
+title: HypothesisPkg
+tmap.id: c4b2732a-6bf3-4ae6-a431-5d3df8258cab
+topic: 
+type: text/vnd.tiddlywiki
+url: https://hypothesis.readthedocs.io/en/latest/
+
+> Hypothesis is a Python library for creating unit tests which are simpler to write and more powerful when run, finding edge cases in your code you wouldn’t have thought to look for.

@@ -1,13 +1,13 @@
 created: 20210623014041787
 creator: soren
 list-after: $:/core/ui/SideBarSegments/site-subtitle
-modified: 20220313191644066
+modified: 20220409153545918
 modifier: soren
 tags: $:/tags/SideBarSegment
 title: $:/jtm/SideBar/InfoLinks
 type: text/vnd.tiddlywiki
 
-\define go-random-action() <$action-navigate $to={{{[tag[Idea]!tag[PrivateChunk]!regexp[/]!tag[Stub]shuffle[]first[]]}}}/>
+\define go-random-action() <$action-navigate $to={{{[tag[Idea]!tag[PrivateChunk]!regexp[/]!tag[Stub]shuffle[]last[]]}}}/>
 
 <$list filter=<<ff SidebarInfoLinks>> variable=_>
 [[about|Home/About]]&nbsp;·

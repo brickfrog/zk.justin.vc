@@ -7,7 +7,14 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-08T21:25:23+02:00</updated>
+  <updated>2022-04-09T21:10:59+02:00</updated>
+  <entry>
+    <title>2022-04-09</title>
+    <id>http://justin.vc/#2022-04-09</id>
+    <link href='http://justin.vc/#2022-04-09'/>
+    <updated>2022-04-09T21:10:59+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-07</title>
     <id>http://justin.vc/#2022-04-07</id>
@@ -75,7 +82,7 @@
     <title>Afterparty</title>
     <id>http://justin.vc/#Afterparty</id>
     <link href='http://justin.vc/#Afterparty'/>
-    <updated>2022-03-28T18:04:40+02:00</updated>
+    <updated>2022-04-09T11:47:15+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#2022-02-21</id>
     <link href='http://justin.vc/#2022-02-21'/>
     <updated>2022-02-21T17:25:06+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-02-20</title>
-    <id>http://justin.vc/#2022-02-20</id>
-    <link href='http://justin.vc/#2022-02-20'/>
-    <updated>2022-02-20T21:16:35+02:00</updated>
     <summary></summary>
   </entry>
 </feed>

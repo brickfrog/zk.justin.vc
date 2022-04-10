@@ -1,7 +1,22 @@
 created: 20220110140434007
-modified: 20220221020444671
-tags: Public
+modified: 20220409162525619
+search-hide: true
+tags: Public Idea Personal
 title: Productivity
 tmap.id: 978978d5-b5bc-4569-bde1-b1bfe5f8c7a7
+topic: 
+type: text/vnd.tiddlywiki
 
-10 scale rating for how productive i felt I was, weighted towards 5 on the "Average" day, e.g. partial productivity, partial leisure with breaks, and 10 being perfect productivity, no distractions, etc.
+~~10 scale rating for how productive i felt I was, weighted towards 5 on the "Average" day, e.g. partial productivity, partial leisure with breaks, and 10 being perfect productivity, no distractions, etc.~~
+
+I'm pondering a way to formalize this more, however. Maybe something like:
+
+*5 - Baseline <<fnote "For me, like.. I'm definitely never gonna be as pure throughput as the average physical laborer">>
+** Did a goal I set out to do (personal / work (task/employment)): + 1 <<fnote "multiples? - try not to set too many">>
+** Read / Consume some new media: + 1
+** At least four new tiddlers written: + 1 <<fnote "A way to keep content going and link what I've read">>
+** Exercised in some capacity: + 1
+** "Junk" / too much timesink entertainment: - 1 <<fnote "This would be something I don't get any insight out of, FPS / roguelites, etc. - while useful for destressing, this also counts if binging an entire show to the detriment of other tasks.">>
+
+This would still cap out at 10, to prevent scope-creep of amassing tasks, but I think this would be easy to reason about in a daily retrospective of "how much did I get done". Conversely, the opposites of the positive would be negative, e.g "Did not work out at all" -> -1 unless injured or unfeasible
+

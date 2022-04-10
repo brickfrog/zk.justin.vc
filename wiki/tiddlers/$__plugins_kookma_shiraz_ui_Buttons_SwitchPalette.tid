@@ -1,9 +1,9 @@
 caption: {{$:/plugins/kookma/shiraz/images/palette-switch}} {{$:/language/Buttons/Shiraz/Caption}}
 created: 20201210171047824
-dark-palette: $:/palettes/Darcula
+dark-palette: $:/palettes/Dracula Helsing
 description: Toggle between light/dark color palette
-light-palette: $:/palettes/Vanilla
-modified: 20220220212450290
+light-palette: $:/palettes/SolarizedLight
+modified: 20220410022441182
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
