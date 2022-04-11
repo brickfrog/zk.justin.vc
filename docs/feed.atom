@@ -7,7 +7,14 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-09T21:10:59+02:00</updated>
+  <updated>2022-04-10T21:06:34+02:00</updated>
+  <entry>
+    <title>2022-04-10</title>
+    <id>http://justin.vc/#2022-04-10</id>
+    <link href='http://justin.vc/#2022-04-10'/>
+    <updated>2022-04-10T21:06:34+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-09</title>
     <id>http://justin.vc/#2022-04-09</id>
@@ -26,7 +33,7 @@
     <title>Kafka101</title>
     <id>http://justin.vc/#Kafka101</id>
     <link href='http://justin.vc/#Kafka101'/>
-    <updated>2022-04-06T20:45:35+02:00</updated>
+    <updated>2022-04-10T20:56:22+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -173,7 +180,7 @@
     <title>Severance2022</title>
     <id>http://justin.vc/#Severance2022</id>
     <link href='http://justin.vc/#Severance2022'/>
-    <updated>2022-03-26T15:54:17+02:00</updated>
+    <updated>2022-04-10T16:53:13+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#2022-02-23</id>
     <link href='http://justin.vc/#2022-02-23'/>
     <updated>2022-03-02T22:40:48+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-02-21</title>
-    <id>http://justin.vc/#2022-02-21</id>
-    <link href='http://justin.vc/#2022-02-21'/>
-    <updated>2022-02-21T17:25:06+02:00</updated>
     <summary></summary>
   </entry>
 </feed>

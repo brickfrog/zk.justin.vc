@@ -1,0 +1,12 @@
+created: 20220410203520910
+modified: 20220410204148523
+tags: Python Public
+title: PythonCodeQuality
+tmap.id: 90915d7e-745a-43ad-9af4-81181258b984
+type: text/vnd.tiddlywiki
+
+A look at CodeQuality, specially for Python. Python coders (generally) adhere to [[PEP8|https://peps.python.org/pep-0008/]].
+
+See https://testdriven.io/blog/python-code-quality/ for a overview of linters / security vulnerability scanners, etc. I personaly like to use black, since it tends to lessen [[Bikeshedding]]. Allowing for configuration, while good if set in stone, can just circle back to arguments.
+
+See PythonDocumentationStyling for discussion of formatting documentation.

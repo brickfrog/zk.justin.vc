@@ -1,0 +1,46 @@
+created: 20220410203154822
+modified: 20220410205428584
+search-hide: true
+tags: Python Idea Public
+title: PythonDocumentationStyling
+tmap.id: 3760a51e-c882-4593-9ae0-268bf79c889b
+topic: 
+type: text/vnd.tiddlywiki
+
+Sub-section of PythonCodeQuality, specifically for documentation.
+
+* https://testdriven.io/blog/documenting-python/
+
+
+Example Guides
+
+* [[Google Guide|https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings]]
+* [[reStructuredText|https://docutils.sourceforge.io/rst.html]]
+* [[NumPy|https://numpydoc.readthedocs.io/en/latest/format.html]]
+* [[Epytext|http://epydoc.sourceforge.net/epytext.html]]
+
+Linters
+
+* https://github.com/terrencepreilly/darglint
+
+As an example, notice a simple function inside the docstring. This can also be tested with PyTest to keep documentation up-to-date.
+
+```python
+def daily_average(temperatures: List[float], new_param=None) -> float:
+    """
+    Get average daily temperature
+
+    Calculate average temperature from multiple measurements
+
+    >>> daily_average([10.0, 12.0, 14.0])
+    12.0
+
+    :param temperatures: list of temperatures
+    :return: Average temperature
+    """
+
+    return sum(temperatures)/len(temperatures)
+
+```
+
+There's also automatic user-facing documentation generation from things such as [[Sphinx]], which is the most popular. Also remember that tests are a form of documentation, see: GivenWhenThen

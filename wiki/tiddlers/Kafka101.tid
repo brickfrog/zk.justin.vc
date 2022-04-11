@@ -3,10 +3,10 @@ caption: Apache Kafka 101
 completed: 
 created: 20220407000717315
 description: A relatively short online course for Apache Kafka.
-due: 202204071200
-ivl: 1
+due: 
+ivl: 
 medium: web
-modified: 20220407004535070
+modified: 20220411005622414
 rating: 
 readstatus: partial
 tags: Source Public
@@ -16,8 +16,39 @@ type: text/vnd.tiddlywiki
 url: https://developer.confluent.io/learn-kafka/apache-kafka/events/
 year: 2021
 
-Course on ApacheKafka by [[Confluent]] teaching the basics of the software.
+Course on ApacheKafka by [[Confluent]] teaching the basics of the software. Note that TimBerglund handles most of the video presentations.
 
 * Introduction
 ** What is an "Event"? - an action, incident, or change - notification and state
-* 
+* Hands-On
+** So, this involves creating an account and creating a cluster, then a "topic", which has messages, using the CLI to see a producer/consumer -> Typing in a message on the producer gets consumed, essentially
+* Topics
+** Topics are the fundamental structure, think of them like a table in a database. Topics -are- [[logs]], and logs are fundamentally easy to reason about. Append, immuatability (it's simply a file), seeking an arbitrary offset. Some people use the term queue, but not technically correct. Nudge toward logs as terminology.
+* Partitioning
+** This is what allows Kafka to scale, it is, after all, a distributed system. Taking a single topic log and splitting int into multiple logs, which live in different nodes. If there's no key it splits round-robin and if the same key, it uses a hash to land them in the same partition to preserve ordering.
+** It's useful to think about the shape of your data and how many partitions you'd need
+* Broker
+** Kafka is comprised of a network of machines called brokers, beit pods in Kubernetes, or just plain physical servers. Each broker hosts some set of partitions and handles incoming requests to write new events or read from them. These also handle replication of partitions between eachother.
+* Replication
+** Leader/follower (N / N-1) - because containers/storage are succeptible fo failure, replication happens amongst several brokers. Generally not something one has to think about although one could edit the durability settings in some cases.
+* Producers
+** At the base level producers/consumers are how an application developer would interact with Kafka and it's relatively simple, all the complicated connection pooling, network buffering, partitioning are handled behind the scenes.
+** The producer is what decides the partition
+*Consumers
+** Like producers, a lot of pooling and protocol is handled automagically. Bigger story on the read side, however, with a key difference, unlike a lot of other brokers, is that Kafka doesn't destroy messages, meaning many consumers could read from a topic.
+* Consumer Hands-On
+** So, this used Python, which seems relatively simple.
+** There's a config.ini which includes your endpoint and secrets
+** Then you can use the confluent-kafka python package, which uses a Consumer class to scubscribe to the topic and then polls for messages. I -believe- it then commits offsets to prevent rereading, but I may be mistaken there.
+* The Ecosystem!
+** So, this is an introductory topic regarding the infrastructure layer of Confluent/Kafka. Essentially, anything that's not directly related to business logic and doesn't necessarily need to be recoded over and over. Otherwise known as UndifferentiatedTask
+** KafkaConnect
+*** Connect is an ecosystem of pluggable containers / application responsible for interfacing with an external system, requiring simple JSON configs to say, stream to [[Elasticsearch]]. While it has commercial connectors, the underlying system is open source(?) and you could theoretically make your own plugins that inherit the scalability of the underlying system.
+** Schema Registry
+*** A standalone server process, external to the brokers, whose job is to maintain a database of all the schemas that have been written into topics in the cluster for which it is responsible.
+*** Also is an API that allows it to predict whether a produced/consumed message is incompatible, this allows for elegant handling of evolving schemas.
+** Kafka Streams
+*** This is a [[Java]] API that gives easy access to the primitives of stream processing. Filtering, grouping, joining, aggregating, etc. which allows you to avoid needing to write a framework ontop of a consumer. Additionally handles the concept of state, since most things you need to do that are interesting involve state of some sort (e.g. aggregating every hour, rolling up)
+** ksqlDB
+*** Database that is optimized for stream processing applications
+*** The interesting use case would simply producing something, transforming, writing back, where you don't need some complicated Java - looks like much less of a pain

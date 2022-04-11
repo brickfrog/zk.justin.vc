@@ -1,0 +1,17 @@
+created: 20220410232346300
+es: anecdote
+modified: 20220411000310174
+search-hide: true
+tags: Idea SoftwareDesign Public
+title: UndifferentiatedTask
+tmap.id: fb9f7caf-288c-4fe4-88c6-95d41121fb6a
+topic: 
+type: text/vnd.tiddlywiki
+
+There might be another way to call this, but I first heard this term (that I remember) while watching [[Kafka101]].
+
+> Does it provide value to the business? If not, it's infrastructure, and infrastructure should be provided by the community or a vendor who specializes in it.
+
+These are things you do that don't really relate to the core goal of your organization. For example, if you're an application developer for, say... an order system. It'd be all the logic around the system itself. In (most) cases, unless it's the product, it's not a -good- use of time. I wouldn't implement my own version of Flask to handle a machine learning endpoint, for example.
+
+A good example would be in ChipHuyen's writings. The Data Scientist or Machine Learning Engineer -shouldn't need to know- how Kubernetes works. You don't need to manually code the infrastructure. There should be some abstraction layer. Thousands of customers have done this over and over. Why reinvent the wheel? <<fnote "Unless, y'know, you know some sort of weakness/differentiator that would give you a benefit, but, realistically, if that were the case, I'd turn that into a consulting business or something.">>
