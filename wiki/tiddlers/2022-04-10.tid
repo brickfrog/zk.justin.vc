@@ -1,8 +1,7 @@
 class: leftbar border-info
 created: 20220410210341598
-description: Notes for <<journalTitle>>
 keywords: 
-modified: 20220411010634770
+modified: 20220411144440797
 productivity: 6
 tags: Journal Public
 title: 2022-04-10
@@ -16,7 +15,7 @@ vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" inc
 
 !!! ''Retrospective''
 
-Beep.
+Kafka tutorial was pretty useful, decent refresher.
 
 <br>
 

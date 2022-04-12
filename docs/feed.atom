@@ -7,12 +7,19 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-10T21:06:34+02:00</updated>
+  <updated>2022-04-11T22:34:25+02:00</updated>
+  <entry>
+    <title>2022-04-11</title>
+    <id>http://justin.vc/#2022-04-11</id>
+    <link href='http://justin.vc/#2022-04-11'/>
+    <updated>2022-04-11T22:33:05+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-10</title>
     <id>http://justin.vc/#2022-04-10</id>
     <link href='http://justin.vc/#2022-04-10'/>
-    <updated>2022-04-10T21:06:34+02:00</updated>
+    <updated>2022-04-11T10:44:40+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -110,7 +117,7 @@
     <title>Focusing</title>
     <id>http://justin.vc/#Focusing</id>
     <link href='http://justin.vc/#Focusing'/>
-    <updated>2022-04-07T18:51:53+02:00</updated>
+    <updated>2022-04-11T22:34:25+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#ThisIsThePresident</id>
     <link href='http://justin.vc/#ThisIsThePresident'/>
     <updated>2022-03-05T02:14:40+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-02-23</title>
-    <id>http://justin.vc/#2022-02-23</id>
-    <link href='http://justin.vc/#2022-02-23'/>
-    <updated>2022-03-02T22:40:48+02:00</updated>
     <summary></summary>
   </entry>
 </feed>
