@@ -7,7 +7,14 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-11T22:34:25+02:00</updated>
+  <updated>2022-04-12T20:01:56+02:00</updated>
+  <entry>
+    <title>2022-04-12</title>
+    <id>http://justin.vc/#2022-04-12</id>
+    <link href='http://justin.vc/#2022-04-12'/>
+    <updated>2022-04-12T20:01:56+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-11</title>
     <id>http://justin.vc/#2022-04-11</id>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#Kimi2022</id>
     <link href='http://justin.vc/#Kimi2022'/>
     <updated>2022-03-03T20:57:24+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>ThisIsThePresident</title>
-    <id>http://justin.vc/#ThisIsThePresident</id>
-    <link href='http://justin.vc/#ThisIsThePresident'/>
-    <updated>2022-03-05T02:14:40+02:00</updated>
     <summary></summary>
   </entry>
 </feed>
