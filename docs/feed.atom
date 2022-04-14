@@ -7,7 +7,14 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-12T20:01:56+02:00</updated>
+  <updated>2022-04-13T20:33:10+02:00</updated>
+  <entry>
+    <title>2022-04-13</title>
+    <id>http://justin.vc/#2022-04-13</id>
+    <link href='http://justin.vc/#2022-04-13'/>
+    <updated>2022-04-13T20:33:10+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-12</title>
     <id>http://justin.vc/#2022-04-12</id>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#AwsAiMlKeynote2022</id>
     <link href='http://justin.vc/#AwsAiMlKeynote2022'/>
     <updated>2022-02-24T12:08:30+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>Kimi2022</title>
-    <id>http://justin.vc/#Kimi2022</id>
-    <link href='http://justin.vc/#Kimi2022'/>
-    <updated>2022-03-03T20:57:24+02:00</updated>
     <summary></summary>
   </entry>
 </feed>

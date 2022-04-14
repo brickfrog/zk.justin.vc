@@ -1,0 +1,27 @@
+class: leftbar border-info
+created: 20220413154816900
+keywords: 
+modified: 20220414003310650
+productivity: 3
+tags: Journal Public
+title: 2022-04-13
+tmap.id: a77015f9-dd23-45e8-88fa-ab43820af312
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Not a terribly productive day. Spent some time moving my office around and writing a script to compile my resume in different colors.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Noticed the footnotes are broken when in published form. They work locally. Curious.
+* Monitor overhead + 30 degree tilt works well.
+
+</$details>
