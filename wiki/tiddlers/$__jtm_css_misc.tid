@@ -1,5 +1,6 @@
 created: 20220302144056397
-modified: 20220415145616571
+description: misc and fixes for material theme
+modified: 20220415174142686
 tags: $:/tags/Stylesheet
 title: $:/jtm/css/misc
 type: text/vnd.tiddlywiki
@@ -34,3 +35,35 @@ details.vibe summary {
 }
 
 .header-title .tc-tiddlylink { color: white; }
+
+/* VIEW & EDIT FRAME */
+
+.tc-tiddler-edit-frame .tc-tiddler-title, 
+.tc-tiddler-view-frame .tc-titlebar h2.tc-title {
+    font-size: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}; 
+}
+
+
+/* VIEW FRAME */
+
+.tc-tiddler-view-frame .tc-title {
+    font-weight: bold;
+}
+
+.tc-tiddler-view-frame .tc-tiddler-title-icon svg {
+    height: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}; 
+}
+
+.tc-tiddler-view-frame .tc-titlebar > span:nth-child(2),
+span.tc-tiddler-title-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    white-space: normal;
+    font-size: 26px;
+    height: 0.5em;
+    word-break: break-all;
+}

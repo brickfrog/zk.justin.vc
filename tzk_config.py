@@ -86,7 +86,7 @@ products = {
         builders.set_tiddler_values(text={
             '$__config_sib_CurrentEditionPublicity.tid': 'public',
             '$__config_sib_IsPublicEdition.tid': 'false',
-            '$__config_DefaultSidebarTab.tid': '$:/sib/SideBar/Explore',
+            #'$__config_DefaultSidebarTab.tid': '$:/sib/SideBar/Explore',
             '$__DefaultTiddlers.tid': 'Home',
             '$__config_PageControlButtons_Visibility_$__core_ui_Buttons_close-all.tid': 'show',
             '$__config_PageControlButtons_Visibility_$__core_ui_Buttons_control-panel.tid': 'hide',
