@@ -1,6 +1,6 @@
 caption: {{$:/language/SideBar/Open/Caption}}
 created: 20220415090237153
-modified: 20220415090516447
+modified: 20220415153348901
 tags: $:/tags/SideBar
 title: $:/jtm/SideBar/Open
 type: text/vnd.tiddlywiki
@@ -29,8 +29,8 @@ $button$
 \define go-random-action() <$action-navigate $to={{{[tag[Idea]!tag[PrivateChunk]!regexp[/]!tag[Stub]shuffle[]last[]]}}}/>
 
 <$list filter=<<ff SidebarInfoLinks>> variable=_>
-[[about|Home/About]]&nbsp;·
-[[reading|RecentlyRead]]&nbsp;·
+[[about|Home/About]]&nbsp;·&nbsp;
+[[reading|RecentlyRead]]&nbsp;·&nbsp;
 <$button class="tc-tiddlylink tc-btn-invisible" actions=<<go-random-action>>>random idea</$button>&nbsp;·&nbsp;[[great ideas|GreatIdea]]
 
 <style>
@@ -41,7 +41,7 @@ $button$
 </style>
 </$list>
 
-<br>
+---
 
 <div class="tc-sidebar-tab-open">
 <$list filter="[list<tv-story-list>]" history=<<tv-history-list>> storyview="pop">

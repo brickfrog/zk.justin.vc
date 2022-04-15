@@ -1,6 +1,6 @@
 created: 20210719144435424
-modified: 20220221042050112
-revision: 0
+modified: 20220415152936116
 title: $:/config/DefaultSidebarTab
+type: text/vnd.tiddlywiki
 
-$:/core/ui/SideBar/Open
+$:/jtm/SideBar/Open

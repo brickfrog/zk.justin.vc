@@ -1,9 +1,9 @@
 caption: {{$:/plugins/kookma/shiraz/images/palette-switch}} {{$:/language/Buttons/Shiraz/Caption}}
 created: 20201210171047824
-dark-palette: $:/palettes/Ariake
+dark-palette: $:/palettes/Dracula
 description: Toggle between light/dark color palette
 light-palette: $:/palettes/Nord
-modified: 20220415090929222
+modified: 20220415153444532
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
