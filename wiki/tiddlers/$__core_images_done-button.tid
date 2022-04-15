@@ -1,0 +1,12 @@
+created: 20180329145909397
+creator: jd
+modified: 20180407105814625
+modifier: jd
+tags: $:/tags/Image
+title: $:/core/images/done-button
+type: text/vnd.tiddlywiki
+
+<svg class="tc-image-done-button tc-image-button" viewBox="0 0 24 24" width="22pt" height="22pt" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+</svg>

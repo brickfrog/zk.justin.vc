@@ -1,0 +1,9 @@
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: HammerJS library by Jorik Tangelder (Eight Media)
+list: readme license
+plugin-type: plugin
+title: $:/plugins/tiddlywiki/hammerjs
+type: application/json
+version: 5.1.17

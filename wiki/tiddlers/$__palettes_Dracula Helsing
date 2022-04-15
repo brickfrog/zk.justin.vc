@@ -46,6 +46,8 @@ notification-background: <<colour tag-background>>
 notification-border: <<colour tag-background>>
 pre-background: <<colour page-background>>
 pre-border: <<colour page-background>>
+select-tag-background: #3b4252
+select-tag-foreground: <<colour foreground>>
 sidebar-button-foreground: <<colour foreground>>
 sidebar-controls-foreground-hover: <<colour primary>>
 sidebar-controls-foreground: <<colour muted-foreground>>

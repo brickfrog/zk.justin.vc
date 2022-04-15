@@ -1,6 +1,8 @@
-created: 20210528150335265
-modified: 20220409163539370
+created: 20180329154930300
+creator: jd
+modified: 20180329155130924
+modifier: jd
 title: $:/theme
 type: text/vnd.tiddlywiki
 
-$:/themes/tiddlywiki/vanilla
+$:/themes/jd/Material

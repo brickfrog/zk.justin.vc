@@ -1,0 +1,33 @@
+created: 20210727064624140
+modified: 20220415085112710
+tags: $:/tags/Stylesheet
+title: $:/jtm/layout.css
+type: text/vnd.tiddlywiki
+
+html .tc-tiddlylink-missing {
+	color: #FF00FF;
+}
+
+html .hzone-focus {
+  border-color: black;
+}
+
+html .navigation-journal {
+  padding-top: 10px;
+}
+
+.tc-scrollable {
+	border: 1px solid <<colour message-border>>;
+	background-color: <<colour message-background>>;
+	padding: 1em;
+	height: 400px;
+	position: relative;
+}
+
+.tc-tiddler-frame h2.tc-title {
+    font-size: 28px !important;
+}
+
+ .tc-titlebar {
+    font-size: 32px;
+}

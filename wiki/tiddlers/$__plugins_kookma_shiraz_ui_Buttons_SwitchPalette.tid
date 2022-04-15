@@ -2,8 +2,8 @@ caption: {{$:/plugins/kookma/shiraz/images/palette-switch}} {{$:/language/Button
 created: 20201210171047824
 dark-palette: $:/palettes/Ariake
 description: Toggle between light/dark color palette
-light-palette: $:/palettes/SolarizedLight
-modified: 20220411183216793
+light-palette: $:/palettes/Nord
+modified: 20220415090929222
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki

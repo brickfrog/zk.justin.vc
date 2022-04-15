@@ -1,0 +1,12 @@
+created: 20180329145909397
+creator: jd
+modified: 20180407105604343
+modifier: jd
+tags: $:/tags/Image
+title: $:/core/images/new-button
+type: text/vnd.tiddlywiki
+
+<svg class="tc-image-new-button tc-image-button" viewBox="0 0 24 24" width="22pt" height="22pt" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>

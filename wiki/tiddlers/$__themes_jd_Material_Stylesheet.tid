@@ -1,0 +1,989 @@
+created: 20180324031356243
+creator: jd
+list-after: $:/themes/tiddlywiki/vanilla/base
+modified: 20220415145437720
+modifier: jd
+tags: $:/tags/Stylesheet
+title: $:/themes/jd/Material/Stylesheet
+type: text/vnd.tiddlywiki
+
+\define dur() 300ms
+
+<pre>
+
+/* TAB BUTTONS */
+
+.tc-tab-buttons button {
+    padding: 8px;
+}
+
+.tc-tab-buttons {
+    margin-bottom: -3px;
+}
+
+.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button,
+.tc-tab-buttons.tc-vertical button {
+    margin-bottom: -1px;
+    background-color: <<colour tab-background>>;
+    border-top: 1px solid <<colour tab-border>>;
+    border-right: 1px solid <<colour tab-border>>;
+    border-bottom: 1px solid <<colour tab-border>>;
+    border-left: 1px solid <<colour tab-border>>;
+}
+
+div.tc-tab-content.tc-vertical .tc-tab-buttons button {
+    margin-bottom: 0;
+}
+
+.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected,
+.tc-tab-buttons.tc-vertical button.tc-tab-selected {
+    background-color: <<colour tab-background-selected>>;
+    border-top: 1px solid <<colour tab-border-selected>>;
+    border-right: 1px solid <<colour tab-background-selected>>;
+    border-bottom: 1px solid <<colour tab-border-selected>>;
+    border-left: 1px solid <<colour tab-border-selected>>;
+}
+
+.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons,
+.tc-tab-buttons.tc-vertical {
+    margin-right: -0.5px;
+}
+
+div.tc-tab-content.tc-vertical .tc-tab-buttons {
+    margin-bottom: -1px;
+}
+
+div.tc-tab-content.tc-vertical .tc-tab-buttons button {
+    border-bottom: 1px solid <<colour tab-border>>;
+}
+
+div.tc-tab-content.tc-vertical .tc-tab-buttons button.tc-tab-selected {
+    border-bottom: 1px solid <<colour tab-background-selected>>;
+}
+
+.tc-tab-content.tc-vertical {
+    margin-left: 1px;
+    border-left: 1px solid <<colour tab-divider>>;
+}
+
+
+/* FAB BUTTONS */
+
+.FAB-wrapper {
+    position: fixed;
+    bottom: {{$:/themes/jd/Material/ConfigDB##fabxy}};
+    right: {{$:/themes/jd/Material/ConfigDB##fabxy}};
+    overflow: hidden;
+    z-index: 800;
+}
+
+.FABs-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+}
+<$list filter="[[$:/plugins/tiddlywiki/hammerjs][$:/plugins/BurningTree/hammerwidgets]is[missing]]">
+.FABs-wrapper {
+    opacity: 0;
+    height: {{$:/themes/jd/Material/ConfigDB##fabsize}};
+    position: fixed;
+    bottom: calc({{$:/themes/jd/Material/ConfigDB##fabxy}} + {{$:/themes/jd/Material/ConfigDB##fabsize}} + {{$:/themes/jd/Material/ConfigDB##fabmargin}} + {{$:/themes/jd/Material/ConfigDB##fabmargin}});
+    right: {{$:/themes/jd/Material/ConfigDB##fabxy}};
+    overflow: hidden;
+    z-index: 800;
+}
+.FABs-wrapper:hover {
+    opacity: 1;
+    height: auto;
+}
+</$list>
+
+button.FABitem {
+<$list filter="[{$:/palette}prefix[$:/themes/jd/Material/Palette/]]">
+    background: <<colour button-background>>;
+    fill: <<colour button-foreground>>;
+</$list>
+<$list filter="[{$:/palette}!prefix[$:/themes/jd/Material/Palette/]]">
+    background: <<colour primary>>;
+    fill: white;
+</$list>
+    margin: {{$:/themes/jd/Material/ConfigDB##fabmargin}};
+    height: {{$:/themes/jd/Material/ConfigDB##fabsize}};
+    width: {{$:/themes/jd/Material/ConfigDB##fabsize}};
+    font-size: {{$:/themes/jd/Material/ConfigDB##fabiconsize}};
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%;
+    <<transition "background $(dur)$, fill $(dur)$">>
+}
+
+.FABitem svg.tc-image-button {
+    margin: 0;
+    padding: 0;
+}
+
+button.FABitem:hover {
+    background: <<colour tag-background>>;
+    fill: rgba(0, 0, 0, 0.87);
+}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.FAB-wrapper .tc-drop-down,
+.FAB-wrapper .tc-block-dropdown,
+.FABs-wrapper .tc-drop-down,
+.FABs-wrapper .tc-block-dropdown {
+    position: fixed;
+    bottom: {{$:/themes/jd/Material/ConfigDB##fabxy}};
+    right: calc(20px + {{$:/themes/jd/Material/ConfigDB##fabxy}} + {{$:/themes/jd/Material/ConfigDB##fabsize}});
+    max-height: calc(100% - {{$:/themes/jd/Material/ConfigDB##fabxy}} - 56px - 42px);
+}
+}
+
+
+/* HEADER */
+
+.header-back {
+    background: <<colour primary>>;
+    <<box-shadow "0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12)">>
+    z-index: 700;
+}
+
+.header-back,
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+}
+
+.header-wrapper {
+    z-index: 1000;
+}
+
+.header-type-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 20px;
+}
+
+.header-type-wrapper .tc-btn-invisible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 22px;
+    fill: white;
+    <<transition "background $(dur)$, border-radius $(dur)$">>
+}
+
+.header-type-wrapper .header-btn:hover {
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+}
+
+.header-title {
+    font-size: 22px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+}
+
+.header-title .tc-tiddlylink { color: white; }
+
+
+/* SEARCHBAR */
+
+.jd-search-header { 
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.jd-search-bar input { 
+    width:100%;
+    border: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    background: transparent;
+}
+
+.jd-search-header ::placeholder { color: rgba(255, 255, 255, 0.7); }
+
+.jd-search-bar { flex: 1 }
+
+.jd-search-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.jd-search-buttons button { margin-left: 10px; fill: black; }
+
+
+/* LISTS */
+
+.tc-more-sidebar { width: 100%; }
+
+.tc-drop-down button { display: block; }
+
+
+
+/* BODY WRAPPER */
+
+div.tc-tab-set.jd-lists-body {
+    min-height: calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+
+div.tc-tab-set.jd-lists-body {
+    <<box-shadow "0 3px 4px -1px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 5px 10px 0 rgba(0, 0, 0, 0.12)">>
+}
+
+div.jd-search-body {
+    left: 50%; 
+    -webkit-transform: translateX(-50%); 
+        -ms-transform: translateX(-50%); 
+            transform: translateX(-50%);
+    width: 600px;
+    max-height: calc(100% - 156px);
+    <<box-shadow "0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)">>
+}
+
+.jd-search-bar, .jd-search-bar input { width:400px; }
+
+.jd-search-bar {
+    -webkit-box-flex: 0; 
+    -ms-flex: 0; 
+    flex: 0; 
+}
+}
+
+
+div.tc-tab-set.jd-lists-body,
+.jd-search-body {
+    background: <<colour background>>;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 800;
+}
+
+.jd-search-body {
+    position: fixed; 
+    top: 56px; 
+}
+
+.jd-search-body > .tc-tab-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.jd-search-body > .tc-tab-set > .tc-tab-content {
+    padding: 0 16px 16px 16px;
+    margin: 0;
+    display: flex;
+    flex: 1 1 auto;
+    overflow: auto;
+}
+
+.jd-search-body > .tc-tab-set > .tc-tab-divider {
+    display: none;
+}
+
+.jd-search-body .tc-tab-set .tc-tab-content .tc-search { display: none; }
+
+div.tc-tab-content.jd-lists-body .tc-tab-content.tc-vertical {
+    margin-top: 0;
+}
+
+div.tc-tab-content.jd-lists-body .tc-tab-buttons.tc-vertical {
+    padding-top: 0;
+}
+
+div.tc-tab-content.jd-lists-body div,
+div.tc-tab-content.jd-lists-body li {
+    margin-bottom: 4px;
+}
+
+div.tc-tab-content.jd-lists-body .tc-tag-label {
+    margin: 4px 0;
+}
+
+div.tc-tab-content.jd-lists-body ul {
+    padding-left: 16px;
+    margin: 0;
+}
+
+div.tc-tab-content.jd-lists-body p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.jd-search-body {
+    max-height: calc(100% - 56px);
+    <<box-shadow "0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12)">>
+}
+.jd-search-body {
+    left: 0; 
+    width: 100%;
+}
+}
+
+div.tc-tab-buttons.jd-lists-body,
+.jd-search-body .tc-tab-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    background: <<colour sidebar-tab-background>>; 
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.jd-search-body .tc-tab-buttons,
+div.tc-tab-buttons.jd-lists-body {
+    <<box-shadow "0 4px 4px -1px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.1)">>
+    z-index: 900;
+}
+}
+
+div.tc-tab-divider.jd-lists-body { display: none; }
+
+div.tc-tab-buttons.jd-lists-body .tc-tab-selected,
+.jd-search-body .tc-tab-buttons button.tc-tab-selected {
+    border-bottom: 2px solid <<colour sidebar-tab-border-selected>> !important;
+}
+
+div.tc-tab-buttons.jd-lists-body button,
+.jd-search-body .tc-tab-buttons button {
+    min-width: calc(100% / {{$:/themes/jd/Material/ConfigDB##headerbtns}});
+    max-width: calc(100% / {{$:/themes/jd/Material/ConfigDB##headerbtns}});
+    background: <<colour sidebar-tab-background>>;
+    color: <<colour sidebar-tab-foreground>>;
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    padding: 8px 8px;
+    border-radius: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}};
+}
+
+div.tc-tab-buttons.jd-lists-body button.tc-tab-selected,
+.jd-search-body .tc-tab-buttons button.tc-tab-selected {
+    background: <<colour sidebar-tab-background-selected>>;
+    color: <<colour sidebar-tab-foreground-selected>>;
+    border-bottom: 2px solid <<colour sidebar-tab-border-selected>>;
+}
+
+.jd-search-body button.jd-search-btn {
+    min-width: 25%;
+    max-width: 25%;
+}
+
+div.tc-tab-content.jd-lists-body {
+    background: <<colour background>>;
+    padding: 16px;
+    margin: 0;
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+div.tc-tab-content.jd-lists-body button { fill: <<colour button-foreground>> }
+
+<$reveal type="match" state="$:/themes/jd/Material/ConfigDB##styledframes" text="yes">
+
+/* VIEW & EDIT FRAME */
+
+.tc-tiddler-edit-frame .tc-tiddler-title, 
+.tc-tiddler-view-frame .tc-titlebar h2.tc-title {
+    font-size: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}; 
+}
+
+
+/* VIEW FRAME */
+
+.tc-tiddler-view-frame .tc-title {
+    font-weight: bold;
+}
+
+.tc-tiddler-view-frame .tc-tiddler-title-icon svg {
+    height: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}}; 
+}
+
+.tc-tiddler-view-frame .tc-titlebar > span:nth-child(2),
+span.tc-tiddler-title-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1.4em;
+    white-space: normal;
+    word-break: break-all;
+}
+
+
+/* EDIT FRAME */
+
+.tc-tiddler-edit-frame .tc-tiddler-edit-title {
+    color: transparent;
+    line-height: 0;
+}
+
+.tc-tiddler-edit-frame .tc-message-box { margin: 0; }
+
+.tc-tiddler-edit-frame iframe.tc-edit-texteditor { margin-top: 0 !important; }
+
+.tc-tiddler-edit-frame .tc-editor-toolbar { background: <<colour tiddler-editor-border>>; }
+
+.tc-tiddler-edit-frame .tc-editor-toolbar .tc-btn-invisible  { background: transparent; }
+
+.tc-tiddler-edit-frame .tc-editor-toolbar .tc-btn-invisible:hover  {
+    background: transparent;
+    fill: <<colour primary>>;
+}
+
+input::placeholder {
+   font-size: 0.9em; 
+}
+
+.tc-tiddler-edit-frame input.tc-titlebar.tc-edit-texteditor, 
+.tc-tiddler-edit-frame .tc-edit-tags, 
+.tc-tiddler-edit-frame .tc-edit-field-add-name input.tc-edit-texteditor, 
+.tc-tiddler-edit-frame .tc-edit-field-add-value input.tc-edit-texteditor, 
+.tc-tiddler-edit-frame input.tc-edit-typeeditor.tc-popup-handle, 
+.tc-tiddler-edit-frame input.tc-edit-texteditor.tc-popup-handle {
+    border: 1px solid <<colour background>>; 
+    border-bottom: 1px solid <<colour tiddler-editor-border>>;
+    <<box-shadow "none">>
+} 
+
+.tc-tiddler-edit-frame textarea { 
+    border: 1px solid <<colour tiddler-editor-border>>;
+    <<box-shadow "none">>
+} 
+
+.tc-tiddler-edit-frame input,
+.tc-tiddler-edit-frame textarea,
+.tc-tiddler-edit-frame iframe.tc-edit-texteditor {
+    font-size: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}};
+    font-family: {{$:/themes/tiddlywiki/vanilla/settings/fontfamily}};
+    border: 1px solid <<colour background>>; 
+    <<box-shadow "none">>
+}
+
+.tc-tiddler-edit-frame input.tc-titlebar.tc-edit-texteditor {
+    font-weight: bold;
+}
+
+.tc-tiddler-edit-frame .tc-type-selector {
+    padding-bottom: 10px;
+    border-bottom: 1px solid <<colour tiddler-editor-border>>;
+}
+
+</$reveal>
+
+
+/* LIST ITEMS */
+
+.tc-menu-list-item {
+    padding-left: 5px;
+    text-indent: -5px;
+    white-space: normal;
+    word-wrap: break-word;
+    -webkit-word-break: break-all;
+    -moz-word-break: break-all;
+    -ms-word-break: break-all;
+    -o-word-break: break-all;
+    word-break: break-all;
+}
+
+
+/* POPUPS */
+
+.tc-drop-down,
+.tc-block-dropdown {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: normal;
+    white-space: normal;
+    border-radius: 2px;
+    max-height: 400px;
+    min-width: 250px;
+    max-width: 300px;
+    overflow: auto;
+    <<box-shadow "0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)">>
+}
+
+div.header-type-wrapper.tc-reveal > div > div.tc-reveal > div.tc-reveal.tc-popup > div.tc-drop-down, 
+div.header-type-wrapper.tc-reveal > div > div.tc-reveal > span.tc-reveal.tc-popup > div.tc-drop-down,
+.jd-search-buttons .tc-drop-down,
+.jd-search-buttons .tc-block-dropdown { position: absolute; right: 0; }
+
+.tc-drop-down .tc-btn-invisible,
+.tc-block-dropdown .tc-btn-invisible,
+.tc-drop-down a, .tc-drop-down button {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: normal;
+    margin: 0;
+}
+
+.tc-drop-down a, .tc-drop-down button {
+    display: block !important;
+    text-align: left !important;
+}
+
+.tc-drop-down .tc-btn-invisible {
+    display: block !important;
+    text-align: left !important;
+    margin: 0 !important;
+}
+
+
+
+<$reveal state="$:/palette" type="match" text="$:/themes/jd/Material/Palette/MaterialLightBase">
+
+.tc-drop-down button.tc-btn-invisible:hover,
+.tc-drop-down button.tc-btn-invisible:hover span.tc-dirty-indicator {
+    color: <<colour background>>;
+}
+
+.tc-drop-down button.tc-btn-invisible:hover svg,
+.tc-drop-down button.tc-btn-invisible:hover span.tc-dirty-indicator svg,
+.tc-file-input-wrapper:hover button svg {
+    fill: <<colour background>>;
+}
+
+</$reveal>
+
+<$reveal state="$:/palette" type="match" text="$:/themes/jd/Material/Palette/MaterialDarkBase">
+
+.tc-drop-down button.tc-btn-invisible:hover,
+.tc-drop-down button.tc-btn-invisible:hover span.tc-dirty-indicator {
+    color: <<colour button-foreground>>;
+}
+
+.tc-drop-down button.tc-btn-invisible:hover svg,
+.tc-drop-down button.tc-btn-invisible:hover span.tc-dirty-indicator svg,
+.tc-file-input-wrapper:hover button svg {
+    fill: <<colour button-foreground>>;
+}
+
+</$reveal>
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+
+<$reveal type="nomatch" state="$:/view" text="zoomin">
+<$reveal type="match" state="$:/themes/jd/Material/ConfigDB##mobilepopups" text="yes">
+.tc-drop-down,
+.tc-block-dropdown {
+    position: fixed !important;
+    top: 48% !important;
+    left: {{$:/themes/jd/Material/ConfigDB##fabxy}} !important;
+    max-height: calc(100% - 200px);
+    min-width: calc(100% - {{$:/themes/jd/Material/ConfigDB##fabxy}}*2);
+    max-width: calc(100% - {{$:/themes/jd/Material/ConfigDB##fabxy}}*2);
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    overflow: auto;
+    z-index: 1000;
+}
+</$reveal>
+</$reveal>
+
+.tc-tiddler-frame {
+    padding: 16px;
+    margin: 0;
+    <<box-shadow "none">>
+}
+
+.tc-story-river .tc-tiddler-frame:nth-last-child(2) {
+    border-bottom: 0;
+}
+
+input:focus, textarea:focus, button:focus, select:focus { outline: 0; }
+
+input:focus, textarea:focus {
+    outline: 0;
+    border-bottom: 1px solid <<colour tag-background>>; 
+}
+
+}
+
+
+<$reveal type="match" state="$:/themes/jd/Material/ConfigDB##outlinenone" text="yes">
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+input:focus, textarea:focus, button:focus, select:focus { outline: 0; }
+}
+</$reveal>
+
+
+/* STORY RIVER, TIDDLER FRAME */
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.tc-story-river { padding: 42px; }
+<$reveal type="nomatch" state="$:/state/sidebar" text="no" default={{$:/themes/jd/Material/ConfigDB##listsdefon}}>
+.tc-story-river { padding-left: calc({{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}} + 42px); }
+</$reveal>
+<$reveal type="match" state="$:/view" text="zoomin">
+<$reveal type="match" state="$:/state/sidebar" text="no" default={{$:/themes/jd/Material/ConfigDB##listsdefon}}>
+body.tc-body .tc-storyview-zoomin-tiddler { 
+width: calc(100% - 42px - 42px);
+}
+</$reveal>
+<$reveal type="nomatch" state="$:/state/sidebar" text="no" default={{$:/themes/jd/Material/ConfigDB##listsdefon}}>
+body.tc-body .tc-storyview-zoomin-tiddler { 
+width: calc(100% - {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}} - 42px - 42px);
+}
+</$reveal>
+</$reveal>
+<$reveal type="match" state="$:/state/sidebar" text="no" default={{$:/themes/jd/Material/ConfigDB##listsdefon}}>
+.tc-tiddler-frame {
+    width: {{$:/themes/jd/Material/ConfigDB##tiddler-width}};
+    margin-left: auto;
+    margin-right: auto;
+}
+</$reveal>
+<$reveal type="nomatch" state="$:/state/sidebar" text="no" default={{$:/themes/jd/Material/ConfigDB##listsdefon}}>
+.tc-tiddler-frame { width: 100%; }
+</$reveal>
+.tc-tiddler-frame {
+    padding: 28px 42px;
+    border: 0;
+}
+}
+
+.tc-sidebar-scrollable, .tc-topbar { display: none; }
+
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.tc-story-river { padding-top: calc(56px + 42px); }
+}
+
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.tc-story-river { padding-top: 56px; }
+}
+
+.tc-tiddler-frame {
+    <<box-shadow "0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)">>
+}
+
+
+/* VANILLA TWEAKS */
+
+.tc-story-river { width: 100%; }
+
+.tc-btn-mini { color: <<colour muted-foreground>>; }
+
+<$list filter="[{$:/palette}prefix[$:/themes/jd/Material/Palette/]]">
+body.tc-dirty div.header-wrapper span.tc-dirty-indicator,
+body.tc-dirty div.header-wrapper span.tc-dirty-indicator svg {
+    fill: <<colour button-background>>;
+    color: <<colour button-background>>;
+}
+</$list>
+
+button.tc-btn-invisible.header-btn .tc-dirty-indicator {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.tc-notification {
+    text-shadow: none;
+    border-radius: 2px;
+    <<box-shadow "0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12)">>
+}
+
+.tc-modal { left: {{$:/themes/jd/Material/ConfigDB##fabxy}}; width: calc(100% - {{$:/themes/jd/Material/ConfigDB##fabxy}}*2); top: calc(56px + 42px); }
+
+.tc-modal-backdrop { overflow: hidden; }
+
+.tc-modal-footer {
+    -webkit-box-shadow: inset 0 1px 0 <<colour modal-border>>;
+    -moz-box-shadow: inset 0 1px 0 <<colour modal-border>>;
+    box-shadow: inset 0 1px 0 <<colour modal-border>>;
+}
+
+.tc-modal-wrapper { z-index: 1000; }
+
+.tc-plugin-info-dropdown,
+.tc-plugin-info { border: 1px solid <<colour table-border>>; }
+
+<$reveal type="match" state="$:/themes/tiddlywiki/vanilla/options/stickytitles" text="yes" default ="no">
+.tc-tiddler-title {
+    top: 55px;
+    z-index: 700;
+}
+</$reveal>
+
+.tc-plugin-reload-warning { z-index: 2000; }
+
+
+/* HTML TWEAKS */
+
+hr,
+hr.tc-untagged-separator {
+    color: <<colour table-border>>;
+    background-color: <<colour table-border>>;
+    height: 1px;
+    border: 0;
+}
+
+input, input[type="password"] { 
+    background: <<colour background>>;
+    border: 1px solid <<colour tiddler-editor-border>>;
+}
+
+input[type="color"] {
+    background: <<colour dropdown-background>>;
+    border: 1px solid <<colour tiddler-editor-border>>;
+}
+
+button {
+    border: 0;
+    border-radius: 2px;
+    padding: 6px 16px;
+    margin: 2px;
+}
+
+.tc-btn-invisible {
+    color: inherit;
+}
+
+select {
+    max-width: 100%;
+    background: <<colour dropdown-background>>;
+    border: 1px solid <<colour tiddler-editor-border>>;
+}
+
+
+/* FOR COLOR PICKER */
+
+.color-prev {
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.edit-color {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid <<colour tiddler-editor-border>>;
+    border-radius: 2px;
+} 
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+.edit-color { width: 100%; } 
+}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+
+/* SCROLLBARS */
+
+div::-webkit-scrollbar { background: rgba(0, 0, 0, 0.12); }
+div::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.12); }
+}
+
+
+
+/*! * animate.css -http://daneden.me/animate * Version - 3.6.0 * Licensed under the MIT license - http://opensource.org/licenses/MIT * * Copyright (c) 2018 Daniel Eden */
+
+/* customized for TW5 Material theme by jd */
+
+ .animated{
+    -webkit-animation-duration: <<dur>>;
+    animation-duration: <<dur>>;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+        -webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);
+        animation-timing-function:cubic-bezier(.215,.61,.355,1);
+}
+
+@-webkit-keyframes slideInLeft{
+    0%{
+        -webkit-transform:translate3d(-100%,0,0);
+        transform:translate3d(-100%,0,0);
+        visibility:visible
+    }
+    to{
+        -webkit-transform:translateZ(0);
+        transform:translateZ(0)
+    }
+}
+@keyframes slideInLeft{
+    0%{
+        -webkit-transform:translate3d(-100%,0,0);
+        transform:translate3d(-100%,0,0);
+        visibility:visible
+    }
+    to{
+        -webkit-transform:translateZ(0);
+        transform:translateZ(0)
+    }
+}
+.slideInLeft{
+    -webkit-animation-name:slideInLeft;
+    animation-name:slideInLeft
+}
+
+<$list filter="[[$:/plugins/tiddlywiki/hammerjs][$:/plugins/BurningTree/hammerwidgets]!is[missing]]">
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+div.animated.slideInUp {
+    position: fixed;
+    bottom: calc({{$:/themes/jd/Material/ConfigDB##fabxy}} + {{$:/themes/jd/Material/ConfigDB##fabsize}} + {{$:/themes/jd/Material/ConfigDB##fabmargin}} + {{$:/themes/jd/Material/ConfigDB##fabmargin}});
+    right: {{$:/themes/jd/Material/ConfigDB##fabxy}};
+    overflow: hidden;
+    z-index: 800;
+}
+
+.jd-swipearea {
+    position: fixed;
+    bottom: 0;
+    opacity: 0;
+    width: 15px;
+    height: calc(100% - 56px);
+    z-index: 1100;
+}
+.jd-swipearea-on {
+    left: 0;
+    background: green;
+}
+.jd-swipearea-off {
+    right: 0;
+    background: red;
+}
+</$list>
+
+div.animated.slideInLeft {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    min-height: 100%;
+    z-index: 1000;
+}
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+div.animated.slideInLeft {
+    width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+}
+}
+@media (max-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+div.animated.slideInLeft {
+    width: 100%;
+}
+}
+
+
+
+
+
+
+</pre>

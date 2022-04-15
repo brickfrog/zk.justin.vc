@@ -1,0 +1,12 @@
+created: 20180329145909397
+creator: jd
+modified: 20180407105752020
+modifier: jd
+tags: $:/tags/Image
+title: $:/core/images/down-arrow
+type: text/vnd.tiddlywiki
+
+<svg class="tc-image-down-arrow tc-image-button" viewBox="0 0 24 24" width="22pt" height="22pt" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+    <path d="M0-.75h24v24H0z" fill="none"/>
+</svg>

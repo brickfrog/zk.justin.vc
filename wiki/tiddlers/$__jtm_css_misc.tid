@@ -1,5 +1,5 @@
 created: 20220302144056397
-modified: 20220302150323752
+modified: 20220415145616571
 tags: $:/tags/Stylesheet
 title: $:/jtm/css/misc
 type: text/vnd.tiddlywiki
@@ -14,3 +14,23 @@ details.vibe summary {
     color: black;
 }
 
+
+.header-back {
+    background: <<colour background>>;
+    <<box-shadow "0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12)">>
+    z-index: 700;
+}
+
+.header-title {
+    font-size: 22px;
+    color: <<colour foreground>>;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+}
+
+.header-title .tc-tiddlylink { color: white; }
