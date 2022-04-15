@@ -1,0 +1,13 @@
+created: 20220414165232564
+modified: 20220414202238374
+search-hide: true
+source: https://github.com/redis/redis-om-python
+tags: Package Public Idea
+title: RedisOM
+tmap.id: 581d1a2a-2377-4433-90f9-7ebb1a4bcad1
+type: text/vnd.tiddlywiki
+url: https://github.com/redis/redis-om-python/blob/main/docs/index.md
+
+While RedisOM refers to the ObjectMapping in general. A set of high-level abstractions that make it easy to model Redis data, I'll specifically be talking about the [[Python]] variant. Interestingly enough, it uses [[Pydantic]] for its data validation.
+
+It seems to be really simple (good way, as in easy to use) allowing easy function calls to interact with [[Redis]], .get(), .find(), .delete(), etc.

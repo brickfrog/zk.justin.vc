@@ -1,0 +1,12 @@
+created: 20220414170352027
+modified: 20220414170654124
+search-hide: true
+source: https://github.com/tiangolo/fastapi
+tags: Python Package WebFramework Idea Public
+title: FastAPI
+tmap.id: c4a6795e-f78f-4ada-9878-41ceae7230b7
+type: text/vnd.tiddlywiki
+url: https://fastapi.tiangolo.com
+wikipedia: FastAPI
+
+A WebFramework for [[Python]] developed by SebastiánRamírez. Based on [[Pydantic]], using TypeHints to validate/serialize, etc. Also automatically generates OpenAPI specifications for you. Very neat and I like to use it for my ML endpoints.

@@ -1,0 +1,16 @@
+created: 20220414165635563
+modified: 20220414170020444
+search-hide: true
+source: https://github.com/samuelcolvin/pydantic
+tags: Idea Package Python Public
+title: Pydantic
+tmap.id: cdacfa9b-6b54-4a08-bdcc-fb67832db1d6
+topic: 
+type: text/vnd.tiddlywiki
+url: https://pydantic-docs.helpmanual.io
+
+Data validation for Python using type hints. pydantic enforces type hints at runtime, and provides user friendly errors when data is invalid. Used as a component piece of quite a bit of things, for example, in FastAPI
+
+Discussed in TalkPythonToMe -
+
+* https://talkpython.fm/episodes/show/313/automate-your-data-exchange-with-pydantic

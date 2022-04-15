@@ -1,0 +1,30 @@
+class: leftbar border-info
+created: 20220414144223020
+description: Notes for <<journalTitle>>
+keywords: 
+modified: 20220415013953991
+productivity: 5
+tags: Journal Public
+title: 2022-04-14
+tmap.id: d46841d5-3750-45c5-b388-4965f57f8cad
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Going to use today to work through video backlog, need to make up in lack of linking.
+* [[The Secret Life of Components|https://www.youtube.com/watch?v=XH2bykD70jI]] - for some reason I forgot about this series. A bunch of neat stuff relating to components of machines.
+* RedisStackWorkshopPython - this was streamed yesterday, watching the video upload
+* TalkPythonToMe265 - Podcast, listenin, from 2020. Trying to skim through and listen to those of interest.
+
+</$details>

@@ -1,0 +1,11 @@
+created: 20220414164757052
+modified: 20220414164941800
+search-hide: true
+tags: Public Idea
+title: ProbabilisticDataStructure
+tmap.id: aa6e33fd-7175-4f63-a583-0a380ebf9f96
+topic: 
+type: text/vnd.tiddlywiki
+wikipedia: Category:Probabilistic_data_structures
+
+DataStructure that trade perfect accuracy for extreme memory efficiency. Useful for big data and streaming applications. Examples would be BloomFilter, CuckooFilter, Count-MinSketch, and TopK

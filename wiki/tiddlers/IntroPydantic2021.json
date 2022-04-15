@@ -1,10 +1,10 @@
 [
     {
         "created": "20210625025054188",
-        "text": "* ''Summary'':\n** Pydantic offers a pythonic way to validate your user data using run-time enforced standard type-annotations.\n* ''Thoughts'':\n** I've used Pydantic with FastAPI so a bit of a rehash but still interesting to see some of the features, reminds me to look into it more, maybe useful in ML data validation? I know there's also GreatExpectations\n* ''Notes'':\n**  Refresher on dataclasses\n*** dataclasses, waffle example, not stopped from making weird combinations, how to deal with?\n** Pydantic!\n*** You import dataclass from pydantic, validation_error\n*** Pydantic is primarily a parsing library, dropin replacement with Base Model\n*** can export JSONSchemas and link to OpenAPI/Swagger\n*** (Pydantic uses draft 7 of JSONSchema, 3.1 OpenAPI spec)\n*** custom validators, functions in the class\n*** @validate_arguments decorator\n*** Framework Integration\n**** FastAPI, [[SpecTree]], [[Quart]], [[Django]], [[Strawberry]]\n*** Automatic Testing\n**** plugin with [[HypothesisPkg]] ",
+        "text": "* ''Summary'':\n** [[Pydantic]] offers a pythonic way to validate your user data using run-time enforced standard type-annotations.\n* ''Thoughts'':\n** I've used Pydantic with [[FastAPI]] so a bit of a rehash but still interesting to see some of the features, reminds me to look into it more, maybe useful in ML data validation? I know there's also GreatExpectations\n* ''Notes'':\n**  Refresher on dataclasses\n*** dataclasses, waffle example, not stopped from making weird combinations, how to deal with?\n** Pydantic!\n*** You import dataclass from pydantic, validation_error\n*** Pydantic is primarily a parsing library, dropin replacement with Base Model\n*** can export JSONSchemas and link to [[OpenAPI]]/Swagger\n*** (Pydantic uses draft 7 of JSONSchema, 3.1 OpenAPI spec)\n*** custom validators, functions in the class\n*** @validate_arguments decorator\n*** Framework Integration\n**** FastAPI, [[SpecTree]], [[Quart]], [[Django]], [[Strawberry]]\n*** Automatic Testing\n**** plugin with [[HypothesisPkg]] ",
         "title": "IntroPydantic2021",
         "tags": "PyCon2021 Source Public",
-        "modified": "20220409152408405",
+        "modified": "20220414165517644",
         "type": "text/vnd.tiddlywiki",
         "presenter": " Alexander Hultnér",
         "caption": "Intro to Pydantic, run-time type checking for your dataclasses",

@@ -1,0 +1,56 @@
+created: 20220414170026637
+description: 
+modified: 20220414181216585
+tags: Index Public Podcast
+title: TalkPythonToMe
+tmap.id: bf14045f-212b-4785-9165-ca0a611be39d
+type: text/vnd.tiddlywiki
+
+Discusses various [[Python]] packages and such. I keep intending to listen to this. Might make sources for specific episodes that interest me. Some of the topics are more for general software engineering.
+
+!! Podcasts
+
+<style>
+table.content-sessions tr td:nth-child(2) {
+	min-width: 9em;
+}
+
+table.content-sessions tr td:nth-child(3) {
+	max-width: 20em;
+}
+</style>
+
+<table class="sortable">
+<thead>
+	<tr>
+    <th>Date</th>
+		<th>Topic</th>
+		<th>Presenter(s)</th>
+		<th>Link</th>
+	</tr>
+</thead>
+<tbody>
+	<$list filter="[tag[TalkPythonToMe]tag[Source]!has[draft.of]sort[at]]">
+		<tr>
+      <td>{{!!year}}</td>
+			<td><$link to={{!!title}}>{{!!caption}}</$link></td>
+			<td>{{!!presenter}}</td>
+			<td><a class="tc-tiddlylink-external" href={{!!url}}>🔗</a></td>
+		</tr>
+	</$list>
+</tbody>
+</table>
+
+<$button>
+	<$action-sendmessage
+		$message="tm-new-tiddler"
+		title="2022"
+		tags="TalkPythonToMe Source"
+		presenter="Presenter"
+		caption="SessionTitle"
+    url=""
+    year=""
+    medium="podcast"
+		text=""/>
+	New Episode
+</$button>

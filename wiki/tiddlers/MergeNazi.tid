@@ -1,0 +1,16 @@
+created: 20220414163824027
+modified: 20220414164249036
+search-hide: true
+tags: Idea Public
+title: MergeNazi
+tmap.id: dc66388a-c94d-4713-a48b-3f91a09db972
+topic: 
+type: text/vnd.tiddlywiki
+
+This is the primary term I've heard used for the idea, I'm sure there must be a more... eloquent way to phrase it.
+
+Primarily, this is a person who keeps tight lockdowns on what goes into a system. This can be good in situations where you have a focused system, something like Redis or sqlite. This prevents bloat and FeatureCreep. Essentially, DoOneThingWell.
+
+This can also cause problems where forks in the community can arise, for example, [[Neovim]] came about becauase inputs into vanilla [[Vim]] were limited.
+
+You can also see this in the case of [[BDFL]] -> Council style of leadership. Some would question some of the directions taken in Python after Guido stepped down.

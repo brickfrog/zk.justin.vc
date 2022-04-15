@@ -1,0 +1,21 @@
+[
+    {
+        "created": "20220414163110777",
+        "text": "This is a tutorial for [[Redis]], specifially the RedisStack, which is a bundling of several components and the RedisOM library.\n\nCode sample is at: https:/github.com/redis-developer/redis-om-python-flask-skeleton-app\n\nClasses in Python are used to structure the data model with appropriate inheritance from RedisOM (Json models, fields, etc.) that are extensible and Pydantic can be used to constrain the datatypes, e.g. age = ~PositiveInt\n\nCan use embedded JSON as a type, allowing JSON within JSON without giving it a key in redis, e.g. an Address class within a Person class\n\nWhen in Flask, this just involves calling the request and saving it as the established Redis class\n\n```python\nnew_person = Person(**request.json)\nnew_person.save()\nreturn new_person.pk #primary key, uuid\n```\n\nThen to get, as part of the inheritance, it includes a .get() command, using standard API routes.\n\nInterestingly, as part of RedisStack's capabilities, while [[Redis]] itself is fundamentally a KeyValue store, stack allows text indexing, so you could search for name results, even if it's stored by UUID.\n\nSo, in total, this was a neat little tutorial showing how the abstraction makes things easier with RedisOM while still allowing lower level function calls.\n",
+        "title": "RedisStackWorkshopPython",
+        "tags": "Source Public",
+        "modified": "20220414203725535",
+        "type": "text/vnd.tiddlywiki",
+        "caption": " Redis Stack Workshop: How to Use Redis Stack with Python, Flask, and Redis OM",
+        "medium": "video",
+        "url": "https://www.youtube.com/watch?v=PPT1FElAS84",
+        "readstatus": "read",
+        "author": "SimonPrickett",
+        "completed": "20220415000000000",
+        "rating": "",
+        "year": "2022",
+        "tmap.id": "bc165c8a-3e11-4add-89b8-0d9fa8e6221b",
+        "ivl": "1",
+        "due": "202204151200"
+    }
+]
