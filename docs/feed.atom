@@ -7,7 +7,14 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-15T10:36:41+02:00</updated>
+  <updated>2022-04-16T01:50:40+02:00</updated>
+  <entry>
+    <title>2022-04-16</title>
+    <id>http://justin.vc/#2022-04-16</id>
+    <link href='http://justin.vc/#2022-04-16'/>
+    <updated>2022-04-16T01:50:40+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>TalkPythonToMe265</title>
     <id>http://justin.vc/#TalkPythonToMe265</id>
@@ -349,13 +356,6 @@
     <id>http://justin.vc/#Pig2021</id>
     <link href='http://justin.vc/#Pig2021'/>
     <updated>2022-03-05T02:51:02+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-03-05</title>
-    <id>http://justin.vc/#2022-03-05</id>
-    <link href='http://justin.vc/#2022-03-05'/>
-    <updated>2022-03-06T01:50:03+02:00</updated>
     <summary></summary>
   </entry>
 </feed>
