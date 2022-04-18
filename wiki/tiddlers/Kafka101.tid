@@ -6,9 +6,9 @@ description: A relatively short online course for Apache Kafka.
 due: 
 ivl: 
 medium: web
-modified: 20220411005622414
+modified: 20220417223708966
 rating: 
-readstatus: partial
+readstatus: read
 tags: Source Public
 title: Kafka101
 tmap.id: 8b346d4c-6286-4f29-8707-5d32a199442d

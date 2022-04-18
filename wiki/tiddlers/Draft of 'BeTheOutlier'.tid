@@ -1,0 +1,89 @@
+author: ShrilataMurthy
+caption: Be the Outlier: How to Ace Data Science Interviews
+completed: 
+created: 20220417223518157
+draft.of: BeTheOutlier
+draft.title: BeTheOutlier
+medium: book
+modified: 20220418001817548
+rating: 
+readstatus: partial
+tags: Source Interviewing Public
+title: Draft of 'BeTheOutlier'
+tmap.id: d49c5245-b593-4327-a1aa-b29bad74b9be
+type: text/vnd.tiddlywiki
+url: 
+year: 2020
+
+A DataScience interview book. I've found myself needing to go over the basics and making [[Anki]] cards out of them. This one is relatively short so I figured I'd do this one first. It's about ~150 pages, so shouldn't be too bad.
+
+!! Technical Rounds
+* Modeling and Machine Learning
+
+!!! [[Overfitting]] in Predictive Models
+
+<<rememberq "20220417231755781"
+	"How can you avoid overfitting in predictive models?" "A">>
+* BiasVarianceTradeoff
+** Reduction of model complexity - too many features (forward stepwise)
+** Regularization - shrink/regularize coefficient estimates towards zero
+*** Ridge
+**** Loss function / residual sum of squares is minimized by shrinkage quantity, making use of lambda as a tuning parameter - increasing leading coefficient towards zero
+*** Lasso
+**** Penalizing high value coefficient, shrinking them to zero as opposed to shrinking like in ridge.
+*** Cross-validation as a preventative measure, K-Fold
+<<rememberq "20220417231549050"
+	"What is the difference between forward stepwise and backward stepwise regression?" "A">>
+<<rememberq "20220417231514050" "Why does Lasso tend to shrink estimates to zero whereas Ridge shrinks them close to zero?" "A">>
+
+!!! K-Means Clustering Clusters
+
+<<rememberq "20220417232619049"
+	"How will you define the number of clusters in a clustering
+algorithm?"
+	"A">>
+* Commonly used process is the Elbow Curve - reducing intra-cluster variation, minimizing the WSS (within-cluster sum of square) - when plotted you can tell the huge drop off after X clusters. (typically Euclidian distance)
+<<rememberq "20220417232630375"
+	"What are some other clustering techniques? E.g., hierarchical clustering,
+density-based clustering."
+	"A">>
+<<rememberq "20220417232630961"
+	"Which clustering algorithm is typically sensitive to outliers?"
+	"A">>
+<<rememberq "20220417232634061"
+	"Can clustering be used to improve the accuracy of a linear regression model? If so, how?"
+	"A">>
+<<rememberq "20220417232749051"
+	"Can categorical variables be used in k-means clustering?"
+	"A">>
+<<rememberq "20220417232805296"
+	"If there is mix of categorical and continuous variables, which clustering
+technique would you use?"
+	"A">>
+
+!!! Favorite Algorithm
+
+* More of a general question, but it is suggested to follow the path:
+** My favorite algorithm is...
+** This can be used for...
+** It works this way...
+** List some more ways it's good
+** I used it to...
+
+Some miscellaneous questions on random forests and topics to investigate:
+
+<<rememberq "20220418001639519"
+	"How do models like Random Forest determine feature importance?"
+	"A">>
+<<rememberq "20220418001644062"
+	"What are the key hyper parameters to specify when building a Random
+Forest?"
+	"A">>
+<<rememberq "20220418001644662"
+	"How can overfitting be avoided in Random Forests?"
+	"A">>
+
+* InformationGain, GiniIndex, [[Bagging]], [[Boosting]], GradientBoosting, XGBoost, RandomForest
+
+!!! Evaluating Performance
+

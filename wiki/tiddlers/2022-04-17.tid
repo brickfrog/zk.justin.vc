@@ -1,0 +1,28 @@
+class: leftbar border-info
+created: 20220417195910210
+description: Notes for <<journalTitle>>
+keywords: 
+modified: 20220417223409194
+productivity: 4
+tags: Journal Public
+title: 2022-04-17
+tmap.id: 5ed0731f-40af-419b-9e77-313625d915e7
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Material theme kind of works well(?) - need to make some adjustments for it though
+** It's a bit finnicky to sidebar sizing and framing in small windows / mobile
+
+</$details>

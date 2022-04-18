@@ -1,7 +1,7 @@
 created: 20210215024632766
 creator: soren
 description: Show sources you might want to read soon.
-modified: 20220326195837423
+modified: 20220417223947486
 modifier: soren
 tags: Tool
 title: $:/sib/Tools/ReadingInbox
@@ -21,25 +21,25 @@ type: text/vnd.tiddlywiki
 	<td>
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr="1"/>
-			tomorrow
+			+1
 		</$button>&nbsp;|
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr="5"/>
-			5 days
+			+5
 		</$button>&nbsp;|
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr={{{ [all[current]get[ivl]else[5]multiply[2]] }}}/>
-			later
+			x2
 		</$button>&nbsp;|
 		<$button class="tc-tiddlylink tc-btn-invisible">
 			<$macrocall $name=inbox-postpone ivlExpr={{{ [all[current]get[ivl]else[5]multiply[3]] }}}/>
-			even later
+			x3
 		</$button>
 	</td>
 </tr>
 \end
 
-This table first lists anything in progress; try to limit this to a handful of works. Then it lists items that are unread and potentially interesting, but have not been postponed. Postponing uses //exponential backoff//, to use MrAndyMatuschak's term: if you pick //later// or //even later//, the time until you see the item again doubles or triples from its previous value. This allows you to get items that presently seem of low value out of your way without requiring you to decide you will certainly never read it; perhaps some time later, they will look interesting again.
+This table first lists anything in progress; try to limit this to a handful of works. Then it lists items that are unread and potentially interesting, but have not been postponed. Postponing uses //exponential backoff//, to use AndyMatuschak's term: if you pick //later// or //even later//, the time until you see the item again doubles or triples from its previous value. This allows you to get items that presently seem of low value out of your way without requiring you to decide you will certainly never read it; perhaps some time later, they will look interesting again.
 
 The table does not include [[lifetime reading items|LifetimeReading]] unless they're currently in progress, as it would then become miles long and cease to function effectively as an “inbox”; those items are a separate queue.
 

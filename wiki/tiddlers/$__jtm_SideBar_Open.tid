@@ -1,6 +1,6 @@
 caption: {{$:/language/SideBar/Open/Caption}}
 created: 20220415090237153
-modified: 20220415153348901
+modified: 20220417200112827
 tags: $:/tags/SideBar
 title: $:/jtm/SideBar/Open
 type: text/vnd.tiddlywiki
@@ -26,20 +26,7 @@ $button$
 </$droppable>
 \end
 
-\define go-random-action() <$action-navigate $to={{{[tag[Idea]!tag[PrivateChunk]!regexp[/]!tag[Stub]shuffle[]last[]]}}}/>
-
-<$list filter=<<ff SidebarInfoLinks>> variable=_>
-[[about|Home/About]]&nbsp;·&nbsp;
-[[reading|RecentlyRead]]&nbsp;·&nbsp;
-<$button class="tc-tiddlylink tc-btn-invisible" actions=<<go-random-action>>>random idea</$button>&nbsp;·&nbsp;[[great ideas|GreatIdea]]
-
-<style>
-.gtw-sidebar-links a, .gtw-sidebar-links button {
-	color: <<color sidebar-foreground>>;
-	text-decoration: underline;
-}
-</style>
-</$list>
+{{$:/jtm/SideBar/InfoLinksSegment}}
 
 ---
 

@@ -7,12 +7,26 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-16T01:50:40+02:00</updated>
+  <updated>2022-04-17T20:17:54+02:00</updated>
   <entry>
-    <title>2022-04-16</title>
-    <id>http://justin.vc/#2022-04-16</id>
-    <link href='http://justin.vc/#2022-04-16'/>
-    <updated>2022-04-16T01:50:40+02:00</updated>
+    <title>BeTheOutlier</title>
+    <id>http://justin.vc/#BeTheOutlier</id>
+    <link href='http://justin.vc/#BeTheOutlier'/>
+    <updated>2022-04-17T20:17:54+02:00</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Draft of 'BeTheOutlier'</title>
+    <id><$text text='http://justin.vc/#Draft%20of%20'BeTheOutlier''/></id>
+    <link href='http://justin.vc/#Draft%20of%20'BeTheOutlier''/>
+    <updated>2022-04-17T20:18:17+02:00</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>2022-04-17</title>
+    <id>http://justin.vc/#2022-04-17</id>
+    <link href='http://justin.vc/#2022-04-17'/>
+    <updated>2022-04-17T18:34:09+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -82,7 +96,7 @@
     <title>Kafka101</title>
     <id>http://justin.vc/#Kafka101</id>
     <link href='http://justin.vc/#Kafka101'/>
-    <updated>2022-04-10T20:56:22+02:00</updated>
+    <updated>2022-04-17T18:37:08+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -342,20 +356,6 @@
     <id>http://justin.vc/#AugmentingLongtermMemory</id>
     <link href='http://justin.vc/#AugmentingLongtermMemory'/>
     <updated>2022-03-07T01:04:41+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-03-06</title>
-    <id>http://justin.vc/#2022-03-06</id>
-    <link href='http://justin.vc/#2022-03-06'/>
-    <updated>2022-03-07T01:11:05+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>Pig2021</title>
-    <id>http://justin.vc/#Pig2021</id>
-    <link href='http://justin.vc/#Pig2021'/>
-    <updated>2022-03-05T02:51:02+02:00</updated>
     <summary></summary>
   </entry>
 </feed>
