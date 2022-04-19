@@ -1,10 +1,9 @@
 caption: Calendar
 created: 20200904020839440
 modified: 20220221044707714
-revision: 0
 tags: Public $:/tags/MoreSideBar
 title: $:/jtm/Calendar
-tmap.id: 4aa185b4-d5ae-467a-9ef6-95840b3c105c
+type: text/vnd.tiddlywiki
 
 \define tt_time_config() $:/config/TiddlyTools/Time
 

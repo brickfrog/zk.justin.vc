@@ -1,9 +1,8 @@
 created: 20210615095836172
 modified: 20220221020444612
-revision: 0
 tags: Software Azure Public
 title: AzureDataStudio
-tmap.id: 82bca430-3c61-46a5-844f-e8379d2c1a58
+type: text/vnd.tiddlywiki
 
 A JupyterNotebook section of [[Azure]]. Seems to be useful, but I haven't had (much) experience with it yet. Seems to be about the same as the vanilla experience with soeme additional additions for parameterization and such. 
 

@@ -3,7 +3,7 @@ description: changes the styling of the tag-pills
 modified: 20220303063518390
 tags: $:/tags/Stylesheet
 title: $:/jtm/css/tags-edit.css
-tmap.id: 6426de10-84d5-4001-8ba8-93bfe5b948bb
+type: text/vnd.tiddlywiki
 
 .tc-btn-invisible {
 	padding: 0;

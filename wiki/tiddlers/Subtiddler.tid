@@ -4,7 +4,6 @@ modified: 20220221020444699
 modifier: soren
 tags: Meta Public
 title: Subtiddler
-tmap.id: 2679d414-f5d3-45f3-a8f5-0ae968aca881
 type: text/vnd.tiddlywiki
 
 A ''subtiddler'' is a tiddler which is tightly coupled to another, larger tiddler. It's not an idea of its own, it's a part of some larger idea which benefits from being compartmentalized.

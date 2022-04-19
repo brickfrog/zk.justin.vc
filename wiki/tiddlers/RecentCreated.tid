@@ -1,9 +1,8 @@
 created: 20210725065512266
 modified: 20220303054448056
-revision: 0
 tags: Meta Public
 title: RecentCreated
-tmap.id: 28abd52c-244b-470a-a046-19639e901480
+type: text/vnd.tiddlywiki
 
 There are <$count filter="[all[tiddlers]]"/> tiddlers, and below are the 50 most recently -created- (vs. modified, which can be seen in the recent tab of the sidebar) tiddlers.
 

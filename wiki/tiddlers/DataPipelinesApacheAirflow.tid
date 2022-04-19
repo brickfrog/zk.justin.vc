@@ -2,17 +2,16 @@ author: Bas Harenslak Julian de Ruiter
 caption: Data Pipelines with Apache Airflow
 completed: 
 created: 20220318230038864
-due: 202204031200
+due: 202204231200
 isbn: 9781617296901
 ivl: 5
 list: DataPipelinesApacheAirflow/Part1 DataPipelinesApacheAirflow/Part2 DataPipelinesApacheAirflow/Part3 DataPipelinesApacheAirflow/Part4
 medium: book
-modified: 20220330025539753
+modified: 20220419012813212
 rating: 
 readstatus: partial
 tags: Source Public
 title: DataPipelinesApacheAirflow
-tmap.id: 373445b4-49b7-412e-b7d0-583ed56557c6
 type: text/vnd.tiddlywiki
 url: 
 year: 2020

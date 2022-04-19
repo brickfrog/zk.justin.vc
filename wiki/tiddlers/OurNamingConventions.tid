@@ -4,7 +4,6 @@ modified: 20220406212102433
 modifier: soren
 tags: Meta Public
 title: OurNamingConventions
-tmap.id: ce49cf2b-cc6b-4af3-8330-8356ae8e9282
 type: text/vnd.tiddlywiki
 
 In order to help keep track of all the entries here, certain [[NamingConvention]]s are observed on tiddler titles. Titles serve as [[IdeaApi]]s, so need to be clear and consistent.

@@ -2,7 +2,7 @@ created: 20220302152108027
 modified: 20220302173140552
 tags: $:/tags/Macro
 title: $:/jtm/macros/title-glitch
-tmap.id: 219958ff-2697-4cd9-8991-5dbe759ee753
+type: text/vnd.tiddlywiki
 
 \define glitch(text: "justin.vc")
   <div class="glitch-stack" style="--stacks: 3;">

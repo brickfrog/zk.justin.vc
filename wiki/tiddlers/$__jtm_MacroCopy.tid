@@ -3,12 +3,10 @@ creator: user
 list: 
 modified: 20211124053052024
 modifier: user
-revision: 0
 source: https://tiddlywiki.narkive.com/kHG9RlNh/tw-copy-button-in-each-code-block
 tags: TW5 $:/tags/Macro copy-code-to-clipboard
 title: $:/jtm/MacroCopy
-tmap.id: 7de70106-1afa-40e7-b986-5462700655bb
-type: 
+type: text/vnd.tiddlywiki
 
 \define copy-code(language:"" code:"" title:"" display-language:"show")
 <span class="copy-code-to-clipboard">

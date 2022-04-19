@@ -4,7 +4,6 @@ search-hide: true
 source: https://github.com/apache/arrow
 tags: Package C++ Platform Idea Public
 title: ApacheArrow
-tmap.id: 8f658f65-3995-4643-83f1-bb33430e2472
 topic: 
 type: text/vnd.tiddlywiki
 url: https://arrow.apache.org/docs/

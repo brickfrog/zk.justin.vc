@@ -11,7 +11,6 @@ rating:
 readstatus: read
 tags: Source Public
 title: Kafka101
-tmap.id: 8b346d4c-6286-4f29-8707-5d32a199442d
 type: text/vnd.tiddlywiki
 url: https://developer.confluent.io/learn-kafka/apache-kafka/events/
 year: 2021

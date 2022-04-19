@@ -1,9 +1,8 @@
 created: 20211124001705974
 modified: 20220221020444697
-revision: 0
 tags: Examples Public
 title: StrexExample
-tmap.id: 2e7add1d-b0dd-44d9-8226-5001d05602f2
+type: text/vnd.tiddlywiki
 
 ''Compact and powerful.'' Want to hide some content? `<<strex magic>>` will stretch it out when the dots are clicked: <<strex magic>>. Use presets for simplicity or define your own styles and flavors. Tell stories using complex [[nested structures|TextStretch Transclusion Examples]] and transclusion.
 

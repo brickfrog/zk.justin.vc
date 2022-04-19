@@ -2,10 +2,9 @@ color: #a5a5ee
 created: 20211129083729006
 icon: $:/jtm/images/icons/rust
 modified: 20220221020444685
-revision: 0
 tags: Public
 title: Rust
-tmap.id: a42cffbc-6cd5-4f03-8b79-47a4aa030dcb
+type: text/vnd.tiddlywiki
 url: https://www.rust-lang.org
 
 {{!!url}}

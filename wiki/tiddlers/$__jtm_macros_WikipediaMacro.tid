@@ -1,9 +1,8 @@
 created: 20211124022314333
 modified: 20220123031250243
-revision: 0
 tags: $:/tags/Macro
 title: $:/jtm/macros/WikipediaMacro
-tmap.id: 542f98bc-2a7e-40f8-8f64-d1adb9419566
+type: text/vnd.tiddlywiki
 wikipedia: Esalen_Institute
 
 \define wikipedia(url:"")

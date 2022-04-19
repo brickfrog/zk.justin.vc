@@ -1,9 +1,8 @@
 created: 20211217194220402
 modified: 20220221020444614
-revision: 0
 tags: Public
 title: bodo.ai
-tmap.id: ad34e71e-322f-451e-9e0d-b10e56ecf10f
+type: text/vnd.tiddlywiki
 url: https://www.bodo.ai
 
 parallel python computing, supposedly faster than spark, ray, dask, etc.

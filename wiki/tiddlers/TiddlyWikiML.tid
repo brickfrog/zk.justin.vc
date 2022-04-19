@@ -1,10 +1,9 @@
 caption: ML categorization for Wiki
 created: 20210829213924576
 modified: 20220221020444703
-revision: 0
 tags: Public
 title: TiddlyWikiML
-tmap.id: 3765fe28-9fdb-42c5-820a-34059f04273e
+type: text/vnd.tiddlywiki
 
 >> It would be neat to have an algorithm that used ML to categorize all expressed ideas and put them into a hierarchical tree for browsing and also allowed you to highlight nodes for ideas that were novel to that tree/category
 

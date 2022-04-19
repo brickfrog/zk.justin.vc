@@ -1,32 +1,10 @@
+created: 20220418225818285
+modified: 20220418225818285
 status: complete
+tags: 
 title: $:/Import
 type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/palette]]
-# [[$:/theme]]
-# [[$:/core/ui/Buttons/more-page-actions]]
-# [[$:/core/images/advanced-search-button]]
-# [[$:/core/images/cancel-button]]
-# [[$:/core/images/close-button]]
-# [[$:/core/images/delete-button]]
-# [[$:/core/images/done-button]]
-# [[$:/core/images/down-arrow]]
-# [[$:/core/images/edit-button]]
-# [[$:/core/images/export-button]]
-# [[$:/core/images/info-button]]
-# [[$:/core/images/left-arrow]]
-# [[$:/core/images/menu-button]]
-# [[$:/core/images/new-button]]
-# [[$:/core/images/new-image-button]]
-# [[$:/core/images/new-journal-button]]
-# [[$:/core/images/options-button]]
-# [[$:/core/images/right-arrow]]
-# [[$:/core/images/save-button]]
-# [[$:/core/images/up-arrow]]
-# [[$:/themes/jd/Material]]
-# [[$:/themes/jd/Material/images/overflow-button]]
-# [[$:/themes/jd/Material/Template/Header-Sidebar]]
-# [[$:/plugins/BurningTree/hammerwidgets]]
-# [[$:/plugins/tiddlywiki/hammerjs]]
+# [[$:/plugins/felixhayashi/tiddlymap]]

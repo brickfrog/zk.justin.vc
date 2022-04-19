@@ -7,7 +7,6 @@ modified: 20220221020444659
 modifier: soren
 tags: Meta Public
 title: NeedsAttention
-tmap.id: 5444f626-baa2-4c6a-964f-38dd861be690
 type: text/vnd.tiddlywiki
 
 <$list filter="[<currentTiddler>!is[blank]]">

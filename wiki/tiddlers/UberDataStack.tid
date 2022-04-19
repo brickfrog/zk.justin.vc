@@ -1,9 +1,8 @@
 created: 20210918050906899
 modified: 20220221020444704
-revision: 0
 tags: TechStacks Public
 title: UberDataStack
-tmap.id: 8efa46ef-c135-4ab7-9533-66a8f7ff2e75
+type: text/vnd.tiddlywiki
 
 * Events/feeds > KafkaSoftware
 * Tiered Data Lake

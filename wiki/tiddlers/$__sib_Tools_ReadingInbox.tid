@@ -1,7 +1,7 @@
 created: 20210215024632766
 creator: soren
 description: Show sources you might want to read soon.
-modified: 20220417223947486
+modified: 20220419011053503
 modifier: soren
 tags: Tool
 title: $:/sib/Tools/ReadingInbox
@@ -13,7 +13,6 @@ type: text/vnd.tiddlywiki
 	<td><$list filter="[all[current]has[url]]"><a href={{!!url}} class="tc-tiddlylink-external">
      <i class="fas fa-link"></i></a></$list></td>
 	<td>//<$link to={{!!title}}>{{!!caption}}</$link>  ({{!!medium}})//</td>
-	<td>{{!!bibliography}}</td>
 	<!--<td>$dueFragment$</td>-->
 	<td>
 		<<read-status-selector>>
@@ -47,7 +46,6 @@ The table does not include [[lifetime reading items|LifetimeReading]] unless the
 	<tr>
 		<th style="width: 3.5em;">Text</th>
 		<th>Title (Medium)</th>
-		<th>Bibliography</th>
 		<!--<th style="width: 6.2em;">Due</th>-->
 		<th style="width: 6.5em;">Status</th>
 		<th style="width: 10em;">Postpone</th>

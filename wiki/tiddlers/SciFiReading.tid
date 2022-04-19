@@ -2,7 +2,6 @@ color: #6c6cff
 created: 20210805055338136
 icon: $:/core/images/list-bullet
 modified: 20220221020444686
-revision: 0
 tags: Public
 tbl-add-records: 
 tbl-anything: 
@@ -38,7 +37,7 @@ tbl-style-colgroup:
 tbl-style-container: 
 tbl-style-table: width:100%;
 title: SciFiReading
-tmap.id: 7a37d7b5-41ba-4d85-9f53-c0d6574b72c9
+type: text/vnd.tiddlywiki
 
 Reading / Read list for SciFi, going by HugoAward and NebulaAward winners  (See: HugoNebulaList) . (Currently attempting to read in chronological order, have finished a few already, so starting with 1959 for TW purposes)
 

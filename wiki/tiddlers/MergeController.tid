@@ -1,13 +1,15 @@
 created: 20220414163824027
-modified: 20220414164249036
+modified: 20220418174734615
 search-hide: true
 tags: Idea Public
-title: MergeNazi
-tmap.id: dc66388a-c94d-4713-a48b-3f91a09db972
+title: MergeController
 topic: 
 type: text/vnd.tiddlywiki
 
-This is the primary term I've heard used for the idea, I'm sure there must be a more... eloquent way to phrase it.
+~~This is the primary term I've heard used for the idea, I'm sure there must be a more... eloquent way to phrase it~~
+
+Keeping this termed for vanilla until I can find a better phrase, I feel like there has to be a term for this. <<fnote "Just for historical purposes, the term I've heard bandied about is merge nazi">>
+
 
 Primarily, this is a person who keeps tight lockdowns on what goes into a system. This can be good in situations where you have a focused system, something like Redis or sqlite. This prevents bloat and FeatureCreep. Essentially, DoOneThingWell.
 

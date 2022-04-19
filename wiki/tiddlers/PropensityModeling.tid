@@ -1,8 +1,7 @@
 created: 20211009170923057
 modified: 20220221020444672
-revision: 0
 tags: DataScience Public
 title: PropensityModeling
-tmap.id: 1a89f07c-067c-4acd-aaa8-608c74a857cc
+type: text/vnd.tiddlywiki
 
 Propensity modelling is a process of assigning propbabilities to commit a certain action (e.g. to buy, to churn, etc.) to each individual in your customer base using statistical models.

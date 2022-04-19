@@ -1,9 +1,8 @@
 created: 20211120003901564
 modified: 20220221020444700
-revision: 0
 tags: Public
 title: TagCount
-tmap.id: 1f5ba1fc-310c-4f57-8a35-e9ad5a7aad05
+type: text/vnd.tiddlywiki
 
 \define lingo-base() $:/language/TagManager/
 \define sub() [tagging[]count[]]

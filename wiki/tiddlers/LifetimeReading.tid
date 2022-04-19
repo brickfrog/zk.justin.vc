@@ -3,7 +3,6 @@ created: 20210703165332506
 modified: 20220311200937166
 tags: Bibliography Public
 title: LifetimeReading
-tmap.id: 200c1528-12dd-410a-b768-10c8c3b6ff28
 type: text/vnd.tiddlywiki
 
 \define priorityFilt() [get[priority]else[3]compare:number:lteq{$:/temp/LifetimeReading!!priority}]

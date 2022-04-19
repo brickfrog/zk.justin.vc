@@ -2,7 +2,6 @@ created: 20210314172952000
 modified: 20220312105713063
 tags: Software Public
 title: BacktraderPython
-tmap.id: ff4f3b1a-7b4e-45d9-b2fe-b7ab5b28ff23
 type: text/vnd.tiddlywiki
 
 A #Package for [[Backtesting]] in Python. Mentioned in [[PythonForFinanceCookbook]].

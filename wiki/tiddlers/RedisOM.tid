@@ -4,7 +4,6 @@ search-hide: true
 source: https://github.com/redis/redis-om-python
 tags: Package Public Idea
 title: RedisOM
-tmap.id: 581d1a2a-2377-4433-90f9-7ebb1a4bcad1
 type: text/vnd.tiddlywiki
 url: https://github.com/redis/redis-om-python/blob/main/docs/index.md
 

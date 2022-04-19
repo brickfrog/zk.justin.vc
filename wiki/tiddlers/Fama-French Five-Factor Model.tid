@@ -1,9 +1,8 @@
 created: 20210314223852000
 modified: 20220221020444639
-revision: 0
 tags: Public
 title: Fama-French Five-Factor Model
-tmap.id: 9df6b8f4-6dc0-4122-9270-99fb0f2dbadf
+type: text/vnd.tiddlywiki
 
 Extension of [[Fama-French Three-Factor Model]] adding:
 

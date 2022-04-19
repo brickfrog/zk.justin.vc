@@ -5,25 +5,22 @@ created: 20220417223518157
 draft.of: BeTheOutlier
 draft.title: BeTheOutlier
 medium: book
-modified: 20220418001817548
+modified: 20220419025907492
 rating: 
 readstatus: partial
 tags: Source Interviewing Public
 title: Draft of 'BeTheOutlier'
-tmap.id: d49c5245-b593-4327-a1aa-b29bad74b9be
 type: text/vnd.tiddlywiki
 url: 
 year: 2020
 
-A DataScience interview book. I've found myself needing to go over the basics and making [[Anki]] cards out of them. This one is relatively short so I figured I'd do this one first. It's about ~150 pages, so shouldn't be too bad.
+A DataScience interview book. I've found myself needing to go over the basics and making [[Anki]] cards out of them (see [[BeTheOutlier/Questions]]). This one is relatively short so I figured I'd do this one first. It's about ~150 pages, so shouldn't be too bad.
 
 !! Technical Rounds
 * Modeling and Machine Learning
 
 !!! [[Overfitting]] in Predictive Models
 
-<<rememberq "20220417231755781"
-	"How can you avoid overfitting in predictive models?" "A">>
 * BiasVarianceTradeoff
 ** Reduction of model complexity - too many features (forward stepwise)
 ** Regularization - shrink/regularize coefficient estimates towards zero
@@ -32,34 +29,10 @@ A DataScience interview book. I've found myself needing to go over the basics an
 *** Lasso
 **** Penalizing high value coefficient, shrinking them to zero as opposed to shrinking like in ridge.
 *** Cross-validation as a preventative measure, K-Fold
-<<rememberq "20220417231549050"
-	"What is the difference between forward stepwise and backward stepwise regression?" "A">>
-<<rememberq "20220417231514050" "Why does Lasso tend to shrink estimates to zero whereas Ridge shrinks them close to zero?" "A">>
 
 !!! K-Means Clustering Clusters
 
-<<rememberq "20220417232619049"
-	"How will you define the number of clusters in a clustering
-algorithm?"
-	"A">>
 * Commonly used process is the Elbow Curve - reducing intra-cluster variation, minimizing the WSS (within-cluster sum of square) - when plotted you can tell the huge drop off after X clusters. (typically Euclidian distance)
-<<rememberq "20220417232630375"
-	"What are some other clustering techniques? E.g., hierarchical clustering,
-density-based clustering."
-	"A">>
-<<rememberq "20220417232630961"
-	"Which clustering algorithm is typically sensitive to outliers?"
-	"A">>
-<<rememberq "20220417232634061"
-	"Can clustering be used to improve the accuracy of a linear regression model? If so, how?"
-	"A">>
-<<rememberq "20220417232749051"
-	"Can categorical variables be used in k-means clustering?"
-	"A">>
-<<rememberq "20220417232805296"
-	"If there is mix of categorical and continuous variables, which clustering
-technique would you use?"
-	"A">>
 
 !!! Favorite Algorithm
 
@@ -67,23 +40,65 @@ technique would you use?"
 ** My favorite algorithm is...
 ** This can be used for...
 ** It works this way...
-** List some more ways it's good
+** It's good in general because...
 ** I used it to...
 
 Some miscellaneous questions on random forests and topics to investigate:
 
-<<rememberq "20220418001639519"
-	"How do models like Random Forest determine feature importance?"
-	"A">>
-<<rememberq "20220418001644062"
-	"What are the key hyper parameters to specify when building a Random
-Forest?"
-	"A">>
-<<rememberq "20220418001644662"
-	"How can overfitting be avoided in Random Forests?"
-	"A">>
-
-* InformationGain, GiniIndex, [[Bagging]], [[Boosting]], GradientBoosting, XGBoost, RandomForest
+* InformationGain, GiniIndex, [[Bagging]], [[Boosting]], GradientBoosting, [[XGBoost]], RandomForest
 
 !!! Evaluating Performance
 
+* Classification
+** ConfusionMatrix
+*** TARGET VS ACTUALS
+*** Positive / Positive (True Positive)
+*** Positive / Negative (False Positive - Type I Error)
+*** Negative / Positive (False Negative - Type II Error)
+*** Negative / Negative (True Negative)
+*** Precision - TP / (TP + FP)
+*** Negative Predicted Value - TN / (TN +FN)
+*** Sensitivity / Recall - TP / (TP + FN)
+*** Specificity - TN / (TN + FP)
+*** Overall Accuracy - (TP + TN) / (TP + TN + FP + FN)
+** F1 Score
+*** Balancing betwen precision and recall, harmonic mean of precision and recall, punishing extreme values to keep balance
+** AUC (Area Under ROC)
+*** Shows tradeoff between specitivity and sensitivity, showing them on the x and y axis respectively
+* Regression
+** RMSE
+*** $$
+R M S E=\sqrt{\frac{\sum_{i=1}^{N}\left(\text { Predicted }_{i}-\text { Actual }_{i}\right)^{2}}{N}}
+$$
+*** Measure of how spread out residuals are, difference between actuals and predicted, penalizing higher prediction errors more than MAE
+** MAE
+** $$
+M A E=\frac{1}{n} \sum_{j=1}^{n}\left|y_{j}-\hat{y}_{0 j}\right|
+$$
+*** Average of the absolute difference between the preidcted values and observed value
+** R-Square
+*** $$
+\begin{aligned}
+R^{2} &=1-\frac{\sum_{i=1}^{n}\left(Y_{i}-\widehat{Y_{l}}\right)^{2}}{\sum_{i=1}^{n}\left(Y_{i}-\bar{Y}\right)^{2}} \\
+R_{a d j}^{2} &=1-\left[\frac{\left(1-R^{2}\right)(n-1)}{n-k-1}\right]
+\end{aligned}
+$$
+*** Adjusted R-Square penalizes features, and will always be less or equal to R-Square
+** Additionally, check if the model is directionally correct, whether the sign of the coefficients is directionally intuitive
+
+!!! ARIMA Parameters
+
+* Trend / Seasonality / Cyclicity / Randomness (Noise)
+* Three key parameters
+** P (periods for lag)
+** D (differencing - stationary)
+** Q (lag of error component)
+** P & Q, ACF and PACF plots
+*** ACF - auto-correlation plot between predictor variable and its lagged values
+*** PACF, partial-auto-correlation plot at lag Q is the correlation that results after removing the effect of any correlations due to the terms at shorter lag.
+*** Looking at tailing off as the effect weakens
+** D
+*** Stationarity, plots of differenced variables can be inspected to determine when it does not have trend/seasonality
+
+
+!!! Probability

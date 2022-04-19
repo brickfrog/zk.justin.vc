@@ -1,10 +1,9 @@
 created: 20211226020335268
 modified: 20220221020444706
-revision: 0
 source: https://github.com/vaexio/vaex
 tags: Python Package Public
 title: Vaex
-tmap.id: ab31010c-f0fb-4113-a65b-78f35a5e987b
+type: text/vnd.tiddlywiki
 url: https://vaex.io/docs/index.html
 
 Out-of-Core hybrid ApacheArrow/NumPy DataFrame for Python, ML

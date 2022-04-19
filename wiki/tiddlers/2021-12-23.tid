@@ -1,9 +1,8 @@
 created: 20211223132753853
 modified: 20220221020444592
-revision: 0
 tags: Journal Public
 title: 2021-12-23
-tmap.id: 68e09783-de54-419a-bab1-b79a62b7cdc9
+type: text/vnd.tiddlywiki
 
 * discussion led to discovery of [[Minio]], cloud object storage, friend noted the codebase is very good, worth looking into if the need arises
 * After yesterdays Adaptation reviews, ended up watching "I'm Thinking of Ending Things" - read a couple explainers afterwards, and remembered RedLetterMedia's discussion on it, might revisit [[CharlieKaufman]]'s work, I think 

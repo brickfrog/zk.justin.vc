@@ -4,7 +4,6 @@ modified: 20220303064022567
 modifier: soren
 tags: Meta Public
 title: Footnote
-tmap.id: 0e20d881-88a9-433e-b498-e58d1007aebf
 type: text/vnd.tiddlywiki
 
 To add a footnote in a Zettelkasten tiddler, use the fnote macro in the spot where you want to create the footnote. Footnotes are primarily accessed by hovering over the number; the ReferenceExplorer also displays footnotes on a [[footnotes tab|$:/sib/refexplorer/Footnotes]].

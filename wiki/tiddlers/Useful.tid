@@ -2,10 +2,9 @@ color: #6c6cff
 created: 20210603033016555
 icon: $:/core/images/list-bullet
 modified: 20220221020444705
-revision: 0
 tags: Index Public
 title: Useful
-tmap.id: db62c00e-1b15-43f6-95f5-f31a085358ca
+type: text/vnd.tiddlywiki
 
 A collection of sub-topics with useful notes / things I probably should remember about a specific thing
 

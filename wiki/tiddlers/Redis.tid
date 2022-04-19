@@ -1,14 +1,13 @@
 created: 20220414163342324
 description: An in-memory data structure store, used as a distributed, in-memory key–value database
-modified: 20220414163817500
+modified: 20220418174616422
 search-hide: true
 tags: Idea Software Public
 title: Redis
-tmap.id: 8b93c349-7486-4b2d-a9ad-40a86d39927e
 topic: 
 type: text/vnd.tiddlywiki
 wikipedia: Redis
 
 "Remote Dirctionary Server", an interesting data structure store where a system is essentially a store and a cache, with data read from memory, and the store used to recreate when needed, e.g. for restarts.
 
-In discussions with friends / other tech workers, the popularity and focus of redis was due to the propoensity of the founder (SalvatoreSanfilippo) to be a bit of a MergeNazi.
+In discussions with friends / other tech workers, the popularity and focus of redis was due to the propoensity of the founder (SalvatoreSanfilippo) to be a bit of a MergeController.

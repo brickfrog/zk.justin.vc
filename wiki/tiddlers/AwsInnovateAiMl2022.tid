@@ -3,10 +3,9 @@ color: #6c6cff
 created: 20220224162420446
 icon: $:/core/images/list-bullet
 modified: 20220224181901223
-revision: 0
 tags: Event Conference Public
 title: AwsInnovateAiMl2022
-tmap.id: a1a973e6-1a04-4820-9f49-5b9dee0316bc
+type: text/vnd.tiddlywiki
 
 
 AWS' AI/ML Conference for 2022. A bit of a meta note is I need to excise into <<tag Idea>> tiddlers. Didn't end up doing this for PyCon2021, kind of regret. Also viewing this live, so no links. Amazon seems to like obsfucating all their stuff.

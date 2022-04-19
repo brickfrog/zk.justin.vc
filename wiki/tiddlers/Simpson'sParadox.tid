@@ -1,9 +1,8 @@
 created: 20211226005005935
 modified: 20220221020444689
-revision: 0
 tags: Statistics Public
 title: Simpson'sParadox
-tmap.id: aad956fb-ebf3-4a42-a011-d49ba6d7faf7
+type: text/vnd.tiddlywiki
 
 Combining data and aggregating it can show results differently than when it is seperated out, think causally about the source of the data and any confounding variables. ThinkCausally
 

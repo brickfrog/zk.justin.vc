@@ -1,11 +1,10 @@
 created: 20211102020912757
 modified: 20220307060213748
-revision: 0
 search-hide: true
 tags: C++ Python Platform R DSL Public Idea
 title: Stan
-tmap.id: b7556927-781e-4797-9c97-eebf94594e10
 topic: 
+type: text/vnd.tiddlywiki
 
 A platform for statistical modeling and computation. (https://mc-stan.org)
 

@@ -1,9 +1,8 @@
 created: 20210622050910036
 modified: 20220220224938162
-revision: 0
 tags: $:/tags/Stylesheet
 title: $:/jtm/StyleSheetShortcuts
-tmap.id: 462561f4-ebbf-407b-ace5-cbbeb5636db6
+type: text/vnd.tiddlywiki
 
 /* text alignments */
 .left

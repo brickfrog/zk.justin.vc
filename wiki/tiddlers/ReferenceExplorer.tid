@@ -4,7 +4,6 @@ modified: 20220221020444684
 modifier: soren
 tags: Meta Public
 title: ReferenceExplorer
-tmap.id: b5542d52-e716-419e-967e-2e9925eea9ba
 type: text/vnd.tiddlywiki
 
 At the bottom of every tiddler in the Zettelkasten is the ''Reference Explorer'', which shows all links between tiddlers, separated into tabs based on the ZettelkastenCardType, and allows quickly navigating through them. Several auxiliary tabs (//Link graph// and //Footnotes//) are available as well.

@@ -1,9 +1,8 @@
 created: 20211110090807663
 modified: 20220221020444643
-revision: 0
 tags: Public
 title: FourierTransform
-tmap.id: 5884ef9f-b56d-42de-947c-e25aa19a5a42
+type: text/vnd.tiddlywiki
 
 $$
 S(\omega)=\int_{-\infty}^{\infty} x(t) e^{-j 2 \pi \omega t} d t

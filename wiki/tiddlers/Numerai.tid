@@ -1,9 +1,8 @@
 created: 20210531055814848
 modified: 20220221020444662
-revision: 0
 tags: Publication Public
 title: Numerai
-tmap.id: dc3ec7cd-bc9b-4cc4-9da8-80b237648b68
+type: text/vnd.tiddlywiki
 url: https://numer.ai
 
 "The hardest data science competition" - primarily a competition using clean data to feed models into their "hedge fund" using an [[Ethereum]]-based token on which you stake so there's an incentive to do well.

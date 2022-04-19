@@ -1,11 +1,9 @@
 created: 20151221124124606
 creator: Tobias Beer
 modified: 20220221020444681
-revision: 0
 tabs: Info Examples Install
 tags: Plugins Filters Public
 title: random
-tmap.id: 606238fa-8ecd-4aab-b952-0a4bdfa7b234
 type: text/vnd.tiddlywiki
 
 <<plugin-docs random>>

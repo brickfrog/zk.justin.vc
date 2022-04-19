@@ -2,11 +2,9 @@ color: #e14d00
 created: 20220221222736161
 icon: 
 modified: 20220221223018639
-revision: 0
 tags: Meta Public
 title: Tutorial
-tmap.id: 58a6f9ab-9f2f-4457-8323-a8c840fe621e
-type: 
+type: text/vnd.tiddlywiki
 
 This is a subcategory of <<tag Class>>, where a tutorial is generally something you take to get more knowledge, it is primarily practical with little lecturing inbetween.
 

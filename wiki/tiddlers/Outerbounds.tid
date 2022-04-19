@@ -2,7 +2,6 @@ created: 20220411010153190
 modified: 20220411010327786
 tags: PAO Organization Public
 title: Outerbounds
-tmap.id: af0e472e-d442-4ff6-aac1-7a49682e5fbf
 type: text/vnd.tiddlywiki
 
 The enterprise company tied with [[Metaflow]], the ML package made by [[Netflix]], in similar vein of [[Confluent]] / [[Databricks]], etc. Their main site appears to also have a blog on [[MLOps]] topics: https://outerbounds.com

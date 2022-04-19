@@ -1,3 +1,9 @@
+created: 20220214170908858
+modified: 20220221020444658
+tags: Examples Public
+title: mermaidExample
+type: text/vnd.tiddlywiki
+
 <$mermaid text='
   graph
     A --> C

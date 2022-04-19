@@ -4,7 +4,6 @@ search-hide: true
 source: https://github.com/tiangolo/fastapi
 tags: Python Package WebFramework Idea Public
 title: FastAPI
-tmap.id: c4a6795e-f78f-4ada-9878-41ceae7230b7
 type: text/vnd.tiddlywiki
 url: https://fastapi.tiangolo.com
 wikipedia: FastAPI

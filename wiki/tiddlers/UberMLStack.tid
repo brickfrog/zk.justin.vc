@@ -1,9 +1,8 @@
 created: 20210918082602640
 modified: 20220221020444705
-revision: 0
 tags: TechStacks Public
 title: UberMLStack
-tmap.id: b2cd98bf-0252-4e96-b9c3-887a0c1cb5a9
+type: text/vnd.tiddlywiki
 
 * [[Kafka|KafkaSoftware]] / DataLake
 ** Data Preparation

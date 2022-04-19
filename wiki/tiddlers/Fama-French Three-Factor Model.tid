@@ -1,9 +1,8 @@
 created: 20210314221501000
 modified: 20220221020444639
-revision: 0
 tags: Public
 title: Fama-French Three-Factor Model
-tmap.id: 6c6aacf6-ede2-4926-a90a-932a59e8f3cf
+type: text/vnd.tiddlywiki
 
 Extension of popular [[Capital Asset Pricing Model (CAPM)]] with addition of two factors including small/big market cap and high-low)
 

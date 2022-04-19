@@ -1,0 +1,63 @@
+completed: 
+created: 20220418181549947
+modified: 20220419025744975
+rating: 
+tags: Interviewing Anki Public
+title: BeTheOutlier/Questions
+type: text/vnd.tiddlywiki
+url: 
+
+<<rememberq "20220417231755781"
+	"How can you avoid overfitting in predictive models?"
+  "A">>
+<<rememberq "20220417232619049"
+	"How will you define the number of clusters in a clustering
+algorithm?"
+	"A">>
+<<rememberq "20220417232630375"
+	"What are some other clustering techniques? E.g., hierarchical clustering,
+density-based clustering."
+	"A">>
+<<rememberq "20220417232630961"
+	"Which clustering algorithm is typically sensitive to outliers?"
+	"A">>
+<<rememberq "20220417232634061"
+	"Can clustering be used to improve the accuracy of a linear regression model? If so, how?"
+	"A">>
+<<rememberq "20220417232749051"
+	"Can categorical variables be used in k-means clustering?"
+	"A">>
+<<rememberq "20220417232805296"
+	"If there is mix of categorical and continuous variables, which clustering technique would you use?"
+	"A">>
+<<rememberq "20220418001639519"
+	"How do models like Random Forest determine feature importance?"
+	"A">>
+<<rememberq "20220418001644062"
+	"What are the key hyper parameters to specify when building a Random Forest?"
+	"A">>
+<<rememberq "20220418001644662"
+	"How can overfitting be avoided in Random Forests?"
+	"A">>
+<<rememberq "20220419023939757"
+	"How will you deal with an imbalanced data set when building a predictive model?"
+	"A">>
+<<rememberq "20220419023947480"
+	"What metrics will you evaluate for a classification model built on imbalanced data?"
+	"A">>
+<<rememberq "20220419023951899"
+	"What metric will you look at to evaluate whether a model is overfitting?"
+	"A">>
+<<rememberq "20220419023952635"
+	"What are the limitations of using R-square to evaluate model performance"
+	"A">>
+<<rememberq "20220419025546909"
+	"Why should a time series be transformed into a stationary series before building an ARIMA model?"
+	"A">>
+<<rememberq "20220419025551908"
+	"How do you test for stationarity of time series data?"
+	"A">>
+<<rememberq "20220419025552414"
+	"Can you explain how ARIMA and ARIMAX models are different?"
+	"A">>
+

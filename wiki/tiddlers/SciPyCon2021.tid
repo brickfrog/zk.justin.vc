@@ -3,10 +3,9 @@ color: #6c6cff
 created: 20210724064845542
 icon: $:/core/images/list-bullet
 modified: 20220221020444687
-revision: 0
 tags: Event Python Conference Public
 title: SciPyCon2021
-tmap.id: 44e29575-0a1e-45c1-a040-85abf65236f0
+type: text/vnd.tiddlywiki
 
 
 The 2021 conference for SciPy, much more specialized than PyCon. Most topics aren't particularly relevant for me, so I'll be skimming and trying to take Cornell style notes if possible(?)

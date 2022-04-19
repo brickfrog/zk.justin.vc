@@ -5,7 +5,6 @@ icon: $:/core/images/tag-button
 modified: 20220313214616725
 tags: Meta Public
 title: Bibliography
-tmap.id: 43981544-c48e-4951-9260-99cdbfac807e
 type: text/vnd.tiddlywiki
 
 Sources can be placed in bibliographies by adding the name of a bibliography into the `bibliography` field (logically enough). Bibliography tiddler titles end with //Bibliography//, and they also have a `bibliography` field used to match the appropriate sources. Sources can briefly describe themselves with a one- or two-sentence summary that will get placed on the bibliography in the `description` field (sometimes this can be transcluded as the opening sentences of the tiddler, but be careful that this doesn't remove hard links, or the tiddler might end up not showing up places it's supposed to!). A source can be placed in multiple bibliographies.

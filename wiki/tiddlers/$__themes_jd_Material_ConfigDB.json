@@ -11,7 +11,7 @@
     "fab6": "",
     "headerbtns": "4",
     "icon": "{{$:/core/images/menu-button}}",
-    "statelists": "yes",
+    "statelists": "no",
     "mobilepopups": "yes",
     "outlinenone": "no",
     "fabiconsize": "26px",

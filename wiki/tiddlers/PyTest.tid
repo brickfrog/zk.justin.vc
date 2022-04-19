@@ -4,7 +4,6 @@ search-hide: true
 source: https://github.com/pytest-dev/pytest
 tags: Package Python Idea Public
 title: PyTest
-tmap.id: 69e4a6fd-d6d9-4961-863a-6ced9e9011d4
 topic: 
 type: text/vnd.tiddlywiki
 url: https://pytest.org

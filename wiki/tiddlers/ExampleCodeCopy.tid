@@ -2,10 +2,9 @@ created: 20210527204100789
 creator: user
 modified: 20220303045419924
 modifier: user
-revision: 0
 tags: Examples Public
 title: ExampleCodeCopy
-tmap.id: 54546a34-408e-49d0-aeca-71577209dbd5
+type: text/vnd.tiddlywiki
 
 ;Default code block (without copy-to-clipboard) (syntax coloring provided by [[highlight.js|$:/plugins/tiddlywiki/highlight]])
 
