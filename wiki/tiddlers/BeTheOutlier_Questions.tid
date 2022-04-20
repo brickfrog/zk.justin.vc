@@ -1,6 +1,6 @@
 completed: 
 created: 20220418181549947
-modified: 20220419025744975
+modified: 20220419043230926
 rating: 
 tags: Interviewing Anki Public
 title: BeTheOutlier/Questions
@@ -60,4 +60,19 @@ density-based clustering."
 <<rememberq "20220419025552414"
 	"Can you explain how ARIMA and ARIMAX models are different?"
 	"A">>
-
+<<remembercz "20220419040319964"
+	"$$
+P(\{A \mid B\})=\frac{P(\{B \mid A\}) P(A)}{P(B)}
+$$">>
+<<rememberq "20220419041812971"
+	"$$ \textcolor{red}{P(A \mid B)}=\frac{P(B \mid A) P(A)}{P(B)} $$"
+	"Posterior">>
+<<rememberq "20220419042926909"
+	"$$ P(A \mid B)=\frac{\textcolor{red}{P(B \mid A)} P(A)}{P(B)} $$"
+	"Likelihood">>
+<<rememberq "20220419042930521"
+	"$$ P(A \mid B)=\frac{P(B \mid A) \textcolor{red}{P(A)}}{P(B)} $$"
+	"Prior">>
+<<rememberq "20220419042931922"
+	"$$ P(A \mid B)=\frac{P(B \mid A) P(A)}{\textcolor{red}{P(B)}} $$"
+	"Marginal Likelihood">>

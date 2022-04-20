@@ -5,7 +5,7 @@ created: 20220417223518157
 draft.of: BeTheOutlier
 draft.title: BeTheOutlier
 medium: book
-modified: 20220419025907492
+modified: 20220419061045521
 rating: 
 readstatus: partial
 tags: Source Interviewing Public
@@ -102,3 +102,10 @@ $$
 
 
 !!! Probability
+
+* Discussion of BayesTheorem
+
+
+!!! Statistics
+
+* HypothesisTesting
