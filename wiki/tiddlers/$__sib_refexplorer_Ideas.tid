@@ -2,7 +2,7 @@ caption: Ideas
 condition: [<storyTiddler>backlinks[]] [<storyTiddler>links[]] [<storyTiddler>tagging[]] +[tag[Idea]!title<storyTiddler>sort[]]
 created: 20200321225433677
 creator: soren
-modified: 20220221223859199
+modified: 20220421001743278
 modifier: soren
 tags: $:/tags/ReferenceExplorerTab
 title: $:/sib/refexplorer/Ideas

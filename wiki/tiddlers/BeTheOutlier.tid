@@ -3,7 +3,7 @@ caption: Be the Outlier: How to Ace Data Science Interviews
 completed: 
 created: 20220417223518157
 medium: book
-modified: 20220419025532640
+modified: 20220420233011652
 rating: 
 readstatus: partial
 tags: Source Interviewing Public
@@ -12,7 +12,7 @@ type: text/vnd.tiddlywiki
 url: 
 year: 2020
 
-A DataScience interview book. I've found myself needing to go over the basics and making [[Anki]] cards out of them (see [[BeTheOutlier/Questions]]). This one is relatively short so I figured I'd do this one first. It's about ~150 pages, so shouldn't be too bad.
+A DataScience interview book. I've found myself needing to go over the basics and making [[Anki]] cards out of them (see [[BeTheOutlier/Questions]]). This one is relatively short so I figured I'd do this one first. It's about ~150 pages, so shouldn't be too bad. There's a couple typos and grammar errors, but the technical info doesn't seem that bad (would note that it's surface level enough to where it probably doesn't get a chance to fail horribly).
 
 !! Technical Rounds
 * Modeling and Machine Learning
@@ -97,3 +97,13 @@ $$
 *** Looking at tailing off as the effect weakens
 ** D
 *** Stationarity, plots of differenced variables can be inspected to determine when it does not have trend/seasonality
+
+
+!!! Probability
+
+* Discussion of BayesTheorem
+
+
+!!! Statistics
+
+* HypothesisTesting
