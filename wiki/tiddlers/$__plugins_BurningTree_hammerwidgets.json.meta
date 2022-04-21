@@ -1,9 +1,0 @@
-author: Simon Huber
-core-version: >=5.0.0
-dependents: 
-description: Swipe, Pan, Press, Tap and Pinch Widgets
-list: 
-plugin-type: plugin
-title: $:/plugins/BurningTree/hammerwidgets
-type: application/json
-version: 0.1.0

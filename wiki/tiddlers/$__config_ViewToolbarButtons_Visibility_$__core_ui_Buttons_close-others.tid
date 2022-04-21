@@ -1,6 +1,6 @@
 created: 20210828175053651
-modified: 20211120040655247
-revision: 0
+modified: 20220421020245251
 title: $:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others
+type: text/vnd.tiddlywiki
 
-hide
+show

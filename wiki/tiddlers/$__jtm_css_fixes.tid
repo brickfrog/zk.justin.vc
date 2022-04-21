@@ -1,0 +1,49 @@
+created: 20220421024737887
+modified: 20220421025548486
+tags: $:/tags/Stylesheet
+title: $:/jtm/css_fixes
+type: text/vnd.tiddlywiki
+
+<style>
+div.header-type-wrapper.tc-reveal > div > div.tc-reveal > div.tc-reveal.tc-popup > div.tc-drop-down, div.header-type-wrapper.tc-reveal > div > div.tc-reveal > span.tc-reveal.tc-popup > div.tc-drop-down, .jd-search-buttons .tc-drop-down, .jd-search-buttons .tc-block-dropdown {
+    position: absolute;
+    right: 0;
+}
+<style>
+.tc-drop-down {
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+<style>
+.tc-drop-down, .tc-block-dropdown {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: normal;
+    white-space: normal;
+    border-radius: 2px;
+    max-height: 400px;
+    min-width: 250px;
+    max-width: 300px;
+    overflow: auto;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+<style>
+.tc-drop-down {
+    min-width: 380px;
+    border: 1px solid #22212C;
+    background-color: #22212C;
+    padding: 7px 0 7px 0;
+    margin: 4px 0 0 0;
+    white-space: nowrap;
+    text-shadow: none;
+    line-height: 1.4;
+}
+
+<style>
+.tc-story-river {
+    z-index: 1;
+}

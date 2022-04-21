@@ -1,9 +1,0 @@
-caption: Clock
-created: 20210627030648862
-description: Show the current time and a Pomodoro timer in the upper-right corner of the wiki.
-modified: 20220311095631775
-private: yes
-public: no
-tags: 
-title: $:/config/zettelkasten/FeatureFlags/Clock
-type: text/vnd.tiddlywiki

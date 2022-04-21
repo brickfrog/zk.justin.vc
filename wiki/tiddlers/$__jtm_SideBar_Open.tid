@@ -1,6 +1,6 @@
-caption: {{$:/language/SideBar/Open/Caption}}
+caption: Open&nbsp;&nbsp;
 created: 20220415090237153
-modified: 20220417200112827
+modified: 20220421020432889
 tags: $:/tags/SideBar
 title: $:/jtm/SideBar/Open
 type: text/vnd.tiddlywiki
@@ -25,10 +25,6 @@ $button$
 </div>
 </$droppable>
 \end
-
-{{$:/jtm/SideBar/InfoLinksSegment}}
-
----
 
 <div class="tc-sidebar-tab-open">
 <$list filter="[list<tv-story-list>]" history=<<tv-history-list>> storyview="pop">

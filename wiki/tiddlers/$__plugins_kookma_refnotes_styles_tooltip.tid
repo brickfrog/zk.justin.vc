@@ -1,6 +1,5 @@
 created: 20181215201115750
-modified: 20220221011139572
-revision: 0
+modified: 20220421030018996
 tags: $:/tags/Stylesheet
 title: $:/plugins/kookma/refnotes/styles/tooltip
 type: text/vnd.tiddlywiki
@@ -22,7 +21,7 @@ type: text/vnd.tiddlywiki
 	background-color: <<colour background>>;
 	color: <<colour foreground>>; 
 	text-align: left;
-	max-width: 20em;
+	max-width: 10em;
 	max-height:30em;
 	border-radius: 2px;
 	padding: 5px 10px;

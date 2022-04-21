@@ -1,5 +1,6 @@
 created: 20220201031320654
-modified: 20220201031705165
+modified: 20220421020814099
 title: $:/config/Plugins/Disabled/$:/plugins/kookma/todolist
+type: text/vnd.tiddlywiki
 
-no
+yes

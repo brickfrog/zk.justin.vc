@@ -1,6 +1,6 @@
 created: 20210528144924744
-modified: 20220415090700155
+modified: 20220421020535781
 title: $:/SiteSubtitle
 type: text/vnd.tiddlywiki
 
-{{mermaidExample2}} compiled notes, code, and miscellanea <a href="http://justin.vc/feed.atom" target="_blank" title="subcribe to atom feed" class="atom-link">{{$:/.tb/images/feed}}</a>
+{{mermaidExample2}} {{$:/jtm/SideBar/InfoLinksSegment}} <a href="http://justin.vc/feed.atom" target="_blank" title="subcribe to atom feed" class="atom-link">{{$:/.tb/images/feed}}</a>
