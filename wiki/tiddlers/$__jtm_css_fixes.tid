@@ -1,5 +1,5 @@
 created: 20220421024737887
-modified: 20220421025548486
+modified: 20220421040116586
 tags: $:/tags/Stylesheet
 title: $:/jtm/css_fixes
 type: text/vnd.tiddlywiki
@@ -46,4 +46,9 @@ div.header-type-wrapper.tc-reveal > div > div.tc-reveal > div.tc-reveal.tc-popup
 <style>
 .tc-story-river {
     z-index: 1;
+}
+
+<style>
+h2.tc-title {
+    font-size: 25px;
 }

@@ -1,12 +1,12 @@
 created: 20220302173903976
-modified: 20220415090804054
+modified: 20220421034046459
 tags: $:/tags/Stylesheet
 title: $:/jtm/css/glitch2
 type: text/vnd.tiddlywiki
 
 
 .glitch-vibe {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: relative;
   font-weight: bold;
 	color: <<colour foreground>>;

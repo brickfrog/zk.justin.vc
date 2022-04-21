@@ -1,0 +1,17 @@
+created: 20220421034734647
+list: $:/core/ui/SideBarSegments/site-title $:/core/ui/SideBarSegments/site-subtitle $:/core/ui/SideBarSegments/page-controls $:/plugins/rmnvsl/krystal/headertools $:/core/ui/SideBarSegments/search
+list-before: $:/core/ui/PageTemplate/topleftbar
+modified: 20220421034734647
+tags: $:/tags/PageTemplate
+title: $:/plugins/rmnvsl/krystal/header
+type: text/vnd.tiddlywiki
+
+<header class="krystal-header krystal-header--big">
+
+<$list filter="[all[shadows+tiddlers]tag[$:/plugins/rmnvsl/krystal/header]!has[draft.of]]" variable="listItem" storyview="pop">
+
+<$transclude tiddler=<<listItem>> mode="inline"/>
+
+</$list>
+
+</header>

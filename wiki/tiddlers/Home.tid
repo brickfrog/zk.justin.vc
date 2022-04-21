@@ -2,7 +2,7 @@ color: #15d5bf
 created: 20210528153225122
 description: I mean, "home" is pretty self-explanatory
 list: Home/Navigation Home/About Home/Contact
-modified: 20220421030056105
+modified: 20220421042209109
 tags: Meta Public
 title: Home
 type: text/vnd.tiddlywiki
@@ -23,3 +23,24 @@ Also, to be honest, futzing around with CSS is kind of a vibe for me, akin to mi
 
 <hr class="solid">
 <br>
+
+<div class="zk-footer-row">
+
+<$list filter="[[$:/config/zettelkasten/copyright/UserNotice]has[text]]" emptyMessage={{$:/config/zettelkasten/copyright/InitialNotice}}>{{$:/config/zettelkasten/copyright/UserNotice}}</$list>
+| CopyrightNotice | [[♪🐦|birb]]
+</div>
+<div class="zk-footer-row">
+[[TiddlyWiki Zettelkasten |https://zettelkasten.sorenbjornstad.com]] by [[Soren Bjornstad|https://sorenbjornstad.com]].
+</div>
+
+<style>
+div.zk-footer-row {
+	color: <<color muted-foreground>>;
+	text-align: center;
+}
+
+div.zk-footer-row a.tc-tiddlylink, div.zk-footer-row a.tc-tiddlylink-external {
+	color: <<color muted-foreground>>;
+	text-decoration: underline;
+}
+</style>

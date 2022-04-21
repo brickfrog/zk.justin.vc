@@ -1,0 +1,11 @@
+created: 20220421035753537
+modified: 20220421035755258
+tags: $:/tags/SideBarSegment $:/plugins/rmnvsl/krystal/header $:/plugins/rmnvsl/krystal/header-small
+title: $:/core/ui/SideBarSegments/site-subtitle
+type: text/vnd.tiddlywiki
+
+<div class="tc-site-subtitle">
+
+<$transclude tiddler="$:/SiteSubtitle" mode="inline"/>
+
+</div>
