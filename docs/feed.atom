@@ -7,7 +7,35 @@
   <author>
     <name>Justin Malloy</name>
   </author>
-  <updated>2022-04-21T00:51:16+02:00</updated>
+  <updated>2022-04-28T21:30:58+02:00</updated>
+  <entry>
+    <title>2022-04-28</title>
+    <id>http://justin.vc/#2022-04-28</id>
+    <link href='http://justin.vc/#2022-04-28'/>
+    <updated>2022-04-28T19:37:51+02:00</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>2022-04-25</title>
+    <id>http://justin.vc/#2022-04-25</id>
+    <link href='http://justin.vc/#2022-04-25'/>
+    <updated>2022-04-25T12:31:41+02:00</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>2022-04-22</title>
+    <id>http://justin.vc/#2022-04-22</id>
+    <link href='http://justin.vc/#2022-04-22'/>
+    <updated>2022-04-23T01:43:50+02:00</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>2022-04-21</title>
+    <id>http://justin.vc/#2022-04-21</id>
+    <link href='http://justin.vc/#2022-04-21'/>
+    <updated>2022-04-21T19:07:56+02:00</updated>
+    <summary></summary>
+  </entry>
   <entry>
     <title>2022-04-20</title>
     <id>http://justin.vc/#2022-04-20</id>
@@ -26,7 +54,7 @@
     <title>BeTheOutlier</title>
     <id>http://justin.vc/#BeTheOutlier</id>
     <link href='http://justin.vc/#BeTheOutlier'/>
-    <updated>2022-04-20T19:30:11+02:00</updated>
+    <updated>2022-04-28T18:12:45+02:00</updated>
     <summary></summary>
   </entry>
   <entry>
@@ -328,34 +356,6 @@
     <id>http://justin.vc/#XFiles</id>
     <link href='http://justin.vc/#XFiles'/>
     <updated>2022-03-13T12:41:07+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>EldenRing</title>
-    <id>http://justin.vc/#EldenRing</id>
-    <link href='http://justin.vc/#EldenRing'/>
-    <updated>2022-04-06T13:31:44+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-03-10</title>
-    <id>http://justin.vc/#2022-03-10</id>
-    <link href='http://justin.vc/#2022-03-10'/>
-    <updated>2022-03-10T15:22:57+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>2022-03-07</title>
-    <id>http://justin.vc/#2022-03-07</id>
-    <link href='http://justin.vc/#2022-03-07'/>
-    <updated>2022-03-10T10:42:18+02:00</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>PredictingSuperCustomers</title>
-    <id>http://justin.vc/#PredictingSuperCustomers</id>
-    <link href='http://justin.vc/#PredictingSuperCustomers'/>
-    <updated>2022-04-06T13:31:44+02:00</updated>
     <summary></summary>
   </entry>
 </feed>

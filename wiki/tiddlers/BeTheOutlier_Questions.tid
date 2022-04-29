@@ -1,50 +1,64 @@
 completed: 
 created: 20220418181549947
-modified: 20220419043230926
+modified: 20220429013058376
 rating: 
 tags: Interviewing Anki Public
 title: BeTheOutlier/Questions
 type: text/vnd.tiddlywiki
 url: 
 
-<<rememberq "20220417231755781"
-	"How can you avoid overfitting in predictive models?"
-  "A">>
+<<rememberq "20220428223506746"
+	"What is Bagging?"
+	"Bagging attempts to reduce the chance overfitting complex models. It trains a large number of 'strong' learners in parallel.
+A strong learner is a model that's relatively unconstrained.
+Bagging then combines all the strong learners together in order to 'smooth out' their predictions.">>
+	<<rememberq "20220428223528489"
+	"What is Boosting?"
+	"Boosting attempts to improve the predictive flexibility of simple models. It trains a large number of 'weak' learners in sequence.
+A weak learner is a constrained model (i.e. you could limit the max depth of each decision tree).
+Each one in the sequence focuses on learning from the mistakes of the one before it.
+Boosting then combines all the weak learners into a single strong learner.">>
 <<rememberq "20220417232619049"
-	"How will you define the number of clusters in a clustering
+	"How can you define the number of clusters in a clustering
 algorithm?"
-	"A">>
+	"Elbow Method, Average Silhouette Method, Gap Statistic">>
+	<<rememberq "20220428224317935"
+	"What is the 'Elbow Method' in Clustering?"
+	"The Elbow method looks at the total WSS (within-cluster sum of squares) as a function of the number of clusters - the elbow being a visual artifact showing the drop-off of the WSS in a plot">>
+	<<rememberq "20220428224553670"
+	"What is the 'Average Silhouette' approach in clustering?"
+	"The average silhouette method is similar to the elbow method, measuring the 'quality' of clustering by the average distance between clusters with negative numbers most likely in wrong cluster, 0 between clusters, and approaching 1 are well clustered">>
+	<<rememberq "20220428224555536"
+	"What is the 'Gap Statistic' approach in clustering"
+	"The gap statistic compares the total within intra-cluster variation for different values of k with their expected values under null reference distribution of the data. The estimate of the optimal clusters will be value that maximize the gap statistic (i.e, that yields the largest gap statistic). This means that the clustering structure is far away from the random uniform distribution of points.">>
 <<rememberq "20220417232630375"
-	"What are some other clustering techniques? E.g., hierarchical clustering,
-density-based clustering."
-	"A">>
+	"What is hierarchical clustering?"
+	"Method of clustering which seemks to build a hierarchy, this can be done via agglomerative (bottom-up) or divisive (top-down) approaches, with a metric to determine shape of clusters. Typically compute intensive and not great for big data.">>
+	<<rememberq "20220428225107309"
+	"What is density-based clustering?"
+	"Density-Based Clustering refers to unsupervised learning methods that identify distinctive groups/clusters in the data, based on the idea that a cluster in a data space is a contiguous region of high point density, separated from other such clusters by contiguous regions of low point density.">>
 <<rememberq "20220417232630961"
 	"Which clustering algorithm is typically sensitive to outliers?"
-	"A">>
-<<rememberq "20220417232634061"
-	"Can clustering be used to improve the accuracy of a linear regression model? If so, how?"
-	"A">>
+	"The K-means clustering algorithm is sensitive to outliers, because a mean is easily influenced by extreme values.">>
 <<rememberq "20220417232749051"
 	"Can categorical variables be used in k-means clustering?"
-	"A">>
+	"The k-Means algorithm is not applicable to categorical data, as categorical variables are discrete and do not have any natural origin. So computing euclidean distance for such as space is not meaningful. There are some variations on it that work, however, though. 'k-modes'">>
 <<rememberq "20220417232805296"
 	"If there is mix of categorical and continuous variables, which clustering technique would you use?"
-	"A">>
+	"Gower distance along with PAM (Partitioning Around Medoids) algorithm">>
 <<rememberq "20220418001639519"
 	"How do models like Random Forest determine feature importance?"
-	"A">>
-<<rememberq "20220418001644062"
-	"What are the key hyper parameters to specify when building a Random Forest?"
-	"A">>
-<<rememberq "20220418001644662"
-	"How can overfitting be avoided in Random Forests?"
-	"A">>
+	"Specifically in Random Forests themselves, you can look at the Gini Importance (mean decrease impurity) or Mean Decrease Accuracy.">>
+	<<rememberq "20220428231237206"
+	"What is Gini Importance?"
+	"Each tree is a set of internal nodes and leaves, in the node, a feature is used to make a decision how to divide the data set with similar responses within. The features are selected by some criterion (gini impurity / information gain for classification, variance reduction for regression) We can measure how each feature decrease the impurity of the split (the feature with highest decrease is selected for internal node). For each feature we can collect how on average it decreases the impurity. The average over all trees in the forest is the measure of the feature importance.">>
 <<rememberq "20220419023939757"
 	"How will you deal with an imbalanced data set when building a predictive model?"
-	"A">>
-<<rememberq "20220419023947480"
-	"What metrics will you evaluate for a classification model built on imbalanced data?"
-	"A">>
+	"Look at different performance metrics - Confusion Matrix / Precision / Recall / F1-Score, Resampling Techniques (Under or Oversampling, e.g. remove some from the dominant class, add more to the minority class),or generate synthetic samples (Sythetic Minority Oversampling Tecnique - SMOTE)">>
+	<<remembercz "20220428233240243"
+	"{Precision} is the number of true positives divided by all positive predictions. It is a measure of a classifier’s exactness and a low amount indicates a high number of false positives. Is it also called the {Positive Predictive Value}">>
+	<<remembercz "20220428233357028"
+	"{Recall} is the number of true positives divided by the number of positive values in the test data. It is also called {Sensitivity} or the {True Positive Rate}. It is a measure of a classifier’s completeness. Low amounts of this indicates a high number of false negatives.">>
 <<rememberq "20220419023951899"
 	"What metric will you look at to evaluate whether a model is overfitting?"
 	"A">>
@@ -76,3 +90,37 @@ $$">>
 <<rememberq "20220419042931922"
 	"$$ P(A \mid B)=\frac{P(B \mid A) P(A)}{\textcolor{red}{P(B)}} $$"
 	"Marginal Likelihood">>
+	<<rememberq "20220425203018071"
+	"Can you explain p-values?"
+	"P-values are used to determine the statistical significance of hypothesis testing. Largely, p-values are  the probability of obtaining the observed results of a test, assuming the null hypothesis is correct.">>
+	<<rememberq "20220425203439517"
+	"What is the difference between one-tailed and two-tailed tests?"
+	"A">>
+	<<rememberq "20220425203529479"
+	"What is the difference between Type I and Type II errors?"
+	"A">>
+	<<rememberq "20220425203542678"
+	"What is a normal distribution and how are z-scores calculated?"
+	"A">>
+	<<rememberq "20220425203550851"
+	"What is the central limit theorem? Why is it important?"
+	"A">>
+	<<rememberq "20220425203551413"
+	"What potential biases can you inflict when sampling?"
+	"A">>
+	<<rememberq "20220425204120545"
+	"Is there a reason you use the t-test and
+not the z-test for the numerical variables to compare the means?"
+	"the z-test is used when the population parameters, such as mean and standard deviation, are known whereas the t-test is used when the population parameters are unknown">>
+	<<rememberq "20220425204218472"
+	"How will you decide on the sample size to use for conducting the A/B test"
+	"A">>
+	<<rememberq "20220425204220405"
+	"How long should the experiment run?"
+	"A">>
+	<<rememberq "20220425204224889"
+	"How often will you run an experiment?"
+	"A">>
+	<<rememberq "20220425204226455"
+	"What should your test versus control split be?"
+	"A">>

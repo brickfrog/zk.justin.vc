@@ -1,16 +1,20 @@
 created: 20210721222719275
-modified: 20220418221815010
+modified: 20220421210040898
 tags: Meta Public
 title: Home/Navigation
 type: text/vnd.tiddlywiki
 
 !! <<glitch "how do?">>
 
-The main thing to know is there's tags: (e.g. <<tag Meta>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere.
+''TLDR:'' click random things
 
-Also note the "random idea" link in the sidebar. <<fnote "I need to link more things, though.">> That should be enough to get started quickly / be a jumping off point. 
+The main thing to know is there's tags: (e.g. <<tag Idea>>) and [[links|mermaidExample2]], with tags at the top, generally linking to some sort of overarching subject and intralinks leading to other pieces of content in the site. Links with an underline lead outside of the wiki. If it looks like it's clickable, it's probably clickable and goes somewhere.
 
-Additionally, there's a search icon ( <i class="fas fa-search"></i> - $:/AdvancedSearch ) in the topbar or sidebar, depending on theme <<fnote "I keep changing it, so uh..., yeah">>. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons. One thing to note for mobile is, I use triple-clicks to edit content, so tapping three times in rapid succession will open the edit menu.
+Also note the "random idea" link in the menu. <<fnote "I need to link more things, though.">> That should be enough to get started quickly / be a jumping off point. 
+
+Additionally, there's a search icon ( <i class="fas fa-search"></i> - $:/AdvancedSearch ) in the topbar or sidebar, depending on theme <<fnote "I keep changing it, so uh..., yeah">>. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons.
+
+Right now I'm using the [[Krystal|https://crazko.github.io/krystal/]] theme, which places things column-wise, adding new columns when things are linked. At below ~960 pixels (most mobiles) it defaults to a single column by means of @media CSS.
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 

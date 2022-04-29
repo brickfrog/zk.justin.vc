@@ -1,0 +1,9 @@
+author: James W. Anderson
+core-version: >=5.0.0
+dependents: 
+description: pin tiddlers to the default view
+list: readme
+plugin-type: plugin
+title: $:/plugins/welford/twpin
+type: application/json
+version: 5.1.23

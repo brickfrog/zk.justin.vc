@@ -1,11 +1,11 @@
 author: ShrilataMurthy
 caption: Be the Outlier: How to Ace Data Science Interviews
-completed: 
+completed: 20220427000000000
 created: 20220417223518157
 medium: book
-modified: 20220420233011652
-rating: 
-readstatus: partial
+modified: 20220428221245129
+rating: average
+readstatus: read
 tags: Source Interviewing Public
 title: BeTheOutlier
 type: text/vnd.tiddlywiki
@@ -106,4 +106,34 @@ $$
 
 !!! Statistics
 
-* HypothesisTesting
+*HypothesisTesting
+*DesignOfExperiments (A/B Testing)
+
+!!! Programming
+
+* For SQL, JOINs are processed before WHERE, a CTE would allow the WHERE clause first
+* Skipped the Programming questions, rudimentary - practice other mediums
+
+!!! Cases
+
+* What / Why / How - brainstorm and hypothesize, summarize and recommend
+* Generally, acquisition is more expensive than retention
+* Suggests using gender - ethical considerations(?)
+* F-Score metric in Churn, balance of confusion matrix
+
+!!! Project Work
+
+* Framework
+** Brief Overview
+*** Problem Statement
+*** Solution
+*** Impact
+** Deep Dive
+**Approach
+*** What were various options
+*** Why option chosen
+** Technical Details
+***Challenges?
+** Impact
+*** Impact / ROI
+*** How was ROI calculated

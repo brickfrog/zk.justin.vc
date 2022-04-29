@@ -1,0 +1,60 @@
+{
+    "tiddlers": {
+        "P:\\GitHub\\tiddlywikiplugins\\welford\\twpin\\.gitattributes": {
+            "title": "P:\\GitHub\\tiddlywikiplugins\\welford\\twpin\\.gitattributes",
+            "text": "# Auto detect text files and perform LF normalization\r\n* text=auto\r\n\r\n# Custom for Visual Studio\r\n*.cs     diff=csharp\r\n*.sln    merge=union\r\n*.csproj merge=union\r\n*.vbproj merge=union\r\n*.fsproj merge=union\r\n*.dbproj merge=union\r\n\r\n# Standard to msysgit\r\n*.doc\t diff=astextplain\r\n*.DOC\t diff=astextplain\r\n*.docx diff=astextplain\r\n*.DOCX diff=astextplain\r\n*.dot  diff=astextplain\r\n*.DOT  diff=astextplain\r\n*.pdf  diff=astextplain\r\n*.PDF\t diff=astextplain\r\n*.rtf\t diff=astextplain\r\n*.RTF\t diff=astextplain\r\n",
+            "type": "text/plain"
+        },
+        "$:/plugins/welford/twpin/caption": {
+            "title": "$:/plugins/welford/twpin/caption",
+            "text": "<$fieldmangler tiddler=\"$:/DefaultTiddlers\"><$list filter=\"[all[current]]-[list[$:/DefaultTiddlers]]\">pin tiddler</$list><$list filter=\"[list[$:/DefaultTiddlers]is[current]]\">unpin tiddler</$list></$fieldmangler>"
+        },
+        "$:/plugins/welford/twpin/settings/position": {
+            "title": "$:/plugins/welford/twpin/settings/position",
+            "tags": "",
+            "text": "<$link to=\"$:/config/twpin/position\">Pinned Tiddlers  Display Position</$link>\n\n<$radio tiddler=\"$:/config/twpin/position\" value=\"before\"> Before [[$:/DefaultTiddlers]] </$radio>\n\n<$radio tiddler=\"$:/config/twpin/position\" value=\"after\"> After [[$:/DefaultTiddlers]] </$radio>\r\n"
+        },
+        "$:/plugins/welford/twpin/fidget.js": {
+            "title": "$:/plugins/welford/twpin/fidget.js",
+            "text": "/*\\\r\ntitle: $:/plugins/welford/twpin/fidget.js\r\ntype: application/javascript\r\nmodule-type: widget\r\n\r\nWidget which picks up messages to append values to list fields\r\n\r\n\\*/\r\n(function(){\r\n\r\n/*jslint node: true, browser: true */\r\n/*global $tw: false */\r\n\"use strict\";\r\n\r\nvar Widget = require(\"$:/core/modules/widgets/widget.js\").widget;\r\n\r\nvar Fidget = function(parseTreeNode,options) {\r\n\tthis.initialise(parseTreeNode,options);\r\n\tthis.addEventListeners([\r\n\t\t{type: \"tm-append-to-list\", handler: \"handleAppendToList\"},\t\r\n\t\t{type: \"tm-remove-from-list\", handler: \"handleRemoveFromList\"},\t\r\n\t]);\r\n};\r\n\r\n/*\r\nInherit from the base widget class\r\n*/\r\nFidget.prototype = new Widget();\r\n/*\r\nRender this widget into the DOM\r\n*/\r\nFidget.prototype.render = function(parent,nextSibling) {\r\n\tthis.parentDomNode = parent;\r\n\tthis.computeAttributes();\r\n\tthis.execute();\r\n\tthis.renderChildren(parent,nextSibling);\r\n};\r\n/*\r\nCompute the internal state of the widget\r\n*/\r\nFidget.prototype.execute = function() {\r\n\t// Get our parameters\r\n\tthis.field = this.getAttribute(\"field\");\r\n\tthis.value = this.getAttribute(\"value\");\r\n\t// Construct the child widgets\r\n\tthis.makeChildWidgets();\r\n};\r\n\r\n/*\r\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\r\n*/\r\nFidget.prototype.refresh = function(changedTiddlers) {\r\n\tvar changedAttributes = this.computeAttributes();\r\n\tif(changedAttributes.field || changedAttributes.value) {\r\n\t\tthis.refreshSelf();\r\n\t\treturn true;\r\n\t}\r\n\treturn this.refreshChildren(changedTiddlers);\r\n};\r\n\r\nFidget.prototype.GetParameters = function(event) {\t\r\n\tif(typeof event.paramObject === \"object\") {\r\n\t\t// If we got a hashmap use it as the template\r\n\t\tvar additionalFields = event.paramObject;\r\n\t\tif(additionalFields && additionalFields.field) {\r\n\t\t\tthis.field = additionalFields.field;\r\n\t\t}\r\n\t\tif(additionalFields && additionalFields.value) {\r\n\t\t\tthis.value = additionalFields.value;\r\n\t\t}\r\n\t}\r\n}\r\n\r\nFidget.prototype.handleAppendToList = function(event) {\t\r\n\tthis.GetParameters(event);\r\n\t//get field, add value to front and set it\r\n\tvar tr = $tw.utils.parseTextReference(this.field),\r\n\t\ttitle = tr.title || currTiddlerTitle;\r\n\tvar tiddler = this.wiki.getTiddler(title);\r\n\tif(tiddler) {\r\n\t\tvar original = tiddler.fields[\"list\"];\r\n\t\tvar updatedField;\r\n\t\tif(original){\r\n\t\t\tif(original.indexOf(this.value) == -1){\r\n\t\t\t\tupdatedField = original.slice(0);\r\n\t\t\t\tupdatedField.unshift(this.value);\r\n\t\t\t}\r\n\t\t}\r\n\t\telse{\r\n\t\t\tupdatedField = [this.value];\r\n\t\t}\r\n\t\tthis.wiki.setTextReference(this.field,updatedField,this.getVariable(\"currentTiddler\"));\t\t\t\t\t\t\t\r\n\t}\r\n\treturn false;\r\n};\r\n\r\nFidget.prototype.handleRemoveFromList = function(event) {\r\n\tthis.GetParameters(event);\r\n\tif(this.field && this.value){\r\n\t\t//get field, add value to front and set it\r\n\t\tvar tr = $tw.utils.parseTextReference(this.field),\r\n\t\t\ttitle = tr.title || currTiddlerTitle;\r\n\t\tvar tiddler = this.wiki.getTiddler(title);\r\n\t\tif(tiddler){\t\t\r\n\t\t\tvar original = tiddler.fields[\"list\"];\r\n\t\t\tvar updatedField;\r\n\t\t\tif(original){\r\n\t\t\t\tvar index = original.indexOf(this.value);\r\n\t\t\t\tupdatedField = original.slice(0);\r\n\t\t\t\tif(index > -1){\r\n\t\t\t\t\tupdatedField.splice(index, 1);\r\n\t\t\t\t\tthis.wiki.setTextReference(this.field,updatedField,this.getVariable(\"currentTiddler\"));\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\treturn false;\r\n};\r\n\r\nexports.fidget = Fidget;\r\n\r\n})();\r\n",
+            "type": "application/javascript",
+            "module-type": "widget"
+        },
+        "$:/plugins/welford/twpin/pin.js": {
+            "title": "$:/plugins/welford/twpin/pin.js",
+            "text": "/*\\\r\ntitle: $:/plugins/welford/twpin/pin.js\r\ntype: application/javascript\r\nmodule-type: startup\r\n\r\nAppends hooks so that i can change the default tiddlers\r\n\r\n\\*/\r\n(function(){\r\n\r\n/*jslint node: true, browser: true */\r\n/*global $tw: false */\r\n\"use strict\";\r\n\r\n// Export name and synchronous status\r\nexports.name = \"addpinnedtiddlers\";\r\nexports.platforms = [\"browser\"];\r\nexports.after = [\"startup\"];\r\nexports.before = [\"story\"];\r\nexports.synchronous = true;\r\n\r\n// Default tiddlers\r\nvar DEFAULT_TIDDLERS_TITLE = \"$:/DefaultTiddlers\";\r\nvar POSITION_TIDDLER_TITLE = \"$:/config/twpin/position\";\r\n\r\nexports.startup = function() {\r\n\t$tw.hooks.addHook(\"th-opening-default-tiddlers-list\",function(list) {\r\n\t\t//default to before DEFAULT_TIDDLERS_TITLE \r\n\t\tvar position_before = true;\r\n\t\tif($tw.wiki.getTiddlerText(POSITION_TIDDLER_TITLE,\"before\") !== \"before\") {\r\n\t\t\tposition_before = false;\r\n\t\t}\r\n\t\t// Add pinned tiddlers to the end of the list if they aren't already in it\r\n\t\tvar taggedList = $tw.wiki.getTiddler(DEFAULT_TIDDLERS_TITLE).fields[\"list\"];\r\n\t\tif(taggedList){\r\n\t\t\tvar new_list = [];\r\n\t\t\tfor (var i = 0; i < taggedList.length; i++) {\r\n\t\t\t\tif(list.indexOf(taggedList[i]) === -1 && new_list.indexOf(taggedList[i]) === -1) {\r\n\t\t\t\t\tnew_list.push(taggedList[i]);\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif(new_list.length == 0)\r\n\t\t\t\treturn list;\r\n\r\n\t\t\tif(position_before){\r\n\t\t\t\tlist = new_list.concat(list);\r\n\t\t\t}else{\r\n\t\t\t\tlist = list.concat(new_list);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn list;\r\n\t});\r\n};\r\n\r\n})();",
+            "type": "application/javascript",
+            "module-type": "startup"
+        },
+        "$:/plugins/welford/twpin/button": {
+            "title": "$:/plugins/welford/twpin/button",
+            "tags": "$:/tags/ViewToolbar",
+            "caption": "{{$:/plugins/welford/twpin/images/unpinned}} {{$:/plugins/welford/twpin/caption}}",
+            "list-after": "$:/core/ui/Buttons/info",
+            "description": "Pin a tiddler to the default page",
+            "text": "<$fieldmangler tiddler=\"$:/DefaultTiddlers\"><$fidget><$list filter=\"[all[current]]-[list[$:/DefaultTiddlers]]\"><$button class=<<tv-config-toolbar-class>> tooltip=\"Pin this tiddler\"><$action-sendmessage $message=\"tm-add-field\" $param=\"list\"/><$action-sendmessage $message=\"tm-append-to-list\" field=\"$:/DefaultTiddlers!!list\" value=<<currentTiddler>>/><$action-sendmessage $message=\"tm-save-wiki\"/><$list filter=\"[<tv-config-toolbar-icons>match[yes]]\">{{$:/plugins/welford/twpin/images/unpinned}}</$list><$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\"><span class=\"tc-btn-text\"><$text text={{$:/plugins/welford/twpin/pincaption}}/></span></$list></$button></$list><$list filter=\"[list[$:/DefaultTiddlers]is[current]]\"><$button class=<<tv-config-toolbar-class>> tooltip=\"Unpin this tiddler\"><$action-sendmessage $message=\"tm-add-field\" $param=\"list\"/><$action-sendmessage $message=\"tm-remove-from-list\" field=\"$:/DefaultTiddlers!!list\" value=<<currentTiddler>>/><$action-sendmessage $message=\"tm-save-wiki\"/><$list filter=\"[<tv-config-toolbar-icons>match[yes]]\">{{$:/plugins/welford/twpin/images/pinned}}</$list><$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\"><span class=\"tc-btn-text\"><$text text={{$:/plugins/welford/twpin/unpincaption}}/></span></$list></$button></$list></$fidget></$fieldmangler>"
+        },
+        "$:/plugins/welford/twpin/pincaption": {
+            "title": "$:/plugins/welford/twpin/pincaption",
+            "text": "pin tiddler"
+        },
+        "$:/plugins/welford/twpin/images/pinned": {
+            "title": "$:/plugins/welford/twpin/images/pinned",
+            "tags": "$:/tags/Image",
+            "text": "<svg class=\"tc-image-pinned-button tc-image-button\" viewBox=\"83 81 50 50\" width=\"22pt\" height=\"22pt\">\r\n<path d=\"m 83,112.60511 c 0,1.385 1.100795,2.4858 2.485795,2.4858 l 17.968755,0 0,15.90909 9.0909,0 0,-15.90909 17.96876,0 c 1.385,0 2.48579,-1.1008 2.48579,-2.4858 l 0,-4.11931 C 133,107.1008 131.89921,106 130.51421,106 l -6.60512,0 0,-20.099432 C 123.90909,83.185968 121.72312,81 119.00852,81 l -22.017043,0 c -2.7146,0 -4.900568,2.185968 -4.900568,4.900568 l 0,20.099432 -6.605114,0 C 84.100795,106 83,107.1008 83,108.4858 l 0,4.11931 z m 13.636364,-9.36168 0,-14.941405 c 0,-1.526895 1.229675,-2.75657 2.756569,-2.75657 l 7.013497,0 c 1.52689,0 2.75657,1.229675 2.75657,2.75657 l 0,14.941405 c 0,1.5269 -1.22968,2.75657 -2.75657,2.75657 l -7.013497,0 c -1.526894,0 -2.756569,-1.22967 -2.756569,-2.75657 z\"/>\r\n</svg>"
+        },
+        "P:\\GitHub\\tiddlywikiplugins\\welford\\twpin\\readme.tid": {
+            "title": "P:\\GitHub\\tiddlywikiplugins\\welford\\twpin\\readme.tid",
+            "text": "Pin tiddlers to the main page, independently of $:/DefaultTiddlers"
+        },
+        "$:/plugins/welford/twpin/unpincaption": {
+            "title": "$:/plugins/welford/twpin/unpincaption",
+            "text": "unpin tiddler"
+        },
+        "$:/plugins/welford/twpin/images/unpinned": {
+            "title": "$:/plugins/welford/twpin/images/unpinned",
+            "tags": "$:/tags/Image",
+            "text": "<svg class=\"tc-image-unpinned-button tc-image-button\" viewBox=\"83 81 50 50\" width=\"22pt\" height=\"22pt\">\r\n<path d=\"m 101.39489,81 c -1.385,0 -2.4858,1.100795 -2.4858,2.485795 l 0,17.968755 -15.90909,0 0,9.0909 15.90909,0 0,17.96876 c 0,1.385 1.1008,2.48579 2.4858,2.48579 l 4.11931,0 c 1.385,0 2.4858,-1.10079 2.4858,-2.48579 l 0,-6.60512 20.09943,0 c 2.7146,0 4.90057,-2.18597 4.90057,-4.90057 l 0,-22.017043 c 0,-2.7146 -2.18597,-4.900568 -4.90057,-4.900568 l -20.09943,0 0,-6.605114 C 108,82.100795 106.8992,81 105.5142,81 l -4.11931,0 z m 9.36168,13.636364 14.94141,0 c 1.52689,0 2.75656,1.229675 2.75656,2.756569 l 0,7.013497 c 0,1.52689 -1.22967,2.75657 -2.75656,2.75657 l -14.94141,0 c -1.5269,0 -2.75657,-1.22968 -2.75657,-2.75657 l 0,-7.013497 c 0,-1.526894 1.22967,-2.756569 2.75657,-2.756569 z\" />\r\n</svg>"
+        }
+    }
+}

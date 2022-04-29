@@ -1,0 +1,32 @@
+class: leftbar border-info
+created: 20220428225555904
+description: Notes for <<journalTitle>>
+keywords: 
+modified: 20220428233751652
+productivity: 6
+tags: Journal
+title: 2022-04-28
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Got a bit behind, catching up on reading.
+* Filling out the BeTheOutlier/Questions section.
+* Some good sources while doing this:
+** https://sites.google.com/site/dataclusteringalgorithms/density-based-clustering-algorithm ([[Clustering]])
+** [[Clustering Essentials - Validation|https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/#:~:text=The%20optimal%20number%20of%20clusters%20can%20be%20defined%20as%20follow,sum%20of%20square%20]] [[Clustering]]
+** https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3 [[DecisionTrees]]
+** https://mljar.com/blog/feature-importance-in-random-forest/ [[mljar]] and [[FeatureImportance]]
+
+</$details>

@@ -1,5 +1,5 @@
 created: 20220121020755995
-modified: 20220221020444635
+modified: 20220421205636642
 tags: Examples Public
 title: DetailSearchExample
 type: text/vnd.tiddlywiki
@@ -11,7 +11,7 @@ type: text/vnd.tiddlywiki
 Template for possible interview / knowledge questions
 
 
-<$list filter="[tag[FAQ]search:caption{$:/temp/demo/qa/search-details}]">
+<$list filter="[tag[Home/FAQ]search:caption{$:/temp/demo/qa/search-details}]">
 <$macrocall $name=details label={{!!caption}} src=<<currentTiddler>>
  labelClass="alert alert-secondary py-1 my-2" srcClass="alert border-secondary py-0"/>
 </$list>

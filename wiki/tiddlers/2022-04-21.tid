@@ -1,0 +1,29 @@
+class: leftbar border-info
+created: 20220421182821560
+description: Notes for <<journalTitle>>
+keywords: 
+modified: 20220421230756937
+productivity: 4
+tags: Journal Public
+title: 2022-04-21
+type: text/vnd.tiddlywiki
+vibe: 7
+
+vibe: <$range tiddler={{!!title}}  field="vibe" min="1" max="10" default="7" increment="1"/>
+ productivity: <$range tiddler={{!!title}}  field="productivity" min="1" max="10" default="5" increment="1"/>
+<br>
+
+!!! ''Retrospective''
+
+Beep.
+
+<br>
+
+<$details summary="Notes" open="yes" class="vibe">
+
+* Was trying out stream, think it causes too much chaos for the benefit it gives. Would have to rework how subtiddlers are displayed, and it counts each subsection as a non-shadow.
+* Think I accidently broke some plugins while transferring things to Krystal - look into linking 
+* Finish up RussianDoll -
+** Not much thoughts on it liked S1 better, might need to read some reviews to synthesize
+
+</$details>

@@ -1,0 +1,21 @@
+author: 
+caption: FAQ
+created: 20220414170925774
+description: "Frequently" Asked Questions - mostly just internal thoughts around design and preemptive answers
+modified: 20220421210523062
+tags: Public Meta
+title: Home/FAQ
+type: text/vnd.tiddlywiki
+
+* So, for the software parts, what's the point of blurbs for various projects when there's wikipedia?
+** As noted in my about, a lot of this is for myself, and simply the act of typing things out and connecting the dots helps me remember things. -Most- of the terse tiddlers are meant as a linking point between tutorials and articles I take notes on, and it might be useful if someone wanders into it completely ignorant of a specific technology.
+** Before I started doing this I'd read tons of [[Manning]] / [[O'ReillyMedia]] books and it'd go one ear and out the other. There's the definite problem of things falling off but I feel like as long as I continue the update things I'll run into stubs that I can excise unless I cease using it completely. Which in that case feel free to shoot me an email and be like "this is completely wrong!"
+* This seems a bit cumbersome, have you looked at alternatives?
+** I've tried things such as RoamResearch and [[Obsidian]] but I'm not too much of a fan. I could see them being more useful if I was mobile and needed notes on my phone, but I tend to write all this out on a portrait mode monitor and keep the webserver running 24/7.
+*** Also since it's open source without much profit motive I don't see TiddlyWiki disappearing anytime soon. <<fnote "At worst case, they'll probably make a TW6 or something with new bones, and JeremyRuston is still relatively young.">>
+***I don't trust that a lot of the for-profit notetaking apps will not take the money and run under extreme market competition. See: [[Athens]] vs. RoamResearch vs. Remnote, etc. etc.
+*** Only big downside is the lack of community involvement in TiddlyWiki. A lot of cases I've had to manually grit down and skim through the HTML/CCS/JS to see how it worked vs. finding an easy StackOverflow response like one would with a static site.
+** Static sites might be a good option if I was into more longform writing - worth looking into as a subsection of the site - something similar to [[Gwern]]'s [[Haskell]] code. But, realistically, I'd probably just use [[Substack]] in that case.
+* This looks eehhh on mobile
+** That's not a question <<fnote "always kinda wanted to do that as a snarky FAQ response, sorry">>, but.. I haven't found a good theme on TW that looks "good" on mobile - there's a couple themes that kind of work but jank up a lot of other things. I primarily work/view this on a portrait mode monitor to my side which lets me easily see multiple tiddlers and edit.
+** Was pondering about double compiling in my build step, then pushing it to a mobile version of the site, something like m.justin.vc, maybe using an S3 bucket to redirect based on user agent but that's a bit low priority right now, especially since most viewers are me/my old coworkers/friends who view on desktop.
