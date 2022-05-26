@@ -1,6 +1,6 @@
 # justin.vc
 
-Site built with [TiddlyWiki](https://tiddlywiki.com) for personal notes and such.
+Site built with [TiddlyWiki](https://tiddlywiki.com) for personal notes and such. Published as a static site for browsing purposes. All the fonts and javascript are embedded so no arbitrary callouts to google, etc.
 
 ## Subdomains
 
