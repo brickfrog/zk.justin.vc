@@ -2,7 +2,7 @@ color: #15d5bf
 created: 20210528153225122
 description: I mean, "home" is pretty self-explanatory
 list: Home/Navigation Home/About Home/Contact Home/FAQ
-modified: 20220421205558258
+modified: 20220621230617642
 tags: Meta Public
 title: Home
 type: text/vnd.tiddlywiki
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 The big ''TL;DR'' of this is that it's to help me remember and draw connections between media I consume or ideas I have. I've read way too many books that have slipped into the ether years down the road. 
 
 Also, to be honest, futzing around with CSS is kind of a vibe for me, akin to mindlessly mining in [[Minecraft]] or something. <<fnote "I'd probably hate it if I had to do it for a job, though">> I've also always had a bit of TechNostalgia for the [[Geocities]] sites of yore, wandering through weird little bustles of content.
+
+''Note: As of 2022/06, moving my workflow to org-mode, pondering whether to continue using TW as a display-mechanism or not.''
 
 ---
 
