@@ -1,6 +1,6 @@
 created: 20220104021953401
 creator: Tobias Beer
-modified: 20220406204327673
+modified: 20220808100149286
 modifier: Tobias Beer
 tags: Public
 title: feed.atom
@@ -13,10 +13,10 @@ type: text/vnd.tiddlywiki
 
 `<?xml version="1.0" encoding="utf-8"?>`
 `<feed xmlns="http://www.w3.org/2005/Atom">`
-&nbsp;&nbsp;`<id>`https://justin.vc/feed.atom`</id>`
+&nbsp;&nbsp;`<id>`https://zk.justin.vc/feed.atom`</id>`
 &nbsp;&nbsp;`<title>`{{$:/SiteTitle}}`</title>`
 &nbsp;&nbsp;`<subtitle>`compiled notes, code, and miscellanea`</subtitle>`
-&nbsp;&nbsp;`<link href="http://justin.vc/feed.atom" rel="self" type="application/atom+xml"/>`
+&nbsp;&nbsp;`<link href="http://zk.justin.vc/feed.atom" rel="self" type="application/atom+xml"/>`
 &nbsp;&nbsp;`<author>`
 &nbsp;&nbsp;&nbsp;&nbsp;`<name>`Justin Malloy`</name>`
 &nbsp;&nbsp;`</author>`

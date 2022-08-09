@@ -1,0 +1,21 @@
+created: 20220805000000000
+modified: 20220808191721153
+tags: programming org
+title: testing test
+type: text/vnd.tiddlywiki
+
+
+! Summary
+
+This is a test article for pandoc and figure out all the associated classes. [[flow state]] is neat. Beep. Beep.
+
+* This
+* is
+* a
+** nested
+***list
+* list
+
+!! Other
+
+Also some other stuff, I guess. Woop. A link to something such as [[julia programming language]]

@@ -1,10 +1,10 @@
 created: 20220302152108027
-modified: 20220302173140552
+modified: 20220808100526567
 tags: $:/tags/Macro
 title: $:/jtm/macros/title-glitch
 type: text/vnd.tiddlywiki
 
-\define glitch(text: "justin.vc")
+\define glitch(text: "zk.justin.vc")
   <div class="glitch-stack" style="--stacks: 3;">
     <span style="--index: 0;">$text$</span>
     <span style="--index: 1;">$text$</span>

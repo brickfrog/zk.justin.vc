@@ -2,9 +2,8 @@ caption: Info
 created: 20210623014041787
 creator: soren
 list-after: $:/core/ui/SideBarSegments/site-subtitle
-modified: 20220417200538532
+modified: 20220808101811920
 modifier: soren
-tags: $:/tags/SideBarSegment
 title: $:/jtm/SideBar/InfoLinksSegment
 type: text/vnd.tiddlywiki
 

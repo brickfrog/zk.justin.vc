@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "My nice notes",
     "dependencies": {
-        "tiddlywiki": "^5.2.2"
+        "tiddlywiki": "^5.2.3"
     },
     "author": "justin",
     "license": "See copyright notice in wiki"

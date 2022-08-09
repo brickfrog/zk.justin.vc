@@ -1,5 +1,5 @@
 created: 20210721222719275
-modified: 20220421210040898
+modified: 20220808103031266
 tags: Meta Public
 title: Home/Navigation
 type: text/vnd.tiddlywiki
@@ -13,8 +13,6 @@ The main thing to know is there's tags: (e.g. <<tag Idea>>) and [[links|mermaidE
 Also note the "random idea" link in the menu. <<fnote "I need to link more things, though.">> That should be enough to get started quickly / be a jumping off point. 
 
 Additionally, there's a search icon ( <i class="fas fa-search"></i> - $:/AdvancedSearch ) in the topbar or sidebar, depending on theme <<fnote "I keep changing it, so uh..., yeah">>. Generally things are optimized for desktop <<fnote "I very rarely use my phone for things unless I'm away for some reason (or my computer exploded)">> but should be perfectly navigatable from mobile assuming you aren't setting out to randomly mash buttons.
-
-Right now I'm using the [[Krystal|https://crazko.github.io/krystal/]] theme, which places things column-wise, adding new columns when things are linked. At below ~960 pixels (most mobiles) it defaults to a single column by means of @media CSS.
 
 Most Tiddlers, assuming they have content, are hoverable, that is, you can hover over them allowing a popup box of the content to show.
 
